@@ -1,0 +1,5 @@
+export const REFETCH_PENDING_ORDERS = 'refetchPendingOrders'
+export const REMOVE_EXIST_TPSL =  'removeExistTpsl'
+export const REFETCH_UNCOMPLETED_ORDERS = 'refetchUncompletedOrders'
+export const REMOVE_FAILED_ITEM = 'removeFailedItem'
+export const PREDICTION_ORDER_MATCHED = 'predictionOrderMatched'

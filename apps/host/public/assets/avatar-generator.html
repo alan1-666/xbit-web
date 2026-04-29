@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet Avatar Generator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      width: 100%;
+      background: #0a0a0a;
+      color: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #F2F2F2;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .input-group {
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #F2F2F2;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.2s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .avatar-display {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0;
+    }
+
+    .avatar-container {
+      width: 256px;
+      height: 256px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      margin-right: 20px;
+    }
+    .ac2 {width: 64px;height: 64px; border-radius: 12px;}
+    .ac3 {width: 42px;height: 42px; border-radius: 8px;}
+
+    .avatar-container svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .examples {
+      margin-top: 40px;
+    }
+
+    .examples h2 {
+      text-align: center;
+      color: #F2F2F2;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .examples-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .example-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .example-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .example-avatar:hover {
+      transform: scale(1.1);
+    }
+
+    .example-avatar svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .address-label {
+      font-size: 10px;
+      color: #F2F2F2;
+      font-family: monospace;
+      text-align: center;
+      word-break: break-all;
+    }
+
+    .download-btn {
+      width: 100%;
+      padding: 14px;
+      background: #10b981;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s;
+      margin-top: 20px;
+    }
+
+    .download-btn:hover {
+      background: #059669;
+      transform: translateY(-2px);
+    }
+
+    .download-btn:active {
+      transform: translateY(0);
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #F2F2F2;
+      margin: 30px 0 15px 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>🎨 Wallet Avatar Generator</h1>
+
+  <div class="input-group">
+    <label for="walletAddress">Wallet Address</label>
+    <input
+      type="text"
+      id="walletAddress"
+      placeholder="hgapjydrsyhctdks9dbzmd1yctmz2vbuuzhmjj5wrfyp"
+      value="hgapjydrsyhctdks9dbzmd1yctmz2vbuuzhmjj5wrfyp"
+    />
+  </div>
+
+  <div class="avatar-display">
+    <div class="avatar-container" id="avatarContainer"></div>
+    <div class="avatar-container ac2" id="avatarContainer2"></div>
+    <div class="avatar-container ac3" id="avatarContainer3"></div>
+  </div>
+  <label for="avatarConfigContainer">Config:</label>
+  <textarea id="avatarConfigContainer" rows="10" style="width: 100%"></textarea>
+
+  <button class="download-btn" onclick="downloadAvatar()">Download Avatar (128x128)</button>
+
+  <div class="examples">
+    <h2>50 Example Avatars</h2>
+
+    <div class="section-title">🟣 Solana Addresses (25)</div>
+    <div class="examples-grid" id="solanaGrid"></div>
+
+    <div class="section-title">🔵 EVM Addresses (25)</div>
+    <div class="examples-grid" id="evmGrid"></div>
+  </div>
+</div>
+
+<script>
+  class ColorWheel {
+    configs = {
+      hues: [
+        // 0, // Red
+        // 30, // Red-Orange
+        // 60, // Yellow
+        // 90, // Yellow-Green
+        // 120, // Green
+        // 150, // Green-Cyan
+        // 180, // Cyan
+        // 210, // Cyan-Blue
+        // 240, // Blue
+        // 270, // Blue-Magenta
+        // 300, // Magenta
+        // 330 // Magenta-Red
+      ],
+      lightnessLevels: [],
+      saturate: [],
+    }
+
+    // output
+    colors = []
+
+    constructor(
+      hueLevels = 12,
+      saturate = 0.75,
+      lightnessLevels = [0.75, 0.5, 0.25],
+    ) {
+      const hues = []
+      for (let i = 0; i < hueLevels; i++) {
+        hues.push(Math.floor(i * 360 / hueLevels))
+      }
+
+      this.configs.hues = hues
+      this.configs.lightnessLevels = lightnessLevels
+      this.configs.saturate = saturate
+      this.colors = ColorWheel.generateColorWheelColors(hues, saturate, lightnessLevels)
+    }
+
+    /**
+     * Generate color pallet base on color wheel
+     * amount returned = 12 hue * count sat levels
+     * @returns {{hsl: string, hex: string, data: {h,s,l}}[]}
+     */
+    static generateColorWheelColors(
+      hues = [],
+      saturate = 0.75,
+      lightnessLevels = [0.75, 0.5, 0.25],
+    ) {
+      const colors = [];
+
+      for (let i = 0, c = hues.length; i < c; i++) {
+        const hue = hues[i];
+        for (const lightness of lightnessLevels) {
+          // The saturation is kept at a high value for vibrant colors
+          const color = {
+            hsl: `hsl(${hue}, ${saturate * 100}%, ${lightness * 100}%)`,
+            hex: hsl2hex(hue, saturate, lightness),
+            data: {
+              h: hue, s: saturate, l: lightness,
+              hi: i,
+              i: colors.length,
+            },
+          }
+          colors.push(color);
+        }
+      }
+
+      return colors
+    }
+
+    getColors() {
+      return this.colors
+    }
+
+    getHexColors() {
+      return this.colors.map(i => i.hex)
+    }
+
+    brighter(color) {
+
+    }
+    darker(color) {
+
+    }
+
+    // return Color type, this ensure returned color have enough contrast compared to srcColor
+    getContrastColorOf(srcColorIdx, srcColorWheel, seed, debugData) {
+      // hue is the same config between all color wheel, so hueIdx is the same for src & target
+      const hueIdx = srcColorWheel.getHueIdx(srcColorIdx)
+      // same hue or hue + 1 is not enough contrast, so need to hue += 2
+      const shiftDegree = 180
+      const hueIdxDelta = Math.floor(this.configs.hues.length * shiftDegree / 360) // must shift hue +60 degree, means 60/360 = 1/6 color wheel
+      const lc = this.configs.lightnessLevels.length;
+      const palletColorDelta = hueIdx + hueIdxDelta * lc + seed % lc;
+      const targetColorIdx = Math.floor(srcColorIdx / srcColorWheel.configs.hues.length) + (srcColorIdx % srcColorWheel.configs.hues.length)
+      const contrastColorIdx = cycleIndex(targetColorIdx, palletColorDelta, this.colors)
+      const contrastColor = this.colors[contrastColorIdx]
+
+      // console.log('{getContrastColorOf} {: ', {
+      //   srcColorIdx, srcColorWheel, seed, debugData,
+      //
+      //   hueIdx,
+      //   shiftDegree,
+      //   hueIdxDelta,
+      //   lc,
+      //   palletColorDelta,
+      //   targetColorIdx,
+      //   contrastColorIdx,
+      //   contrastColor,
+      // });
+
+      // Turn verifyHslContrast on for debug only
+      const debug = 1
+      if (debug) {
+        const srcColor = srcColorWheel.colors[srcColorIdx]
+        const verify = verifyHslContrast(srcColor.data, contrastColor.data)
+        if (!verify.verified.xbit_logo_bg) {
+          console.log(`not enough contrast: `, {
+            verifyHslContrast: verify,
+            srcColorIdx,
+            contrastColorIdx,
+            srcColor,
+            contrastColor,
+            seed,
+            hueIdxDelta,
+            palletColorDelta,
+            debugData,
+          })
+        }
+      }
+
+      return contrastColor
+    }
+
+    getHueIdx(colorIdx) {
+      return this.colors[colorIdx].data.hi
+    }
+  }
+
+  // make array as a cycle ring, so next Index is never out of range
+  function cycleIndex(currIdx, delta, srcArr) {
+    let next = currIdx + delta
+    while (next >= srcArr.length) {
+      next -= srcArr.length
+    }
+    return next
+  }
+
+
+  // function rgb2hex(r,g,b) {
+  //   const toHex = (val) => {
+  //     const hex = Math.round((val + m) * 255).toString(16);
+  //     return hex.length === 1 ? '0' + hex : hex;
+  //   };
+  //
+  //   return [toHex(r),toHex(g),toHex(b)]
+  // }
+
+  function hsl2hex(h,s,l) {
+    const c = (1 - Math.abs(2 * l - 1)) * s;
+    const x = c * (1 - Math.abs((h / 60) % 2 - 1));
+    const m = l - c / 2;
+
+    let r = 0, g = 0, b = 0;
+
+    if (h >= 0 && h < 60) {
+      r = c; g = x; b = 0;
+    } else if (h >= 60 && h < 120) {
+      r = x; g = c; b = 0;
+    } else if (h >= 120 && h < 180) {
+      r = 0; g = c; b = x;
+    } else if (h >= 180 && h < 240) {
+      r = 0; g = x; b = c;
+    } else if (h >= 240 && h < 300) {
+      r = x; g = 0; b = c;
+    } else if (h >= 300 && h < 360) {
+      r = c; g = 0; b = x;
+    }
+    const toHex = (val) => {
+      const hex = Math.round((val + m) * 255).toString(16);
+      return hex.length === 1 ? '0' + hex : hex;
+    };
+
+    return `#${toHex(r)}${toHex(g)}${toHex(b)}`.toUpperCase();
+  }
+
+  // rate = 1.2 mean 120%
+  function incLight(rate, h,s,l) {
+    l = Math.min(1, l * rate)
+    s = Math.min(1, s * rate)
+    return [h, s, l]
+  }
+
+  class AvatarFactory {
+    universalHueLevels = 12 // recommend 12
+
+    decoColorWheel
+    logoColorWheel
+    bgColorWheel
+    LOGO_COLOR_PALLET_HEX
+    BG_COLOR_PALETTE_HEX
+    BG_COLOR_PALETTE_HEX_LIGHTER
+
+    constructor({
+      universalHueLevels,
+      decoColorWheel,
+      logoColorWheel,
+      bgColorWheel,
+    }) {
+      this.universalHueLevels = universalHueLevels
+      this.decoColorWheel = decoColorWheel
+      this.logoColorWheel = logoColorWheel
+      this.bgColorWheel = bgColorWheel
+
+      // pre-calc & cache
+      this.LOGO_COLOR_PALLET_HEX = logoColorWheel.getHexColors()
+      this.BG_COLOR_PALETTE_HEX = bgColorWheel.getHexColors()
+      this.BG_COLOR_PALETTE_HEX_LIGHTER = bgColorWheel.getColors().map(i => {
+        const [h,s,l] = incLight(1.4, i.data.h, i.data.s, i.data.l)
+        return hsl2hex(h,s,l)
+      })
+
+      console.log('{AvatarFactory} : ', this);
+    }
+
+    // Generate avatar configuration from wallet address
+    generateAvatarConfig(walletAddress) {
+      const {
+              decoColorWheel,
+              logoColorWheel,
+              bgColorWheel,
+
+              LOGO_COLOR_PALLET_HEX,
+              BG_COLOR_PALETTE_HEX,
+              BG_COLOR_PALETTE_HEX_LIGHTER,
+            } = this
+
+      const hash = AvatarFactory.hashCode(walletAddress);
+
+      // Generate pseudo-random bytes from hash
+      const bytes = [];
+      for (let i = 0; i < 10; i++) {
+        bytes.push((hash >> (i * 3)) & 0xFF);
+      }
+
+      // Background
+      const bgTypeIndex = bytes[0] % BACKGROUND_TYPES.length;
+      // const bgTypeIndex = 1; // force radial
+
+      const bgColorIndex1 = bytes[1] % BG_COLOR_PALETTE_HEX.length;
+
+      const bgColor1 = BG_COLOR_PALETTE_HEX[bgColorIndex1];
+      const bgColor2 = BG_COLOR_PALETTE_HEX_LIGHTER[bgColorIndex1];
+
+      // Logo color - must be far from both background colors on color wheel
+      const logoContrastColor = logoColorWheel.getContrastColorOf(bgColorIndex1, bgColorWheel, 0, {walletAddress, target: 'logo'})
+      const logoColorIndex = logoContrastColor.data.i
+      // console.log('{generateAvatarConfig} logoContrastColor: ', logoContrastColor);
+
+      // Also check against second background color
+      const logoColor = LOGO_COLOR_PALLET_HEX[logoColorIndex];
+
+      const decoColorEl = decoColorWheel.getContrastColorOf(bgColorIndex1, bgColorWheel, 0, {walletAddress, target: 'deco'})
+      const decoColor = decoColorEl.hex
+
+      // Eyes
+      const eyeIndex = bytes[5] % EYE_SHAPES.length;
+      // const eyeColor = '#222222'; // Keep dark for visibility
+      const eyeColor = decoColor;
+
+      // Mouth
+      const mouthIndex = bytes[6] % MOUTH_SHAPES.length;
+      // const mouthColor = '#222222'; // Keep dark for visibility
+      const mouthColor = decoColor;
+
+      return {
+        bgTypeIndex,
+        bgColor1,
+        bgColor2,
+        logoColor,
+        eyeIndex,
+        eyeColor,
+        mouthIndex,
+        mouthColor,
+
+        // debug
+        data: {
+          logoColorIndex,
+          bgColorIndex1,
+          hash,
+          bytes,
+          decoColorIdx: decoColorEl.data.i,
+        }
+      };
+    }
+
+    // Generate SVG avatar
+    generateAvatar(walletAddress, size = 128) {
+      const wlc = walletAddress.toLowerCase();
+      const config = this.generateAvatarConfig(wlc);
+      console.log('{generateAvatar} walletAddress, config: ', walletAddress, config);
+      const uniqueId = 'grad_' + AvatarFactory.hashCode(wlc);
+
+      // TODO: Rm the comment of out svg, put it in JS code only
+      const svgContent = `
+        <svg width="${size}" height="${size}" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            ${BACKGROUND_TYPES[config.bgTypeIndex](uniqueId, config.bgColor1, config.bgColor2)}
+          </defs>
+
+          <!-- Background -->
+          <rect width="32" height="32" fill="url(#${uniqueId})"/>
+
+          <!-- Logo (Face) - Solid Color -->
+          <g transform="translate(2,2)">
+            <path fill="${config.logoColor}" d="M27.6599 4.61799C27.4023 3.67884 26.9867 2.66489 26.2637 2C26.2387 2 26.2637 2.04987 26.2637 2.06649C26.3551 2.68151 26.4299 3.13862 26.4382 3.77026C26.4798 6.8038 25.2746 9.06441 22.2744 9.97032C16.8971 11.591 11.1791 11.6076 5.7935 9.97863C2.40258 8.96468 1.28889 6.23034 1.60471 2.87266L1.746 2.01662C1.43849 2.24102 1.18916 2.61502 1.00632 2.93915C0.0837887 4.56812 -0.173855 6.93678 0.108722 8.7569C0.956451 14.1674 6.101 15.9294 10.9297 16.3034C11.1292 16.32 11.337 16.3698 11.5448 16.3449C11.6029 16.187 11.6112 16.0125 11.6611 15.8379C12.0517 14.5248 13.4646 13.7934 14.7778 14.1923C15.7169 14.4749 16.44 15.3642 16.5148 16.3449C16.7059 16.3698 16.8805 16.32 17.0633 16.3034C20.288 16.0374 24.2025 15.1149 26.2969 12.4553C28.009 10.2861 28.3664 7.24429 27.6516 4.60968L27.6599 4.61799Z"/>
+            <path fill="${config.logoColor}" d="M23.022 16.5278H18.1684C18.1102 16.6276 18.1517 16.7772 18.1351 16.8935C17.8775 19.8689 14.5281 21.5976 11.9517 20.06C10.7383 19.337 10.0651 18.1568 9.94039 16.7522C9.94039 16.7024 9.95701 16.5362 9.90715 16.5195H5.05348C5.00362 16.5943 5.02024 16.7522 5.02024 16.852C5.19477 22.0963 9.8739 26.0856 15.0849 25.4955C19.3735 25.0134 22.8558 21.3649 23.0553 17.0348C23.0553 16.9268 23.0719 16.6691 23.0553 16.5777C23.0553 16.5528 23.047 16.5445 23.022 16.5278Z"/>
+          </g>
+
+          <!-- Mouth -->
+          ${MOUTH_SHAPES[config.mouthIndex](config.mouthColor)}
+
+          <!-- Eyes -->
+          ${EYE_SHAPES[config.eyeIndex](config.eyeColor)}
+        </svg>
+      `;
+
+      return [svgContent, config];
+    }
+
+    // Hash function for wallet address
+    // static hashCode(str) {
+    //   let hash = 0;
+    //   for (let i = 0; i < str.length; i++) {
+    //     const char = str.charCodeAt(i);
+    //     hash = ((hash << 5) - hash) + char;
+    //     hash = hash & hash;
+    //   }
+    //   return hash;
+    // }
+    static hashCode(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i) | 0;
+      }
+      return hash;
+    }
+  }
+
+  /**
+   * Convert HSL to RGB
+   * @param {number} h - Hue (0-360)
+   * @param {number} s - Saturation (0-1)
+   * @param {number} l - Lightness (0-1)
+   * @returns {[number, number, number]} RGB values (0-255)
+   */
+  function hslToRgb(h, s, l) {
+    // Normalize hue to 0-1 range
+    h = h / 360;
+
+    // Achromatic (gray) - when saturation is 0
+    if (s === 0) {
+      const gray = Math.round(l * 255);
+      return [gray, gray, gray];
+    }
+
+    // Calculate chroma (color intensity)
+    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+
+    // Helper function to convert hue to RGB
+    const hue2rgb = (p, q, t) => {
+      if (t < 0) t += 1;
+      if (t > 1) t -= 1;
+      if (t < 1/6) return p + (q - p) * 6 * t;
+      if (t < 1/2) return q;
+      if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+      return p;
+    };
+
+    // Calculate RGB channels
+    const r = hue2rgb(p, q, h + 1/3);
+    const g = hue2rgb(p, q, h);
+    const b = hue2rgb(p, q, h - 1/3);
+
+    // Convert to 0-255 range and round
+    return [
+      Math.round(r * 255),
+      Math.round(g * 255),
+      Math.round(b * 255)
+    ];
+  }
+
+  /**
+   * Calculate relative luminance (WCAG standard)
+   *
+   * The human eye is more sensitive to:
+   * 🟢 Green light (71.52% weight)
+   * 🔴 Red light (21.26% weight)
+   * 🔵 Blue light (7.22% weight)
+   * This is why the luminance formula is: L = 0.2126 × R + 0.7152 × G + 0.0722 × B
+   *
+   * We must use RGB because HSL comparison is NOT WCAG compliant
+   *
+   * @param {number} r - Red (0-255)
+   * @param {number} g - Green (0-255)
+   * @param {number} b - Blue (0-255)
+   * @returns {number} Relative luminance (0-1)
+   */
+  function getLuminance(r, g, b) {
+    // Convert to 0-1 range
+    const [rs, gs, bs] = [r, g, b].map(c => {
+      c = c / 255;
+      return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+    });
+
+    return 0.2126 * rs + 0.7152 * gs + 0.0722 * bs;
+  }
+
+  /**
+   * Calculate contrast ratio between two colors (WCAG standard)
+   * @param {number} lum1 - Luminance of color 1
+   * @param {number} lum2 - Luminance of color 2
+   * @returns {number} Contrast ratio (1-21)
+   */
+  function getContrastRatio(lum1, lum2) {
+    const lighter = Math.max(lum1, lum2);
+    const darker = Math.min(lum1, lum2);
+    return (lighter + 0.05) / (darker + 0.05);
+  }
+
+  function verifyHslContrast(hsl1, hsl2) {
+    const { h: h1, s: s1, l: l1 } = hsl1;
+    const { h: h2, s: s2, l: l2 } = hsl2;
+    const rgb1 = hslToRgb(h1, s1, l1);
+    const rgb2 = hslToRgb(h2, s2, l2);
+    const lum1 = getLuminance(...rgb1);
+    const lum2 = getLuminance(...rgb2);
+    const ratio = getContrastRatio(lum1, lum2);
+
+    // WCAG 2.1 Standards
+    const xbit_logo_bg = ratio >= 2;
+    const wcagAA_normal = ratio >= 4.5;      // Normal text
+    const wcagAA_large = ratio >= 3.0;       // Large text (18pt+ or 14pt+ bold)
+    const wcagAAA_normal = ratio >= 7.0;     // Enhanced normal text
+    const wcagAAA_large = ratio >= 4.5;      // Enhanced large text
+
+    return {
+      ratio,
+      rgb1,
+      rgb2,
+      lum1,
+      lum2,
+
+      verified: {
+        xbit_logo_bg,
+        wcagAA_normal,
+        wcagAA_normal,
+        wcagAA_large,
+        wcagAAA_normal,
+        wcagAAA_large,
+      },
+    }
+  }
+
+  // ---- save to demo only
+  window.defaultXbitConfig = {
+    // el: [hueCount, satLevels, lightLevels]
+    deco: [42, 0.6, [0.60, 0.52, 0.45]],
+    logo: [42, 0.6, [0.95, 0.85, 0.75]],
+    bgrd: [42, 0.6, [0.30, 0.20, 0.10]],
+  }
+
+  window.reDrawDemoApp = function (hueLv, backgroundSaturationPercent) {
+    // selective update
+    // let { hueLevels, bgSat } = window
+    let defaultXbitConfig = window.defaultXbitConfig
+    if (hueLv) {
+      defaultXbitConfig.deco[0] = hueLv
+      defaultXbitConfig.logo[0] = hueLv
+      defaultXbitConfig.bgrd[0] = hueLv
+    };
+    if (backgroundSaturationPercent) {
+      defaultXbitConfig.deco[1] = backgroundSaturationPercent / 100;
+      defaultXbitConfig.logo[1] = backgroundSaturationPercent / 100;
+      defaultXbitConfig.bgrd[1] = backgroundSaturationPercent / 100;
+    }
+
+    window.avatarFactory = new AvatarFactory({
+      decoColorWheel: new ColorWheel(...defaultXbitConfig.deco),
+      logoColorWheel: new ColorWheel(...defaultXbitConfig.logo),
+      bgColorWheel: new ColorWheel(...defaultXbitConfig.bgrd),
+    })
+
+    // this use data inside window.avatarFactory
+    if (window.redrawAvatarApp) {
+      window.redrawAvatarApp()
+    } else {
+      setTimeout(() => {
+        window.redrawAvatarApp()
+      }, 2000) // wait app load for the first load
+    }
+
+    if (window.displayColors) {
+      window.displayColors(defaultXbitConfig.bgrd[0])
+    } else {
+      setTimeout(() => {
+        window.displayColors(defaultXbitConfig.bgrd[0])
+      }, 2000) // wait app load for the first load
+    }
+  }
+
+  window.reDrawDemoApp(defaultXbitConfig.bgrd[0], defaultXbitConfig.bgrd[1] * 100);
+
+  // set default
+  setTimeout(()=> {
+    document.querySelector('.controls #satValue').innerHTML = `${defaultXbitConfig.bgrd[1] * 100}%`;
+    document.querySelector('.controls #saturation').value = defaultXbitConfig.bgrd[1] * 100;
+    document.querySelector('.controls #segValue').innerHTML = defaultXbitConfig.bgrd[0];
+    document.querySelector('.controls #segments').value = defaultXbitConfig.bgrd[0];
+  }, 1000)
+  // ---- end demo
+
+
+  // Background gradient types
+  const BACKGROUND_TYPES = [
+    // 0: Solid color
+    (id, bgCenter, bgOut) => `
+        <radialGradient id="${id}" cx="50%" cy="50%" r="80%">
+          <stop offset="0%" stop-color="${bgCenter}"/>
+          <stop offset="100%" stop-color="${bgCenter}"/>
+        </radialGradient>
+      `,
+
+    // 0: Radial Gradient
+    (id, bgCenter, bgOut) => `
+        <radialGradient id="${id}" cx="50%" cy="50%" r="80%">
+          <stop offset="0%" stop-color="${bgCenter}"/>
+          <stop offset="100%" stop-color="${bgOut}"/>
+        </radialGradient>
+      `,
+  ];
+
+  // Eye shapes - Fixed SVG definitions
+  const EYE_SHAPES = [
+    // 0: Ellipse (vertical)
+    (c) => `<ellipse cx="10" cy="13" rx="3" ry="6" fill="${c}"/><ellipse cx="22" cy="13" rx="3" ry="6" fill="${c}"/>`,
+    // 1: Circle
+    (c) => `<circle cx="10" cy="13" r="4.8" fill="${c}"/><circle cx="22" cy="13" r="3.6" fill="${c}"/>`,
+    // 2: Ellipse (horizontal)
+    (c) => `<ellipse cx="10" cy="13" rx="4.5" ry="1.5" fill="${c}"/><ellipse cx="22" cy="13" rx="4.5" ry="1.5" fill="${c}"/>`,
+    // 3: Small dots
+    (c) => `<circle cx="10" cy="13" r="4.2" fill="${c}"/><circle cx="22" cy="13" r="4.2" fill="${c}"/>`,
+    // 4: Large circles
+    (c) => `<circle cx="10" cy="13" r="2.4" fill="${c}"/><circle cx="22" cy="13" r="2.4" fill="${c}"/>`,
+    // 5: Lines (closed eyes)
+    (c) => `<line x1="8" y1="13" x2="12" y2="13" stroke="${c}" stroke-width="5.4" stroke-linecap="round"/><line x1="20" y1="13" x2="24" y2="13" stroke="${c}" stroke-width="5.4" stroke-linecap="round"/>`,
+    // diagonal eyes
+    (c) => `<rect x="7" y="11.5" width="6" height="4.5" rx="0.75" fill="${c}" transform="rotate(-20 10 12.5)"/><rect x="19" y="11.5" width="6" height="4.5" rx="0.75" fill="${c}" transform="rotate(20 22 12.5)"/>`,
+    (c) => `<ellipse cx="10" cy="16" rx="2.55" ry="3" fill="#fff"/><ellipse cx="22" cy="16" rx="2.55" ry="3" fill="#fff"/><ellipse cx="10" cy="16" rx="1.05" ry="1.35" fill="${c}"/><ellipse cx="22" cy="16" rx="1.05" ry="1.35" fill="${c}"/>`,
+    (c) => `<rect x="4" y="11" width="24" height="7.5" rx="3" fill="${c}"/>`,
+    // x eye
+    (c) => `
+  <path d="M13 20 Q16 23 19 20" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M6.9 9.9 L13.1 16.1 M13.1 9.9 L6.9 16.1" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M18.9 9.9 L25.1 16.1 M25.1 9.9 L18.9 16.1" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>`,
+
+    // star eye
+    (c) => `<path d="M13 20 Q16 23 19 20" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M10 9 L10.9 12.9 L14.5 13.5 L10.9 14.1 L10 18 L9.1 14.1 L5.5 13.5 L9.1 12.9 Z" fill="${c}"/>
+  <path d="M22 9 L22.9 12.9 L26.5 13.5 L22.9 14.1 L22 18 L21.1 14.1 L17.5 13.5 L21.1 12.9 Z" fill="${c}"/>`,
+
+    // heart eye
+    (c) => `
+  <path d="M6.75 10.25 C6.75 9 8.25 8.5 9 9.25 C9.75 8.5 11.25 9 11.25 10.25 C11.25 12.5 8.75 14.75 8.75 14.75 C8.75 14.75 6.25 12.5 6.25 10.25 C6.25 9 7.75 8.5 8.5 9.25 C9.25 8.5 6.75 9 6.75 10.25 Z" fill="#d63384"/>
+  <path d="M18.75 10.25 C18.75 9 20.25 8.5 21 9.25 C21.75 8.5 23.25 9 23.25 10.25 C23.25 12.5 20.75 14.75 20.75 14.75 C20.75 14.75 18.25 12.5 18.25 10.25 C18.25 9 19.75 8.5 20.5 9.25 C21.25 8.5 18.75 9 18.75 10.25 Z" fill="#d63384"/>`,
+
+    // wink eye
+    (c) => `<path d="M13 20 Q16 23 19 20" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="10" cy="13" rx="3.3" ry="4.2" fill="${c}"/>
+  <path d="M19.75 13 Q22 16.5 25.25 13" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // closed happy eye
+    (c) => `<path d="M13 20 Q16 23 19 20" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M6.75 13 Q10 16.5 13.25 13" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M18.75 13 Q22 16.5 25.25 13" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+  ];
+
+  // Mouth shapes - Fixed SVG definitions
+  const MOUTH_SHAPES = [
+    // 0: Smile
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    // 1: Big smile
+    (c) => `<path d="M9 22 Q16 28 23 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    // 2: Neutral
+    (c) => `<line x1="10.5" y1="23.5" x2="21.5" y2="23.5" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>`,
+    // 3: Sad
+    (c) => `<path d="M10.5 25 Q16 20.5 21.5 25" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    // 4: Surprised (O shape)
+    (c) => `<circle cx="16" cy="23.5" r="2.25" stroke="${c}" stroke-width="1.8" fill="none"/>`,
+    // 5: Smirk
+    (c) => `<path d="M10.5 23.5 Q13.5 25 21.5 23.5" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    (c) => `<path d="M7.5 25 Q16 17.5 24.5 25" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+    // 6: Laugh (filled)
+    (c) => `<ellipse cx="16" cy="23.5" rx="3.75" ry="2.25" fill="${c}"/>`,
+    (c) => `<ellipse cx="16" cy="23.5" rx="1.8" ry="2.4" fill="#fff"/><ellipse cx="16" cy="23.5" rx="1.05" ry="1.35" fill="${c}"/>`,
+
+    // Original Smile
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Big Smile
+    (c) => `<path d="M9 22 Q16 28 23 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Slight Smile
+    (c) => `<path d="M10.5 23.5 Q16 25 21.5 23.5" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Neutral Line
+    (c) => `<line x1="10.5" y1="23.5" x2="21.5" y2="23.5" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>`,
+
+    // Sad Frown
+    (c) => `<path d="M10.5 25 Q16 22 21.5 25" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Big Frown
+    (c) => `<path d="M9 26.5 Q16 20.5 23 26.5" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Open Mouth (O)
+    (c) => `<ellipse cx="16" cy="23.5" rx="2.25" ry="3" fill="${c}"/>`,
+
+    // Open Mouth (Circle)
+    (c) => `<circle cx="16" cy="23.5" r="2.25" fill="${c}"/>`,
+
+    // Wide Open
+    (c) => `<ellipse cx="16" cy="23.5" rx="3.75" ry="3" fill="${c}"/>`,
+
+    // Surprised (Small O)
+    (c) => `<circle cx="16" cy="23.5" r="1.5" fill="${c}"/>`,
+
+    // Teeth Smile
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <rect x="13.25" y="22.75" width="4.5" height="2.25" fill="#fff" rx="0.45"/>`,
+
+    // Grin with Teeth
+    (c) => `<path d="M9 22 Q16 28 23 22 L23 23.5 Q16 26.5 9 23.5 Z" fill="${c}"/>
+    <line x1="12" y1="22.75" x2="12" y2="25" stroke="#fff" stroke-width="1.2"/>
+    <line x1="16" y1="22.75" x2="16" y2="25" stroke="#fff" stroke-width="1.2"/>
+    <line x1="20" y1="22.75" x2="20" y2="25" stroke="#fff" stroke-width="1.2"/>`,
+
+    // Wavy Smile
+    (c) => `<path d="M10.5 22 Q12 25 13.5 23.5 Q16 22 18.5 23.5 Q20 25 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Smirk (Asymmetric)
+    (c) => `<path d="M10.5 23.5 Q13.5 23.5 16 25 Q18.5 26.5 21.5 23.5" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Tongue Out
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <ellipse cx="16" cy="25" rx="1.5" ry="2.25" fill="#e91e63"/>`,
+
+    // Vampire Fangs
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M12 23.5 L12 26.5 L12.75 23.5 Z" fill="#fff"/>
+    <path d="M20 23.5 L20 26.5 L19.25 23.5 Z" fill="#fff"/>`,
+
+    // Zipper Mouth
+    (c) => `<line x1="10.5" y1="23.5" x2="21.5" y2="23.5" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="12" y1="22" x2="12" y2="25" stroke="${c}" stroke-width="1.2"/>
+    <line x1="16" y1="22" x2="16" y2="25" stroke="${c}" stroke-width="1.2"/>
+    <line x1="20" y1="22" x2="20" y2="25" stroke="${c}" stroke-width="1.2"/>`,
+
+    // Worried
+    (c) => `<path d="M10.5 23.5 Q12 22.75 13.5 23.5 Q16 24.25 18.5 23.5 Q20 22.75 21.5 23.5" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`,
+
+    // Gritted Teeth
+    (c) => `<rect x="10.5" y="22.75" width="9" height="3" rx="0.75" fill="none" stroke="${c}" stroke-width="1.8"/>
+    <line x1="12" y1="22.75" x2="12" y2="25.75" stroke="${c}" stroke-width="1.2"/>
+    <line x1="13.5" y1="22.75" x2="13.5" y2="25.75" stroke="${c}" stroke-width="1.2"/>
+    <line x1="16" y1="22.75" x2="16" y2="25.75" stroke="${c}" stroke-width="1.2"/>
+    <line x1="17.5" y1="22.75" x2="17.5" y2="25.75" stroke="${c}" stroke-width="1.2"/>
+    <line x1="20" y1="22.75" x2="20" y2="25.75" stroke="${c}" stroke-width="1.2"/>`,
+
+    // Mustache
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M9 20.5 Q12 19 16 20.5 Q20 19 23 20.5" stroke="${c}" stroke-width="1.8" fill="none"/>`,
+
+    // Whistle
+    (c) => `<circle cx="13.5" cy="23.5" r="1.8" fill="none" stroke="${c}" stroke-width="1.8"/>
+    <path d="M15.3 23.5 L19 22" stroke="${c}" stroke-width="1.5" stroke-linecap="round"/>`,
+
+    // Cat Mouth
+    (c) => `<path d="M16 22 L12 25 M16 22 L20 25" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="16" cy="21.25" r="0.75" fill="${c}"/>`,
+
+    // Lips
+    (c) => `<path d="M10.5 23.5 Q16 26.5 21.5 23.5" fill="#d63384"/>
+    <path d="M10.5 23.5 Q16 22 21.5 23.5" fill="#a02860"/>`,
+
+    // Blow Kiss
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M22 20.5 L23.5 19 M22.75 19.75 L24.25 21.25 M23.5 20.5 L25 20.5" stroke="#d63384" stroke-width="1.2" stroke-linecap="round"/>`,
+
+    // Drool
+    (c) => `<path d="M10.5 22 Q16 26.5 21.5 22" stroke="${c}" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M21.5 23.5 Q22.25 26.5 21.5 29.5" stroke="#4fc3f7" stroke-width="1.5" fill="none" stroke-linecap="round"/>`,
+
+    // Stitched
+    (c) => `<line x1="10.5" y1="23.5" x2="21.5" y2="23.5" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="10.5" y1="22" x2="10.5" y2="25" stroke="${c}" stroke-width="1.2"/>
+    <line x1="13.5" y1="22" x2="13.5" y2="25" stroke="${c}" stroke-width="1.2"/>
+    <line x1="17.5" y1="22" x2="17.5" y2="25" stroke="${c}" stroke-width="1.2"/>
+    <line x1="21.5" y1="22" x2="21.5" y2="25" stroke="${c}" stroke-width="1.2"/>`,
+
+    // Pacifier
+    (c) => `<circle cx="16" cy="23.5" r="3" fill="#ffc107" stroke="${c}" stroke-width="1.5"/>
+    <circle cx="16" cy="23.5" r="1.5" fill="#fff"/>
+    <rect x="15.25" y="20.5" width="1.5" height="1.5" fill="${c}"/>`,
+
+    // Yawn
+    (c) => `<ellipse cx="16" cy="25" rx="3.75" ry="4.5" fill="${c}"/>
+    <ellipse cx="16" cy="23.5" rx="3" ry="2.25" fill="#d63384"/>`,
+  ];
+
+
+
+
+  // Display avatar
+  function updateAvatar() {
+    const walletAddress = document.getElementById('walletAddress').value;
+    if (!walletAddress) {
+      document.getElementById('avatarContainer').innerHTML = '';
+      document.getElementById('avatarContainer2').innerHTML = '';
+      document.getElementById('avatarContainer3').innerHTML = '';
+      return;
+    }
+
+    const [svg, config] = window.avatarFactory.generateAvatar(walletAddress, 128);
+    document.getElementById('avatarContainer').innerHTML = svg;
+    document.getElementById('avatarContainer2').innerHTML = svg;
+    document.getElementById('avatarContainer3').innerHTML = svg;
+    document.getElementById('avatarConfigContainer').innerHTML = JSON.stringify(config, null, 2);
+  }
+
+  // Download avatar
+  function downloadAvatar() {
+    const walletAddress = document.getElementById('walletAddress').value;
+    if (!walletAddress) {
+      alert('Please enter a wallet address first');
+      return;
+    }
+
+    const [svg, config] = window.avatarFactory.generateAvatar(walletAddress, 128);
+    const blob = new Blob([svg], { type: 'image/svg+xml' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `avatar-${walletAddress.slice(0, 8)}.svg`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  // 50 addresses
+  const SOLANA_ADDRESSES = [
+    '5yHqB7fKHqWbFfF3VjCKBvYZHqxqKqZqHqxqKqZqHqxq',
+    '7xKpL9mNpLwGwGwGwVkDLCwZaIbJcKdLeKdLeKdLeKdL',
+    '9zMrN8oPoXyHyHyHyWmEMDyBcJdKeLfMfLfMfLfMfLfM',
+    '2aQsP7qRqYzIzIzIzXnFNEzCdKeLfMgNgNgNgNgNgNgN',
+    '4cStR6sUtZaJaJaJaYoGOFaDeLfMgNhPhPhPhPhPhPhP',
+    '6eUvT5uWvBbKbKbKbZpHPGbEfMgNhPiQiQiQiQiQiQiQ',
+    '8gWxV4wYxDcLcLcLcArIQHcFgNhPiQjRjRjRjRjRjRjR',
+    '3iYzX3yAzEdMdMdMdBsJRIdGhPiQjRkSkSkSkSkSkSkS',
+    '5kAbZ2aBbFeMeMeMeCtKSJeFiQjRkSlTlTlTlTlTlTlT',
+    '7mCdB1cDdGfNfNfNfDuLTKfGjRkSlTmUmUmUmUmUmUmU',
+    '9oEfD9eFfHgOgOgOgEvMULgHkSlTmUnVnVnVnVnVnVnV',
+    '2qGhF8gHhIhPhPhPhFwNVMhIlTmUnVoWoWoWoWoWoWoW',
+    '4sIjH7iKjJiQiQiQiGxOWNiJmUnVoWpXpXpXpXpXpXpX',
+    '6uKlJ6kMlKjRjRjRjHyPXOjKnVoWpXqYqYqYqYqYqYqY',
+    '8wMnK5mOmLkSkSkSkIzQYPkLoWpXqYrZrZrZrZrZrZrZ',
+    '3yOnL4oQnMlTlTlTlJARZQlMpXqYrZsAsAsAsAsAsAsA',
+    '5aPpM3qSoNmUmUmUmKBSAQmNqYrZsAtBtBtBtBtBtBtB',
+    '7cRqN2sTpOnVnVnVnLCTBRnOrZsAtBuCuCuCuCuCuCuC',
+    '9eToP1uVqPoWoWoWoMDUCSoPsAtBuCvDvDvDvDvDvDvD',
+    '2gVpQ9wXrQpXpXpXpNEVDTpQtBuCvDwEwEwEwEwEwEwE',
+    '4iXrR8yZsRqYqYqYqOFWEUqRuCvDwExFxFxFxFxFxFxF',
+    '6kZtS7aArTrZrZrZrPGXFVrSvDwExFyGyGyGyGyGyGyG',
+    '8mBvT6cCtUsAsAsAsQHYGWsTwExFyGzHzHzHzHzHzHzH',
+    '3oDxU5eFuVtBtBtBtRIZHXtUxFyGzHAIAIAIAIAIAIAI',
+    '5qFzV4gHvWuCuCuCuSJAIYuVyGzHAIBJBJBJBJBJBJBJ'
+  ];
+
+  const EVM_ADDRESSES = [
+    '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb1',
+    '0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b',
+    '0x9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e',
+    '0x5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d',
+    '0x3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f',
+    '0x8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e',
+    '0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c',
+    '0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b',
+    '0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a',
+    '0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e',
+    '0xa1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0',
+    '0xb0a9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1',
+    '0xc9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8',
+    '0xd8c7b6a5f4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c9',
+    '0xe7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6',
+    '0xf6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e7',
+    '0x1122334455667788990011223344556677889900',
+    '0x9988776655443322110099887766554433221100',
+    '0xaabbccddeeff00112233445566778899aabbcc',
+    '0xccbbaa998877665544332211ffeeddccbbaa99',
+    '0x1234567890abcdef1234567890abcdef12345678',
+    '0x87654321fedcba0987654321fedcba0987654321',
+    '0xabcdefabcdefabcdefabcdefabcdefabcdefabcd',
+    '0xdcbadcbadcbadcbadcbadcbadcbadcbadcbadcba',
+    '0xfedcba9876543210fedcba9876543210fedcba98'
+  ];
+
+  // Generate example avatars (only once on load)
+  function generateExamples() {
+    const solanaGrid = document.getElementById('solanaGrid');
+    const evmGrid = document.getElementById('evmGrid');
+
+    // clean
+    solanaGrid.innerHTML = ''
+    evmGrid.innerHTML = ''
+
+    SOLANA_ADDRESSES.forEach(address => {
+      const item = document.createElement('div');
+      item.className = 'example-item';
+
+      const avatarDiv = document.createElement('div');
+      avatarDiv.className = 'example-avatar';
+      avatarDiv.innerHTML = window.avatarFactory.generateAvatar(address, 100);
+      avatarDiv.onclick = () => {
+        document.getElementById('walletAddress').value = address;
+        updateAvatar();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const label = document.createElement('div');
+      label.className = 'address-label';
+      label.textContent = address.slice(0, 6) + '...' + address.slice(-4);
+
+      item.appendChild(avatarDiv);
+      item.appendChild(label);
+      solanaGrid.appendChild(item);
+    });
+
+    EVM_ADDRESSES.forEach(address => {
+      const item = document.createElement('div');
+      item.className = 'example-item';
+
+      const avatarDiv = document.createElement('div');
+      avatarDiv.className = 'example-avatar';
+      avatarDiv.innerHTML = window.avatarFactory.generateAvatar(address, 100);
+      avatarDiv.onclick = () => {
+        document.getElementById('walletAddress').value = address;
+        updateAvatar();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const label = document.createElement('div');
+      label.className = 'address-label';
+      label.textContent = address.slice(0, 6) + '...' + address.slice(-4);
+
+      item.appendChild(avatarDiv);
+      item.appendChild(label);
+      evmGrid.appendChild(item);
+    });
+  }
+
+  // Add event listener for input changes
+  const walletInputEl = document.getElementById('walletAddress')
+  walletInputEl.addEventListener('input', updateAvatar);
+
+  // Initialize
+  const DefaultWalletAddress = '9vaYRLdmQ3R4S84vvdK6P7LQ8fCvKwTU8ot4Ee4nQRcK';
+  walletInputEl.value = DefaultWalletAddress;
+  window.redrawAvatarApp = function () {
+    generateExamples();
+    updateAvatar();
+  }
+  window.redrawAvatarApp()
+</script>
+
+
+
+
+
+
+
+<!-- colorwheel preview section-->
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 8px;
+  }
+
+  .control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .control-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F2F2F2;
+  }
+
+  .control-group input[type="range"] {
+    width: 200px;
+  }
+
+  .control-group .value-display {
+    font-size: 14px;
+    font-weight: 700;
+    color: #F2F2F2;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  .canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px;
+    background: #262626;
+    border-radius: 8px;
+  }
+
+  canvas {
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background: white;
+  }
+
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 8px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .legend-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid #d1d5db;
+  }
+
+  .legend-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F2F2F2;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background: #262626;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: #F2F2F2;
+    margin-bottom: 5px;
+  }
+
+  .stat-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F2F2F2;
+  }
+
+  .info-box {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+  .info-box p {
+    color: #1e40af;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+</style>
+
+
+
+<div class="container" style="margin-top: 20px;">
+  <h1>🎨 Color Wheel Generator</h1>
+
+  <div class="controls">
+    <div class="control-group">
+      <label for="saturation">Saturation:</label>
+      <input type="range" id="saturation" min="1" max="100" value="75" step="5">
+      <span class="value-display" id="satValue">75%</span>
+    </div>
+    <div class="control-group">
+      <label for="segments">Segments:</label>
+      <input type="range" id="segments" min="12" max="72" value="30" step="6">
+      <span class="value-display" id="segValue">30</span>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat-item">
+      <div class="stat-label">Hue Range</div>
+      <div class="stat-value">0-360°</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label">Lightness Levels</div>
+      <div class="stat-value">3</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label">Current Saturation</div>
+      <div class="stat-value" id="currentSat">75%</div>
+    </div>
+  </div>
+
+  <div class="canvas-container">
+    <div>
+      <canvas id="colorWheelBg" width="300" height="300"></canvas>
+      <h4 style="text-align: center">colorWheelBg</h4>
+    </div>
+    <div>
+      <canvas id="colorWheelLogo" width="300" height="300"></canvas>
+      <h4 style="text-align: center">colorWheelLogo</h4>
+    </div>
+    <div>
+      <canvas id="colorWheelDeco" width="300" height="300"></canvas>
+      <h4 style="text-align: center">colorWheelDeco</h4>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-color" style="background: hsl(0, 75%, 75%)"></div>
+      <span class="legend-label">Outer Ring: 75% Lightness</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: hsl(0, 75%, 50%)"></div>
+      <span class="legend-label">Middle Ring: 50% Lightness</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: hsl(0, 75%, 25%)"></div>
+      <span class="legend-label">Inner Ring: 25% Lightness</span>
+    </div>
+  </div>
+
+  <div class="info-box">
+    <p><strong>How to use:</strong> Adjust the saturation slider to change color intensity. Increase segments for smoother gradients. The color wheel shows all 360 hues with three concentric rings representing different lightness levels.</p>
+  </div>
+</div>
+
+<script>
+  function drawColorWheel(saturation, segments) {
+    drawEachColorWheel(saturation, segments, window.avatarFactory.bgColorWheel, document.getElementById('colorWheelBg'))
+    drawEachColorWheel(saturation, segments, window.avatarFactory.logoColorWheel, document.getElementById('colorWheelLogo'))
+    drawEachColorWheel(saturation, segments, window.avatarFactory.decoColorWheel, document.getElementById('colorWheelDeco'))
+  }
+
+  function drawEachColorWheel(saturation, segments, colorWheel, canvas) {
+    const ctx = canvas.getContext('2d');
+
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+    // const outerRadius = 280;
+    // const middleRadius = 190;
+    // const innerRadius = 100;
+    // const lightnessesPercent = [75, 50, 25];
+    // const radii = [
+    //   { outer: outerRadius, inner: middleRadius }, // 75% lightness
+    //   { outer: middleRadius, inner: innerRadius },  // 50% lightness
+    //   { outer: innerRadius, inner: 0 }              // 25% lightness
+    // ];
+
+    const lightLvs = colorWheel.configs.lightnessLevels
+    const lightnessesPercent = lightLvs.map(i => i*100);
+    const CENTER_SPACE_RADIUS = 30
+    const radiiInnerSteps = lightnessesPercent.map((i, idx) => (idx + 1) * (centerX - CENTER_SPACE_RADIUS) / lightnessesPercent.length + CENTER_SPACE_RADIUS)
+    const radii = radiiInnerSteps.map((i, idx) => {
+        const outer = radiiInnerSteps[idx]
+        if (idx === 0) return { outer, inner: 0 }
+
+        return { outer, inner: radiiInnerSteps[idx - 1] }
+      })
+      .reverse()
+
+    // Clear canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw each ring
+    for (let ringIndex = 0; ringIndex < lightnessesPercent.length; ringIndex++) {
+      const lightness = lightnessesPercent[ringIndex];
+      const { outer, inner } = radii[ringIndex];
+
+      // Draw segments
+      const angleStep = 360 / segments;
+
+      for (let i = 0; i < segments; i++) {
+        const angle = i * angleStep;
+        const hue = angle; // Hue ranges from 0 to 360
+
+        const startAngle = (angle - 90) * Math.PI / 180;
+        const endAngle = ((angle + angleStep) - 90) * Math.PI / 180;
+
+        // Create gradient for smoother appearance
+        const gradient = ctx.createRadialGradient(centerX, centerY, inner, centerX, centerY, outer);
+        const color = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+        gradient.addColorStop(0, color);
+        gradient.addColorStop(1, color);
+
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, outer, startAngle, endAngle);
+        ctx.arc(centerX, centerY, inner, endAngle, startAngle, true);
+        ctx.closePath();
+        ctx.fill();
+      }
+    }
+
+    // Draw center circle (white)
+    ctx.fillStyle = 'white';
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, 30, 0, 2 * Math.PI);
+    ctx.fill();
+
+    // Draw center text
+    ctx.fillStyle = '#374151';
+    ctx.font = 'bold 14px Arial';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(`${saturation}%`, centerX, centerY);
+
+    // Draw ring separators
+    ctx.strokeStyle = 'rgba(255, 255, 255, 1)';
+    ctx.lineWidth = 1;
+
+    for (let i = 0; i < radii.length; i++) {
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, radii[i].outer, 0, 2 * Math.PI);
+      ctx.stroke();
+    }
+    // ctx.beginPath();
+    // ctx.arc(centerX, centerY, middleRadius, 0, 2 * Math.PI);
+    // ctx.stroke();
+    //
+    // ctx.beginPath();
+    // ctx.arc(centerX, centerY, innerRadius, 0, 2 * Math.PI);
+    // ctx.stroke();
+  }
+
+  // Initialize
+  drawColorWheel(defaultXbitConfig.bgrd[1] * 100, defaultXbitConfig.bgrd[0]);
+
+  // Saturation control
+  const satSlider = document.getElementById('saturation');
+  const satValue = document.getElementById('satValue');
+  const currentSat = document.getElementById('currentSat');
+
+  satSlider.addEventListener('input', (e) => {
+    const value = parseInt(e.target.value);
+    satValue.textContent = `${value}%`;
+    currentSat.textContent = `${value}%`;
+    const segments = parseInt(document.getElementById('segments').value);
+    drawColorWheel(value, segments);
+
+    // Update legend colors
+    updateLegend(value);
+
+    if (window.reDrawDemoApp) {
+      window.reDrawDemoApp(undefined, value)
+    }
+  });
+
+  // Segments control
+  const segSlider = document.getElementById('segments');
+  const segValue = document.getElementById('segValue');
+
+  segSlider.addEventListener('input', (e) => {
+    const value = parseInt(e.target.value);
+    segValue.textContent = value;
+    const saturation = parseInt(document.getElementById('saturation').value);
+    drawColorWheel(saturation, value);
+
+    if (window.reDrawDemoApp) {
+      window.reDrawDemoApp(value, undefined)
+    }
+  });
+
+  function updateLegend(saturation) {
+    const legendColors = document.querySelectorAll('.legend-color');
+    legendColors[0].style.background = `hsl(0, ${saturation}%, 75%)`;
+    legendColors[1].style.background = `hsl(0, ${saturation}%, 50%)`;
+    legendColors[2].style.background = `hsl(0, ${saturation}%, 25%)`;
+  }
+</script>
+
+
+
+
+
+<!--   Color Wheel Preview section -->
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 8px;
+  }
+
+  .control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .control-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F2F2F2;
+  }
+
+  .control-group input[type="range"] {
+    width: 150px;
+  }
+
+  .control-group .value-display {
+    font-size: 14px;
+    font-weight: 700;
+    color: #F2F2F2;
+    min-width: 40px;
+    text-align: center;
+  }
+
+  .color-grid, .color-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  #colorDisplay2 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .color-box, .color-box-2 {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    border: 2px solid rgba(0,0,0,0.1);
+  }
+
+  .color-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 10;
+  }
+  .color-box::after, .color-box-sub {
+    content: attr(data-hex);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    color: #F2F2F2;
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 0.2s;
+    /*pointer-events: none;*/
+  }
+
+  /*.color-box:hover::after {*/
+  /*  opacity: 1;*/
+  /*}*/
+  .color-box::after {
+    display: none;
+  }
+
+  .lightness-label {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #F2F2F2;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #f3f4f6;
+    border-radius: 4px;
+  }
+
+  .row-container {
+    margin-bottom: 40px;
+  }
+
+  .copy-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #10b981;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s, transform 0.3s;
+    pointer-events: none;
+    z-index: 1000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .copy-notification.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hue-labels {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .hue-label {
+    text-align: center;
+    font-size: 11px;
+    color: #F2F2F2;
+    font-weight: 600;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background: #262626;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: #F2F2F2;
+    margin-bottom: 5px;
+  }
+
+  .stat-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F2F2F2;
+  }
+
+  .color-box-2{
+    width: 50px;
+    height: 30px;
+  }
+</style>
+
+<div class="container" style="margin-top: 30px;">
+  <h1>🎨 BG Color Preview</h1>
+  <p class="subtitle">12 hues × 3 lightness levels in 30×50 rectangles</p>
+
+  <div class="stats">
+    <div class="stat-item">
+      <div class="stat-label">Total Colors</div>
+      <div class="stat-value">36</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label">Hues</div>
+      <div class="stat-value">12</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-label">Lightness Levels</div>
+      <div class="stat-value">3</div>
+    </div>
+  </div>
+
+  <div class="hue-labels">
+    <div class="hue-label">Red<br>0°</div>
+    <div class="hue-label">R-O<br>30°</div>
+    <div class="hue-label">Yellow<br>60°</div>
+    <div class="hue-label">Y-G<br>90°</div>
+    <div class="hue-label">Green<br>120°</div>
+    <div class="hue-label">G-C<br>150°</div>
+    <div class="hue-label">Cyan<br>180°</div>
+    <div class="hue-label">C-B<br>210°</div>
+    <div class="hue-label">Blue<br>240°</div>
+    <div class="hue-label">B-M<br>270°</div>
+    <div class="hue-label">Magenta<br>300°</div>
+    <div class="hue-label">M-R<br>330°</div>
+  </div>
+
+  <div id="colorDisplay"></div>
+  <div id="colorDisplay2"></div>
+</div>
+
+<div class="copy-notification" id="copyNotification">
+  Copied to clipboard! ✓
+</div>
+
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      const notification = document.getElementById('copyNotification');
+      notification.textContent = `Copied ${text}! ✓`;
+      notification.classList.add('show');
+      setTimeout(() => {
+        notification.classList.remove('show');
+      }, 2000);
+    });
+  }
+
+  function displayColors(saturate = 100) {
+    // const colors = generateColorWheelColors(saturate);
+    const bgColorWheel = window.avatarFactory.bgColorWheel
+    const colors = bgColorWheel.getHexColors()
+    const display = document.getElementById('colorDisplay');
+    display.innerHTML = '';
+
+    const lightnessLabels = bgColorWheel.configs.lightnessLevels.map(i => `Light (${i})`);
+    const lc = bgColorWheel.configs.lightnessLevels.length
+
+    // Display in 3 rows (one for each lightness level)
+    for (let lightnessIndex = 0; lightnessIndex < lc; lightnessIndex++) {
+      const rowContainer = document.createElement('div');
+      rowContainer.className = 'row-container';
+
+      const label = document.createElement('div');
+      label.className = 'lightness-label';
+      label.textContent = lightnessLabels[lightnessIndex];
+      rowContainer.appendChild(label);
+
+      const grid = document.createElement('div');
+      grid.className = 'color-grid';
+
+      // Get 12 colors for this lightness level (one for each hue)
+      const hues = bgColorWheel.configs.hues
+      for (let hueIndex = 0; hueIndex < hues.length; hueIndex++) {
+        const colorIndex = hueIndex * lc + lightnessIndex;
+        const hexColor = colors[colorIndex];
+        const c = bgColorWheel.colors[colorIndex]
+        const {h, s, l} = c.data
+
+        const box = document.createElement('div');
+        box.className = 'color-box';
+        box.style.backgroundColor = hexColor;
+        const txt = `${hexColor} (${h},${s},${l})`
+        box.setAttribute('data-hex', hexColor);
+        box.onclick = () => copyToClipboard(txt);
+
+        const txtEl = document.createElement('p')
+        txtEl.innerText = hexColor
+        txtEl.className = 'color-box-sub'
+        box.appendChild(txtEl)
+
+        grid.appendChild(box);
+      }
+
+      rowContainer.appendChild(grid);
+      display.appendChild(rowContainer);
+    }
+
+
+    const display2 = document.getElementById('colorDisplay2');
+    display2.innerHTML = '';
+    for (const hexColor of colors) {
+      const box = document.createElement('div');
+      box.className = 'color-box-2';
+      box.style.backgroundColor = hexColor;
+      display2.appendChild(box);
+    }
+  }
+
+  // Initialize
+  displayColors(100);
+</script>
+
+
+
+
+
+</body>
+</html>

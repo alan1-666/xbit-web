@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "MTM64Q8Z3V.com.xtech.nextapp",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "MTM64Q8Z3V.com.xtech.xbit.stg",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}

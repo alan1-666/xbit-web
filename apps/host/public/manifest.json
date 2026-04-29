@@ -1,0 +1,17 @@
+{
+  "short_name": "XBIT",
+  "name": "XBIT Platform",
+  "icons": [
+    { "src": "/images/xbit-logo-rounded.webp", "sizes": "192x192", "type": "image/svg", "purpose": "any maskable" },
+    { "src": "/images/xbit-logo-rounded.webp", "sizes": "512x512", "type": "image/svg", "purpose": "any maskable" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#121214",
+  "theme_color": "#121214",
+  "description": "XBIT Platform - Your crypto trading platform",
+  "scope": "/",
+  "lang": "en",
+  "prefer_related_applications": false
+}

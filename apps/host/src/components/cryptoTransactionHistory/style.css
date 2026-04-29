@@ -1,0 +1,90 @@
+.bg-gradient {
+  background: linear-gradient(180deg, rgba(31, 31, 43, 0.75) 0%, rgba(25, 25, 25, 0.35) 70.26%);
+}
+
+.FundingHistoryItem-negative-background {
+  background: linear-gradient(90deg, rgba(0, 255, 180, 0.06) 0%, rgba(0, 153, 108, 0) 100%);
+}
+.FundingHistoryItem-positive-background {
+  background: linear-gradient(90deg, rgba(171, 87, 255, 0.06) 0%, rgba(103, 52, 153, 0) 100%);
+}
+
+.background-positive-linear-gradient {
+  background: linear-gradient(
+    118.68deg,
+    rgba(0, 255, 180, 0.08) 11.84%,
+    rgba(1, 183, 130, 0.04) 40.93%,
+    rgba(0, 153, 108, 0) 100%,
+  );
+}
+
+.background-negative-linear-gradient {
+  background: linear-gradient(
+    118.68deg,
+    rgba(255, 255, 255, 0.12) 11.84%,
+    rgba(97, 0, 153, 0.06) 40.93%,
+    rgba(97, 0, 153, 0.08) 100%,
+  );
+}
+
+.assets-background-positive-linear-gradient {
+  background: linear-gradient(105.98deg, rgba(255, 73, 248, 0) 46.27%, rgba(0, 255, 180, 0.14) 93.65%);
+}
+
+.layout-3 {
+  /* @apply absolute inset-0 size-full; */
+  /* border: 0.33px solid #242227a8; */
+  box-shadow: 0px 4px 20px 0px #00ffb41f;
+}
+
+.gradient-border-positive,
+.gradient-border-negative {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+}
+
+.gradient-border-negative::before {
+  /* border: 1px solid; */
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  
+  background: linear-gradient(
+    118.68deg,
+    rgba(255, 255, 255, 0.12) 10.82%, 
+    rgba(227, 0, 34, 0.12) 27.84%,
+     rgba(255, 255, 255, 0.08) 74.62%,
+      rgba(244, 50, 74, 0.6) 86.73%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.gradient-border-positive::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    118.68deg,
+    rgba(0, 255, 180, 0.08) 11.84%,
+    rgba(1, 183, 130, 0.04) 40.93%,
+    rgba(0, 153, 108, 0) 70.02%,
+    rgba(0, 255, 180, 0.4) 91.19%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}

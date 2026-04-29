@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.xtech.nextapp",
+      "sha256_cert_fingerprints": [
+        "97:37:27:65:C2:45:68:34:54:AC:07:9F:32:E2:D1:25:ED:7C:E1:40:7D:CF:3B:05:AB:A0:CB:3C:2E:ED:2F:06"
+      ]
+    }
+  }
+]

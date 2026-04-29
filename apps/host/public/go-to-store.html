@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XBIT.com</title>
+</head>
+<body>
+Please wait...
+<script>
+  const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+  if (/android/i.test(ua)) {
+    window.location.href = "https://play.google.com/store/apps/details?id=com.xtech.xbitmobile&hl=en";
+  } else if (/iPhone|iPad|iPod/i.test(ua)) {
+    window.location.href = 'https://apps.apple.com/vn/app/xbit-buy-bitcoin-meme-coins/id6747072897'
+  } else {
+    window.location.href = `apps`;
+  }
+</script>
+</body>
+</html>

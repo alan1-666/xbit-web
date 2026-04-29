@@ -1,0 +1,26 @@
+@media screen and (max-width: 414px) {
+  .splash-wrap-text {
+    bottom: 150px;
+  }
+  .splash-wrap-text .text-\[32px\] {
+    font-size: 24px;
+  }
+  .splash-wrap-text .text-\[24px\] {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .splash-wrap-text {
+    bottom: 130px;
+  }
+  /* .splash-wrap-text .text-\[32px\] {
+    font-size: 20px;
+  }
+  .splash-wrap-text .text-\[24px\] {
+    font-size: 14px;
+  }
+  .splash-wrap-text .mt-\[16px\] {
+    margin-top: 8px;
+  } */
+}

@@ -1,0 +1,40 @@
+:root {
+  --tv-color-platform-background: #0a0a0a --tv-color-pane-background: #0a0a0a;
+}
+
+.chart-controls-bar {
+  border: none !important;
+}
+
+.price-axis__modeButtons {
+  display: none !important;
+}
+#drawing-toolbar {
+  background-color: #0a0a0a !important;
+}
+.group-BfVZxb4b {
+  background-color: #0a0a0a !important;
+}
+
+.js-rootresizer__contents {
+  background-color: #0a0a0a !important;
+}
+
+.price-axis__modeButtons {
+  display: none !important;
+}
+
+.titleWrapper-l31H9iuA {
+  pointer-events: none !important;
+}
+
+/* Ensure TradingView marker tooltips preserve newlines */
+/* Broad target to be resilient across versions */
+.tv-floating-toolbar__tooltip,
+.pane-legend .tooltip,
+.pane-markers .pane-markers-tooltip,
+.chart-widget .chart-markers ._tv-tooltip,
+.chart-widget [class*='tooltip'],
+.chart-markers [class*='tooltip'] {
+  white-space: pre-line;
+}

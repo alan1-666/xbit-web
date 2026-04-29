@@ -1,0 +1,115 @@
+/* 拖拽布局优化样式 */
+.futures-desktop-grid .react-grid-item.react-grid-placeholder {
+  background: rgba(59, 130, 246, 0.3) !important;
+  border: 2px dashed rgba(59, 130, 246, 0.6) !important;
+  border-radius: 4px !important;
+}
+
+.futures-desktop-grid .react-grid-item.cssTransforms {
+  transition-property: transform, width, height;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+.futures-desktop-grid .react-grid-item.resizing {
+  opacity: 0.9;
+  z-index: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.futures-desktop-grid .react-grid-item.dragging {
+  transition: none;
+  z-index: 3;
+  opacity: 0.9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* 允许在内容中选中文本 */
+.futures-desktop-grid .react-grid-item input,
+.futures-desktop-grid .react-grid-item textarea,
+.futures-desktop-grid .react-grid-item select {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
+/* 拖拽图标样式 */
+.futures-desktop-grid .react-grid-item .drag-handle {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 10;
+}
+
+/* 拖拽时图标样式 */
+.futures-desktop-grid .react-grid-item.dragging .drag-handle {
+  opacity: 1 !important;
+}
+
+.futures-desktop-grid .react-grid-item.dragging .drag-handle > div {
+  background-color: rgba(59, 130, 246, 0.95) !important;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.futures-desktop-grid .react-resizable-handle-se {
+  background-image: none;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+/* 模块hover时显示resize手柄 */
+.futures-desktop-grid .react-grid-item:hover .react-resizable-handle-se {
+  opacity: 1;
+}
+
+/* .futures-desktop-grid .react-resizable-handle-se::after {
+  content: '';
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 5px;
+  height: 5px;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.futures-desktop-grid .react-resizable-handle-se:hover::after {
+  border-right-color: rgba(59, 130, 246, 0.8);
+  border-bottom-color: rgba(59, 130, 246, 0.8);
+} */
+
+/* 调整大小时始终显示 */
+.futures-desktop-grid .react-grid-item.resizing .react-resizable-handle-se {
+  opacity: 1;
+}
+
+/* .futures-desktop-grid .react-grid-item.resizing .react-resizable-handle-se::after {
+  border-right-color: rgba(59, 130, 246, 0.8);
+  border-bottom-color: rgba(59, 130, 246, 0.8);
+} */
+
+/* 减少过渡动画时的颤抖 */
+.futures-desktop-grid .react-grid-item {
+  will-change: transform;
+}
+
+.futures-desktop-grid .react-grid-item.cssTransforms {
+  transform-origin: center center;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.react-grid-placeholder {
+  background: transparent !important; /* 去掉红色背景 */
+  border: none !important; /* 如果有边框也去掉 */
+}
+.header-dex-react-grid-layout.react-grid-item > .react-resizable-handle::after {
+  width: 10px !important;
+  height: 10px !important;
+  border-right: 1.5px solid #908E98 !important;
+  border-bottom: 1.5px solid #908E98 !important;
+}

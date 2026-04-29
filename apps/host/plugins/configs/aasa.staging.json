@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "MTM64Q8Z3V.com.xtech.stg",
+        "paths": ["/xbitturnkey*", "/xbitapp*", "/webview/*", "*"]
+      }
+    ]
+  }
+}

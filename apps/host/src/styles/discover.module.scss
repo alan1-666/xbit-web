@@ -1,0 +1,60 @@
+.discover {
+  .card {
+    border-radius: 6px;
+    position: relative;
+
+    &.up {
+      background: var(--up-card-background-gradient);
+
+      &::before {
+        background: var(--up-border-gradient);
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 6px;
+        padding: 0.6px;
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
+    }
+
+    &.down {
+      background: var(--fall-card-background-gradient);
+
+      &::before {
+        background: var(--fall-border-gradient);
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        padding: 0.6px;
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
+    }
+
+    &.meme {
+      background: linear-gradient(105.98deg, rgba(0, 238, 159, 0.0204) 46.27%, rgba(0, 255, 174, 0.0476) 93.65%);
+
+      &::before {
+        background: linear-gradient(
+          132deg,
+          rgba(0, 255, 174, 0.08) 11.84%,
+          rgba(0, 187, 125, 0.04) 40.93%,
+          rgba(0, 156, 104, 0) 70.02%,
+          rgba(0, 255, 174, 0.4) 91.19%
+        );
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        padding: 0.6px;
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
+    }
+  }
+}

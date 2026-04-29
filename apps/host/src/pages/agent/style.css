@@ -1,0 +1,21 @@
+/* Keyframes cho hiệu ứng slide up */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Class cho animation slide up */
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out forwards;
+}
+
+/* Class cho animation slide up với delay */
+.animate-slide-up-delay {
+  animation: slideUp 0.4s ease-out 0.2s both;
+}

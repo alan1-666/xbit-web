@@ -1,0 +1,30 @@
+.hidden-icon li > span {
+  display: none;
+}
+.background-item {
+  background: linear-gradient(90deg, rgba(153, 69, 255, 0.08) 20%, rgba(0, 243, 171, 0.08) 100%);
+}
+
+/* Hide scrollbar for WebKit-based browsers (Chrome, Safari, Opera) */
+.hidden-icon::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.hidden-icon {
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar for Firefox */
+.hidden-icon {
+  scrollbar-width: none;
+}
+
+.hidden-icon {
+  position: relative;
+  overflow: hidden;
+}
+
+.hidden-icon ul {
+  right: -10px;
+}

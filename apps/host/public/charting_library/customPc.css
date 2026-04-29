@@ -1,0 +1,73 @@
+/* TradingView 自定义样式 - PC端工具栏背景色 */
+/* 使用 .theme-dark:root 选择器来确保在暗色主题下生效 */
+.theme-dark:root {
+  /* 工具栏背景色设置为 #0a0a0a */
+  --tv-color-pane-background: #121214;
+  --tv-color-platform-background: #121214;
+
+  /* 工具栏按钮样式 */
+  --tv-color-toolbar-button-background: rgba(236, 236, 237, 0.04);
+  --tv-color-toolbar-button-background-hover: rgba(236, 236, 237, 0.04);
+  --tv-color-toolbar-button-background-expanded: rgba(236, 236, 237, 0.04);
+  --tv-color-toolbar-button-background-active: rgba(236, 236, 237, 0.08);
+  --tv-color-toolbar-button-background-active-hover: rgba(236, 236, 237, 0.12);
+
+  /* 工具栏按钮文字颜色 */
+  --tv-color-toolbar-button-text: rgba(255, 255, 255, 0.5);
+  --tv-color-toolbar-button-text-hover: rgba(255, 255, 255, 0.8);
+  --tv-color-toolbar-button-text-active: #ffffff;
+  --tv-color-toolbar-button-text-active-hover: #ffffff;
+
+  /* 其他工具栏元素 */
+  --tv-color-item-active-text: #ffffff;
+  --tv-color-toolbar-toggle-button-background-active: rgba(236, 236, 237, 0.08);
+  --tv-color-toolbar-toggle-button-background-active-hover: rgba(236, 236, 237, 0.12);
+  --tv-color-toolbar-divider-background: rgba(236, 236, 237, 0.1);
+}
+
+/* 更具体的工具栏容器选择器（PC 顶部工具栏略微右移） */
+div[data-name="header-toolbar"],
+div[class*="header"],
+div[class*="toolbar"] {
+  padding-left: 30px !important;
+}
+
+/**
+ * 移动端绘图浮动工具条适配
+ * 场景：使用左侧绘图工具后，顶部浮动操作栏（包含样式 / 模板等）在窄屏上会超出视窗
+ * 方案：在小屏下限制其最大宽度为视窗宽，并允许横向滚动
+ */
+@media (max-width: 768px) {
+  /* 移动端顶部工具栏左边距缩小到 10px */
+  div[data-name="header-toolbar"],
+  div[class*="header"],
+  div[class*="toolbar"] {
+    padding-left: 10px !important;
+  }
+
+  /* TradingView 绘图浮动工具条通用类名包含 tv-floating-toolbar */
+  .tv-floating-toolbar {
+    max-width: 100vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* 保证滚动条不遮挡内容，必要时可以微调内边距 */
+    box-sizing: border-box;
+  }
+
+  /* 避免父容器剪裁浮动工具条的横向滚动 */
+  .tv-lightweight-charts,
+  .tv-lightweight-charts * {
+    overscroll-behavior-x: contain;
+  }
+}
+
+#drawing-toolbar {
+  background-color: #121214 !important;
+}
+.group-BfVZxb4b {
+  background-color: #121214 !important;
+}
+.js-rootresizer__contents {
+  background-color: #121214 !important;
+}

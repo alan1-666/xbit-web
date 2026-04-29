@@ -1,0 +1,52 @@
+/* Keyframes cho hiệu ứng slide up */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Class cho animation slide up */
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out forwards;
+}
+
+/* Class cho animation slide up với delay */
+.animate-slide-up-delay {
+  animation: slideUp 0.4s ease-out 0.2s both;
+}
+
+/* 自定义 react-slick 样式 */
+.invite-slider {
+  position: relative;
+  overflow: hidden;
+}
+/* 调整 slick-slide 的缩放 */
+.invite-slider .slick-slide {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: scale(0.95); /* 默认小一点 */
+    opacity: 0.6; /* 左右卡片稍微透明 */
+    padding: 0;
+}
+
+/* 中间选中的卡片放大并突出显示 */
+.invite-slider .slick-center {
+    transform: scale(1); /* 中间卡片恢复正常大小 */
+    opacity: 1;
+}
+
+/* slick-list 容器要留点空间，避免卡片被裁剪 */
+.invite-slider .slick-list {
+    overflow: visible !important; /* 允许超出部分显示 */
+    /* border-radius: 12px; */
+}
+
+/* 卡片内部内容不会被压缩 */
+.invite-slider .slick-slide > div {
+    outline: none;
+}
+  

@@ -1,0 +1,19 @@
+@property --angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.animated-angle {
+  --angle: 0deg;
+  animation: spin-angle 2s linear infinite;
+}
+
+@keyframes spin-angle {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}

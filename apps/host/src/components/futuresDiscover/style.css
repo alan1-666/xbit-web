@@ -1,0 +1,153 @@
+.ContractOverviewItem {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+}
+
+.ContractOverviewItem::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    127.97deg,
+    rgba(184, 81, 255, 0.4) 7.39%,
+    #00f7a5 29.97%,
+    rgba(0, 156, 104, 0.16) 48.4%,
+    rgba(0, 255, 174, 0.4) 63.32%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.ItemOptional-border {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+  border-radius: 8px;
+}
+
+.ItemOptional-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+
+  background: linear-gradient(90deg, rgba(165, 62, 255, 0.2) 20%, rgba(0, 247, 165, 0.2) 100%);
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.Signal-header {
+  background: linear-gradient(180deg, rgb(26, 26, 26) 6.91%, rgb(0, 0, 0) 50.21%);
+  border-top: 0.6px solid #ececed14;
+}
+
+.sadasdas {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+}
+
+.sadasdas::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(270deg, #c307a7 0%, #00f7a5 100%);
+
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.custom-slider .slick-dots {
+  bottom: 14px !important;
+}
+.custom-slider .slick-dots li {
+  margin: 0 2.5px !important;
+}
+
+.custom-slider .slick-active .active-paging {
+  background: linear-gradient(90deg, #a53eff 20%, #00f7a5 100%) !important;
+  width: 10px !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+}
+
+.custom-slider .slick-dots li {
+  width: unset !important;
+  height: unset !important;
+}
+
+.toast-center-screen-border {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+  border-radius: 8px;
+}
+
+.toast-center-screen-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+
+  background: linear-gradient(
+    43.83deg,
+    rgba(252, 44, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.4) 44.73%,
+    rgba(255, 255, 255, 0.4) 49.05%,
+    rgba(0, 255, 202, 0.4) 103.57%
+  );
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.custom-slider .slick-dots {
+  bottom: 14px !important;
+}
+.custom-slider .slick-dots li {
+  margin: 0 2.5px !important;
+}
+
+.custom-slider .slick-active .active-paging {
+  background: linear-gradient(90deg, #a53eff 20%, #00f7a5 100%) !important;
+  width: 10px !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+}
+
+.custom-slider .slick-dots li {
+  width: unset !important;
+  height: unset !important;
+}
+
+/* .bg-positive {
+  background: linear-gradient(79.15deg, #01AC79 0%, #00ED9E 83.97%);
+}
+.bg-negative {
+  background: linear-gradient(79.89deg, #FF465E 3.2%, #FF467A 90.21%);
+} */

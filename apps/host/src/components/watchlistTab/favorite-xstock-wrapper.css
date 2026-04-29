@@ -1,0 +1,35 @@
+/* 美股收藏列表样式调整 - 仅在 market 页面自选 tab 中生效 */
+.favorite-xstock-wrapper {
+  /* 减少左右边距 */
+  margin-left: -14px;
+  margin-right: -14px;
+}
+
+/* 调整每个 item 的上下边距为 12px */
+.favorite-xstock-wrapper .flex.mx-3.items-center {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+/* 去掉分割线 */
+.favorite-xstock-wrapper .border-b-\[0\.5px\] {
+  border-bottom: none !important;
+}
+
+/* 美股列表样式调整 - 在 market 页面一级 tab 中生效 */
+.market-xstock-wrapper {
+  /* 减少左右边距 */
+  margin-left: -7px;
+  margin-right: -7px;
+}
+
+/* 调整每个 item 的上下边距为 12px */
+.market-xstock-wrapper .flex.mx-3.items-center {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+/* 去掉分割线 */
+.market-xstock-wrapper .border-b-\[0\.5px\] {
+  border-bottom: none !important;
+}

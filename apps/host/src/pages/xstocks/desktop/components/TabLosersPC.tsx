@@ -1,0 +1,34 @@
+import { XStocksTokenListPC } from '@/pages/xstocks/desktop/components/XStocksTokenListPC'
+import { SortBy, xstocksActions } from '@/redux/modules/xstocks.slice'
+import { useAppDispatch, useAppSelector } from '@/redux/store'
+import { useActiveChainId } from '@hooks/useActiveChain.ts'
+import { useRealtimeCategoryTokens } from '@pages/meme/discover/desktop/hooks/useCategoryTokens.ts'
+import { useCallback, useMemo } from 'react'
+
+export const TabLosersPC = ({ timeframe }: { timeframe: '1m' | '5m' | '1h' | '6h' | '24h' }) => {
+  const activeChainId = useActiveChainId()
+  const { tokens, loadMore, isLoading } = useRealtimeCategoryTokens({ categoryId: 'XStock', chainId: activeChainId })
+  const dispatch = useAppDispatch()
+  const sortBy = useAppSelector((state) => state.xstocks.sorts.losers)
+
+  const handleSortChange = useCallback(
+    (newSortBy: SortBy) => {
+      dispatch(xstocksActions.setSortBy({ tab: 'losers', sortBy: newSortBy }))
+    },
+    [dispatch],
+  )
+  const losers = useMemo(() => {
+    return tokens.filter((token) => token.price24hChange && +token.price24hChange <= -0.01)
+  }, [tokens])
+
+  return (
+    <XStocksTokenListPC
+      tokens={losers}
+      loadMore={loadMore}
+      isLoading={isLoading}
+      timeframe={timeframe}
+      defaultSortBy={sortBy}
+      onSortChange={handleSortChange}
+    />
+  )
+}

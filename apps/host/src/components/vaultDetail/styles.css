@@ -1,0 +1,54 @@
+.vault-detail-custom-rouder {
+  clip-path: ellipse(100% 55% at 50% 40%);
+}
+.bg-HeaderVaultDetail {
+  background: linear-gradient(179.59deg, #1d2120 48.16%, #2b3638 93.15%);
+}
+
+.bg-top-div-vault-detail {
+  background: linear-gradient(180deg, #232b2a 0%, #17192105 100%);
+}
+
+.custom #apexchartschart-secondary {
+  top: -30px;
+}
+.linear-gradient-vault-metric {
+  background: linear-gradient(90deg, #00f3ab 1.35%, #9945ff 100%);
+}
+
+.custom-apex-chart-description {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  position: relative;
+}
+
+.custom-apex-chart-description::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(90deg, #9945ff 20%, #00f3ab 100%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.wrap-table th:nth-child(1),
+.wrap-table td:nth-child(1) {
+  padding-left: 0.8rem;
+}
+
+.wrap-withdrawal-content {
+  background: linear-gradient(180deg, rgba(133, 225, 210, 0.2) 0%, rgba(110, 120, 121, 0) 100%);
+}
+
+
+.apexcharts-selection-rect {
+  fill: #00BCB6 !important;
+  /* background: #00BCB6; */
+}

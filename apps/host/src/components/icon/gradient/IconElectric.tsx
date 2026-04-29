@@ -1,0 +1,49 @@
+import { HTMLAttributes } from 'react'
+
+export const IconElectric = (props: HTMLAttributes<SVGElement>) => {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <rect
+        x="0.35"
+        y="0.35"
+        width="13.3"
+        height="13.3"
+        rx="6.65"
+        stroke="url(#paint0_linear_23718_334196)"
+        stroke-width="0.7"
+      />
+      <path
+        d="M3.65252 7.95228L6.97269 3.16734C7.05089 3.05464 7.22771 3.10997 7.22771 3.24715V6.27788C7.22771 6.3552 7.29039 6.41788 7.36771 6.41788H10.1339C10.248 6.41788 10.3142 6.54707 10.2475 6.63968L6.71386 11.5476C6.63443 11.6579 6.46024 11.6017 6.46024 11.4658V8.31209C6.46024 8.23477 6.39756 8.17209 6.32024 8.17209H3.76754C3.65454 8.17209 3.5881 8.04512 3.65252 7.95228Z"
+        fill="url(#paint1_linear_23718_334196)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_23718_334196"
+          x1="-1.82539e-07"
+          y1="14"
+          x2="14.1982"
+          y2="-0.789759"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#E843FE" />
+          <stop offset="0.45684" stop-color="white" />
+          <stop offset="0.61684" stop-color="white" />
+          <stop offset="1" stop-color="#00FFCD" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_23718_334196"
+          x1="3.5"
+          y1="11.8998"
+          x2="12.4874"
+          y2="4.79377"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#E843FE" />
+          <stop offset="0.45684" stop-color="white" />
+          <stop offset="0.61684" stop-color="white" />
+          <stop offset="1" stop-color="#00FFCD" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
