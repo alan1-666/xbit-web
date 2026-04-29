@@ -255,7 +255,8 @@
 - 已落地本地 provider adapter、HTTP provider adapter、open orders/fills、订单提交/取消、订单状态同步、杠杆更新、资金费率和高风险操作审计。
 - HTTP provider 已支持 Hyperliquid `/info` 账号、成交历史、open orders、资金费率、订单状态读接口，`/exchange` 写接口只转发前端/agent 已签名的 payload。
 - 已新增 Hyperliquid 私有 WS bridge，可订阅 `orderUpdates`、`userEvents`、`userFills`、`userFundings`、`userNonFundingLedgerUpdates`、`openOrders`、`clearinghouseState` 并发布到私有 MQTT topic。
-- Hyperliquid 私有 WS 的生产运行、断线补偿、agent signer 托管签名和细粒度风控规则仍需继续补齐。
+- 已新增 WS reconnect reconcile 和 live read model：open orders、account/positions、recent fills 会持久化，provider 异常时 REST/GraphQL 读接口可回退到快照。
+- Hyperliquid 私有 WS 的生产运行监控、agent signer 托管签名和细粒度风控规则仍需继续补齐。
 
 ### 3.6 Prediction 域
 
@@ -504,7 +505,7 @@ device_token(id, user_id, platform, token, provider, active, last_seen_at)
 
 1. prediction-svc 聚合 Polymarket public 数据并提供搜索、体育、评论。
 2. xp-user-svc 管 proxy wallet、CLOB 凭证、下单、claim、withdraw、relayer status。
-3. hypertrader-svc 已完成 Go MVP facade、订单/审计、本地 provider、HTTP provider 和私有 WS bridge；下一步补齐断线补偿、状态持久化和 agent signer。
+3. hypertrader-svc 已完成 Go MVP facade、订单/审计、本地 provider、HTTP provider、私有 WS bridge、断线补偿和状态持久化；下一步补齐 agent signer、细粒度风控和生产运行监控。
 4. private WSS/MQTT 取代前端直连第三方私有 websocket。
 
 ### P3：增长和运营
