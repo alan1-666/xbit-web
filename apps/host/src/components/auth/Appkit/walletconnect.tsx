@@ -87,10 +87,10 @@ export const WalletConnectProvider = () => {
       signClient={null}
       projectId={WALLETCONNECT_ID}
       metadata={{
-        name: 'XBIT Platform',
-        description: 'XBIT Platform',
+        name: 'KairoX',
+        description: 'KairoX',
         url: window.location.origin,
-        icons: [`${window.location.origin}/images/xbit-logo.svg`],
+        icons: [`${window.location.origin}/images/kairox-logo.svg`],
       }}
       modalOptions={{
         chains: ['solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp'], // Solana mainnet

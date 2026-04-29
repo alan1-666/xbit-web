@@ -71,7 +71,7 @@ const ButtonApproveAgent = () => {
   const [approveInfo, setApproveInfo] = useState({
     feeBuilderAddress: '',
     feeBuilderPercent: '',
-    agentName: isMobile() ? 'XBIT_MOBILE' : 'XBIT',
+    agentName: isMobile() ? 'KAIROX_MOBILE' : 'KAIROX',
     agentAddress: '',
     referralCode: 'BWIN888'
   })

@@ -27,7 +27,7 @@ export const ButtonConnectWallet = ({ CTAComponent }: ButtonConnectWalletProps) 
           CTAComponent ? CTAComponent : (
             <p>
               {t('login.notLogined', {
-                name: 'XBIT',
+                name: 'KairoX',
               })}
             </p>
           )

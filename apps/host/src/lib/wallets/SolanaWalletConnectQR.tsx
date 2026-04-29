@@ -64,10 +64,10 @@ export default function SolanaWalletConnectQR({
         clientRef.current = await SignClient.init({
           projectId: WALLETCONNECT_ID,
           metadata: {
-            name: 'Xbit',
+            name: 'KairoX',
             description: 'Connect wallet from WalletConnect',
             url: window.location.href,
-            icons: [`${window.location.href}/images/xbit-logo.svg`],
+            icons: [`${window.location.href}/images/kairox-logo.svg`],
           },
         })
       }
@@ -376,7 +376,7 @@ export default function SolanaWalletConnectQR({
       scale: 2,
     })
     const link = document.createElement('a')
-    link.download = 'Xbit Wallet Connect QR Code'
+    link.download = 'KairoX Wallet Connect QR Code'
     link.href = canvas.toDataURL()
     setSaving(false)
     link.click()

@@ -270,8 +270,8 @@ const H5RedpacketPage = ({ }: {}) => {
           <div className="fixed inset-0 z-[999] bg-[#121214] backdrop-blur-sm flex justify-center flex-col items-center overflow-auto max-w-[960px] mx-auto">
             <div className="self-stretch p-4 border-t inline-flex justify-center w-full items-center gap-2.5 overflow-hidden">
               <div className="flex-1 justify-start flex items-center gap-2 text-white text-xl font-medium h-6">
-                <img src="/images/xbit-logo.svg?v=2" className="h-full" alt="logo xbit text" />
-                <img src="/images/logo-xbit-text.svg" className="h-4" alt="logo xbit text" />
+                <img src="/images/kairox-logo.svg" className="h-full" alt="logo xbit text" />
+                <img src="/images/kairox-logo-text.svg" className="h-4" alt="logo xbit text" />
               </div>
               <div className="w-7 h-7 relative overflow-hidden cursor-pointer" onClick={() => setIsShowMenu(false)}>
                 <img src="/images/redpacket/close-icon.svg" alt="close" />

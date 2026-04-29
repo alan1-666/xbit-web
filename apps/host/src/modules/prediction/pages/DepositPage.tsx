@@ -266,7 +266,7 @@ export const PredictionDepositPage = () => {
                 </Button>
               </div>
               <div className="bg-[#2B2B33] rounded-[8px] py-2.5 px-3 mt-3">
-                <div className="text-[#605E68] text-[14px]">XBIT {t('exchange.predictionAddress')}</div>
+                <div className="text-[#605E68] text-[14px]">KairoX {t('exchange.predictionAddress')}</div>
                 <div className="mt-1 flex items-center gap-2 justify-between text-[#FBFBFB] text-[12px]">
                   <div>{proxyWallet}</div>
                   <CopyButton text={proxyWallet} className="cursor-pointer size-4" />

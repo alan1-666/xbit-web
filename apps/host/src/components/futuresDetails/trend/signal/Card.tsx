@@ -41,7 +41,7 @@ const SignalCard = () => {
   return (
     <div className="single-card-bg relative h-[186px] mb-2">
       <div className="flex items-center gap-2 pl-[14px] py-[10px]  ">
-        <p className="text-[calc(16rem/16)] leading-[calc(16rem/16)] text-[#FFFFFF]">XBIT智选</p>
+        <p className="text-[calc(16rem/16)] leading-[calc(16rem/16)] text-[#FFFFFF]">KairoX智选</p>
         <Tag label="做多" color="#00FFB4" />
         <Tag label="8连胜" color="#FF39A9" />
       </div>

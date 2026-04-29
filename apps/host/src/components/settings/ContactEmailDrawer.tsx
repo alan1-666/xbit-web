@@ -21,9 +21,9 @@ export const ContactEmailDrawer = (props: ContactEmailDrawerProps) => {
           <div className="flex items-center bg-[#111111] rounded-[6px] border border-[#1A1A1A14] px-3 py-3.5 gap-2.5">
             <IconEmail className="size-5" />
             <span className="text-[calc(13rem/16)] text-[#FFFFFF80] leading-[calc(13rem/16)] flex-1">
-              support@xbit.com
+              support@kairox.com
             </span>
-            <CopyButton text="support@xbit.com" />
+            <CopyButton text="support@kairox.com" />
           </div>
         </div>
       }

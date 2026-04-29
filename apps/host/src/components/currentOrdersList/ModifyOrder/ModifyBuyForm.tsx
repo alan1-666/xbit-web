@@ -377,7 +377,7 @@ const ModifyBuyForm: React.FC<ModifyBuyFormProps> = ({
             <div className="flex items-center gap-[10px]">
               <ImgWithFallback
                 src={logoUrl}
-                srcFallback="/images/xbit-logo-rounded.webp"
+                srcFallback="/images/kairox-logo-rounded.svg"
                 sharedClassName="w-[48px] min-w-[48px] h-[48px] rounded-full"
               />
               <div>

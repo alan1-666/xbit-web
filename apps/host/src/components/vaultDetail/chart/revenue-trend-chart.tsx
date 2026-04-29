@@ -54,7 +54,7 @@ const RevenueTrendChart: React.FC = () => {
           <div className="flex-1 flex justify-center items-center flex-col">
             <div className="flex gap-2 items-center">
               <div className="bg-[#FACC14] w-[12px] h-[4px] rounded-[2px]" />
-              <div className="text-[calc(1rem*(14/16))] app-font-regular">XBIT量化2号累积收益</div>
+              <div className="text-[calc(1rem*(14/16))] app-font-regular">KairoX量化2号累积收益</div>
             </div>
             <div className="flex items-center">
               <div className="text-[calc(1rem*(14/16))] app-font-medium text-[#00FFB4] -ml-[6px]">+12.36%</div>

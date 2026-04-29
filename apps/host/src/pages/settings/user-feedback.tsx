@@ -158,8 +158,8 @@ export const UserFeedbackPage = () => {
             <input placeholder="请输入您的邮箱！（必填）" className="w-full placeholder:text-[#FFFFFF80] text-white" />
           </InputWrapper>
           <div className="flex items-center text-[calc(14rem/16)] text-[#FFFFFFA6] gap-1 mt-2">
-            官方联系邮箱: support@xbit.com
-            <CopyButton text="support@xbit.com" icon="/images/icons/ic-copy-solid.svg" />
+            官方联系邮箱: support@kairox.com
+            <CopyButton text="support@kairox.com" icon="/images/icons/ic-copy-solid.svg" />
           </div>
         </div>
       </div>

@@ -2090,21 +2090,26 @@ export const IconGlobalGradient = (props: HTMLAttributes<SVGElement>) => {
 export const IconXbitLogo = (props: HTMLAttributes<SVGElement>) => {
   return (
     <svg width="16" height="16" viewBox="0 0 41 36" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M7 5.2C7 2.9 8.9 1 11.2 1H15.6V35H11.2C8.9 35 7 33.1 7 30.8V5.2Z" fill="url(#kairox-icon-a)" />
+      <path d="M17.2 18L32.8 1H38.6C40.2 1 41 2.9 39.9 4.1L27.1 18L39.9 31.9C41 33.1 40.2 35 38.6 35H32.8L17.2 18Z" fill="url(#kairox-icon-b)" />
       <path
-        d="M13.4482 20.9539C13.4625 25.6498 18.1152 28.9163 22.5566 27.2771C25.1632 26.3148 26.9476 23.7433 26.9385 20.9539H35.0693C35.1101 25.8785 32.5636 30.5829 28.5234 33.3172C24.2976 36.1764 18.8225 36.6666 14.1494 34.5867C8.83993 32.2239 5.26237 26.8225 5.31738 20.9539H13.4482ZM2.54785 0.00856781C1.59509 4.49137 2.75446 9.36452 7.35059 11.1599C11.4265 12.7515 17.7452 13.436 22.0898 13.2263C25.1442 13.0788 31.2124 12.1524 33.8662 10.7234C37.6805 8.66907 38.5955 4.07261 37.7207 0.097435C38.0036 0.0403899 38.2946 0.524922 38.4561 0.748802C40.486 3.56126 40.6997 8.51829 39.6299 11.7312C37.3843 18.4751 30.0662 20.2134 23.7471 20.7127C23.2319 16.3429 17.1739 16.3721 16.6064 20.7156C10.3598 20.2517 2.95825 18.515 0.679688 11.8699C-0.4401 8.60318 -0.257242 3.57208 1.83691 0.713646C1.91214 0.611124 2.43494 -0.0846334 2.54785 0.00856781Z"
-        fill="url(#paint0_linear_606_3791)"
+        d="M1.2 17.9C1.2 8.7 8.7 1.2 17.9 1.2H21.9C22.9 1.2 23.3 2.5 22.5 3.1L18.4 6.6C17.9 7 17.3 7.2 16.7 7.3C11.3 7.9 7.1 12.5 7.1 18C7.1 23.5 11.3 28.1 16.7 28.7C17.3 28.8 17.9 29 18.4 29.4L22.5 32.9C23.3 33.5 22.9 34.8 21.9 34.8H17.9C8.7 34.8 1.2 27.3 1.2 17.9Z"
+        fill="url(#kairox-icon-c)"
+        fillOpacity=".38"
       />
       <defs>
-        <linearGradient
-          id="paint0_linear_606_3791"
-          x1="17.3337"
-          y1="8.96527"
-          x2="20.1321"
-          y2="35.8623"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#8870FF" />
-          <stop offset="1" stop-color="#AE70FF" />
+        <linearGradient id="kairox-icon-a" x1="11.3" y1="1" x2="11.3" y2="35" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#9BFFCE" />
+          <stop offset="1" stopColor="#58D0FF" />
+        </linearGradient>
+        <linearGradient id="kairox-icon-b" x1="20.2" y1="4.4" x2="39.6" y2="31.3" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#F8FF7A" />
+          <stop offset=".48" stopColor="#77F7CA" />
+          <stop offset="1" stopColor="#6F7DFF" />
+        </linearGradient>
+        <linearGradient id="kairox-icon-c" x1="1.2" y1="18" x2="23" y2="18" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#7C6DFF" />
+          <stop offset="1" stopColor="#70F7C8" />
         </linearGradient>
       </defs>
     </svg>

@@ -52,12 +52,12 @@ const GoogleResetVerifyNumber: React.FC = () => {
 
             {/* Team and Support */}
             <div className="text-center space-y-4 mb-8">
-              <p className="font-medium">XBIT{t('google.auth.team')}</p>
+              <p className="font-medium">KairoX{t('google.auth.team')}</p>
               <p className="text-sm">
                 {t('google.auth.thankyou')}
                 <br />
-                <a href="mailto:support@xbit.com" className="text-blue-400">
-                  support@xbit.com
+                <a href="mailto:support@kairox.com" className="text-blue-400">
+                  support@kairox.com
                 </a>
               </p>
             </div>

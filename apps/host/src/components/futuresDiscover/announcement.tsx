@@ -6,15 +6,15 @@ const Announcement = () => {
     <div className={cn('Signal-header -mt-3 z-2 relative rounded-tl-[8px] rounded-tr-[8px] p-3 flex flex-col gap-3')}>
       <Text text="公告" fontSize={20} fontWeight="semibold" className="pr-3" />
       <div className="flex flex-col gap-1">
-        <Text text="XBIT关于BABY杠杆交易、永续合约及简单赚币上线的及简单赚币上线的公告" fontSize={15} />
+        <Text text="KairoX关于BABY杠杆交易、永续合约及简单赚币上线的及简单赚币上线的公告" fontSize={15} />
         <Text text="2025/04/10" fontSize={12} color="#FFFFFF80" />
       </div>
       <div className="flex flex-col gap-1">
-        <Text text="XBIT关于BABY杠杆交易、永续合约及简单赚币上线的及简单赚币上线的公告" fontSize={15} />
+        <Text text="KairoX关于BABY杠杆交易、永续合约及简单赚币上线的及简单赚币上线的公告" fontSize={15} />
         <Text text="2025/04/10" fontSize={12} color="#FFFFFF80" />
       </div>
       <div className="flex flex-col gap-1">
-        <Text text="XBIT关于BABY杠杆交易、永续合约及简单赚币上线的及简单赚币上线的公告" fontSize={15} />
+        <Text text="KairoX关于BABY杠杆交易、永续合约及简单赚币上线的及简单赚币上线的公告" fontSize={15} />
         <Text text="2025/04/10" fontSize={12} color="#FFFFFF80" />
       </div>
 

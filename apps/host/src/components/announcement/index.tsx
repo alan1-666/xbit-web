@@ -396,8 +396,8 @@ const MediaPlayer = ({ content, slideId, isPreloaded, isActive }: MediaPlayerPro
     return (
       <div className={containerClasses}>
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
-          <img src="/images/xbit-logo.svg" alt="logo" className="w-16 h-14" />
-          <img src="/images/logo-xbit-text.svg" alt="logo" className="h-6" />
+          <img src="/images/kairox-logo.svg" alt="logo" className="w-16 h-14" />
+          <img src="/images/kairox-logo-text.svg" alt="logo" className="h-6" />
         </div>
       </div>
     )

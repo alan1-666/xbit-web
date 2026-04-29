@@ -63,7 +63,7 @@ const Title = () => {
 
   return (
     <div className="flex items-center flex-col text-white text-2xl font-semibold text-center mb-2 pt-[20px]">
-      {/* <p>XBIT元宵节</p>
+      {/* <p>KairoX元宵节</p>
       <p>APP专属红包</p> */}
       {t('red.packet.lantern.festival.title_app')}
     </div>

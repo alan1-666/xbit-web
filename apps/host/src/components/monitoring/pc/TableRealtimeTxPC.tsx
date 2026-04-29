@@ -429,7 +429,7 @@ const TableRealtimeTxPcContent = () => {
           {blankStateType === 'notLogin' && (
             <BlankState
               text={t('login.notLogined', {
-                name: 'XBIT',
+                name: 'KairoX',
               })}
               cta={<ConnectWalletCTA />}
             />

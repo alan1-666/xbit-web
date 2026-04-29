@@ -69,7 +69,7 @@ export const AddressCard: React.FC<{ data: FollowedLatestPosition; onClick?: () 
             src={iconUrl}
             className="size-4 rounded-full bg-white"
             onError={(e) => {
-              e.currentTarget.src = '/images/xbit-logo-rounded.webp'
+              e.currentTarget.src = '/images/kairox-logo-rounded.svg'
             }}
             alt={coin}
           />
@@ -98,7 +98,7 @@ export const AddressCard: React.FC<{ data: FollowedLatestPosition; onClick?: () 
               src={iconUrl}
               className="size-4 rounded-full bg-white shrink-0"
               onError={(e) => {
-                e.currentTarget.src = '/images/xbit-logo-rounded.webp'
+                e.currentTarget.src = '/images/kairox-logo-rounded.svg'
               }}
               alt={coin}
             />

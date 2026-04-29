@@ -7,7 +7,7 @@
     "clearCacheDesc": "Xác định xóa bộ nhớ đệm không?",
     "privacyPolicy": "Chính sách bảo mật",
     "privacyPolicyLabel": "Chính sách bảo mật",
-    "rateXbit": "Đánh giá XBIT",
+    "rateXbit": "Đánh giá KairoX",
     "sloganXbit": "On-chain là tương lai, giao dịch là tự do",
     "termsOfUse": "Điều khoản sử dụng",
     "termsOfUseLabel": "Điều khoản sử dụng",
@@ -123,7 +123,7 @@
     "officialExpand": "Click mở rộng",
     "officialTitle": "Phân tích dữ liệu chính thức",
     "onchainTextContent": "Twitter này dường như được quản lý bởi doanh nhân nổi tiếng Elon Musk, nhưng các tweet không hiển thị thông tin liên quan đến bất kỳ meme coin cụ thể nào, cũng không đề cập đến nội dung liên quan trực tiếp đến blockchain hoặc tiền mã hóa. Các tweet tập trung vào công nghệ, AI và một số quan điểm cá nhân, không liên quan đến địa chỉ hợp đồng hoặc tên của bất kỳ token nào.",
-    "onchainTextNote": "Phân tích này được tạo tự động bởi XBIT bot, chỉ mang tính tham khảo.",
+    "onchainTextNote": "Phân tích này được tạo tự động bởi KairoX bot, chỉ mang tính tham khảo.",
     "onchainTextTitle": "Phân tích dữ liệu onchain",
     "onChainTitle": "Phân tích dữ liệu onchain",
     "poolAddress": "Địa chỉ pool thanh khoản",
@@ -154,7 +154,7 @@
     },
     "footer": {
       "onChainAnalysisEmpty": "Không có dữ liệu để phân tích",
-      "onChainAnalysisFooter": "Phân tích tường thuật này được tạo tự động bởi bot XBIT và chỉ mang tính tham khảo"
+      "onChainAnalysisFooter": "Phân tích tường thuật này được tạo tự động bởi bot KairoX và chỉ mang tính tham khảo"
     },
     "official": {
       "contractAddress": "Hợp đồng",
@@ -186,12 +186,12 @@
       "officalEmail": "Email chính thức",
       "officialEmail": "Email chính thức",
       "privacyPolicy": "Chính sách riêng tư",
-      "rateXBit": "Đánh giá XBIT",
+      "rateXBit": "Đánh giá KairoX",
       "slogan": "Onchain là tương lai, giao dịch là tự do",
       "termsOfService": "Điều khoản sử dụng",
       "title": "Về chúng tôi"
     },
-    "aboutXBIT": "Hướng dẫn sử dụng XBIT",
+    "aboutXBIT": "Hướng dẫn sử dụng KairoX",
     "browsingHistory": "Lịch sử trình duyệt",
     "browsingHistoryPage": {
       "columns": {
@@ -279,11 +279,11 @@
     "resetLayout": "Đặt lại bố cục",
     "saveImage": "Lưu vào album",
     "sharePoster": "Đang tạo poster",
-    "shareXBIT": "Chia sẻ XBIT",
+    "shareXBIT": "Chia sẻ KairoX",
     "shareXBITSlogan": "Sàn giao dịch di động phi tập trung số 1",
     "shareXBITSubSlogan": "Dữ liệu thời gian thực, giao dịch siêu nhanh",
     "shareXBITSubtitle": "Sàn giao dịch phi tập trung (DEX)",
-    "shareXBITText": "Tải xuống XBIT DEX để giao dịch liền mạch các hợp đồng vĩnh cửu, meme và cổ phiếu Mỹ.",
+    "shareXBITText": "Tải xuống KairoX DEX để giao dịch liền mạch các hợp đồng vĩnh cửu, meme và cổ phiếu Mỹ.",
     "spotSettings": "Cài đặt giao dịch",
     "systemSettingsTitle": "Cài đặt",
     "telegramSupport": "Telegram",
@@ -458,10 +458,10 @@
       "depositNetwork": "Mạng {{network}}",
       "depositTitle": "Nạp tiền",
       "depositTo": "Nạp tiền vào",
-      "depositToXbitWallet": "Nạp tiền vào ví XBIT",
+      "depositToXbitWallet": "Nạp tiền vào ví KairoX",
       "depositWallet": "Ví nạp tiền",
       "depositWarning": "Địa chỉ này chỉ hỗ trợ gửi {{token_symbol}} vào mạng {{network}}. Vui lòng không sử dụng các mạng khác để tránh mất mát.",
-      "depositXbitWallet": "Nạp tiền vào ví XBIT",
+      "depositXbitWallet": "Nạp tiền vào ví KairoX",
       "enterAmount": "Nhập số lượng",
       "estimateArrivalTime": "Khoảng {{value}} {{unit}}",
       "ethereumNetwork": "Mạng Ethereum",
@@ -513,7 +513,7 @@
       "warningEthereum": "Chỉ chấp nhận nạp tiền bằng ETH trên mạng Ethereum, không hỗ trợ nạp các loại tiền khác, nếu không có thể gây mất vốn",
       "warningSolana": "Chỉ chấp nhận nạp tiền bằng SOL trên mạng Solana, không hỗ trợ nạp các loại tiền khác, nếu không có thể gây mất vốn",
       "withdrawalTime": "Thời gian rút tiền",
-      "xbitPerpsAddress": "Địa chỉ tài khoản hợp đồng XBIT"
+      "xbitPerpsAddress": "Địa chỉ tài khoản hợp đồng KairoX"
     },
     "deposite": {
       "agree": "Đồng ý",
@@ -809,7 +809,7 @@
       "holding": "Số lượng nắm giữ còn lại",
       "inviteCode": "Mã mời",
       "officialWebsite": "Website chính thức",
-      "textShare": "Tôi đã mua ${{token}}, hãy đến XBIT DEX để theo dõi nhé, DYOR!",
+      "textShare": "Tôi đã mua ${{token}}, hãy đến KairoX DEX để theo dõi nhé, DYOR!",
       "title": "Sàn giao dịch di động phi tập trung số 1",
       "totalPnl": "Tổng lãi lỗ"
     },
@@ -1113,16 +1113,16 @@
       "walletConnectDesc": "Click kết nối {{wallet_name}}"
     },
     "backupMnemonic": {
-      "backupWalletDesc": "Sao lưu mã ghi nhớ này để truy cập ví của bạn nếu bạn bị mất tài khoản XBIT."
+      "backupWalletDesc": "Sao lưu mã ghi nhớ này để truy cập ví của bạn nếu bạn bị mất tài khoản KairoX."
     },
     "connectionWallet": {
       "authorizingButton": "Đang kết nối...",
       "connectButton": "Kết nối",
-      "iosOkxManualReturn": "OKX Web3 Wallet Connect trên iOS không thể tự động quay lại ứng dụng Xbit. Sau khi hoàn tất kết nối hoặc ký trong OKX, vui lòng mở lại ứng dụng Xbit thủ công để tiếp tục.",
+      "iosOkxManualReturn": "OKX Web3 Wallet Connect trên iOS không thể tự động quay lại ứng dụng KairoX. Sau khi hoàn tất kết nối hoặc ký trong OKX, vui lòng mở lại ứng dụng KairoX thủ công để tiếp tục.",
       "okxManualReturnTitle": "Lưu ý khi kết nối ví OKX trên iOS",
       "plsSignInWallet": "Vui lòng ký trong ví để tiếp tục.",
       "reLinkButton": "Kết nối lại",
-      "riskWarningDesc": "Ví Web3 (hoặc ví API) chỉ được sử dụng để đăng nhập và thực hiện các thao tác tự động trên hệ thống Xbit, chẳng hạn như xác thực hoặc ký giao dịch. Ví này không có quyền truy cập hay kiểm soát tài sản của bạn — bạn có thể hoàn toàn yên tâm khi sử dụng.",
+      "riskWarningDesc": "Ví Web3 (hoặc ví API) chỉ được sử dụng để đăng nhập và thực hiện các thao tác tự động trên hệ thống KairoX, chẳng hạn như xác thực hoặc ký giao dịch. Ví này không có quyền truy cập hay kiểm soát tài sản của bạn — bạn có thể hoàn toàn yên tâm khi sử dụng.",
       "riskWarningTitle": "Cảnh báo rủi ro",
       "signButton": "Tiếp tục",
       "signingButton": "Đang ký...",
@@ -1134,14 +1134,14 @@
       "stepApproveTitle": "Xác minh tài khoản",
       "stepApproveTitleFirstTime": "Đăng ký tài khoản",
       "stepApproveTitleSecondTime": "Xác minh tài khoản",
-      "stepConnectDesc": "Kết nối ví của bạn với XBIT.",
+      "stepConnectDesc": "Kết nối ví của bạn với KairoX.",
       "stepConnectTitle": "Kết nối ví của bạn"
     },
     "deleteAccount": {
       "deleteAccountNotice": "Thông báo xóa tài khoản",
       "deleteDescription1": "Sau khi xóa tài khoản, tài khoản sẽ không thể khôi phục và mọi dữ liệu liên quan sẽ bị xóa vĩnh viễn.",
       "deleteDescription2": "Mọi chức năng của tài khoản sẽ bị vô hiệu hóa.",
-      "deleteDescription3": "Mọi dịch vụ thông báo của XBIT sẽ dừng lại",
+      "deleteDescription3": "Mọi dịch vụ thông báo của KairoX sẽ dừng lại",
       "deleteDescription4": "Vui lòng đảm bảo mọi tài sản trong tài khoản đã được rút.",
       "deleteDescription5": "Sau khi xóa thành công, bạn sẽ tự động được đăng xuất.",
       "deleteDescription6": " bảo lưu quyền giải thích cuối cùng cho các tuyên bố trên.",
@@ -1164,7 +1164,7 @@
       "turnkeyDesc": "Turnkey là ví MPC phi tập trung, tất cả tài sản tự quản lý",
       "verificationCodeSentLabel": "Mã xác minh đã được gửi đến ",
       "verificationSuccess": "Xác minh thành công",
-      "xbitConnectWallet": "\"XBIT\" muốn mở \"{{wallet}}\""
+      "xbitConnectWallet": "\"KairoX\" muốn mở \"{{wallet}}\""
     },
     "loginWeb3": {
       "error": {
@@ -1201,7 +1201,7 @@
       "addTokenNoLogged": "Vui lòng đăng nhập trước để thêm dự án này vào danh sách yêu thích của bạn",
       "connectingToWallet": "Đang kết nối ví...",
       "connectQRCodeDesc": "Nếu không tìm thấy ví của bạn, vui lòng sử dụng ví quét mã QR sau để kết nối (cần hỗ trợ giao thức Wallet Connect v2)",
-      "connectSolDesc": "Sau khi kết nối ví, cần quay lại XBIT APP để giao dịch",
+      "connectSolDesc": "Sau khi kết nối ví, cần quay lại KairoX APP để giao dịch",
       "connectSolTitle": "Kết nối ví của bạn với mạng SOL",
       "plsConfirmToConnectWallet": "Vui lòng nhấp xác nhận kết nối trong ví"
     },
@@ -1228,10 +1228,10 @@
       "email": "Sử dụng email để đăng nhập"
     },
     "title": {
-      "checkEmail1": "Vui lòng kiểm tra email từ XBIT.com tại địa chỉ",
+      "checkEmail1": "Vui lòng kiểm tra email từ KairoX tại địa chỉ",
       "checkEmail2": "và nhập mã của bạn bên dưới.",
       "generateMPCWallet": "Tạo một ví MPC phi tập trung.",
-      "welcome": "Chào mừng đến với XBIT"
+      "welcome": "Chào mừng đến với KairoX"
     },
     "verifyWallet": "Chữ ký xác minh quyền sở hữu và khả năng tương thích của ví. Người dùng mới sẽ nhận hai yêu cầu ký.",
     "verifyWalletOwnership": "Xác minh quyền sở hữu của bạn đối với địa chỉ ví bên dưới"
@@ -1291,7 +1291,7 @@
         "more": "Mở thêm Blind Box"
       },
       "web": {
-        "notice": "Sự kiện Hộp mù chỉ hỗ trợ trên web XBIT, sao chép link để vào trang sự kiện"
+        "notice": "Sự kiện Hộp mù chỉ hỗ trợ trên web KairoX, sao chép link để vào trang sự kiện"
       },
       "xbit": {
         "red": {
@@ -1394,11 +1394,11 @@
     "down": "Xong",
     "downloadAppModal": {
       "download": "Tải ứng dụng",
-      "qrSubtitle": "Tải ứng dụng XBIT",
+      "qrSubtitle": "Tải ứng dụng KairoX",
       "qrTitle": "Quét mã QR",
       "share": "Chia sẻ với bạn bè",
       "shareNote": "Mời bạn bè cùng tham gia nhận lì xì",
-      "subtitle_1": "Sự kiện hộp quà bí ẩn này chỉ có thể tham gia thông qua ứng dụng XBIT.",
+      "subtitle_1": "Sự kiện hộp quà bí ẩn này chỉ có thể tham gia thông qua ứng dụng KairoX.",
       "subtitle_2": "Quét mã QR để tải xuống hoặc nhấp vào nút để truy cập trực tiếp vào trang sự kiện."
     },
     "event": {
@@ -1454,8 +1454,8 @@
       "exclusive": "Lì xì Lễ Đèn Lồng",
       "festival": {
         "entry": "Giao dịch hộp mù",
-        "title": "Hộp bí ẩn giao dịch XBIT",
-        "title_app": "Hộp bí ẩn độc quyền trên ứng dụng XBIT"
+        "title": "Hộp bí ẩn giao dịch KairoX",
+        "title_app": "Hộp bí ẩn độc quyền trên ứng dụng KairoX"
       },
       "starts": {
         "in": "Lì xì Đèn Lồng bắt đầu sau {{time}}"
@@ -1631,7 +1631,7 @@
     },
     "WaitOpen": "Chờ mở",
     "web": {
-      "notice": "Sự kiện lì xì chỉ trên Web XBIT. Sao chép link để tham gia.",
+      "notice": "Sự kiện lì xì chỉ trên Web KairoX. Sao chép link để tham gia.",
       "only": "Web"
     },
     "will": {
@@ -1685,7 +1685,7 @@
       "presetConfirmNote": "Lưu ý: Những cài đặt này là toàn cục. Nếu bạn điều chỉnh thủ công bất kỳ cài đặt nào của giao dịch này, cài đặt đó sẽ trở thành mặc định cho các giao dịch tương lai.",
       "priorityTitle": "Phí ưu tiên",
       "shareAssets": {
-        "AppName": "XBIT",
+        "AppName": "KairoX",
         "DomainCom": "COM",
         "haveMadeProfit": "Tôi đã có lãi",
         "holdingPrivateKeys": "Tự giữ khóa riêng của tài sản mã hóa, giao dịch trên chuỗi an toàn hơn",
@@ -1695,11 +1695,11 @@
       "trade": "Giao dịch"
     },
     "pair": {
-      "xbitShareTrade": "Thông tin giao dịch cổ phiếu XBIT"
+      "xbitShareTrade": "Thông tin giao dịch cổ phiếu KairoX"
     }
   },
   "bottomNav": {
-    "about": "Về XBIT",
+    "about": "Về KairoX",
     "assets": "Tài sản",
     "chat": "Chat",
     "comingSoon": "Hợp đồng Tiền thông minh, sắp ra mắt!",
@@ -2148,7 +2148,7 @@
     "contractInfo": "Thông tin hợp đồng",
     "contractOwner": "Chủ hợp đồng",
     "dangerous": "Nguy hiểm",
-    "disclaimer": "Tuyên bố miễn trừ trách nhiệm: Kết quả giám sát hợp đồng này dựa trên dữ liệu công khai. XBIT không xác nhận hoặc khuyến nghị kết quả này dưới bất kỳ hình thức nào.",
+    "disclaimer": "Tuyên bố miễn trừ trách nhiệm: Kết quả giám sát hợp đồng này dựa trên dữ liệu công khai. KairoX không xác nhận hoặc khuyến nghị kết quả này dưới bất kỳ hình thức nào.",
     "good": "Tốt",
     "highRisk": "Rủi ro cao",
     "honeypot": "Honeypot",
@@ -2442,11 +2442,11 @@
     "from": "Từ",
     "link": {
       "authorization": "Ủy quyền",
-      "authorizationNote": "Cho phép XBIT nạp {{token}} từ ví của bạn.",
+      "authorizationNote": "Cho phép KairoX nạp {{token}} từ ví của bạn.",
       "l2Confirmation": "Xác nhận L2",
       "l2ConfirmationNote": "Xác nhận chi tiết nạp của bạn và ký để tiếp tục giao dịch này.",
       "linkNote": "Kết nối ví",
-      "linkYourWallet": "Kết nối ví của bạn với XBIT",
+      "linkYourWallet": "Kết nối ví của bạn với KairoX",
       "title": "Liên kết"
     },
     "redeemFailed": "Thất bại",
@@ -2611,14 +2611,14 @@
       "fishTx": "Giao dịch từ $100 đến $1K",
       "nodata": "Token này hiện chưa có dữ liệu người nắm giữ. Hãy quay lại sau hoặc khám phá các token khác!",
       "noted": "Có ghi chú",
-      "notedDescription": "{{noted}} người dùng Xbit đã ghi chú địa chỉ này",
+      "notedDescription": "{{noted}} người dùng KairoX đã ghi chú địa chỉ này",
       "profit7d": "Lãi 7D",
       "sharkTx": "Giao dịch từ $1K đến $10K",
       "shrimpTx": "Giao dịch dưới $100",
       "token7d": "Token 7D",
       "tokenSource": "Nguồn Token",
       "tracked": "Đang theo dõi",
-      "trackedDescription": "{{tracked}} người dùng Xbit theo dõi địa chỉ này",
+      "trackedDescription": "{{tracked}} người dùng KairoX theo dõi địa chỉ này",
       "trades7d": "Giao dịch 7D",
       "whaleTx": "Giao dịch trên $10K",
       "winrate7d": "TL Thắng 7D"
@@ -3034,7 +3034,7 @@
     "openAppStore": "Mở App Store",
     "openGooglePlay": "Mở Google Play",
     "scanToDownload": "Quét mã để tải",
-    "subtitle": "Với ứng dụng XBIT Mobile trên iOS & Android, bạn có thể giao dịch bất kỳ lúc nào, ở bất kỳ đâu.",
+    "subtitle": "Với ứng dụng KairoX Mobile trên iOS & Android, bạn có thể giao dịch bất kỳ lúc nào, ở bất kỳ đâu.",
     "title": "Giao dịch mọi lúc, mọi nơi"
   },
   "drawer": {
@@ -3844,7 +3844,7 @@
       "approveSuccess": "Phê duyệt thành công",
       "button": "Phê duyệt giao dịch",
       "connect": "Kết nối",
-      "desc": "Kết nối ví của bạn đến XBIT",
+      "desc": "Kết nối ví của bạn đến KairoX",
       "getSignatureFailed": "Lấy chữ ký thất bại",
       "operationFailed": "Thao tác thất bại",
       "pleaseApprove": "Vui lòng phê duyệt trước khi thực hiện giao dịch",
@@ -3934,11 +3934,11 @@
     "volume": "Giá trị thành công"
   },
   "futuresDetailsShare": {
-    "30dshare": "Tôi đã giao dịch hợp đồng vĩnh cửu {{coin}} trên sàn XBIT DEX và đạt được lợi nhuận {{pnlPercentage}} trong 30 ngày qua.",
+    "30dshare": "Tôi đã giao dịch hợp đồng vĩnh cửu {{coin}} trên sàn KairoX DEX và đạt được lợi nhuận {{pnlPercentage}} trong 30 ngày qua.",
     "address": "Địa chỉ ví này",
-    "historyTwitter": "Tôi đã giao dịch hợp đồng tương lai vĩnh viễn {{coin}} trên XBIT DEX, Lợi nhuận là {{unrealizedPnl}}.",
+    "historyTwitter": "Tôi đã giao dịch hợp đồng tương lai vĩnh viễn {{coin}} trên KairoX DEX, Lợi nhuận là {{unrealizedPnl}}.",
     "inviteAddress": "Tên ví",
-    "orderTwitter": "Tôi đã giao dịch hợp đồng tương lai vĩnh viễn {{coin}} trên XBIT DEX, tỷ suất lợi nhuận là {{pnlPercentage}}.",
+    "orderTwitter": "Tôi đã giao dịch hợp đồng tương lai vĩnh viễn {{coin}} trên KairoX DEX, tỷ suất lợi nhuận là {{pnlPercentage}}.",
     "pnlAmount": "Số tiền PNL",
     "selectBgImage": "Vui lòng chọn một hình ảnh nền",
     "selectShareInfo": "Vui lòng chọn thông tin bạn muốn chia sẻ.",
@@ -3996,7 +3996,7 @@
         "msg": "Dự kiến hoàn thành xét duyệt trong 1 ngày làm việc, kết quả sẽ được gửi qua email.",
         "title": "Hoàn tất"
       },
-      "copyright": "Bản quyền © 2024 XBIT.COM. Bảo lưu mọi quyền.",
+      "copyright": "Bản quyền © 2024 KairoX. Bảo lưu mọi quyền.",
       "dear": "Người dùng thân mến:",
       "decode": "Khóa 16 ký tự",
       "descriptionQR": "Mở app Google Authenticator, nhấn dấu + góc phải, quét mã QR bên dưới hoặc sao chép khóa 16 ký tự vào Google Authenticator",
@@ -4021,12 +4021,12 @@
         "ensureMsg2": "trong 24 giờ",
         "ensureMsg3": "không được phép rút tiền từ ví Telegram.",
         "form": {
-          "exampleWallet": "Ví dụ: bạn nạp từ ví MetaMask vào ví TG XBIT hoặc rút từ ví TG XBIT về MetaMask, vui lòng cung cấp địa chỉ ví MetaMask\\n",
+          "exampleWallet": "Ví dụ: bạn nạp từ ví MetaMask vào ví TG KairoX hoặc rút từ ví TG KairoX về MetaMask, vui lòng cung cấp địa chỉ ví MetaMask\\n",
           "label1": "Tài khoản TG của bạn (vui lòng điền chính xác để CSKH liên hệ)",
-          "label2": "Telegram User ID (nhập \\\"/userid\\\" trong XBIT Bot để lấy)",
+          "label2": "Telegram User ID (nhập \\\"/userid\\\" trong KairoX Bot để lấy)",
           "label3": "Địa chỉ email (để nhận email đặt lại)",
-          "label4": "Cung cấp địa chỉ ví có giao dịch với ví TG XBIT trong 3 tháng qua",
-          "label5": "Upload ảnh chụp màn hình giao dịch nạp/rút giữa ví trên và ví TG XBIT trong 3 tháng qua",
+          "label4": "Cung cấp địa chỉ ví có giao dịch với ví TG KairoX trong 3 tháng qua",
+          "label5": "Upload ảnh chụp màn hình giao dịch nạp/rút giữa ví trên và ví TG KairoX trong 3 tháng qua",
           "offlineTelegram": "Telegram chính thức",
           "placeholder1": "Tài khoản TG của bạn",
           "placeholder2": "TG User ID",
@@ -4040,7 +4040,7 @@
         "intro": "Để bảo mật tài sản, hệ thống chỉ hỗ trợ chuyển khoản đến địa chỉ trong danh sách trắng. Sau khi thiết lập, cần chờ 3 giờ có hiệu lực. Sau khi có hiệu lực, chuyển khoản đến địa chỉ trong danh sách trắng không cần xác thực thêm, quá trình rút tiền an toàn hơn, nhanh hơn.",
         "title": "Đặt lại Google Authenticator"
       },
-      "riskwarning": "Cảnh báo rủi ro: Giao dịch tiền mã hóa có rủi ro cao. XBIT.COM cung cấp dịch vụ giao dịch on-chain hàng đầu, nhưng chúng tôi không chịu trách nhiệm về tổn thất giao dịch của bạn. Hãy chú ý rủi ro giao dịch, giao dịch thận trọng.",
+      "riskwarning": "Cảnh báo rủi ro: Giao dịch tiền mã hóa có rủi ro cao. KairoX cung cấp dịch vụ giao dịch on-chain hàng đầu, nhưng chúng tôi không chịu trách nhiệm về tổn thất giao dịch của bạn. Hãy chú ý rủi ro giao dịch, giao dịch thận trọng.",
       "safety": {
         "intro": "Để đảm bảo an toàn cho tiền của bạn, hệ thống chỉ hỗ trợ chuyển tiền đến các địa chỉ trong danh sách trắng. Sau khi thiết lập danh sách trắng, vui lòng đợi ba giờ để danh sách trắng có hiệu lực. Sau khi thiết lập, việc chuyển tiền đến các địa chỉ trong danh sách trắng sẽ không còn yêu cầu xác minh bổ sung, giúp việc rút tiền an toàn và nhanh chóng hơn.",
         "intro ": "Để bảo mật tài sản, hệ thống chỉ hỗ trợ chuyển khoản đến địa chỉ trong danh sách trắng. Sau khi thiết lập, cần chờ 3 giờ có hiệu lực. Sau khi có hiệu lực, chuyển khoản đến địa chỉ trong danh sách trắng không cần xác thực thêm, quá trình rút tiền an toàn hơn, nhanh hơn.",
@@ -4059,7 +4059,7 @@
         "step3": "Rút tiền"
       },
       "team": "Đội ngũ",
-      "thankyou": "Cảm ơn bạn đã chọn XBIT. Cần hỗ trợ? Vui lòng liên hệ",
+      "thankyou": "Cảm ơn bạn đã chọn KairoX. Cần hỗ trợ? Vui lòng liên hệ",
       "title": "Liên kết Google Authenticator",
       "warning": {
         "not_available": "Google Authenticator không khả dụng,",
@@ -4157,7 +4157,7 @@
     "triggerMarketCap": "Vốn hóa / Giá kích hoạt",
     "txHash": "Hash giao dịch",
     "type": "Loại",
-    "xbitFee": "Phí XBIT ({{value}}%)"
+    "xbitFee": "Phí KairoX ({{value}}%)"
   },
   "holding": {
     "cumulativePnL": "Lãi lỗ",
@@ -4175,7 +4175,7 @@
       "sorting": "Sắp xếp"
     },
     "tooltip": {
-      "transferToken": "Mã thông báo này được chuyển vào từ một ví bên ngoài. PnL và giá vốn trung bình chỉ được tính cho các mã thông báo đã mua trên Xbit."
+      "transferToken": "Mã thông báo này được chuyển vào từ một ví bên ngoài. PnL và giá vốn trung bình chỉ được tính cho các mã thông báo đã mua trên KairoX."
     }
   },
   "holdings": {
@@ -4272,9 +4272,9 @@
     "inviteLink": "Liên kết mời",
     "inviteRules": "Quy tắc mời",
     "inviteRulesDescription1": "Mời bạn bè giao dịch meme coin và hợp đồng vĩnh viễn để nhận hoa hồng, càng mời nhiều bạn bè, bạn càng nhận được nhiều hoa hồng;",
-    "inviteRulesDescription2": "Hệ thống hoa hồng của XBIT sẽ được ra mắt sau này, lúc đó chúng tôi sẽ tính từ ngày 25-07-2025 làm điểm khởi đầu để bù đắp cho bạn phần thưởng hoa hồng cho đến nay, cố lên!",
-    "inviteText": "Nhấp vào liên kết giới thiệu của tôi để đăng ký XBIT DEX và nhận tới ",
-    "inviteToXBIT": "Mời bạn đến XBIT",
+    "inviteRulesDescription2": "Hệ thống hoa hồng của KairoX sẽ được ra mắt sau này, lúc đó chúng tôi sẽ tính từ ngày 25-07-2025 làm điểm khởi đầu để bù đắp cho bạn phần thưởng hoa hồng cho đến nay, cố lên!",
+    "inviteText": "Nhấp vào liên kết giới thiệu của tôi để đăng ký KairoX DEX và nhận tới ",
+    "inviteToXBIT": "Mời bạn đến KairoX",
     "maxCommission50Percent": "Hoa hồng tối đa 50%",
     "myInviteCode": "Mã mời của tôi",
     "qrCode": "Mã QR",
@@ -4641,25 +4641,25 @@
     "and": "và",
     "approveToCreateAccount": "Phê duyệt để tạo tài khoản",
     "authRequire": "Đăng nhập hoặc Đăng ký để Giao dịch",
-    "betaCodeVerified": "Mã truy cập đã được xác nhận! Chào mừng bạn đến XBIT...",
+    "betaCodeVerified": "Mã truy cập đã được xác nhận! Chào mừng bạn đến KairoX...",
     "bindingNotice": "Bạn đang liên kết Telegram Bot (mạng SOL)",
     "bindTelegramBot": "Liên kết Telegram Bot",
     "cancel": "Huỷ",
     "checkEmail": {
       "prefix": "Vui lòng kiểm tra",
-      "suffix": "xem bạn đã nhận email từ XBIT.com chưa và nhập mã bên dưới"
+      "suffix": "xem bạn đã nhận email từ KairoX chưa và nhập mã bên dưới"
     },
     "codeSentTo": "Mã xác thực đã gửi tới",
     "confirm": "Xác nhận",
     "confirmToAccessAccount": "Xác nhận để truy cập tài khoản",
     "connectWallet": "Kết nối ví",
     "connectYourWallet": "Kết nối ví của bạn",
-    "connectYourWalletToXBIT": "Kết nối ví của bạn với XBIT",
+    "connectYourWalletToXBIT": "Kết nối ví của bạn với KairoX",
     "continueWithGoogle": "Tiếp tục với Google",
     "didntGetEmail": "Chưa nhận được email?",
     "downloadWallet": "Tải ví",
     "emailLogin": "Đăng nhập email",
-    "enterBetaCode": "Nhập mã truy cập của bạn bên dưới để vào XBIT ngay lập tức.",
+    "enterBetaCode": "Nhập mã truy cập của bạn bên dưới để vào KairoX ngay lập tức.",
     "enterYourEmail": "Vui lòng nhập địa chỉ email",
     "generateMPCWallet": "Tạo ví MPC phi tập trung",
     "getBetaCode": "Lấy mã truy cập",
@@ -4684,7 +4684,7 @@
     "notLogined": "Bạn chưa đăng nhập {{name}}",
     "open": "Mở",
     "openInBrowser": "Nếu không mở được Telegram, vui lòng copy link vào trình duyệt",
-    "openTelegramPrompt": "\\\"XBIT\\\" muốn mở \\\"Telegram\\\"",
+    "openTelegramPrompt": "\\\"KairoX\\\" muốn mở \\\"Telegram\\\"",
     "or": "hoặc",
     "otp": {
       "protectedByLabel": "Được bảo vệ bởi"
@@ -4698,7 +4698,7 @@
     "resend": "Gửi lại",
     "resendSuccess": "Chúng tôi đã gửi cho bạn một email. Vui lòng kiểm tra hộp thư để tiếp tục.",
     "riskWarning": "Cảnh báo rủi ro",
-    "riskWarningContent": "Ví Web3 (hoặc ví API) chỉ được sử dụng để đăng nhập và thực hiện các thao tác tự động trong hệ thống Xbit, chẳng hạn như xác thực hoặc ký giao dịch. Ví này không có quyền truy cập hoặc kiểm soát tài sản của bạn — bạn có thể yên tâm sử dụng.",
+    "riskWarningContent": "Ví Web3 (hoặc ví API) chỉ được sử dụng để đăng nhập và thực hiện các thao tác tự động trong hệ thống KairoX, chẳng hạn như xác thực hoặc ký giao dịch. Ví này không có quyền truy cập hoặc kiểm soát tài sản của bạn — bạn có thể yên tâm sử dụng.",
     "signatureExplanation": "Chữ ký xác minh quyền sở hữu và khả năng tương thích ví. Người dùng mới sẽ nhận hai yêu cầu chữ ký.",
     "signingFree": "Ký tên miễn phí và sẽ không gửi giao dịch.",
     "signMessage": "Ký thông điệp",
@@ -4727,7 +4727,7 @@
     "terms": "Điều khoản sử dụng",
     "termsAgreement": "Kết nối ví đồng nghĩa với việc đồng ý",
     "text": {
-      "loginNotLoggedIn": "Bạn chưa đăng nhập XBIT"
+      "loginNotLoggedIn": "Bạn chưa đăng nhập KairoX"
     },
     "toGenerate": "Tạo ví MPC phi tập trung",
     "tokenExpired": "Phiên của bạn đã hết hạn. Vui lòng tải lại trang để tiếp tục...",
@@ -4740,7 +4740,7 @@
     "wallet": {
       "notInstallWallet": "Bạn chưa cài đặt {{wallet}}"
     },
-    "welcomeText": "Chào mừng đến với XBIT",
+    "welcomeText": "Chào mừng đến với KairoX",
     "with": "với"
   },
   "loyalty": {
@@ -4756,7 +4756,7 @@
       "yourPoints": "Điểm của bạn"
     },
     "card": {
-      "titleSeason": "XBIT {{seasonName}}"
+      "titleSeason": "KairoX {{seasonName}}"
     },
     "currentShare": "Phần trăm hiện tại",
     "desCreateCode": "Tạo mã mời riêng của bạn để dễ dàng giới thiệu bạn bè tham gia nền tảng.",
@@ -4771,7 +4771,7 @@
       "tradingPoint": "Làm sao tính điểm giao dịch?",
       "tradingPointAnswer": "Điểm giao dịch dựa trên công thức cơ bản: Điểm giao dịch = Khối lượng giao dịch (USD) × Hệ số ngành × Hệ số chất lượng. Hệ số ngành được điều chỉnh theo phí giao dịch (ví dụ: Meme = 1.0, Hợp đồng = 0.1, Cổ phiếu Mỹ = 0.5), còn hệ số chất lượng phụ thuộc vào biên lợi nhuận/lỗ của từng giao dịch (ví dụ: 0.5%–2% = 1.0, >10% trở về 1.0).",
       "whatIsPoint": "Điểm là gì?",
-      "whatIsPointAnswer": "Điểm (loyalty) là một cơ chế khuyến khích của nền tảng XBIT, được dùng để thưởng cho người dùng khi giao dịch meme, hợp đồng, cổ phiếu Mỹ, cũng như khi giữ vị thế, nắm giữ vốn, giới thiệu bạn bè và tham gia các hoạt động cộng đồng. Điểm có thể được sử dụng để tham gia bảng xếp hạng theo mùa (top 100 chia thưởng), nhằm khuyến khích người dùng tham gia lâu dài và thực sự vào hoạt động nền tảng. Hệ thống điểm được thiết kế đơn giản, minh bạch, chống gian lận và đảm bảo cân bằng nhờ cơ chế theo mùa và hệ số thưởng."
+      "whatIsPointAnswer": "Điểm (loyalty) là một cơ chế khuyến khích của nền tảng KairoX, được dùng để thưởng cho người dùng khi giao dịch meme, hợp đồng, cổ phiếu Mỹ, cũng như khi giữ vị thế, nắm giữ vốn, giới thiệu bạn bè và tham gia các hoạt động cộng đồng. Điểm có thể được sử dụng để tham gia bảng xếp hạng theo mùa (top 100 chia thưởng), nhằm khuyến khích người dùng tham gia lâu dài và thực sự vào hoạt động nền tảng. Hệ thống điểm được thiết kế đơn giản, minh bạch, chống gian lận và đảm bảo cân bằng nhờ cơ chế theo mùa và hệ số thưởng."
     },
     "fundPoints": "Điểm vốn",
     "goInvite": "Đi mời bạn bè",
@@ -4807,7 +4807,7 @@
       "warningDes": "Độ dài từ 4–15 ký tự\\nChỉ sử dụng chữ cái (Aa–Zz), số (0–9) hoặc dấu gạch dưới",
       "warningTitle": "Mã mời không hợp lệ! Vui lòng đảm bảo rằng:"
     },
-    "shareText": "Nhấn vào link giới thiệu của tôi để đăng ký XBIT DEX và nhận hoàn tiền lên đến 50%. {{inviteLink}}",
+    "shareText": "Nhấn vào link giới thiệu của tôi để đăng ký KairoX DEX và nhận hoàn tiền lên đến 50%. {{inviteLink}}",
     "tooltip": {
       "fundPoints": "Điểm quỹ được tạo ra dựa trên sự ổn định của số dư tài khoản. Số dư càng cao và càng ổn định, điểm tích lũy càng lớn.",
       "holdingPoints": "Điểm nắm giữ được tính dựa trên giá trị tài sản mỗi giờ. Giữ tài sản càng lâu và càng lớn, điểm càng cao.",
@@ -4905,7 +4905,7 @@
     },
     "options": {
       "aboutUs": "Về chúng tôi",
-      "aboutXbitTutorial": "Hướng dẫn sử dụng XBIT",
+      "aboutXbitTutorial": "Hướng dẫn sử dụng KairoX",
       "airdropPoints": "Điểm Airdrop",
       "backupMnemonic": "Sao lưu cụm từ ghi nhớ",
       "browsingHistory": "Lịch sử trình duyệt",
@@ -4914,7 +4914,7 @@
       "inviteRebate": "Hoàn tiền mời",
       "loyalty": "Điểm Airdrop",
       "myRebate": "Mời bạn bè",
-      "shareXbit": "Chia sẻ XBIT",
+      "shareXbit": "Chia sẻ KairoX",
       "tradeSettings": "Cài đặt spot",
       "tradingReward": "Phần thưởng giao dịch",
       "tutorial": "Huớng dẫn sử dụng",
@@ -5263,7 +5263,7 @@
       "pump": "Pump",
       "slippageLoss": "Trượt giá",
       "txHash": "Hash giao dịch",
-      "xbitFee": "Phí XBIT({{percent}}%)"
+      "xbitFee": "Phí KairoX({{percent}}%)"
     },
     "list": {
       "noData": "Bạn chưa có bất kỳ đơn hàng nào đang chờ. Sử dụng đơn hàng giới hạn, đơn hàng theo dõi TP/SL để tự động bắt giá tốt nhất."
@@ -5637,13 +5637,13 @@
       "points": "Điểm",
       "referrals": "Giới thiệu",
       "rewards": "Phần thưởng",
-      "shareXbit": "Chia sẻ XBIT",
+      "shareXbit": "Chia sẻ KairoX",
       "tradeSettings": "Cài đặt giao dịch",
       "userFeedback": "Phản hồi người dùng",
       "walletManagement": "Quản lý ví"
     },
     "pleaseLogin": "Vui lòng đăng nhập",
-    "welcomeToXBIT": "Chào mừng đến với XBIT"
+    "welcomeToXBIT": "Chào mừng đến với KairoX"
   },
   "pop": {
     "token": {
@@ -5741,7 +5741,7 @@
       "positions": "Vị thế"
     }
   },
-  "powerByXbit": "Được cung cấp bởi Xbit!",
+  "powerByXbit": "Được cung cấp bởi KairoX!",
   "ppUpdateChecker": {
     "forceUpdate": {
       "title": "Yêu cầu cập nhật"
@@ -5811,7 +5811,7 @@
     "claimable": {
       "claimedFailed": "Nhận thất bại",
       "claimedSuccessfully": "Đã nhận thành công",
-      "congratulationTitle": "Dự đoán tương lai trên XBIT thật xuất sắc!",
+      "congratulationTitle": "Dự đoán tương lai trên KairoX thật xuất sắc!",
       "won": "Thắng",
       "youWon": "Bạn đã thắng"
     },
@@ -5844,7 +5844,7 @@
     },
     "daily": "Hàng ngày",
     "deposit": {
-      "xbitPredictionAddress": "Địa chỉ Prediction XBIT"
+      "xbitPredictionAddress": "Địa chỉ Prediction KairoX"
     },
     "discover": {
       "earningsCalendar": "Lịch công bố lợi nhuận",
@@ -6186,7 +6186,7 @@
       "cashOutSuccess": "Rút tiền thành công",
       "claiming": "Đang nhận...",
       "claimProceeds": "Nhận",
-      "congratsMessage": "Làm tốt lắm khi dự đoán tương lai trên XBIT!",
+      "congratsMessage": "Làm tốt lắm khi dự đoán tương lai trên KairoX!",
       "marketIconAlt": "Biểu tượng thị trường",
       "marketNotFound": "Không tìm thấy thị trường",
       "marketsWon": "Thị trường đã thắng",
@@ -6487,11 +6487,11 @@
       "down": "Xong",
       "downloadAppModal": {
         "download": "Tải ứng dụng",
-        "qrSubtitle": "Tải ứng dụng XBIT",
+        "qrSubtitle": "Tải ứng dụng KairoX",
         "qrTitle": "Quét mã QR",
         "share": "Chia sẻ với bạn bè",
         "shareNote": "Mời bạn bè cùng nhận Red Packet",
-        "subtitle_1": "Sự kiện hộp quà bí ẩn này chỉ có thể tham gia thông qua ứng dụng XBIT.",
+        "subtitle_1": "Sự kiện hộp quà bí ẩn này chỉ có thể tham gia thông qua ứng dụng KairoX.",
         "subtitle_2": "Quét mã QR để tải xuống hoặc nhấp vào nút để truy cập trực tiếp vào trang sự kiện."
       },
       "event": {
@@ -6547,8 +6547,8 @@
         "exclusive": "Lì xì Lễ Đèn Lồng",
         "festival": {
           "entry": "Phong bì đỏ giao dịch",
-          "title": "Hộp bí ẩn giao dịch XBIT",
-          "title_app": "Hộp bí ẩn độc quyền trên ứng dụng XBIT"
+          "title": "Hộp bí ẩn giao dịch KairoX",
+          "title_app": "Hộp bí ẩn độc quyền trên ứng dụng KairoX"
         },
         "starts": {
           "in": "Sự kiện giao dịch Red Packet sẽ bắt đầu sau {{time}}"
@@ -6725,8 +6725,8 @@
       },
       "WaitOpen": "Chờ mở",
       "web": {
-        "notice": "Sự kiện giao dịch Red Packet chỉ áp dụng trên web XBIT. Sao chép liên kết để mở trang sự kiện.",
-        "only": "XBIT Web"
+        "notice": "Sự kiện giao dịch Red Packet chỉ áp dụng trên web KairoX. Sao chép liên kết để mở trang sự kiện.",
+        "only": "KairoX Web"
       },
       "will": {
         "be": {
@@ -6749,11 +6749,11 @@
       "withdrawals": "{{num}} lần rút tiền",
       "xbit": {
         "drawer": {
-          "title": "Phong bì đỏ XBIT"
+          "title": "Phong bì đỏ KairoX"
         },
-        "lantern": "XBIT Lễ Đèn Lồng",
+        "lantern": "KairoX Lễ Đèn Lồng",
         "red": {
-          "packet": "XBIT Red Packet"
+          "packet": "KairoX Red Packet"
         }
       },
       "you": {
@@ -7002,14 +7002,14 @@
   },
   "share": {
     "accountMeme": {
-      "valueMessage": "Tôi vừa mua ${{symbol}} trên XBIT DEX, lợi nhuận {{profit}}"
+      "valueMessage": "Tôi vừa mua ${{symbol}} trên KairoX DEX, lợi nhuận {{profit}}"
     },
     "accountRWA": {
-      "valueMessage": "Tôi vừa giao dịch cổ phiếu Mỹ ${{symbol}} trên XBIT DEX, lợi nhuận {{profit}}"
+      "valueMessage": "Tôi vừa giao dịch cổ phiếu Mỹ ${{symbol}} trên KairoX DEX, lợi nhuận {{profit}}"
     },
     "assetsBody": {
       "dexMobileNo1": "DEX Mobile số 1",
-      "dexMobileXbit": "DEX Mobile XBIT"
+      "dexMobileXbit": "DEX Mobile KairoX"
     },
     "deposit": {
       "valueMessage": "Địa chỉ nạp {{symbol}}:"
@@ -7025,7 +7025,7 @@
       "selectContent": "Vui lòng chọn thông tin bạn muốn chia sẻ."
     },
     "invitationCode": {
-      "valueMessage": "Nhấp vào liên kết giới thiệu của tôi để đăng ký XBIT DEX và nhận được khoản hoàn tiền {{profit}} cao nhất."
+      "valueMessage": "Nhấp vào liên kết giới thiệu của tôi để đăng ký KairoX DEX và nhận được khoản hoàn tiền {{profit}} cao nhất."
     },
     "menu": {
       "shareXBitInvitation": "Sàn giao dịch di động phi tập trung số 1\nDữ liệu thời gian thực, giao dịch siêu nhanh"
@@ -7035,22 +7035,22 @@
       "xNotInstalledRedirecting": "Ứng dụng X chưa được cài đặt. Đang chuyển hướng đến cửa hàng."
     },
     "tokenDetail": {
-      "valueMessage": "${{symbol}} có gì đó hay, vào XBIT DEX theo kịp xu hướng, DYOR!"
+      "valueMessage": "${{symbol}} có gì đó hay, vào KairoX DEX theo kịp xu hướng, DYOR!"
     },
     "xbit": {
-      "valueMessage": "Tải xuống XBIT DEX để giao dịch liền mạch các hợp đồng vĩnh viễn, meme và cổ phiếu Hoa Kỳ."
+      "valueMessage": "Tải xuống KairoX DEX để giao dịch liền mạch các hợp đồng vĩnh viễn, meme và cổ phiếu Hoa Kỳ."
     }
   },
   "shareBottomSheet": {
     "depositAddressTemplate": "Địa chỉ nạp {{token}}: {{address}}",
     "dexSlogan": "DEX millisecond quotes, ultra-fast execution",
-    "memeContent": "${{coin}} có điều thú vị, nhanh tay đến XBIT DEX bắt kịp xu hướng, DYOR!",
-    "shareHoldingTemplate": "Tôi đang giao dịch ${{symbol}} trên XBIT DEX, lợi nhuận {{returns}}%",
-    "stockShareTemplate": "Tôi đã giao dịch cổ phiếu Mỹ ${{symbol}} trên XBIT DEX, lợi nhuận {{returns}}%",
+    "memeContent": "${{coin}} có điều thú vị, nhanh tay đến KairoX DEX bắt kịp xu hướng, DYOR!",
+    "shareHoldingTemplate": "Tôi đang giao dịch ${{symbol}} trên KairoX DEX, lợi nhuận {{returns}}%",
+    "stockShareTemplate": "Tôi đã giao dịch cổ phiếu Mỹ ${{symbol}} trên KairoX DEX, lợi nhuận {{returns}}%",
     "title": "Chia sẻ trang"
   },
   "sharePage": {
-    "checkOutThisAssetInformation": "Tôi đã mua {{symbol}}, hãy đến XBIT DEX để bắt kịp xu hướng, nhớ tự nghiên cứu nhé!",
+    "checkOutThisAssetInformation": "Tôi đã mua {{symbol}}, hãy đến KairoX DEX để bắt kịp xu hướng, nhớ tự nghiên cứu nhé!",
     "dexLabel": "Sàn giao dịch phi tập trung (DEX)",
     "remainingPosition": "Vị thế còn lại",
     "title": "Chia sẻ trang"
@@ -7065,7 +7065,7 @@
     "continueWithXBIT": "Việc tiếp tục sử dụng đồng nghĩa với việc bạn đồng ý với",
     "didNotGetEmail": "Chưa nhận được email?",
     "doNotBetaCode": "Không có mã truy cập?",
-    "enterBetaCode": "Nhập mã truy cập của bạn bên dưới để nhận quyền truy cập ngay vào XBIT.",
+    "enterBetaCode": "Nhập mã truy cập của bạn bên dưới để nhận quyền truy cập ngay vào KairoX.",
     "getBetaCode": "Nhận mã truy cập",
     "haveABetaCode": "Bạn có mã truy cập không?",
     "inviteCodeHint": "Mã mời (Tuỳ chọn)",
@@ -7081,15 +7081,15 @@
     "termsOfService": "Điều khoản sử dụng",
     "title": {
       "checkEmail": "Đã gửi mã xác minh đến",
-      "checkEmail1": "Vui lòng kiểm tra email từ XBIT.com tại địa chỉ",
+      "checkEmail1": "Vui lòng kiểm tra email từ KairoX tại địa chỉ",
       "checkEmail2": "và nhập mã của bạn bên dưới.",
       "confirmVerifyCode": "Xác nhận mã xác minh",
-      "connectWithXBIT": "Kết nối với XBIT",
+      "connectWithXBIT": "Kết nối với KairoX",
       "generateMPCWallet": "Tạo một ví MPC phi tập trung.",
-      "welcome": "Chào mừng đến với XBIT"
+      "welcome": "Chào mừng đến với KairoX"
     },
     "verifyAccessCode": {
-      "success": "Mã truy cập đã được xác minh! Chào mừng đến với XBIT"
+      "success": "Mã truy cập đã được xác minh! Chào mừng đến với KairoX"
     },
     "verifyOTP": "Xác minh",
     "verifyWallet": {
@@ -7548,7 +7548,7 @@
       "contractCreator": "Người tạo hợp đồng",
       "contractInfo": "Thông tin hợp đồng",
       "contractOwner": "Chủ hợp đồng",
-      "disclaimer": "Tuyên bố miễn trừ trách nhiệm: Kết quả giám sát hợp đồng này dựa trên dữ liệu công khai. XBIT không xác nhận hoặc khuyến nghị kết quả này dưới bất kỳ hình thức nào.",
+      "disclaimer": "Tuyên bố miễn trừ trách nhiệm: Kết quả giám sát hợp đồng này dựa trên dữ liệu công khai. KairoX không xác nhận hoặc khuyến nghị kết quả này dưới bất kỳ hình thức nào.",
       "highRisk": "Rủi ro cao",
       "honeypot": "Honeypot",
       "honeypotDesc": "Hợp đồng này có thể là honeypot ngăn chặn bán token.",
@@ -7619,7 +7619,7 @@
       "buyAddress": "Số địa chỉ mua",
       "buyAmount": "Số tiền mua",
       "buyCount": "Số lần mua",
-      "externalTransferPnLTooltip": "Token này được chuyển vào từ một ví bên ngoài. PnL và giá vốn trung bình chỉ được tính cho các token được mua trên Xbit.",
+      "externalTransferPnLTooltip": "Token này được chuyển vào từ một ví bên ngoài. PnL và giá vốn trung bình chỉ được tính cho các token được mua trên KairoX.",
       "insidePercent": "Tỷ lệ nội bộ %",
       "numberOfHolders": "Số lượng người nắm giữ",
       "snippersHolding": "Các ví sniper nắm giữ dưới 20% là an toàn, trên 20% là rủi ro (giá trị càng thấp càng tốt)",
@@ -8146,7 +8146,7 @@
     "positionCurrency": "Token nắm giữ",
     "qrCodeInstruction": "Nếu ví của bạn không có trong danh sách, vui lòng dùng ví quét mã QR này (cần WalletConnect v2)",
     "reconnect": "Kết nối lại",
-    "returnToApp": "Sau khi kết nối ví, cần quay lại XBIT APP để giao dịch",
+    "returnToApp": "Sau khi kết nối ví, cần quay lại KairoX APP để giao dịch",
     "saveToAlbum": "Lưu vào album",
     "selectNetwork": "Chọn mạng",
     "selectWallet": "Vui lòng chọn ví",
@@ -8196,7 +8196,7 @@
       "walletName": "Tên ví"
     },
     "mnemonicChecklist": {
-      "accessLost": "Sao lưu mã ghi nhớ này để truy cập ví của bạn nếu bạn bị mất tài khoản XBIT.",
+      "accessLost": "Sao lưu mã ghi nhớ này để truy cập ví của bạn nếu bạn bị mất tài khoản KairoX.",
       "backupInstructions": "Vui lòng chép lại các từ sau theo thứ tự và bảo quản cẩn thận. Không được tiết lộ từ gợi nhớ cho bất kỳ ai, nếu không bạn có thể mất toàn bộ tài sản.",
       "backupTitle": "Sao lưu cụm từ ghi nhớ",
       "complete": "Hoàn tất",
@@ -8229,7 +8229,7 @@
         "tip1": "Chỉ với từ gợi nhớ có thể truy cập hoàn toàn ví và tiền của bạn.",
         "tip2": "Nếu tôi tiết lộ hoặc chia sẻ khoá riêng với bất kỳ ai, tài sản của tôi có thể bị đánh cắp.",
         "tip3": "Không được chia sẻ hoặc lưu trữ và truyền từ gợi nhớ qua mạng với bất kỳ ai.",
-        "tip4": "Đội ngũ XBIT không bao giờ yêu cầu bạn cung cấp từ gợi nhớ."
+        "tip4": "Đội ngũ KairoX không bao giờ yêu cầu bạn cung cấp từ gợi nhớ."
       },
       "specialReminder": "Lưu ý đặc biệ",
       "specialReminderText": "Bất kỳ ai có được từ gợi nhớ, đều có thể kiểm soát tài sản của bạn!",

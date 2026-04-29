@@ -285,7 +285,7 @@ const AccordionWallet = ({
     >
       <div className="p-3 gap-0 rounded-4x overflow-hidden" onClick={() => onSwitchAccount(walletInfo?.walletAddress)}>
         <div className="flex items-center gap-3">
-          {/* <img src="/images/xbit-logo-rounded.svg" className="w-10 h-10 rounded-full" alt="logo xbit" /> */}
+          {/* <img src="/images/kairox-logo-rounded.svg" className="w-10 h-10 rounded-full" alt="logo xbit" /> */}
           <img data-avatar-type="wallet" src={src} className="w-10 h-10 rounded-full shrink-0" alt="logo xbit" />
           <div className="flex-1 overflow-hidden">
             <div className="flex items-center">

@@ -60,7 +60,7 @@ function SolanaProviders({ children }: PropsWithChildren<{}>) {
   // const projectId = '614721f736ac2a1d6073d5adf36ced6e'
   // // 2. Create a metadata object - optional
   // const metadata = {
-  //   name: 'XBIT WalletConnect',
+  //   name: 'KairoX WalletConnect',
   //   description: 'AppKit Solana Example',
   //   url: window.location.origin, // origin must match your domain & subdomain
   //   icons: ['https://avatars.githubusercontent.com/u/179229932'],

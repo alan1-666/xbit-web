@@ -10,7 +10,7 @@ const solanaAdapter = new SolanaAdapter({})
 let modal: any = null
 
 const metadata = {
-  name: 'XBIT WalletConnect',
+  name: 'KairoX WalletConnect',
   description: 'AppKit Solana Example',
   url: 'http://localhost:3000', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/179229932'],

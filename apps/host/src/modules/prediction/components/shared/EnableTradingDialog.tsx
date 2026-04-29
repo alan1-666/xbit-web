@@ -23,7 +23,7 @@ export const EnableTradingDialog = () => {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="max-w-[350px]" showDialogPrimitiveClose={false}>
         <DialogTitle>Enable Trading</DialogTitle>
-        <p className="text-sm text-gray-500 mb-2">Enable Trading to trade on XBIT.</p>
+        <p className="text-sm text-gray-500 mb-2">Enable Trading to trade on KairoX.</p>
         <div className="flex items-center gap-2">
           <Button variant="close" className="rounded-full flex flex-1" onClick={() => setOpen(false)}>
             Later

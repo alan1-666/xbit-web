@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#101114"/>
+  <path d="M125 111.5C125 88.6 143.6 70 166.5 70H203V442H166.5C143.6 442 125 423.4 125 400.5V111.5Z" fill="url(#kairox-rounded-a)"/>
+  <path d="M221 256L374 70H424C439.4 70 447.7 88 437.6 99.7L310.2 256L437.6 412.3C447.7 424 439.4 442 424 442H374L221 256Z" fill="url(#kairox-rounded-b)"/>
+  <path d="M52 255.5C52 152.2 135.7 68.5 239 68.5H280.5C290.2 68.5 294.5 80.6 287.1 86.9L243.6 123.8C239.2 127.5 233.8 129.8 228 130.4C165.2 136.1 116 189 116 253.3C116 317.7 165.2 370.6 228 376.3C233.8 376.9 239.2 379.2 243.6 382.9L287.1 419.8C294.5 426.1 290.2 438.2 280.5 438.2H239C135.7 438.2 52 354.5 52 255.5Z" fill="url(#kairox-rounded-c)" fill-opacity=".45"/>
+  <defs>
+    <linearGradient id="kairox-rounded-a" x1="164" y1="70" x2="164" y2="442" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BFFCE"/>
+      <stop offset="1" stop-color="#58D0FF"/>
+    </linearGradient>
+    <linearGradient id="kairox-rounded-b" x1="246" y1="104" x2="437" y2="413" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FF7A"/>
+      <stop offset=".48" stop-color="#77F7CA"/>
+      <stop offset="1" stop-color="#6F7DFF"/>
+    </linearGradient>
+    <linearGradient id="kairox-rounded-c" x1="52" y1="253" x2="292" y2="253" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C6DFF"/>
+      <stop offset="1" stop-color="#70F7C8"/>
+    </linearGradient>
+  </defs>
+</svg>

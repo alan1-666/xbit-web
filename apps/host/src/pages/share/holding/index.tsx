@@ -169,9 +169,9 @@ const HoldingShare = () => {
       {/* Footer */}
       <div className=" w-full text-center bg-[linear-gradient(90deg,_rgba(153,_69,_255,_0.1)_0%,_rgba(255,_255,_255,_0.08)_50%,_rgba(0,_243,_193,_0.1)_100%)] py-3.5">
         <div className="w-full flex items-center justify-center gap-3.5">
-          <img className="w-15 h-15" src="/images/xbit-logo-rounded.svg" alt="logo xbit" />
+          <img className="w-15 h-15" src="/images/kairox-logo-rounded.svg" alt="logo xbit" />
           <div>
-            <img src="/images/logo-xbit-text.svg" alt="logo xbit text" />
+            <img src="/images/kairox-logo-text.svg" alt="logo xbit text" />
             <span className="app-font-regular text-[calc(1rem*(12/16))] text-[#FFFFFFB2] leading-3 tracking-[1.63px]">
               {t('detail.myPositions.decentralizedExchange')}
             </span>

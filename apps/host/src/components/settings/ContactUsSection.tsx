@@ -15,7 +15,7 @@ export const ContactUsSection = () => {
     {
       icon: <IconTwitter className="text-[#B9B9B9]" />,
       label: 'Twitter（X）',
-      href: 'https://x.com/XBITDEX',
+      href: 'https://x.com/KairoX',
     },
     {
       icon: <IconDiscord className="text-[#B9B9B9]" />,
@@ -25,12 +25,12 @@ export const ContactUsSection = () => {
     {
       icon: <IconTelegram className="text-[#B9B9B9]" />,
       label: 'Telegram',
-      href: 'https://t.me/xbit_dex',
+      href: 'https://t.me/KairoX',
     },
     {
       icon: <IconTiktok />,
       label: 'Tiktok',
-      href: 'https://www.tiktok.com/@xbitdex',
+      href: 'https://www.tiktok.com/@KairoX',
     },
     // {
     //   icon: <IconMeta />,

@@ -172,7 +172,7 @@ let columns: ColumnDef<OrderDto>[] = [
     },
   },
   {
-    header: 'XBIT费(1%)',
+    header: 'KairoX费(1%)',
     cell: ({ row }) => {
       const value = '--'
       return <div>{value}</div>

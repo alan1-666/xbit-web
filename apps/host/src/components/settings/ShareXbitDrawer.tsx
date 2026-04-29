@@ -111,7 +111,7 @@ export const ShareXbitDrawer = (props: ShareXbitDrawerProps) => {
   const handleDownload = async () => {
     if (posterImage) {
       const link = document.createElement('a')
-      link.download = 'Share Xbit.png'
+      link.download = 'Share KairoX.png'
       link.href = posterImage
       link.click()
     }
@@ -136,9 +136,9 @@ export const ShareXbitDrawer = (props: ShareXbitDrawerProps) => {
         </div>
       </div>
       <div className="bg-[url('/images/share/footer-share.webp')] bg-cover bg-center bg-no-repeat h-[81px] w-full relative">
-        <img src="/images/xbit-logo.svg" alt="xbit logo" className="w-[48px] h-[42px] absolute left-5 top-5" />
+        <img src="/images/kairox-logo.svg" alt="xbit logo" className="w-[48px] h-[42px] absolute left-5 top-5" />
         <img
-          src="/images/share/xbit-logo-text-dark.svg"
+          src="/images/share/kairox-logo-text-dark.svg"
           alt="xbit logo"
           className="w-[80px] h-[24px] absolute left-21 top-5"
         />
@@ -175,9 +175,9 @@ export const ShareXbitDrawer = (props: ShareXbitDrawerProps) => {
           }}
         >
           <div className="flex flex-row gap-3">
-            <img className="w-10" src="/images/xbit-logo.svg" alt="logo xbit" />
+            <img className="w-10" src="/images/kairox-logo.svg" alt="logo xbit" />
             <div className="flex flex-col items-start pb-1 justify-between">
-              <img src="/images/logo-xbit-text.svg" alt="logo xbit text" className="h-6" />
+              <img src="/images/kairox-logo-text.svg" alt="logo xbit text" className="h-6" />
               <span className="app-font-regular text-[calc(1rem*(10/16))] text-[#FFFFFFB2] leading-4 tracking-[1.2px] mt-1">
                 {t('detail.myPositions.decentralizedExchange')}
               </span>

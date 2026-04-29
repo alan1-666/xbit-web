@@ -364,7 +364,7 @@ const CoinDetailHeader = memo(() => {
 
   const handleImgError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     if (e && e.currentTarget) {
-      e.currentTarget.src = '/images/xbit-logo-rounded.webp'
+      e.currentTarget.src = '/images/kairox-logo-rounded.svg'
       e.currentTarget.onerror = null
     }
   }
@@ -377,7 +377,7 @@ const CoinDetailHeader = memo(() => {
           <div className="flex items-center space-x-2 cursor-pointer" ref={anchorRef}  onClick={handleOpenTokenDrawer}>
             {
               (allMeta.length && baseCoin) ? <img
-              src={`${Configs.getHyperliquidConfig().imgUrl}/${pairLogo}.svg` || '/images/xbit-logo-rounded.webp'}
+              src={`${Configs.getHyperliquidConfig().imgUrl}/${pairLogo}.svg` || '/images/kairox-logo-rounded.svg'}
               className="size-8 bg-[#fff] rounded-full"
               onError={handleImgError}
               alt="pair-logo"
@@ -385,7 +385,7 @@ const CoinDetailHeader = memo(() => {
             }
             {/* <ImgWithFallback
               src={`${Configs.getHyperliquidConfig().imgUrl}/${baseCoin}.svg`}
-              srcFallback="/images/xbit-logo-rounded.webp"
+              srcFallback="/images/kairox-logo-rounded.svg"
               sharedClassName="size-8 rounded-full"
               loadedClassName="bg-[#fff] rounded-full"
             /> */}

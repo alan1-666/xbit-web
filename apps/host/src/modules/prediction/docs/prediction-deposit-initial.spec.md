@@ -1,23 +1,23 @@
 # Prediction Deposit Feature Specification
-This document outlines the specifications for the Prediction Deposit feature in the XBIT Prediction platform. It covers the user story, goals, design references, business and technical rules, implementation solutions, data models, and definition of done for the feature. The goal is to enable users to deposit funds into their XBIT Prediction accounts seamlessly while adhering to the platform's requirements and standards.
+This document outlines the specifications for the Prediction Deposit feature in the KairoX Prediction platform. It covers the user story, goals, design references, business and technical rules, implementation solutions, data models, and definition of done for the feature. The goal is to enable users to deposit funds into their KairoX Prediction accounts seamlessly while adhering to the platform's requirements and standards.
 
 ## Context
 
 ### User Story
 
 **As a** prediction market user,  
-**I want to** deposit funds (cryptocurrencies) into my XBIT Prediction account,  
+**I want to** deposit funds (cryptocurrencies) into my KairoX Prediction account,
 **So that** I can participate in prediction markets and place order on various markets.
 
 ### Goal
 
-- Enable users to deposit multiple cryptocurrencies from various blockchain networks into their XBIT Prediction wallet
+- Enable users to deposit multiple cryptocurrencies from various blockchain networks into their KairoX Prediction wallet
 - Provide a seamless and intuitive deposit experience with QR code scanning and address copying
 - Support multi-chain deposits with automatic address generation per chain
 - Display minimum deposit requirements and network-specific information
 
 ### Design Reference
-- No Figma design available yet, but the UI should follow existing XBIT Prediction styles and patterns for consistency.
+- No Figma design available yet, but the UI should follow existing KairoX Prediction styles and patterns for consistency.
 
 ---
 

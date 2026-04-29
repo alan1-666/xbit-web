@@ -72,7 +72,7 @@ const ButtonTelegram = (props: ButtonTelegramProps) => {
               </div>
               <div className="py-10 mt-3 text-center bg-[#232329] rounded-xl">
                 <div className="flex items-center justify-center gap-6">
-                  <img src="/images/xbit-logo.svg" className="w-14 h-14 bg-[#ececed14] p-2 rounded-xl" alt="" />
+                  <img src="/images/kairox-logo.svg" className="w-14 h-14 bg-[#ececed14] p-2 rounded-xl" alt="" />
                   <img src="/images/icons/ic-next.svg" className="w-5 h-5" alt="" />
                   <img src="/images/logo-tele.svg" className="w-14 h-14" alt="" />
                 </div>

@@ -44,7 +44,7 @@ export const FavoritesPage = () => {
     return (
       <BlankState
         text={t('login.notLogined', {
-          name: 'XBIT',
+          name: 'KairoX',
         })}
         cta={<ConnectWalletCTA />}
         className="py-20"

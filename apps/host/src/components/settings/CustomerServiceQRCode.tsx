@@ -43,7 +43,7 @@ export const CustomerServiceQRCode = memo((props: CustomerServiceQRCodeProps) =>
     download: () => {
       qrCode
         .download({
-          name: 'Xbit Customer Service QR Code',
+          name: 'KairoX Customer Service QR Code',
           extension: 'png',
         })
         .then()

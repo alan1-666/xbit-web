@@ -250,7 +250,7 @@ const PerpsDeposit = () => {
             </>
           ) : (
             <div className="space-y-3">
-              <div className="text-[#908E98] text-[14px]">XBIT {t('exchange.perpsAddress')}</div>
+              <div className="text-[#908E98] text-[14px]">KairoX {t('exchange.perpsAddress')}</div>
               <div className="bg-[#2B2B33] rounded-[8px] p-2">
                 <div className="flex items-center gap-2 justify-between text-[#FBFBFB] text-[12px]">
                   <div>{EVMAddress}</div>

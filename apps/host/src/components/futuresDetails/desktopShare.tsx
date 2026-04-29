@@ -67,18 +67,18 @@ function DesktopShareDesktop({ info, open, onClose, fileName = '', shareType = '
     () => [
       {
         icon: '/images/share/icon-web.svg',
-        title: 'XBIT.com',
+        title: 'KairoX',
         url: `https://app.xbit.com/futures/${info?.coin}${inviteCode ? `/@${inviteCode}` : ''}`,
       },
       {
         icon: '/images/share/icon_twitter.svg',
-        title: '@XBITDEX',
-        url: 'https://twitter.com/XBITDEX',
+        title: '@KairoX',
+        url: 'https://twitter.com/KairoX',
       },
       {
         icon: '/images/share/icon-tele.svg',
-        title: '@XBIT_DEX',
-        url: 'https://t.me/XBIT_DEX',
+        title: '@KairoX',
+        url: 'https://t.me/KairoX',
       },
     ],
     [info?.coin, inviteCode],
@@ -177,8 +177,8 @@ function DesktopShareDesktop({ info, open, onClose, fileName = '', shareType = '
             style={{ zIndex: 0 }}
           />
           <div className="absolute top-5 left-1/2 -translate-x-1/2 flex items-center gap-2" style={{ zIndex: 1 }}>
-            <img src="/images/xbit-logo.svg" alt="XBIT" className="w-7 h-7" />
-            <img src="/images/logo-xbit-text.svg" alt="XBIT" className="h-5" />
+            <img src="/images/kairox-logo.svg" alt="KairoX" className="w-7 h-7" />
+            <img src="/images/kairox-logo-text.svg" alt="KairoX" className="h-5" />
           </div>
 
           <div className="absolute left-6 top-[63px] flex flex-col justify-between" style={{ zIndex: 1 }}>

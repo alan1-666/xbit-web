@@ -7,7 +7,7 @@
     "clearCacheDesc": "確定清除緩存嗎？",
     "privacyPolicy": "隱私政策",
     "privacyPolicyLabel": "《隱私政策》",
-    "rateXbit": "給XBIT評分",
+    "rateXbit": "給KairoX評分",
     "sloganXbit": "鏈上即未來，交易即自由",
     "termsOfUse": "使用條款",
     "termsOfUseLabel": "《使用條款》",
@@ -123,7 +123,7 @@
     "officialExpand": "點擊展開",
     "officialTitle": "官方數據分析",
     "onchainTextContent": "該推特似乎由著名企業家Elon Musk管理，但其推文並未展示與任何特定meme幣相關的信息，也沒有提到與區塊鏈或加密貨幣直接相關的內容。推文集中在科技、人工智慧和一些個人觀點上，並未涉及任何代幣的合約地址或名稱。該推特似乎由著名企業家Elon Musk管理，但其推文並未展示與任何特定meme幣相關的信息，也沒有提到與區塊鏈或加密貨幣直接相關的內容。推文集中在科技、人工智慧和一些個人觀點上，並未涉及任何代幣的合約地址或名稱。",
-    "onchainTextNote": "本敘事分析由XBIT機器人自動生成，僅供參考。",
+    "onchainTextNote": "本敘事分析由KairoX機器人自動生成，僅供參考。",
     "onchainTextTitle": "AI敘事分析",
     "onChainTitle": "鏈上數據分析",
     "poolAddress": "池子位址",
@@ -154,7 +154,7 @@
     },
     "footer": {
       "onChainAnalysisEmpty": "暫無可分析的數據",
-      "onChainAnalysisFooter": "本敘事分析由XBIT機器人自動生成，僅供參考。"
+      "onChainAnalysisFooter": "本敘事分析由KairoX機器人自動生成，僅供參考。"
     },
     "official": {
       "contractAddress": "合約地址",
@@ -186,12 +186,12 @@
       "officalEmail": "官方信箱",
       "officialEmail": "官方信箱",
       "privacyPolicy": "隱私權政策",
-      "rateXBit": "給XBIT評分",
+      "rateXBit": "給KairoX評分",
       "slogan": "鏈上即未來，交易即自由",
       "termsOfService": "使用條款",
       "title": "關於我們"
     },
-    "aboutXBIT": "關於XBIT使用教學課程",
+    "aboutXBIT": "關於KairoX使用教學課程",
     "browsingHistory": "瀏覽歷史",
     "browsingHistoryPage": {
       "columns": {
@@ -279,11 +279,11 @@
     "resetLayout": "重置布局",
     "saveImage": "保存相簿",
     "sharePoster": "正在生成海報",
-    "shareXBIT": "分享 XBIT",
+    "shareXBIT": "分享 KairoX",
     "shareXBITSlogan": "去中心化交易所 Mobile No.1",
     "shareXBITSubSlogan": "毫秒行情 極速交易",
     "shareXBITSubtitle": "去中心化交易所(DEX)",
-    "shareXBITText": "下載 XBIT DEX，實現永續合約、Meme、美股無縫交易",
+    "shareXBITText": "下載 KairoX DEX，實現永續合約、Meme、美股無縫交易",
     "spotSettings": "交易設定",
     "systemSettingsTitle": "設置",
     "telegramSupport": "Telegram客服",
@@ -458,10 +458,10 @@
       "depositNetwork": "{{network}}網絡",
       "depositTitle": "充幣",
       "depositTo": "充幣至",
-      "depositToXbitWallet": "充值到 XBIT 錢包",
+      "depositToXbitWallet": "充值到 KairoX 錢包",
       "depositWallet": "充幣錢包",
       "depositWarning": "此位址僅支援 {{network}} 網路的 {{token_symbol}} 充值，請勿使用其他網絡，以免造成損失",
-      "depositXbitWallet": "向XBIT錢包充值",
+      "depositXbitWallet": "向KairoX錢包充值",
       "enterAmount": "輸入金額",
       "estimateArrivalTime": "約 {{value}}{{unit}}",
       "ethereumNetwork": "以太坊網絡",
@@ -513,7 +513,7 @@
       "warningEthereum": "僅接受以太坊 ETH 充值，不支持其他幣種充值，否則可能導致資金損失",
       "warningSolana": "僅接收Solana的SOL充值，不支持其它幣種充值，否則可能會造成資金損失",
       "withdrawalTime": "可提幣時間",
-      "xbitPerpsAddress": "XBIT 合約帳戶地址"
+      "xbitPerpsAddress": "KairoX 合約帳戶地址"
     },
     "deposite": {
       "agree": "我知道了",
@@ -809,7 +809,7 @@
       "holding": "剩餘持倉",
       "inviteCode": "邀請碼",
       "officialWebsite": "官方網站",
-      "textShare": "我衝了 ${{token}}，速來XBIT DEX 跟上節奏，DYOR！",
+      "textShare": "我衝了 ${{token}}，速來KairoX DEX 跟上節奏，DYOR！",
       "title": "去中心化交易所 Mobile No.1",
       "totalPnl": "總盈虧金額"
     },
@@ -1113,16 +1113,16 @@
       "walletConnectDesc": "點擊連接{{wallet_name}}"
     },
     "backupMnemonic": {
-      "backupWalletDesc": "如果您丟失了 XBIT 帳戶的登陸許可權，備份此助記詞可讓您直接訪問您的錢包。"
+      "backupWalletDesc": "如果您丟失了 KairoX 帳戶的登陸許可權，備份此助記詞可讓您直接訪問您的錢包。"
     },
     "connectionWallet": {
       "authorizingButton": "正在連線...",
       "connectButton": "連接",
-      "iosOkxManualReturn": "iOS 上的 OKX Web3 Wallet Connect 無法自動返回 Xbit 應用程式。完成在 OKX 的連線或簽署後，請手動重新開啟 Xbit 應用程式以繼續操作。",
+      "iosOkxManualReturn": "iOS 上的 OKX Web3 Wallet Connect 無法自動返回 KairoX 應用程式。完成在 OKX 的連線或簽署後，請手動重新開啟 KairoX 應用程式以繼續操作。",
       "okxManualReturnTitle": "在 iOS 上連接 OKX 錢包時的注意事項",
       "plsSignInWallet": "請在錢包中簽名以繼續。",
       "reLinkButton": "重新鏈接",
-      "riskWarningDesc": "Web3 錢包（或 API 錢包）僅用於在 Xbit 系統中登入及執行自動化操作，例如驗證或交易簽名。此錢包無法存取或控制您的資產 — 請放心使用。",
+      "riskWarningDesc": "Web3 錢包（或 API 錢包）僅用於在 KairoX 系統中登入及執行自動化操作，例如驗證或交易簽名。此錢包無法存取或控制您的資產 — 請放心使用。",
       "riskWarningTitle": "風險提示",
       "signButton": "簽名以繼續",
       "signingButton": "正在簽名...",
@@ -1134,14 +1134,14 @@
       "stepApproveTitle": "帳戶驗證",
       "stepApproveTitleFirstTime": "帳戶註冊",
       "stepApproveTitleSecondTime": "帳戶驗證",
-      "stepConnectDesc": "將您的錢包連接到 XBIT。",
+      "stepConnectDesc": "將您的錢包連接到 KairoX。",
       "stepConnectTitle": "連接您的錢包"
     },
     "deleteAccount": {
       "deleteAccountNotice": "帳戶刪除通知",
       "deleteDescription1": "帳戶一旦刪除將無法恢復，所有相關數據將被永久清除。",
       "deleteDescription2": "帳戶所有功能將被禁用。",
-      "deleteDescription3": "所有XBIT通知服務將停止",
+      "deleteDescription3": "所有KairoX通知服務將停止",
       "deleteDescription4": "請確保帳戶中所有資產均已提取。",
       "deleteDescription5": "刪除成功後，您將自動退出登錄。",
       "deleteDescription6": "保留對以上聲明的最終解釋權。",
@@ -1164,7 +1164,7 @@
       "turnkeyDesc": "Turnkey 是一款去中心化 MPC錢包,所有資產自託管",
       "verificationCodeSentLabel": "驗證碼已發送至",
       "verificationSuccess": "驗證成功",
-      "xbitConnectWallet": "\"XBIT\" 想要打開 \"{{wallet}}\""
+      "xbitConnectWallet": "\"KairoX\" 想要打開 \"{{wallet}}\""
     },
     "loginWeb3": {
       "error": {
@@ -1201,7 +1201,7 @@
       "addTokenNoLogged": "請先登錄，以將此專案添加到您的收藏夾",
       "connectingToWallet": "連接錢包中...",
       "connectQRCodeDesc": "若沒有找到您的錢包，請使用您的錢包掃描以下二維碼進行連接（需支持Wallet Connect v2協議）",
-      "connectSolDesc": "連接錢包後需回到XBIT APP進行交易",
+      "connectSolDesc": "連接錢包後需回到KairoX APP進行交易",
       "connectSolTitle": "連接您的錢包到SOL網路",
       "plsConfirmToConnectWallet": "請在錢包中點擊連接確認"
     },
@@ -1229,9 +1229,9 @@
     },
     "title": {
       "checkEmail1": "請檢查",
-      "checkEmail2": "是否收到來自 XBIT.com 的郵件，並在下方輸入您的驗證碼。",
+      "checkEmail2": "是否收到來自 KairoX 的郵件，並在下方輸入您的驗證碼。",
       "generateMPCWallet": "生成一個去中心化的 MPC 錢包。",
-      "welcome": "歡迎來到 XBIT"
+      "welcome": "歡迎來到 KairoX"
     },
     "verifyWallet": "簽名用於驗證所有權和錢包相容性。新用戶將收到兩次簽名請求。",
     "verifyWalletOwnership": "驗證您對以下錢包地址的所有權"
@@ -1291,7 +1291,7 @@
         "more": "解鎖更多盲盒"
       },
       "web": {
-        "notice": "此次盲盒活動僅限 XBIT 網頁端參與，複製連結開啟網頁端前往活動頁面"
+        "notice": "此次盲盒活動僅限 KairoX 網頁端參與，複製連結開啟網頁端前往活動頁面"
       },
       "xbit": {
         "red": {
@@ -1394,11 +1394,11 @@
     "down": "已完成",
     "downloadAppModal": {
       "download": "下載 APP",
-      "qrSubtitle": "下載 XBIT APP",
+      "qrSubtitle": "下載 KairoX APP",
       "qrTitle": "掃描二維碼",
       "share": "分享好友",
       "shareNote": "邀請好友一起搶盲盒",
-      "subtitle_1": "此次盲盒活動僅限 XBIT APP 參與",
+      "subtitle_1": "此次盲盒活動僅限 KairoX APP 參與",
       "subtitle_2": "扫码下载或点击按钮直接前往活动页面"
     },
     "event": {
@@ -1417,7 +1417,7 @@
       "come": "先到先得"
     },
     "follw": {
-      "official": "關注XBIT官推"
+      "official": "關注KairoX官推"
     },
     "go": {
       "to": {
@@ -1454,8 +1454,8 @@
       "exclusive": "專屬盲盒",
       "festival": {
         "entry": "交易搶盲盒",
-        "title": "XBIT 交易打榜盲盒",
-        "title_app": "XBIT APP专属盲盒"
+        "title": "KairoX 交易打榜盲盒",
+        "title_app": "KairoX APP专属盲盒"
       },
       "starts": {
         "in": "盲盒活動將在 {{time}} 後正式開始"
@@ -1631,7 +1631,7 @@
     },
     "WaitOpen": "待開啟",
     "web": {
-      "notice": "此次盲盒活動僅限 XBIT 網頁端 參與複製連結開啟網頁端前往活動頁面",
+      "notice": "此次盲盒活動僅限 KairoX 網頁端 參與複製連結開啟網頁端前往活動頁面",
       "only": "網頁端"
     },
     "will": {
@@ -1685,7 +1685,7 @@
       "presetConfirmNote": "注意：這些設置是全局的。如果您手動調整此交易的任何設置，該設置將成為未來交易的默認設置。",
       "priorityTitle": "優先費用",
       "shareAssets": {
-        "AppName": "XBIT",
+        "AppName": "KairoX",
         "DomainCom": "COM",
         "haveMadeProfit": "我已經盈利",
         "holdingPrivateKeys": "加密資產私鑰自持，鏈上交易更安全",
@@ -1695,11 +1695,11 @@
       "trade": "交易"
     },
     "pair": {
-      "xbitShareTrade": "XBIT股票交易資訊"
+      "xbitShareTrade": "KairoX股票交易資訊"
     }
   },
   "bottomNav": {
-    "about": "關於XBIT",
+    "about": "關於KairoX",
     "assets": "資產",
     "chat": "聊天",
     "comingSoon": "合約聰明錢追蹤，敬請期待！",
@@ -2148,7 +2148,7 @@
     "contractInfo": "合約訊息",
     "contractOwner": "合約owner",
     "dangerous": "危險的",
-    "disclaimer": "免責聲明：此合約檢測結果來源於公開數據，XBIT對此結果不構成任何形式的認可或推薦。",
+    "disclaimer": "免責聲明：此合約檢測結果來源於公開數據，KairoX對此結果不構成任何形式的認可或推薦。",
     "good": "好的",
     "highRisk": "高風險",
     "honeypot": "蜜罐",
@@ -2442,11 +2442,11 @@
     "from": "從",
     "link": {
       "authorization": "授權",
-      "authorizationNote": "允許 XBIT 從您的錢包中充值 {{token}}。",
+      "authorizationNote": "允許 KairoX 從您的錢包中充值 {{token}}。",
       "l2Confirmation": "L2確認",
       "l2ConfirmationNote": "確認您的儲值詳情並簽名以繼續此交易。",
       "linkNote": "連接錢包",
-      "linkYourWallet": "將您的錢包連接到 XBIT",
+      "linkYourWallet": "將您的錢包連接到 KairoX",
       "title": "連結"
     },
     "redeemFailed": "失敗",
@@ -2611,14 +2611,14 @@
       "fishTx": "交易金額 $100–$1K",
       "nodata": "此代幣目前沒有持有人資料。請稍後再查看或探索其他代幣！",
       "noted": "被備註",
-      "notedDescription": "{{noted}} 位 Xbit 用戶已標記該地址",
+      "notedDescription": "{{noted}} 位 KairoX 用戶已標記該地址",
       "profit7d": "7D 利潤",
       "sharkTx": "交易金額 $1K–$10K",
       "shrimpTx": "交易金額低於 $100",
       "token7d": "7D 幣種",
       "tokenSource": "Token來源",
       "tracked": "被追蹤",
-      "trackedDescription": "{{tracked}} 位 Xbit 用戶正在追蹤該地址",
+      "trackedDescription": "{{tracked}} 位 KairoX 用戶正在追蹤該地址",
       "trades7d": "7D 交易數",
       "whaleTx": "交易金額大於 $10K",
       "winrate7d": "7D 勝率"
@@ -3034,7 +3034,7 @@
     "openAppStore": "打開 App Store",
     "openGooglePlay": "打開 Google Play",
     "scanToDownload": "掃碼下載",
-    "subtitle": "透過 XBIT 行動應用程式（iOS & Android），您可以隨時隨地進行交易。",
+    "subtitle": "透過 KairoX 行動應用程式（iOS & Android），您可以隨時隨地進行交易。",
     "title": "隨時隨地交易"
   },
   "drawer": {
@@ -3848,7 +3848,7 @@
       "approveSuccess": "授權成功",
       "button": "授權交易",
       "connect": "連接",
-      "desc": " 將您的錢包連接到 XBIT",
+      "desc": " 將您的錢包連接到 KairoX",
       "getSignatureFailed": "獲取簽名失敗",
       "operationFailed": "操作失敗",
       "pleaseApprove": "請先完成授權交易",
@@ -3938,11 +3938,11 @@
     "volume": "成交價值"
   },
   "futuresDetailsShare": {
-    "30dshare": "我在過去 30 天內透過 XBIT DEX 交易了 {{coin}} 永續合約，並獲得了 {{pnlPercentage}} 的收益。",
+    "30dshare": "我在過去 30 天內透過 KairoX DEX 交易了 {{coin}} 永續合約，並獲得了 {{pnlPercentage}} 的收益。",
     "address": "該錢包地址",
-    "historyTwitter": "我在 XBIT DEX 上交易了一種 {{coin}} 永續期貨，利潤為 {{unrealizedPnl}}。",
+    "historyTwitter": "我在 KairoX DEX 上交易了一種 {{coin}} 永續期貨，利潤為 {{unrealizedPnl}}。",
     "inviteAddress": "錢包名稱",
-    "orderTwitter": "我在 XBIT DEX 上交易了 {{coin}} 永續期貨，收益率為 {{pnlPercentage}}",
+    "orderTwitter": "我在 KairoX DEX 上交易了 {{coin}} 永續期貨，收益率為 {{pnlPercentage}}",
     "pnlAmount": "損益金額",
     "selectBgImage": "請選擇背景圖片",
     "selectShareInfo": "請選擇您希望分享的訊息。",
@@ -4000,7 +4000,7 @@
         "msg": "預計在1個工作天內完成審核，審核結果將透過電子郵件發送給您。",
         "title": "提交成功"
       },
-      "copyright": "版權所有© 2024 XBIT.COM。保留所有權利。",
+      "copyright": "版權所有© 2024 KairoX。保留所有權利。",
       "dear": "尊敬的用戶：",
       "decode": "16位元密鑰",
       "descriptionQR": "開啟Google驗證器APP，點選右下角 + 號，掃描下方二維碼，或複製下面的16位元金鑰到Google驗證器",
@@ -4025,12 +4025,12 @@
         "ensureMsg2": "24小時內",
         "ensureMsg3": "不允許從Telegram錢包提領現。",
         "form": {
-          "exampleWallet": "例如您用MetaMask錢包儲值到XBIT的TG錢包，或從XBIT的TG錢包提現到MetaMask錢包，請提供MetaMask的錢包位址",
+          "exampleWallet": "例如您用MetaMask錢包儲值到KairoX的TG錢包，或從KairoX的TG錢包提現到MetaMask錢包，請提供MetaMask的錢包位址",
           "label1": "您的TG帳號(務必填寫正確方便客服聯絡)",
-          "label2": "您的Telegram User ID (在XBIT的官方Telegram Bot中輸入 \"/userid\" 取得)",
+          "label2": "您的Telegram User ID (在KairoX的官方Telegram Bot中輸入 \"/userid\" 取得)",
           "label3": "您的郵件地址 (用於接收重設郵件)",
-          "label4": "請提供過去3個月內與XBIT的TG錢包發生過轉帳紀錄的錢包位址",
-          "label5": "請上傳上述錢包在過去三個月內與XBIT的TG錢包發生充值或提現的記錄截圖",
+          "label4": "請提供過去3個月內與KairoX的TG錢包發生過轉帳紀錄的錢包位址",
+          "label5": "請上傳上述錢包在過去三個月內與KairoX的TG錢包發生充值或提現的記錄截圖",
           "offlineTelegram": "官方Telegram",
           "placeholder1": "您的TG帳號",
           "placeholder2": "您的TG User ID",
@@ -4044,7 +4044,7 @@
         "intro": "為了您的資金安全，系統僅支援轉帳至白名單地址。設定白名單後，需等待3小時生效。生效後，向白名單地址轉帳無需額外驗證 ，提現過程更安全、更快捷。",
         "title": "重置谷歌驗證"
       },
-      "riskwarning": "風險警告: 加密貨幣交易有高風險。 XBIT.COM為您提供鏈上一流的交易服務，但我們不會為您的交易損失負責。 請注意交易風險，謹慎交易。",
+      "riskwarning": "風險警告: 加密貨幣交易有高風險。 KairoX為您提供鏈上一流的交易服務，但我們不會為您的交易損失負責。 請注意交易風險，謹慎交易。",
       "safety": {
         "intro": "為了您的資金安全，系統僅支援轉帳至白名單地址。設定白名單後，需等待3小時生效。生效後，轉帳至白名單地址無需額外驗證，提現過程更安全快速。",
         "intro ": "為了您的資金安全，系統僅支援轉帳至白名單地址。設定白名單後，需等待3小時生效。生效後，轉帳至白名單地址無需額外驗證，提現過程更安全快速。",
@@ -4063,7 +4063,7 @@
         "step3": "提現"
       },
       "team": "團隊",
-      "thankyou": "感謝您選擇XBIT。需要幫助？請聯繫",
+      "thankyou": "感謝您選擇KairoX。需要幫助？請聯繫",
       "title": "綁定谷歌驗證器",
       "warning": {
         "not_available": "谷歌驗證器不可用，",
@@ -4161,7 +4161,7 @@
     "triggerMarketCap": "觸發市值 / 價格",
     "txHash": "交易哈",
     "type": "類型",
-    "xbitFee": "XBIT費({{value}}%)"
+    "xbitFee": "KairoX費({{value}}%)"
   },
   "holding": {
     "cumulativePnL": "盈虧",
@@ -4179,7 +4179,7 @@
       "sorting": "排序"
     },
     "tooltip": {
-      "transferToken": "此代幣是從外部錢包轉入的。盈虧和平均成本僅針對在 Xbit 上購買的代幣進行計算。"
+      "transferToken": "此代幣是從外部錢包轉入的。盈虧和平均成本僅針對在 KairoX 上購買的代幣進行計算。"
     }
   },
   "holdings": {
@@ -4276,9 +4276,9 @@
     "inviteLink": "邀請鏈接",
     "inviteRules": "邀請規則",
     "inviteRulesDescription1": "邀请好友用于交易meme币和永续合约的返佣，您邀请的好友越多，您奖励的返佣就越多;",
-    "inviteRulesDescription2": "XBIT的返佣系統將於後續推出，屆時我們將從2025-07-25日為計算起點為您補發至今的返佣獎勵，衝鴨！",
-    "inviteText": "點擊我的推薦連結註冊 XBIT DEX，",
-    "inviteToXBIT": "邀請您加入XBIT",
+    "inviteRulesDescription2": "KairoX的返佣系統將於後續推出，屆時我們將從2025-07-25日為計算起點為您補發至今的返佣獎勵，衝鴨！",
+    "inviteText": "點擊我的推薦連結註冊 KairoX DEX，",
+    "inviteToXBIT": "邀請您加入KairoX",
     "maxCommission50Percent": "即可享最高 50% 返佣福利",
     "myInviteCode": "我的邀請碼",
     "qrCode": "二維碼",
@@ -4645,25 +4645,25 @@
     "and": "及",
     "approveToCreateAccount": "授權以建立帳號",
     "authRequire": "登錄或註冊以進行交易",
-    "betaCodeVerified": "內測碼驗證成功！歡迎來到 XBIT...",
+    "betaCodeVerified": "內測碼驗證成功！歡迎來到 KairoX...",
     "bindingNotice": "您正在綁定Telegram Bot(SOL網路)",
     "bindTelegramBot": "綁定Telegram Bot",
     "cancel": "取消",
     "checkEmail": {
       "prefix": "請檢查",
-      "suffix": "是否收到來自 XBIT.com 的郵件，並在下方輸入驗證碼"
+      "suffix": "是否收到來自 KairoX 的郵件，並在下方輸入驗證碼"
     },
     "codeSentTo": "驗證碼已發送至",
     "confirm": "確認",
     "confirmToAccessAccount": "確認以訪問帳號",
     "connectWallet": "連接錢包",
     "connectYourWallet": "連接錢包",
-    "connectYourWalletToXBIT": "連接錢包至 XBIT",
+    "connectYourWalletToXBIT": "連接錢包至 KairoX",
     "continueWithGoogle": "通過 Google 繼續",
     "didntGetEmail": "沒有收到郵件？",
     "downloadWallet": "下載錢包",
     "emailLogin": "邮箱登录/注册",
-    "enterBetaCode": "在下方輸入您的內測碼，即可立即訪問 XBIT。",
+    "enterBetaCode": "在下方輸入您的內測碼，即可立即訪問 KairoX。",
     "enterYourEmail": "請輸入你的電郵地址",
     "generateMPCWallet": "生成一個去中心化的 MPC 錢包",
     "getBetaCode": "獲取內測碼",
@@ -4688,7 +4688,7 @@
     "notLogined": "您尚未登入{{name}}",
     "open": "打開",
     "openInBrowser": "如無法開啟Telegram，請複製連結到瀏覽器開啟",
-    "openTelegramPrompt": "\"XBIT\"想要開啟\"Telegram\"",
+    "openTelegramPrompt": "\"KairoX\"想要開啟\"Telegram\"",
     "or": "或",
     "otp": {
       "protectedByLabel": "受保護的"
@@ -4702,7 +4702,7 @@
     "resend": "重新發送",
     "resendSuccess": "我們已向您發送了一封電子郵件。請檢查您的收件箱以繼續操作。",
     "riskWarning": "風險提示",
-    "riskWarningContent": "Web3 錢包（或 API 錢包）僅用於登入並在 XBIT 系統內執行自動化操作，例如身份驗證或簽署交易。該錢包無法訪問或控制您的資產 —— 您可以放心使用。",
+    "riskWarningContent": "Web3 錢包（或 API 錢包）僅用於登入並在 KairoX 系統內執行自動化操作，例如身份驗證或簽署交易。該錢包無法訪問或控制您的資產 —— 您可以放心使用。",
     "signatureExplanation": "簽名用於驗證所有權及錢包相容性。新用戶將收到兩個簽名請求。",
     "signingFree": "簽名為免費操作，且不會發送交易。",
     "signMessage": "簽名訊息",
@@ -4731,7 +4731,7 @@
     "terms": "使用條款",
     "termsAgreement": "連接錢包即代表同意",
     "text": {
-      "loginNotLoggedIn": "您尚未登錄 XBIT"
+      "loginNotLoggedIn": "您尚未登錄 KairoX"
     },
     "toGenerate": "生成一個去中心化的 MPC 錢包",
     "tokenExpired": "您的會話已過期。請重新加載頁面以繼續...",
@@ -4744,7 +4744,7 @@
     "wallet": {
       "notInstallWallet": "您未安裝 {{wallet}}"
     },
-    "welcomeText": "歡迎來到 XBIT",
+    "welcomeText": "歡迎來到 KairoX",
     "with": "與"
   },
   "loyalty": {
@@ -4760,7 +4760,7 @@
       "yourPoints": "您的积分"
     },
     "card": {
-      "titleSeason": "XBIT{{seasonName}}"
+      "titleSeason": "KairoX{{seasonName}}"
     },
     "currentShare": "當前份額",
     "desCreateCode": "設定您的專屬邀請碼，方便推薦好友加入平台",
@@ -4775,7 +4775,7 @@
       "tradingPoint": "如何計算交易積分？",
       "tradingPointAnswer": "交易積分基於基礎公式：交易積分 = 交易量(USD) × 板塊係數 × 質量係數。板塊係數依手續費調整（如 Meme=1.0、合約=0.1、美股=0.5），質量係數取決於單筆盈虧幅度（例如 0.5%–2% 為 1.0，>10% 回復為 1.0）。",
       "whatIsPoint": "什麼是積分？",
-      "whatIsPointAnswer": "積分是 XBIT 平台的一種激勵機制，用於獎勵用戶在 meme、合約、美股三大板塊的交易、持倉、資金持有、推薦與社群活動參與行為。積分可用於參加賽季排行榜（前 100 名瓜分獎池），以鼓勵用戶長期且真實地參與平台活動。積分系統強調簡單透明、防止刷量，並透過賽季制度與加成系統達成平衡激勵。"
+      "whatIsPointAnswer": "積分是 KairoX 平台的一種激勵機制，用於獎勵用戶在 meme、合約、美股三大板塊的交易、持倉、資金持有、推薦與社群活動參與行為。積分可用於參加賽季排行榜（前 100 名瓜分獎池），以鼓勵用戶長期且真實地參與平台活動。積分系統強調簡單透明、防止刷量，並透過賽季制度與加成系統達成平衡激勵。"
     },
     "fundPoints": "資金積分",
     "goInvite": "去推薦",
@@ -4811,7 +4811,7 @@
       "warningDes": "長度為 4–15 個字元\\n僅使用字母（Aa–Zz）、數字(0–9)或底線",
       "warningTitle": "無效邀請碼！請確保："
     },
-    "shareText": "點擊我的推薦連結註冊 XBIT DEX，最高可獲得 50% 回饋。{{inviteLink}}",
+    "shareText": "點擊我的推薦連結註冊 KairoX DEX，最高可獲得 50% 回饋。{{inviteLink}}",
     "tooltip": {
       "fundPoints": "資金積分：根據帳戶餘額的穩定性產生。餘額越穩定、越高，累積的積分越多。",
       "holdingPoints": "持倉積分：根據您每小時的資產價值計算。持倉時間越長、金額越大，獲得的積分越多。",
@@ -4909,7 +4909,7 @@
     },
     "options": {
       "aboutUs": "關於我們",
-      "aboutXbitTutorial": "關於XBIT使用教程",
+      "aboutXbitTutorial": "關於KairoX使用教程",
       "airdropPoints": "空投積分",
       "backupMnemonic": "備份助記詞",
       "browsingHistory": "流覽歷史",
@@ -4918,7 +4918,7 @@
       "inviteRebate": "邀請返傭",
       "loyalty": "空投积分",
       "myRebate": "我的反傭",
-      "shareXbit": "分享 XBIT",
+      "shareXbit": "分享 KairoX",
       "tradeSettings": "交易設置",
       "tradingReward": "交易獎勵",
       "tutorial": "使用教程",
@@ -5267,7 +5267,7 @@
       "pump": "拉盤",
       "slippageLoss": "滑點損失",
       "txHash": "交易哈希",
-      "xbitFee": "XBIT費用({{percent}}%)"
+      "xbitFee": "KairoX費用({{percent}}%)"
     },
     "list": {
       "noData": "您目前沒有任何待處理的訂單。使用限價、追蹤止盈止損訂單自動捕捉最佳價格。"
@@ -5641,13 +5641,13 @@
       "points": "積分",
       "referrals": "推薦",
       "rewards": "獎勵",
-      "shareXbit": "分享 XBIT",
+      "shareXbit": "分享 KairoX",
       "tradeSettings": "交易設置",
       "userFeedback": "用戶反饋",
       "walletManagement": "錢包管理"
     },
     "pleaseLogin": "請登入",
-    "welcomeToXBIT": "歡迎來到 XBIT"
+    "welcomeToXBIT": "歡迎來到 KairoX"
   },
   "pop": {
     "token": {
@@ -5745,7 +5745,7 @@
       "positions": "持倉"
     }
   },
-  "powerByXbit": "由 Xbit 提供支援！",
+  "powerByXbit": "由 KairoX 提供支援！",
   "ppUpdateChecker": {
     "forceUpdate": {
       "title": "需要更新"
@@ -5814,7 +5814,7 @@
     "claimable": {
       "claimedFailed": "領取失敗",
       "claimedSuccessfully": "領取成功",
-      "congratulationTitle": "在 XBIT 上預測未來，做得很好！",
+      "congratulationTitle": "在 KairoX 上預測未來，做得很好！",
       "won": "已獲勝",
       "youWon": "你贏了"
     },
@@ -5847,7 +5847,7 @@
     },
     "daily": "每日",
     "deposit": {
-      "xbitPredictionAddress": "XBIT 預測地址"
+      "xbitPredictionAddress": "KairoX 預測地址"
     },
     "discover": {
       "earningsCalendar": "财报日历",
@@ -6189,7 +6189,7 @@
       "cashOutSuccess": "提現成功",
       "claiming": "領取中...",
       "claimProceeds": "領取",
-      "congratsMessage": "在 XBIT 上預測未來做得好！",
+      "congratsMessage": "在 KairoX 上預測未來做得好！",
       "marketIconAlt": "市場圖標",
       "marketNotFound": "未找到市場",
       "marketsWon": "贏得的市場",
@@ -6490,11 +6490,11 @@
       "down": "已完成",
       "downloadAppModal": {
         "download": "下載 APP",
-        "qrSubtitle": "下載 XBIT APP",
+        "qrSubtitle": "下載 KairoX APP",
         "qrTitle": "掃描二維碼",
         "share": "分享好友",
         "shareNote": "邀請好友一起搶红包",
-        "subtitle_1": "此次红包活動僅限 XBIT APP 參與",
+        "subtitle_1": "此次红包活動僅限 KairoX APP 參與",
         "subtitle_2": "扫码下载或点击按钮直接前往活动页面"
       },
       "event": {
@@ -6513,7 +6513,7 @@
         "come": "先到先得"
       },
       "follw": {
-        "official": "關注XBIT官推"
+        "official": "關注KairoX官推"
       },
       "go": {
         "to": {
@@ -6550,8 +6550,8 @@
         "exclusive": "元宵節專屬紅包",
         "festival": {
           "entry": "交易搶红包",
-          "title": "XBIT 交易開紅包",
-          "title_app": "XBIT APP專屬紅包"
+          "title": "KairoX 交易開紅包",
+          "title_app": "KairoX APP專屬紅包"
         },
         "starts": {
           "in": "交易搶红包活動將在 {{time}} 後正式開始"
@@ -6728,8 +6728,8 @@
       },
       "WaitOpen": "待開啟",
       "web": {
-        "notice": "此次交易搶红包活動僅限 XBIT 網頁端參與，複製連結開啟網頁端前往活動頁面",
-        "only": "XBIT 網頁端"
+        "notice": "此次交易搶红包活動僅限 KairoX 網頁端參與，複製連結開啟網頁端前往活動頁面",
+        "only": "KairoX 網頁端"
       },
       "will": {
         "be": {
@@ -6752,9 +6752,9 @@
       "withdrawals": "{{num}} 個提現",
       "xbit": {
         "drawer": {
-          "title": "XBIT 红包"
+          "title": "KairoX 红包"
         },
-        "lantern": "XBIT元宵節",
+        "lantern": "KairoX元宵節",
         "red": {
           "packet": "交易搶红包"
         }
@@ -7006,14 +7006,14 @@
   },
   "share": {
     "accountMeme": {
-      "valueMessage": "我在XBIT DEX冲了${{symbol}}，收益率{{profit}}"
+      "valueMessage": "我在KairoX DEX冲了${{symbol}}，收益率{{profit}}"
     },
     "accountRWA": {
-      "valueMessage": "我在XBIT DEX交易了美股${{symbol}}，收益率{{profit}}"
+      "valueMessage": "我在KairoX DEX交易了美股${{symbol}}，收益率{{profit}}"
     },
     "assetsBody": {
       "dexMobileNo1": "去中心化交易所 Mobile No.1",
-      "dexMobileXbit": "XBIT去中心化交易所 "
+      "dexMobileXbit": "KairoX去中心化交易所 "
     },
     "deposit": {
       "valueMessage": "{{symbol}}充币地址:"
@@ -7029,7 +7029,7 @@
       "selectContent": "请选择您希望共享的信息"
     },
     "invitationCode": {
-      "valueMessage": "點擊我的推薦連結註冊 XBIT DEX，\n即可享最高 {{profit}} 返佣福利"
+      "valueMessage": "點擊我的推薦連結註冊 KairoX DEX，\n即可享最高 {{profit}} 返佣福利"
     },
     "menu": {
       "shareXBitInvitation": "去中心化交易所 Mobile No.1\n毫秒級行情 極速交易"
@@ -7039,22 +7039,22 @@
       "xNotInstalledRedirecting": "X 應用未安裝，正在跳轉到應用商店。"
     },
     "tokenDetail": {
-      "valueMessage": "${{symbol}} 有点东西，速来XBIT DEX跟上节奏，DYOR！"
+      "valueMessage": "${{symbol}} 有点东西，速来KairoX DEX跟上节奏，DYOR！"
     },
     "xbit": {
-      "valueMessage": "下载XBIT DEX，实现永续合约、Meme、美股无缝交易"
+      "valueMessage": "下载KairoX DEX，实现永续合约、Meme、美股无缝交易"
     }
   },
   "shareBottomSheet": {
     "depositAddressTemplate": "{{token}} 充幣地址：{{address}}",
     "dexSlogan": "DEX 毫秒級行情 極速成交",
-    "memeContent": "${{coin}} 有點東西，快來 XBIT DEX 跟上節奏，DYOR！",
-    "shareHoldingTemplate": "我在XBIT DEX沖了${{symbol}}，收益率{{returns}}%",
-    "stockShareTemplate": "我在XBIT DEX交易了美股${{symbol}}，收益率{{returns}}%",
+    "memeContent": "${{coin}} 有點東西，快來 KairoX DEX 跟上節奏，DYOR！",
+    "shareHoldingTemplate": "我在KairoX DEX沖了${{symbol}}，收益率{{returns}}%",
+    "stockShareTemplate": "我在KairoX DEX交易了美股${{symbol}}，收益率{{returns}}%",
     "title": "分享頁面"
   },
   "sharePage": {
-    "checkOutThisAssetInformation": "我沖了 {{symbol}}, 速來XBIT DEX 跟上節奏, DYOR!",
+    "checkOutThisAssetInformation": "我沖了 {{symbol}}, 速來KairoX DEX 跟上節奏, DYOR!",
     "dexLabel": "去中心化交易所(DEX)",
     "remainingPosition": "剩餘持倉",
     "title": "分享"
@@ -7066,10 +7066,10 @@
     "updateLoading": "正在載入更新"
   },
   "signIn": {
-    "continueWithXBIT": "繼續使用代表您同意 XBIT 的",
+    "continueWithXBIT": "繼續使用代表您同意 KairoX 的",
     "didNotGetEmail": "沒收到郵件？",
     "doNotBetaCode": "沒有內測碼？",
-    "enterBetaCode": "在下面輸入您的內測碼，即可立即訪問 XBIT。",
+    "enterBetaCode": "在下面輸入您的內測碼，即可立即訪問 KairoX。",
     "getBetaCode": "獲取內測碼",
     "haveABetaCode": "有內測碼嗎？",
     "inviteCodeHint": "邀請碼（可選）",
@@ -7086,14 +7086,14 @@
     "title": {
       "checkEmail": "已發送驗證碼至",
       "checkEmail1": "請檢查",
-      "checkEmail2": "是否收到來自 XBIT.com 的郵件，並在下方輸入您的驗證碼。",
+      "checkEmail2": "是否收到來自 KairoX 的郵件，並在下方輸入您的驗證碼。",
       "confirmVerifyCode": "確認驗證碼",
-      "connectWithXBIT": "連接 XBIT",
+      "connectWithXBIT": "連接 KairoX",
       "generateMPCWallet": "生成一個去中心化 MPC 錢包",
-      "welcome": "歡迎來到 XBIT"
+      "welcome": "歡迎來到 KairoX"
     },
     "verifyAccessCode": {
-      "success": "訪問代碼已驗證！歡迎來到 XBIT"
+      "success": "訪問代碼已驗證！歡迎來到 KairoX"
     },
     "verifyOTP": "驗證",
     "verifyWallet": {
@@ -7552,7 +7552,7 @@
       "contractCreator": "合約創建者",
       "contractInfo": "合約資訊",
       "contractOwner": "合約owner",
-      "disclaimer": "免責聲明：此合約檢測結果來源於公開數據，XBIT對此結果不構成任何形式的認可或推薦。",
+      "disclaimer": "免責聲明：此合約檢測結果來源於公開數據，KairoX對此結果不構成任何形式的認可或推薦。",
       "highRisk": "高風險",
       "honeypot": "蜜罐",
       "honeypotDesc": "該合同可能是阻止代幣銷售的蜜罐。",
@@ -7623,7 +7623,7 @@
       "buyAddress": "買入地址數",
       "buyAmount": "買入金額",
       "buyCount": "買入數",
-      "externalTransferPnLTooltip": "該代幣來自外部錢包轉入。盈虧和平均成本僅對在 Xbit 購買的代幣進行計算。",
+      "externalTransferPnLTooltip": "該代幣來自外部錢包轉入。盈虧和平均成本僅對在 KairoX 購買的代幣進行計算。",
       "insidePercent": "老鼠倉%",
       "numberOfHolders": "持幣人數",
       "snippersHolding": "狙擊者持幣占比",
@@ -8150,7 +8150,7 @@
     "positionCurrency": "持有代幣",
     "qrCodeInstruction": "如果您的錢包未列出，請使用您的錢包掃描此二維碼（需要 WalletConnect v2）",
     "reconnect": "重新連接",
-    "returnToApp": "連接錢包後需回到XBIT APP進行交易",
+    "returnToApp": "連接錢包後需回到KairoX APP進行交易",
     "saveToAlbum": "儲存到相簿",
     "selectNetwork": "選擇網路",
     "selectWallet": "請選擇錢包",
@@ -8200,7 +8200,7 @@
       "walletName": "錢包名稱"
     },
     "mnemonicChecklist": {
-      "accessLost": "若您遺失了 XBIT 帳戶的登入權限，備份此助記詞可讓您直接存取您的錢包。",
+      "accessLost": "若您遺失了 KairoX 帳戶的登入權限，備份此助記詞可讓您直接存取您的錢包。",
       "backupInstructions": "請依序抄寫下列單詞並妥善保存。切勿將助記詞洩露給他人，否則您可能會失去所有資產。",
       "backupTitle": "備份助記詞",
       "complete": "完成",
@@ -8233,7 +8233,7 @@
         "tip1": "只需要助記詞即可完全訪問您的錢包和資金。",
         "tip2": "如果我向任何人透露或分享我的私鑰，資產可能會被盜取。",
         "tip3": "切勿與任何人在線上分享、儲存或傳輸助記詞。",
-        "tip4": "XBIT 團隊絕不會要求您提供助記詞。"
+        "tip4": "KairoX 團隊絕不會要求您提供助記詞。"
       },
       "specialReminder": "特別提醒",
       "specialReminderText": "任何獲得助記詞的人都可以控制您的資產！",

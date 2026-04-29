@@ -383,7 +383,7 @@ export default class Datafeeds {
       fractional: false,
       session: '24x7',
       has_intraday: true,
-      exchange: 'XBIT.LIVE',
+      exchange: 'KAIROX.LIVE',
       description: symbolFormat('BTC/USD'),
       pricescale: 100,
       ticker: symbolFormat('BTC/USD'),

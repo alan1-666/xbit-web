@@ -246,12 +246,12 @@ const Socials = () => {
           <IconLayout className="size-4 cursor-pointer" onClick={toggleTopBar} />
         </SimpleTooltip>
         <SimpleTooltip content="Twitter (X)">
-          <a href="https://x.com/XBITDEX" target="_blank" rel="noopener noreferrer" aria-label="button X" >
+          <a href="https://x.com/KairoX" target="_blank" rel="noopener noreferrer" aria-label="button X" >
             <IconTwitter className="size-4 cursor-pointer" />
           </a>
         </SimpleTooltip>
         <SimpleTooltip content="Telegram">
-          <a href="https://t.me/xbit_dex" target="_blank" rel="noopener noreferrer" aria-label="button Telegram" >
+          <a href="https://t.me/KairoX" target="_blank" rel="noopener noreferrer" aria-label="button Telegram" >
             <IconTelegram className="size-4 cursor-pointer" />
           </a>
         </SimpleTooltip>

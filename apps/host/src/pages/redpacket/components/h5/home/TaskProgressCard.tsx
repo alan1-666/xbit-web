@@ -38,7 +38,7 @@ const TaskItem = ({ type, title, sub_title, reward, done }: { type: string; titl
 
     //   } catch (error: any) {
     //   }
-    //   window.open('https://x.com/XBITDEX', '_blank')
+    //   window.open('https://x.com/KairoX', '_blank')
     // }
   }
   return (

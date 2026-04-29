@@ -15,8 +15,8 @@ export const Splash = () => {
     setShowLoginDrawer(true)
   }
 
-  const handleOpenXbit = () => {
-    window.open('https://www.xbit.com', '_blank', 'noopener,noreferrer')
+  const handleOpenBrand = () => {
+    window.open(window.location.origin, '_blank', 'noopener,noreferrer')
   }
 
   useEffect(() => {
@@ -31,14 +31,12 @@ export const Splash = () => {
       <div className="bg-[#0D0D0D] flex-1 bg-[url(/images/assets/bg-splash-assets-pc.webp)] bg-center bg-no-repeat bg-cover size-full">
         <div className="absolute flex flex-col justify-center items-center bottom-[13%] left-1/2 -translate-x-1/2 w-full">
           <div className="text-white app-font-medium text-lg text-center px-3 leading-[1.2]">
-            WWW.
             <span
-              onClick={handleOpenXbit}
+              onClick={handleOpenBrand}
               className="text-[#C8A7FD] cursor-pointer hover:text-[#9945FF] transition-colors"
             >
-              XBIT
+              KairoX
             </span>
-            .COM
           </div>
           <div className="text-white app-font-light text-sm text-center px-3 leading-[1.1] mt-[16px]">
             {t('assets.splash.sub-pc')}
@@ -75,13 +73,13 @@ export const Splash = () => {
       {/*  loading="lazy"*/}
       {/*/>*/}
       <div className="absolute top-[70%] left-0 -translate-y-[70%] flex gap-3 justify-center items-end w-full">
-        <img src="/images/xbit-logo.svg" alt="logo" className="cursor-pointer block w-12 h-11" />
-        <img src="/images/logo-xbit-text.svg" alt="logo" className="cursor-pointer block w-27.5 h-8" />
+        <img src="/images/kairox-logo.svg" alt="logo" className="cursor-pointer block w-12 h-11" />
+        <img src="/images/kairox-logo-text.svg" alt="logo" className="cursor-pointer block w-27.5 h-8" />
       </div>
       <div className="absolute flex flex-col justify-center items-center bottom-[5vh] left-1/2 -translate-x-1/2 w-full">
         <div className="text-white font-normal text-[17px] text-center px-3 leading-5.5 tracking-[3px]">
           {/*{t('assets.splash.slogan')}*/}
-          WWW. <span className="text-[#C8A7FD]">XBIT</span> .COM
+          <span className="text-[#C8A7FD]">KairoX</span>
         </div>
         <div className="text-white font-normal text-[13px] text-center px-3 mt-4 leading-[1.2] tracking-[1.5px]">
           {t('assets.splash.desc')}

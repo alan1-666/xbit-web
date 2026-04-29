@@ -62,7 +62,7 @@ const DialogLoadingConnectWallet = ({
         </DialogHeader> */}
         <DialogTitle></DialogTitle>
         <div className="flex items-center justify-center gap-5 h-full mt-4">
-          <img src="/images/xbit-logo-rounded.svg" className="w-14 h-14" alt="xbit logo" />
+          <img src="/images/kairox-logo-rounded.svg" className="w-14 h-14" alt="xbit logo" />
           <img src="/images/wallets/icon_next.svg?v=2" className="w-5 h-5" alt="icon next" />
           {nameWallet === 'Trust' ? (
             <IconTrust className="w-14 h-14 rounded-[16px]" />

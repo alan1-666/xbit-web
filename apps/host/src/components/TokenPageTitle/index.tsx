@@ -63,7 +63,7 @@ const TokenPageTitle = ({ symbol, defaultPrice }: TokenPageTitleProps) => {
     return tokenPrice || defaultPrice
   }, [defaultPrice, tokenPrice])
 
-  const title = symbol && price ? `${symbol} ${formatPriceAsTitle(price)} | XBIT Platform` : 'XBIT Platform'
+  const title = symbol && price ? `${symbol} ${formatPriceAsTitle(price)} | KairoX` : 'KairoX'
 
   usePageTitle(title) // runs on render
 

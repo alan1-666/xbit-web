@@ -114,7 +114,7 @@ const useConfigChart = () => {
       type: 'area',
     },
     {
-      name: 'XBIT量化2号累积收益',
+      name: 'KairoX量化2号累积收益',
       data: xbitData,
       color: '#FACC14',
       type: 'line',

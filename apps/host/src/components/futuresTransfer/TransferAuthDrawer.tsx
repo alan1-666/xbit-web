@@ -59,11 +59,11 @@ const TransferAuthDrawer: FC<TransferAuthDrawerProps> = ({ open, setOpen, stepSt
     () => [
       {
         title: '连接',
-        description: '将您的钱包连接到 XBIT。',
+        description: '将您的钱包连接到 KairoX。',
       },
       {
         title: '授权',
-        description: '允许 XBIT 从您的钱包中充值 USDC。',
+        description: '允许 KairoX 从您的钱包中充值 USDC。',
       },
       {
         title: 'L2 确认',

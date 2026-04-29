@@ -7,7 +7,7 @@
     "clearCacheDesc": "¿Estás seguro de que quieres borrar la caché?",
     "privacyPolicy": "política de privacidad",
     "privacyPolicyLabel": "política de privacidad",
-    "rateXbit": "Tasa XBIT",
+    "rateXbit": "Tasa KairoX",
     "sloganXbit": "En la cadena de bloques es el futuro, el comercio es libertad",
     "termsOfUse": "Condiciones de uso",
     "termsOfUseLabel": "Condiciones de uso",
@@ -123,7 +123,7 @@
     "officialExpand": "Haga clic para ampliar",
     "officialTitle": "Análisis de datos oficiales",
     "onchainTextContent": "Esta cuenta de Twitter parece estar gestionada por el conocido empresario Elon Musk. Sin embargo, los tuits no presentan contenido específico relacionado con las criptomonedas meme, ni mencionan nada directamente vinculado a blockchain o criptomonedas. Los tuits se centran principalmente en tecnología, inteligencia artificial y opiniones personales. No hay referencias a direcciones de contratos de tokens ni nombres de tokens. Esta cuenta de Twitter parece estar gestionada por Elon Musk, pero ninguno de los tuits sugiere su participación en ningún proyecto específico de criptomonedas meme o criptomoneda.",
-    "onchainTextNote": "Este análisis narrativo es generado automáticamente por el bot XBIT y es solo para fines de referencia.",
+    "onchainTextNote": "Este análisis narrativo es generado automáticamente por el bot KairoX y es solo para fines de referencia.",
     "onchainTextTitle": "Análisis de texto en la cadena de bloques",
     "onChainTitle": "Análisis en cadena",
     "poolAddress": "Dirección de la piscina número 1",
@@ -154,7 +154,7 @@
     },
     "footer": {
       "onChainAnalysisEmpty": "No hay datos disponibles para el análisis.",
-      "onChainAnalysisFooter": "Este análisis narrativo es generado automáticamente por el bot XBIT y es solo para fines de referencia."
+      "onChainAnalysisFooter": "Este análisis narrativo es generado automáticamente por el bot KairoX y es solo para fines de referencia."
     },
     "official": {
       "contractAddress": "Dirección del contrato",
@@ -186,12 +186,12 @@
       "officalEmail": "Correo electrónico oficial",
       "officialEmail": "Correo electrónico oficial",
       "privacyPolicy": "Política de privacidad",
-      "rateXBit": "Tasa XBIT",
+      "rateXBit": "Tasa KairoX",
       "slogan": "En la cadena de bloques es el futuro, el comercio es libertad",
       "termsOfService": "Condiciones de uso",
       "title": "Sobre nosotros"
     },
-    "aboutXBIT": "Acerca del tutorial de XBIT",
+    "aboutXBIT": "Acerca del tutorial de KairoX",
     "browsingHistory": "Historial de navegación",
     "browsingHistoryPage": {
       "columns": {
@@ -279,11 +279,11 @@
     "resetLayout": "Restablecer diseño",
     "saveImage": "Ahorrar",
     "sharePoster": "Generando póster",
-    "shareXBIT": "Compartir XBIT",
+    "shareXBIT": "Compartir KairoX",
     "shareXBITSlogan": "Plataforma de intercambio descentralizada número 1",
     "shareXBITSubSlogan": "Datos en milisegundos, ejecución ultrarrápida.",
     "shareXBITSubtitle": "Intercambio descentralizado (DEX)",
-    "shareXBITText": "Descarga XBIT DEX para operar sin problemas con contratos perpetuos, memes y acciones estadounidenses.",
+    "shareXBITText": "Descarga KairoX DEX para operar sin problemas con contratos perpetuos, memes y acciones estadounidenses.",
     "spotSettings": "Configuración comercial",
     "systemSettingsTitle": "Ajustes",
     "telegramSupport": "Soporte de Telegram",
@@ -458,10 +458,10 @@
       "depositNetwork": "{{network}}",
       "depositTitle": "Depósito",
       "depositTo": "Depositar en",
-      "depositToXbitWallet": "Depositar en la billetera XBIT",
+      "depositToXbitWallet": "Depositar en la billetera KairoX",
       "depositWallet": "Depositar en la billetera",
       "depositWarning": "Esta dirección solo admite depósitos de {{token_symbol}} en la red {{network}}. Por favor, no utilice otras redes para evitar pérdidas.",
-      "depositXbitWallet": "Depositar en la billetera XBIT",
+      "depositXbitWallet": "Depositar en la billetera KairoX",
       "enterAmount": "Introduzca la cantidad",
       "estimateArrivalTime": "Acerca de {{value}} {{unit}}",
       "ethereumNetwork": "Red Ethereum",
@@ -513,7 +513,7 @@
       "warningEthereum": "Solo se aceptan recargas en Ethereum (ETH) y no se admiten recargas en otras monedas, ya que esto podría ocasionar pérdidas de capital.",
       "warningSolana": "Solo aceptamos recargas en SOL de Solana y no admitimos recargas en otras monedas, ya que esto podría ocasionar pérdidas de capital.",
       "withdrawalTime": "Tiempo disponible para retiros",
-      "xbitPerpsAddress": "Dirección de los delincuentes de XBIT"
+      "xbitPerpsAddress": "Dirección de los delincuentes de KairoX"
     },
     "deposite": {
       "agree": "Aceptar",
@@ -810,7 +810,7 @@
       "holding": "Participaciones restantes",
       "inviteCode": "Código de invitación",
       "officialWebsite": "Sitio web oficial",
-      "textShare": "Compré ${{token}}, ven a XBIT DEX para ponerte al día, ¡investiga por tu cuenta!",
+      "textShare": "Compré ${{token}}, ven a KairoX DEX para ponerte al día, ¡investiga por tu cuenta!",
       "title": "Intercambio móvil descentralizado n.° 1",
       "totalPnl": "PnL total"
     },
@@ -1114,16 +1114,16 @@
       "walletConnectDesc": "Haz clic para conectarte a {{wallet_name}}"
     },
     "backupMnemonic": {
-      "backupWalletDesc": "Guarda esta contraseña para acceder a tu monedero si pierdes tu cuenta de XBIT."
+      "backupWalletDesc": "Guarda esta contraseña para acceder a tu monedero si pierdes tu cuenta de KairoX."
     },
     "connectionWallet": {
       "authorizingButton": "Conectando...",
       "connectButton": "Conectar",
-      "iosOkxManualReturn": "OKX Web3 Wallet Connect en iOS no puede regresar automáticamente a la aplicación Xbit. Después de completar la conexión o iniciar sesión en OKX, vuelva a abrir la aplicación Xbit manualmente para continuar.",
+      "iosOkxManualReturn": "OKX Web3 Wallet Connect en iOS no puede regresar automáticamente a la aplicación KairoX. Después de completar la conexión o iniciar sesión en OKX, vuelva a abrir la aplicación KairoX manualmente para continuar.",
       "okxManualReturnTitle": "Nota al conectar OKX Wallet en iOS",
       "plsSignInWallet": "Inicia sesión en tu monedero para continuar.",
       "reLinkButton": "Reconectar",
-      "riskWarningDesc": "La billetera Web3 (o billetera API) se utiliza únicamente para iniciar sesión y realizar operaciones automatizadas dentro del sistema Xbit, como la autenticación o la firma de transacciones. Esta billetera no tiene acceso ni control sobre sus activos; puede usarla con total confianza.",
+      "riskWarningDesc": "La billetera Web3 (o billetera API) se utiliza únicamente para iniciar sesión y realizar operaciones automatizadas dentro del sistema KairoX, como la autenticación o la firma de transacciones. Esta billetera no tiene acceso ni control sobre sus activos; puede usarla con total confianza.",
       "riskWarningTitle": "Advertencia de riesgo",
       "signButton": "Continuar",
       "signingButton": "Firma...",
@@ -1135,14 +1135,14 @@
       "stepApproveTitle": "Verificación de cuenta",
       "stepApproveTitleFirstTime": "Registro de cuenta",
       "stepApproveTitleSecondTime": "Verificación de cuenta",
-      "stepConnectDesc": "Conecta tu billetera a XBIT.",
+      "stepConnectDesc": "Conecta tu billetera a KairoX.",
       "stepConnectTitle": "Conecta tu billetera"
     },
     "deleteAccount": {
       "deleteAccountNotice": "Aviso de eliminación de cuenta",
       "deleteDescription1": "Una vez eliminada la cuenta, no se podrá recuperar y todos los datos asociados se borrarán de forma permanente.",
       "deleteDescription2": "Todas las funciones de la cuenta quedarán desactivadas.",
-      "deleteDescription3": "Todos los servicios de notificación de XBIT se detendrán.",
+      "deleteDescription3": "Todos los servicios de notificación de KairoX se detendrán.",
       "deleteDescription4": "Asegúrese de que se hayan retirado todos los fondos de la cuenta.",
       "deleteDescription5": "Tras la eliminación exitosa, se cerrará automáticamente su sesión.",
       "deleteDescription6": "Se reserva el derecho de interpretar en última instancia las declaraciones anteriores.",
@@ -1165,7 +1165,7 @@
       "turnkeyDesc": "Turnkey es una billetera MPC descentralizada con todos los activos bajo custodia propia.",
       "verificationCodeSentLabel": "El código de verificación ha sido enviado a",
       "verificationSuccess": "Verificación exitosa",
-      "xbitConnectWallet": "\"XBIT\" Quiero abrir \"{{wallet}}\""
+      "xbitConnectWallet": "\"KairoX\" Quiero abrir \"{{wallet}}\""
     },
     "loginWeb3": {
       "error": {
@@ -1202,7 +1202,7 @@
       "addTokenNoLogged": "Inicia sesión para añadir este token a tus favoritos.",
       "connectingToWallet": "Conectando con la billetera...",
       "connectQRCodeDesc": "Si su billetera no es detectada, escanee el siguiente código QR con su billetera (debe ser compatible con el protocolo WalletConnect v2).",
-      "connectSolDesc": "Después de conectarse, vuelva a la aplicación XBIT para operar.",
+      "connectSolDesc": "Después de conectarse, vuelva a la aplicación KairoX para operar.",
       "connectSolTitle": "Conecta tu billetera a la red SOL.",
       "plsConfirmToConnectWallet": "Por favor, confirme la conexión en su billetera."
     },
@@ -1230,9 +1230,9 @@
     },
     "title": {
       "checkEmail1": "por favor, compruebe",
-      "checkEmail2": "Recibirás un correo electrónico de XBIT.com e introduce tu código a continuación.",
+      "checkEmail2": "Recibirás un correo electrónico de KairoX e introduce tu código a continuación.",
       "generateMPCWallet": "Genera una billetera MPC descentralizada.",
-      "welcome": "Bienvenido a XBIT"
+      "welcome": "Bienvenido a KairoX"
     },
     "verifyWallet": "Las firmas verifican la propiedad y la compatibilidad con la billetera. Los nuevos usuarios reciben dos solicitudes de firma.",
     "verifyWalletOwnership": "Verifique que usted es el propietario de la dirección de la billetera que aparece a continuación."
@@ -1331,11 +1331,11 @@
     "down": "Done",
     "downloadAppModal": {
       "download": "Download the APP",
-      "qrSubtitle": "Download the XBIT APP",
+      "qrSubtitle": "Download the KairoX APP",
       "qrTitle": "Scan the QR code",
       "share": "Share with Friends",
       "shareNote": "Invite Friends to Grab Blind Boxs",
-      "subtitle_1": "This Blind Box promotion is only available through the XBIT APP.",
+      "subtitle_1": "This Blind Box promotion is only available through the KairoX APP.",
       "subtitle_2": "Scan the QR code to download or click the button to go directly to the event page."
     },
     "event": {
@@ -1391,8 +1391,8 @@
       "exclusive": "Lantern Fest Bonus",
       "festival": {
         "entry": "Transaction Blind Box",
-        "title": "XBIT Trading Blind Box",
-        "title_app": "XBIT APP Exclusive Blind Box"
+        "title": "KairoX Trading Blind Box",
+        "title_app": "KairoX APP Exclusive Blind Box"
       },
       "starts": {
         "in": "Lantern Bonus starts in {{time}}"
@@ -1568,7 +1568,7 @@
     },
     "WaitOpen": "Wait to open",
     "web": {
-      "notice": "This Lantern event is Web-only on XBIT. Copy link to join.",
+      "notice": "This Lantern event is Web-only on KairoX. Copy link to join.",
       "only": "Web"
     },
     "will": {
@@ -1591,7 +1591,7 @@
     "withdrawable": "Withdrawable",
     "withdrawals": "{{num}}  withdrawals",
     "xbit": {
-      "blind_box": "XBIT Blind Box",
+      "blind_box": "KairoX Blind Box",
       "drawer": {
         "title": "Lucky Blind Box"
       },
@@ -1622,7 +1622,7 @@
       "presetConfirmNote": "Nota: Estos ajustes son globales. Si modifica manualmente algún ajuste para esta transacción, se utilizará como predeterminado para futuras operaciones.",
       "priorityTitle": "Tarifa prioritaria",
       "shareAssets": {
-        "AppName": "XBIT",
+        "AppName": "KairoX",
         "DomainCom": "CON",
         "haveMadeProfit": "He obtenido ganancias.",
         "holdingPrivateKeys": "Mantener las claves privadas de los activos cifrados garantiza que las transacciones en la cadena de bloques sean más seguras.",
@@ -1632,11 +1632,11 @@
       "trade": "Comercio"
     },
     "pair": {
-      "xbitShareTrade": "Información sobre la negociación de acciones de XBIT"
+      "xbitShareTrade": "Información sobre la negociación de acciones de KairoX"
     }
   },
   "bottomNav": {
-    "about": "Acerca de XBIT",
+    "about": "Acerca de KairoX",
     "assets": "Activos",
     "chat": "Charlar",
     "comingSoon": "¡Próximamente, el rastreador de inversiones inteligentes en futuros!",
@@ -2085,7 +2085,7 @@
     "contractInfo": "Información del contrato",
     "contractOwner": "Propietario del contrato",
     "dangerous": "Peligroso",
-    "disclaimer": "Descargo de responsabilidad: Este resultado de monitoreo de contratos se basa en datos públicos. XBIT no respalda ni recomienda este resultado de ninguna manera.",
+    "disclaimer": "Descargo de responsabilidad: Este resultado de monitoreo de contratos se basa en datos públicos. KairoX no respalda ni recomienda este resultado de ninguna manera.",
     "good": "Bien",
     "highRisk": "Alto riesgo",
     "honeypot": "Mielero",
@@ -2379,11 +2379,11 @@
     "from": "De",
     "link": {
       "authorization": "Autorización",
-      "authorizationNote": "Permite que XBIT recargue {{token}} desde tu billetera.",
+      "authorizationNote": "Permite que KairoX recargue {{token}} desde tu billetera.",
       "l2Confirmation": "Confirmación L2",
       "l2ConfirmationNote": "Confirma los detalles de tu recarga y firma para continuar con esta transacción.",
       "linkNote": "Conectar la cartera",
-      "linkYourWallet": "Vincula tu billetera a XBIT.",
+      "linkYourWallet": "Vincula tu billetera a KairoX.",
       "title": "Enlace"
     },
     "redeemFailed": "Fallido",
@@ -2548,14 +2548,14 @@
       "fishTx": "Impuestos desde $100 hasta $1000",
       "nodata": "Actualmente, este token no tiene datos de poseedores. Vuelva a consultar más tarde o explore otros tokens.",
       "noted": "Anotado",
-      "notedDescription": "{{noted}} Usuario(s) de Xbit anotaron esta dirección",
+      "notedDescription": "{{noted}} Usuario(s) de KairoX anotaron esta dirección",
       "profit7d": "7D PNL",
       "sharkTx": "Impuestos desde $1K hasta $10K",
       "shrimpTx": "Impuestos inferiores a $100",
       "token7d": "Fichas 7D",
       "tokenSource": "Fuente del token",
       "tracked": "Rastreado",
-      "trackedDescription": "{{tracked}} Usuario(s) de Xbit rastrearon esta dirección",
+      "trackedDescription": "{{tracked}} Usuario(s) de KairoX rastrearon esta dirección",
       "trades7d": "Operaciones 7D",
       "whaleTx": "Impuestos superiores a $10 000",
       "winrate7d": "Tasa de victorias en 7D"
@@ -2971,7 +2971,7 @@
     "openAppStore": "Abrir App Store",
     "openGooglePlay": "Abrir Google Play",
     "scanToDownload": "Escanee para descargar",
-    "subtitle": "Puedes operar en cualquier momento y lugar con la aplicación móvil XBIT para iOS y Android.",
+    "subtitle": "Puedes operar en cualquier momento y lugar con la aplicación móvil KairoX para iOS y Android.",
     "title": "Comercia desde cualquier lugar"
   },
   "drawer": {
@@ -3831,7 +3831,7 @@
       "approveSuccess": "Aprobar el éxito",
       "button": "Aprobar el comercio",
       "connect": "Conectar",
-      "desc": "Conecta tu billetera a XBIT.",
+      "desc": "Conecta tu billetera a KairoX.",
       "getSignatureFailed": "Falló la obtención de la firma.",
       "operationFailed": "La operación fracasó.",
       "pleaseApprove": "Por favor, complete primero la transacción de autorización.",
@@ -3921,11 +3921,11 @@
     "volume": "Volumen"
   },
   "futuresDetailsShare": {
-    "30dshare": "He operado con contratos perpetuos de {{coin}} en XBIT DEX y he obtenido un retorno de {{pnlPercentage}} en los últimos 30 días.",
+    "30dshare": "He operado con contratos perpetuos de {{coin}} en KairoX DEX y he obtenido un retorno de {{pnlPercentage}} en los últimos 30 días.",
     "address": "Dirección de la billetera",
-    "historyTwitter": "Negocié futuros perpetuos de {{coin}} en XBIT DEX. La ganancia es {{unrealizedPnl}}.",
+    "historyTwitter": "Negocié futuros perpetuos de {{coin}} en KairoX DEX. La ganancia es {{unrealizedPnl}}.",
     "inviteAddress": "Nombre de la billetera",
-    "orderTwitter": "Negocié futuros perpetuos de {{coin}} en XBIT DEX. La tasa de retorno es {{pnlPercentage}}.",
+    "orderTwitter": "Negocié futuros perpetuos de {{coin}} en KairoX DEX. La tasa de retorno es {{pnlPercentage}}.",
     "pnlAmount": "Monto del PNL",
     "selectBgImage": "Por favor, seleccione una imagen de fondo.",
     "selectShareInfo": "Seleccione la información que desea compartir.",
@@ -3986,7 +3986,7 @@
         "msg": "Se prevé que la revisión se complete en un plazo de 1 día hábil y los resultados se le enviarán por correo electrónico.",
         "title": "Envío exitoso"
       },
-      "copyright": "Copyright © 2024 XBIT.COM. Todos los derechos reservados.",
+      "copyright": "Copyright © 2024 KairoX. Todos los derechos reservados.",
       "dear": "Estimado usuario:",
       "decode": "clave de 16 bits",
       "descriptionQR": "Abre la aplicación Google Authenticator, haz clic en el signo + en la esquina inferior derecha, escanea el código QR que aparece a continuación o copia la clave de 16 dígitos que aparece a continuación en Google Authenticator.",
@@ -4011,12 +4011,12 @@
         "ensureMsg2": "En 24 horas",
         "ensureMsg3": "No se permiten retiros de monederos de Telegram.",
         "form": {
-          "exampleWallet": "Por ejemplo, si utiliza la billetera MetaMask para recargar la billetera TG de XBIT, o para retirar dinero de la billetera TG de XBIT a la billetera MetaMask, proporcione la dirección de la billetera MetaMask.",
+          "exampleWallet": "Por ejemplo, si utiliza la billetera MetaMask para recargar la billetera TG de KairoX, o para retirar dinero de la billetera TG de KairoX a la billetera MetaMask, proporcione la dirección de la billetera MetaMask.",
           "label1": "Tu número de cuenta de TG (asegúrate de introducirlo correctamente para facilitar el contacto con el servicio de atención al cliente).",
-          "label2": "Tu ID de usuario de Telegram (introduce \"/userid\" en el bot oficial de Telegram de XBIT para obtenerlo).",
+          "label2": "Tu ID de usuario de Telegram (introduce \"/userid\" en el bot oficial de Telegram de KairoX para obtenerlo).",
           "label3": "Tu dirección de correo electrónico (para recibir correos electrónicos de restablecimiento)",
-          "label4": "Por favor, proporcione la dirección de la billetera que haya tenido registros de transferencias con la billetera TG de XBIT en los últimos 3 meses.",
-          "label5": "Por favor, suba capturas de pantalla de los registros de depósito o retiro de la billetera mencionada anteriormente y de la billetera TG de XBIT de los últimos tres meses.",
+          "label4": "Por favor, proporcione la dirección de la billetera que haya tenido registros de transferencias con la billetera TG de KairoX en los últimos 3 meses.",
+          "label5": "Por favor, suba capturas de pantalla de los registros de depósito o retiro de la billetera mencionada anteriormente y de la billetera TG de KairoX de los últimos tres meses.",
           "offlineTelegram": "Telegrama oficial",
           "placeholder1": "Tu cuenta de TG",
           "placeholder2": "Tu ID de usuario de TG",
@@ -4030,7 +4030,7 @@
         "intro": "Para la seguridad de sus fondos, el sistema solo admite transferencias a direcciones incluidas en la lista blanca. Tras añadir una dirección a la lista blanca, deberá esperar 3 horas para que se active. Una vez activa, no se requiere ninguna verificación adicional para las transferencias a direcciones incluidas en la lista blanca, lo que hace que el proceso de retiro sea más seguro y rápido.",
         "title": "Restablecer la verificación de Google"
       },
-      "riskwarning": "Advertencia de riesgo: El comercio de criptomonedas conlleva un alto nivel de riesgo. XBIT.COM le ofrece servicios de trading de primera clase en la cadena de bloques, pero no nos hacemos responsables de sus pérdidas. Preste atención a los riesgos de las transacciones y opere con precaución.",
+      "riskwarning": "Advertencia de riesgo: El comercio de criptomonedas conlleva un alto nivel de riesgo. KairoX le ofrece servicios de trading de primera clase en la cadena de bloques, pero no nos hacemos responsables de sus pérdidas. Preste atención a los riesgos de las transacciones y opere con precaución.",
       "safety": {
         "intro": "Para la seguridad de sus fondos, el sistema solo admite transferencias a direcciones incluidas en la lista blanca. Tras añadir una dirección a la lista blanca, deberá esperar 3 horas para que se active. Una vez activa, no se requiere ninguna verificación adicional para las transferencias a direcciones incluidas en la lista blanca, lo que hace que el proceso de retiro sea más seguro y rápido.",
         "intro ": "Para la seguridad de sus fondos, el sistema solo admite transferencias a direcciones incluidas en la lista blanca. Tras añadir una dirección a la lista blanca, deberá esperar 3 horas para que se active. Una vez activa, no se requiere ninguna verificación adicional para las transferencias a direcciones incluidas en la lista blanca, lo que hace que el proceso de retiro sea más seguro y rápido.",
@@ -4049,7 +4049,7 @@
         "step3": "Retiro"
       },
       "team": "equipo",
-      "thankyou": "Gracias por elegir XBIT. ¿Necesita ayuda? Póngase en contacto con nosotros.",
+      "thankyou": "Gracias por elegir KairoX. ¿Necesita ayuda? Póngase en contacto con nosotros.",
       "title": "Vincular Google Authenticator",
       "warning": {
         "not_available": "Google Authenticator no está disponible.",
@@ -4147,7 +4147,7 @@
     "triggerMarketCap": "Límite/Precio de activación",
     "txHash": "Hash de Tx",
     "type": "Tipo",
-    "xbitFee": "Comisión XBIT ({{value}}%)"
+    "xbitFee": "Comisión KairoX ({{value}}%)"
   },
   "holding": {
     "cumulativePnL": "PnL acumulado",
@@ -4165,7 +4165,7 @@
       "sorting": "Clasificar"
     },
     "tooltip": {
-      "transferToken": "Este token se transfirió desde una billetera externa. Las ganancias y pérdidas, así como el costo promedio, solo se calculan para los tokens comprados en Xbit."
+      "transferToken": "Este token se transfirió desde una billetera externa. Las ganancias y pérdidas, así como el costo promedio, solo se calculan para los tokens comprados en KairoX."
     }
   },
   "holdings": {
@@ -4262,9 +4262,9 @@
     "inviteLink": "Enlace de invitación",
     "inviteRules": "Reglas de invitación",
     "inviteRulesDescription1": "Invita a tus amigos a intercambiar meme coins y contratos perpetuos por reembolsos de comisiones. Cuantos más amigos invites, más recompensas de comisión ganarás.",
-    "inviteRulesDescription2": "El sistema de comisiones de XBIT se lanzará más adelante. En ese momento, utilizaremos el 25 de julio de 2025 como fecha de inicio para compensarte por las comisiones acumuladas hasta la fecha. ¡Adelante!",
-    "inviteText": "Haz clic en mi enlace de referencia para registrarte en XBIT DEX y obtener hasta",
-    "inviteToXBIT": "Te invitamos a unirte a XBIT.",
+    "inviteRulesDescription2": "El sistema de comisiones de KairoX se lanzará más adelante. En ese momento, utilizaremos el 25 de julio de 2025 como fecha de inicio para compensarte por las comisiones acumuladas hasta la fecha. ¡Adelante!",
+    "inviteText": "Haz clic en mi enlace de referencia para registrarte en KairoX DEX y obtener hasta",
+    "inviteToXBIT": "Te invitamos a unirte a KairoX.",
     "maxCommission50Percent": "Comisión máxima del 50%.",
     "myInviteCode": "Mi código de invitación",
     "qrCode": "Código QR",
@@ -4631,25 +4631,25 @@
     "and": "y",
     "approveToCreateAccount": "Aprueba la creación de tu cuenta.",
     "authRequire": "Inicia sesión o regístrate para operar.",
-    "betaCodeVerified": "¡Código de acceso verificado! Bienvenido a XBIT...",
+    "betaCodeVerified": "¡Código de acceso verificado! Bienvenido a KairoX...",
     "bindingNotice": "Conectarse a SOL",
     "bindTelegramBot": "Bot de Telegram para vincular",
     "cancel": "Cancelar",
     "checkEmail": {
       "prefix": "por favor, compruebe",
-      "suffix": "Recibirás un correo electrónico de XBIT.com e introduce tu código a continuación."
+      "suffix": "Recibirás un correo electrónico de KairoX e introduce tu código a continuación."
     },
     "codeSentTo": "El código de verificación ha sido enviado a",
     "confirm": "Confirmar",
     "confirmToAccessAccount": "Confirma para acceder a tu cuenta.",
     "connectWallet": "Conectar la cartera",
     "connectYourWallet": "Conecta tu billetera",
-    "connectYourWalletToXBIT": "Conecta tu billetera a XBIT.",
+    "connectYourWalletToXBIT": "Conecta tu billetera a KairoX.",
     "continueWithGoogle": "Continuar con Google",
     "didntGetEmail": "¿No recibiste el correo electrónico?",
     "downloadWallet": "Descargar",
     "emailLogin": "Inicio de sesión de correo electrónico",
-    "enterBetaCode": "Introduce tu código de acceso a continuación para obtener acceso inmediato a XBIT.",
+    "enterBetaCode": "Introduce tu código de acceso a continuación para obtener acceso inmediato a KairoX.",
     "enterYourEmail": "Por favor, introduzca su dirección de correo electrónico.",
     "generateMPCWallet": "Genera una billetera MPC descentralizada.",
     "getBetaCode": "Obtén el código de acceso",
@@ -4659,7 +4659,7 @@
       "web3Wallet": "Cartera Web3"
     },
     "home": {
-      "loginOptionTitle": "Empiece a operar con XBIT."
+      "loginOptionTitle": "Empiece a operar con KairoX."
     },
     "installed": "Instalado",
     "invalidCode": "Código no válido. Inténtalo de nuevo.",
@@ -4688,7 +4688,7 @@
     "resend": "Reenviar",
     "resendSuccess": "Te hemos enviado un correo electrónico. Por favor, revisa tu bandeja de entrada para continuar.",
     "riskWarning": "Advertencia de riesgo",
-    "riskWarningContent": "La billetera Web3 (o billetera API) se utiliza únicamente para iniciar sesión y realizar operaciones automatizadas dentro del sistema Xbit, como la autenticación o la firma de transacciones. Esta billetera no tiene acceso ni control sobre sus activos; puede usarla con total confianza.",
+    "riskWarningContent": "La billetera Web3 (o billetera API) se utiliza únicamente para iniciar sesión y realizar operaciones automatizadas dentro del sistema KairoX, como la autenticación o la firma de transacciones. Esta billetera no tiene acceso ni control sobre sus activos; puede usarla con total confianza.",
     "signatureExplanation": "Las firmas verifican la propiedad y la compatibilidad con la billetera. Los nuevos usuarios reciben dos solicitudes de firma.",
     "signingFree": "Firmar es gratis y no implica ninguna transacción.",
     "signMessage": "Firmar mensaje",
@@ -4717,12 +4717,12 @@
     "terms": "Condiciones de uso",
     "termsAgreement": "Al conectarse, usted acepta nuestros términos y condiciones.",
     "text": {
-      "loginNotLoggedIn": "No has iniciado sesión en XBIT."
+      "loginNotLoggedIn": "No has iniciado sesión en KairoX."
     },
     "toGenerate": "Para generar una billetera MPC descentralizada",
     "tokenExpired": "Tu sesión ha caducado. Por favor, actualiza la página para continuar...",
     "tradingPromptDetail": "No se requiere firma",
-    "tradingPromptTitle": "Empiece a operar con XBIT.",
+    "tradingPromptTitle": "Empiece a operar con KairoX.",
     "validEmail": "Formato de correo electrónico no válido, por favor vuelva a introducirlo.",
     "verify": "Verificar",
     "verifyCode": "Confirmar código de verificación",
@@ -4730,7 +4730,7 @@
     "wallet": {
       "notInstallWallet": "No has instalado {{wallet}}"
     },
-    "welcomeText": "Bienvenido a XBIT",
+    "welcomeText": "Bienvenido a KairoX",
     "with": "y"
   },
   "loyalty": {
@@ -4746,7 +4746,7 @@
       "yourPoints": "Tus puntos"
     },
     "card": {
-      "titleSeason": "XBIT {{seasonName}}"
+      "titleSeason": "KairoX {{seasonName}}"
     },
     "currentShare": "Participación actual",
     "desCreateCode": "Configura tu código de invitación exclusivo para invitar fácilmente a tus amigos a unirse a la plataforma.",
@@ -4761,7 +4761,7 @@
       "tradingPoint": "¿Cómo se calculan los puntos de intercambio?",
       "tradingPointAnswer": "Los puntos de negociación se basan en la fórmula básica: Puntos de negociación = Volumen de negociación (USD) × Coeficiente de sector × Coeficiente de calidad. El coeficiente de sector se ajusta según las comisiones de transacción (por ejemplo, Meme = 1,0, Futuros = 0,1, Acciones estadounidenses = 0,5), y el coeficiente de calidad depende del margen de beneficio/pérdida de cada operación (por ejemplo, 0,5 %–2 % = 1,0, >10 % vuelve a 1,0).",
       "whatIsPoint": "¿Qué son los puntos?",
-      "whatIsPointAnswer": "Los puntos son un mecanismo de incentivo en la plataforma XBIT que recompensa a los usuarios por operar en los mercados de memes, futuros y acciones estadounidenses, así como por mantener posiciones, conservar fondos, recomendar a otros y participar en actividades de la comunidad. Los puntos se pueden usar para acceder a las clasificaciones de temporada (los 100 mejores comparten el premio), lo que fomenta la participación genuina y a largo plazo. El sistema está diseñado para ser simple, transparente, antifraude y equilibrado mediante reglas de temporada y bonificaciones multiplicadoras."
+      "whatIsPointAnswer": "Los puntos son un mecanismo de incentivo en la plataforma KairoX que recompensa a los usuarios por operar en los mercados de memes, futuros y acciones estadounidenses, así como por mantener posiciones, conservar fondos, recomendar a otros y participar en actividades de la comunidad. Los puntos se pueden usar para acceder a las clasificaciones de temporada (los 100 mejores comparten el premio), lo que fomenta la participación genuina y a largo plazo. El sistema está diseñado para ser simple, transparente, antifraude y equilibrado mediante reglas de temporada y bonificaciones multiplicadoras."
     },
     "fundPoints": "Puntos de fondo",
     "goInvite": "Ir a invitar",
@@ -4797,7 +4797,7 @@
       "warningDes": "La longitud debe ser de 4 a 15 caracteres. Utilice únicamente letras (Aa–Zz), números (0–9) o guiones bajos.",
       "warningTitle": "¡Código de invitación no válido! Por favor, asegúrese de que:"
     },
-    "shareText": "Haz clic en mi enlace de referencia para registrarte en XBIT DEX y obtener hasta un 50 % de reembolso. {{inviteLink}}",
+    "shareText": "Haz clic en mi enlace de referencia para registrarte en KairoX DEX y obtener hasta un 50 % de reembolso. {{inviteLink}}",
     "tooltip": {
       "fundPoints": "Los puntos del fondo se generan en función de la estabilidad del saldo de tu cuenta. Cuanto más estables y elevados sean los saldos, más puntos acumularás con el tiempo.",
       "holdingPoints": "Los puntos de retención se calculan en función del valor por hora de sus activos. Cuanto más tiempo y mayor sea el saldo que mantenga, más puntos ganará.",
@@ -4895,7 +4895,7 @@
     },
     "options": {
       "aboutUs": "Comunidad",
-      "aboutXbitTutorial": "Acerca del tutorial de XBIT",
+      "aboutXbitTutorial": "Acerca del tutorial de KairoX",
       "airdropPoints": "Puntos de lanzamiento aéreo",
       "backupMnemonic": "Frase mnemotécnica",
       "browsingHistory": "Historial de navegación",
@@ -4904,7 +4904,7 @@
       "inviteRebate": "Referencias",
       "loyalty": "Puntos de lanzamiento aéreo",
       "myRebate": "Mi reembolso",
-      "shareXbit": "Compartir XBIT",
+      "shareXbit": "Compartir KairoX",
       "tradeSettings": "Configuración comercial",
       "tradingReward": "Recompensas",
       "tutorial": "Tutorial",
@@ -5253,7 +5253,7 @@
       "pump": "Bomba",
       "slippageLoss": "pérdida por deslizamiento",
       "txHash": "Hash de Tx",
-      "xbitFee": "Comisión XBIT (% %)"
+      "xbitFee": "Comisión KairoX (% %)"
     },
     "list": {
       "noData": "Aún no tienes órdenes pendientes. Usa órdenes Limit y Trailing TP/SL para obtener automáticamente el mejor precio."
@@ -5627,13 +5627,13 @@
       "points": "Agujas",
       "referrals": "Referencias",
       "rewards": "Recompensas",
-      "shareXbit": "Compartir XBIT",
+      "shareXbit": "Compartir KairoX",
       "tradeSettings": "Configuración comercial",
       "userFeedback": "Comentarios de los usuarios",
       "walletManagement": "Gestión de la cartera"
     },
     "pleaseLogin": "Por favor, inicie sesión",
-    "welcomeToXBIT": "Bienvenido a XBIT"
+    "welcomeToXBIT": "Bienvenido a KairoX"
   },
   "pop": {
     "token": {
@@ -5731,7 +5731,7 @@
       "positions": "Puestos"
     }
   },
-  "powerByXbit": "¡Con tecnología de Xbit!",
+  "powerByXbit": "¡Con tecnología de KairoX!",
   "ppUpdateChecker": {
     "forceUpdate": {
       "title": "Se requiere actualización"
@@ -5801,7 +5801,7 @@
     "claimable": {
       "claimedFailed": "La reclamación fracasó",
       "claimedSuccessfully": "Reclamado con éxito",
-      "congratulationTitle": "¡Excelente trabajo prediciendo el futuro en XBIT!",
+      "congratulationTitle": "¡Excelente trabajo prediciendo el futuro en KairoX!",
       "won": "Ganado",
       "youWon": "Ganaste"
     },
@@ -5834,7 +5834,7 @@
     },
     "daily": "A diario",
     "deposit": {
-      "xbitPredictionAddress": "Dirección de predicción XBIT"
+      "xbitPredictionAddress": "Dirección de predicción KairoX"
     },
     "discover": {
       "earningsCalendar": "Calendario de resultados",
@@ -6176,7 +6176,7 @@
       "cashOutSuccess": "Cobro realizado con éxito",
       "claiming": "Afirmando...",
       "claimProceeds": "Afirmar",
-      "congratsMessage": "¡Excelente trabajo prediciendo el futuro en XBIT!",
+      "congratsMessage": "¡Excelente trabajo prediciendo el futuro en KairoX!",
       "marketIconAlt": "Icono de mercado",
       "marketNotFound": "Mercado no encontrado",
       "marketsWon": "Los mercados ganaron",
@@ -6477,11 +6477,11 @@
       "down": "Hecho",
       "downloadAppModal": {
         "download": "Descarga la aplicación",
-        "qrSubtitle": "Descarga la aplicación XBIT.",
+        "qrSubtitle": "Descarga la aplicación KairoX.",
         "qrTitle": "Escanee el código QR",
         "share": "Comparte con tus amigos",
         "shareNote": "Invita a tus amigos a conseguir cajas sorpresa.",
-        "subtitle_1": "Esta promoción de Caja Sorpresa solo está disponible a través de la aplicación XBIT.",
+        "subtitle_1": "Esta promoción de Caja Sorpresa solo está disponible a través de la aplicación KairoX.",
         "subtitle_2": "Escanea el código QR para descargarlo o haz clic en el botón para ir directamente a la página del evento."
       },
       "event": {
@@ -6537,8 +6537,8 @@
         "exclusive": "Bonificación del Festival de Linternas",
         "festival": {
           "entry": "Caja ciega de transacción",
-          "title": "Caja sorpresa de XBIT Trading",
-          "title_app": "Caja sorpresa exclusiva de la aplicación XBIT"
+          "title": "Caja sorpresa de KairoX Trading",
+          "title_app": "Caja sorpresa exclusiva de la aplicación KairoX"
         },
         "starts": {
           "in": "El evento de intercambio de cajas ciegas comenzará en {{time}}."
@@ -6715,7 +6715,7 @@
       },
       "WaitOpen": "Espere a que se abra",
       "web": {
-        "notice": "Este evento de intercambio de cajas sorpresa solo está disponible en XBIT Web. Copie el enlace para abrir la página del evento.",
+        "notice": "Este evento de intercambio de cajas sorpresa solo está disponible en KairoX Web. Copie el enlace para abrir la página del evento.",
         "only": "Web"
       },
       "will": {
@@ -6739,11 +6739,11 @@
       "withdrawals": "{{num}} retiros",
       "xbit": {
         "drawer": {
-          "title": "Caja sorpresa XBIT"
+          "title": "Caja sorpresa KairoX"
         },
-        "lantern": "Festival de Linternas XBIT",
+        "lantern": "Festival de Linternas KairoX",
         "red": {
-          "packet": "Cajas sorpresa XBIT"
+          "packet": "Cajas sorpresa KairoX"
         }
       },
       "you": {
@@ -6993,14 +6993,14 @@
   },
   "share": {
     "accountMeme": {
-      "valueMessage": "Acabo de comprar ${{symbol}} en XBIT DEX, con una ganancia de {{profit}}."
+      "valueMessage": "Acabo de comprar ${{symbol}} en KairoX DEX, con una ganancia de {{profit}}."
     },
     "accountRWA": {
-      "valueMessage": "Acabo de operar con acciones estadounidenses ${{symbol}} en XBIT DEX, con una ganancia de {{profit}}."
+      "valueMessage": "Acabo de operar con acciones estadounidenses ${{symbol}} en KairoX DEX, con una ganancia de {{profit}}."
     },
     "assetsBody": {
       "dexMobileNo1": "Intercambio móvil descentralizado n.° 1. Cotizaciones en milisegundos, operaciones ultrarrápidas.",
-      "dexMobileXbit": "XBIT, plataforma de intercambio móvil descentralizada. Cotizaciones en milisegundos, operaciones ultrarrápidas."
+      "dexMobileXbit": "KairoX, plataforma de intercambio móvil descentralizada. Cotizaciones en milisegundos, operaciones ultrarrápidas."
     },
     "deposit": {
       "valueMessage": "{{symbol}} Dirección de depósito:"
@@ -7016,7 +7016,7 @@
       "selectContent": "Seleccione la información que desea compartir."
     },
     "invitationCode": {
-      "valueMessage": "Haz clic en mi enlace de referencia para registrarte en XBIT DEX y obtener el mayor reembolso de {{profit}}."
+      "valueMessage": "Haz clic en mi enlace de referencia para registrarte en KairoX DEX y obtener el mayor reembolso de {{profit}}."
     },
     "menu": {
       "shareXBitInvitation": "Plataforma de intercambio descentralizada número 1\nDatos en milisegundos, ejecución ultrarrápida"
@@ -7026,22 +7026,22 @@
       "xNotInstalledRedirecting": "La aplicación X no está instalada. Redireccionando a la tienda."
     },
     "tokenDetail": {
-      "valueMessage": "${{symbol}} tiene algo interesante; únete a XBIT DEX para estar al tanto de la tendencia. ¡Investiga por tu cuenta!"
+      "valueMessage": "${{symbol}} tiene algo interesante; únete a KairoX DEX para estar al tanto de la tendencia. ¡Investiga por tu cuenta!"
     },
     "xbit": {
-      "valueMessage": "Descarga XBIT DEX para operar sin problemas con contratos perpetuos, memes y acciones estadounidenses."
+      "valueMessage": "Descarga KairoX DEX para operar sin problemas con contratos perpetuos, memes y acciones estadounidenses."
     }
   },
   "shareBottomSheet": {
     "depositAddressTemplate": "Dirección de depósito de {{token}}: {{address}}",
     "dexSlogan": "Cotizaciones DEX a nivel de milisegundos, operaciones ultrarrápidas.",
-    "memeContent": "${{coin}} es interesante, ven a XBIT DEX y únete a la tendencia, ¡investiga por tu cuenta!",
-    "shareHoldingTemplate": "Invertí ${{symbol}} en XBIT DEX y gané {{returns}}%.",
-    "stockShareTemplate": "Negocié acciones estadounidenses ${{symbol}} en XBIT DEX, obteniendo una rentabilidad de {{returns}}%.",
+    "memeContent": "${{coin}} es interesante, ven a KairoX DEX y únete a la tendencia, ¡investiga por tu cuenta!",
+    "shareHoldingTemplate": "Invertí ${{symbol}} en KairoX DEX y gané {{returns}}%.",
+    "stockShareTemplate": "Negocié acciones estadounidenses ${{symbol}} en KairoX DEX, obteniendo una rentabilidad de {{returns}}%.",
     "title": "Compartir página"
   },
   "sharePage": {
-    "checkOutThisAssetInformation": "Cobré {{symbol}}, ven a XBIT DEX para estar al día con la tendencia, ¡investiga por tu cuenta!",
+    "checkOutThisAssetInformation": "Cobré {{symbol}}, ven a KairoX DEX para estar al día con la tendencia, ¡investiga por tu cuenta!",
     "dexLabel": "Intercambio descentralizado (DEX)",
     "remainingPosition": "Participaciones restantes",
     "title": "Compartir página"
@@ -7053,10 +7053,10 @@
     "updateLoading": "Cargando actualización"
   },
   "signIn": {
-    "continueWithXBIT": "Al continuar utilizando, usted acepta los términos de XBIT.",
+    "continueWithXBIT": "Al continuar utilizando, usted acepta los términos de KairoX.",
     "didNotGetEmail": "¿No recibiste el correo electrónico?",
     "doNotBetaCode": "¿No tienes un código de acceso?",
-    "enterBetaCode": "Introduce tu código de acceso a continuación para obtener acceso inmediato a XBIT.",
+    "enterBetaCode": "Introduce tu código de acceso a continuación para obtener acceso inmediato a KairoX.",
     "getBetaCode": "Obtén el código de acceso",
     "haveABetaCode": "¿Tienes un código de acceso?",
     "inviteCodeHint": "Código de invitación (opcional)",
@@ -7073,14 +7073,14 @@
     "title": {
       "checkEmail": "El código de verificación ha sido enviado a",
       "checkEmail1": "por favor, compruebe",
-      "checkEmail2": "Recibirás un correo electrónico de XBIT.com e introduce tu código a continuación.",
+      "checkEmail2": "Recibirás un correo electrónico de KairoX e introduce tu código a continuación.",
       "confirmVerifyCode": "Confirmar código de verificación",
-      "connectWithXBIT": "Conéctate con XBIT",
+      "connectWithXBIT": "Conéctate con KairoX",
       "generateMPCWallet": "Genera una billetera MPC descentralizada.",
-      "welcome": "Bienvenido a XBIT"
+      "welcome": "Bienvenido a KairoX"
     },
     "verifyAccessCode": {
-      "success": "¡Código de acceso verificado! Bienvenido a XBIT."
+      "success": "¡Código de acceso verificado! Bienvenido a KairoX."
     },
     "verifyOTP": "Verificar",
     "verifyWallet": {
@@ -7539,7 +7539,7 @@
       "contractCreator": "Creador de contratos",
       "contractInfo": "Información del contrato",
       "contractOwner": "Propietario del contrato",
-      "disclaimer": "Descargo de responsabilidad: Este resultado de monitoreo de contratos se basa en datos públicos. XBIT no respalda ni recomienda este resultado de ninguna manera.",
+      "disclaimer": "Descargo de responsabilidad: Este resultado de monitoreo de contratos se basa en datos públicos. KairoX no respalda ni recomienda este resultado de ninguna manera.",
       "highRisk": "Alto riesgo",
       "honeypot": "Mielero",
       "honeypotDesc": "Este contrato podría ser una trampa que impide la venta de tokens.",
@@ -7610,7 +7610,7 @@
       "buyAddress": "Direcciones de compra",
       "buyAmount": "Cantidad de compra",
       "buyCount": "transacciones de compra",
-      "externalTransferPnLTooltip": "Este token se transfirió desde una billetera externa. Las ganancias y pérdidas, así como el costo promedio, solo se calculan para los tokens comprados en Xbit.",
+      "externalTransferPnLTooltip": "Este token se transfirió desde una billetera externa. Las ganancias y pérdidas, así como el costo promedio, solo se calculan para los tokens comprados en KairoX.",
       "insidePercent": "Información privilegiada %",
       "numberOfHolders": "Número de titulares",
       "snippersHolding": "Francotiradores en posición",
@@ -8137,7 +8137,7 @@
     "positionCurrency": "Token de tenencia",
     "qrCodeInstruction": "Si tu billetera no aparece en la lista, escanea este código QR con tu billetera (requiere WalletConnect v2).",
     "reconnect": "Reconectar",
-    "returnToApp": "Regresar a XBIT",
+    "returnToApp": "Regresar a KairoX",
     "saveToAlbum": "Ahorrar",
     "selectNetwork": "Seleccionar red",
     "selectWallet": "Seleccione la cartera",
@@ -8187,7 +8187,7 @@
       "walletName": "Nombre de la billetera"
     },
     "mnemonicChecklist": {
-      "accessLost": "Guarda esta contraseña para acceder a tu monedero si pierdes tu cuenta de XBIT.",
+      "accessLost": "Guarda esta contraseña para acceder a tu monedero si pierdes tu cuenta de KairoX.",
       "backupInstructions": "Por favor, copia las siguientes palabras en orden y guárdalas en un lugar seguro. Nunca reveles tu frase mnemotécnica a nadie, o podrías perderlo todo.",
       "backupTitle": "Frase mnemotécnica de respaldo",
       "complete": "Completo",
@@ -8220,7 +8220,7 @@
         "tip1": "Solo necesitas la frase mnemotécnica para acceder completamente a tu billetera y fondos.",
         "tip2": "Compartir tu clave privada puede conllevar el robo de activos.",
         "tip3": "Nunca compartas, guardes ni transmitas frases mnemotécnicas en línea con nadie.",
-        "tip4": "El equipo de XBIT nunca te pedirá que proporciones tu frase mnemotécnica."
+        "tip4": "El equipo de KairoX nunca te pedirá que proporciones tu frase mnemotécnica."
       },
       "specialReminder": "Recordatorio especial",
       "specialReminderText": "¡Cualquiera que obtenga la frase mnemotécnica podrá controlar tus bienes!",

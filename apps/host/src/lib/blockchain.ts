@@ -212,8 +212,8 @@ export const telegramBotConfig = {
 }
 
 export const message_to_sign = (address: string, nonce: string) => {
-  let message = 'Welcome to Xbit!\n\n'
-  message += 'Click to sign in and accept the Xbit Terms of Service https://xbit.com/terms-of-use\n\n'
+  let message = 'Welcome to KairoX!\n\n'
+  message += 'Click to sign in and accept the KairoX Terms of Service https://kairox.com/terms-of-use\n\n'
   message += 'This request will not trigger a blockchain transaction or cost any gas fees.\n\n'
   message += `Wallet address:\n\n${address}\n\n`
   message += `Nonce:\n${nonce}`
@@ -237,7 +237,7 @@ export const getImgFromNameWallet = (name: string) => {
       return '/images/wallets/ic-connect-wallet.svg'
     // break
     default:
-      return '/images/xbit-logo.svg'
+      return '/images/kairox-logo.svg'
   }
 }
 

@@ -44,7 +44,7 @@ export const TokenCard = ({ token, assetCtx }: { token: any; assetCtx?: AssetCtx
           src={`${Configs.getHyperliquidConfig().imgUrl}/${coin}.svg`}
           className="size-9 rounded-full bg-white/5"
           onError={(e) => {
-            e.currentTarget.src = '/images/xbit-logo-rounded.webp'
+            e.currentTarget.src = '/images/kairox-logo-rounded.svg'
           }}
           alt={`${coin}-logo`}
         />

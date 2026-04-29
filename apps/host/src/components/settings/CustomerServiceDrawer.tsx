@@ -15,7 +15,7 @@ export const CustomerServiceDrawer = (props: CustomerServiceDrawerProps) => {
   const ref = useRef<CustomerServiceQRCodeHandle>(null)
   const telegramBot = import.meta.env.VITE_TELEGRAM_BOT
   // const telegramLink = `https://t.me/${telegramBot}`
-  const telegramLink = 'https://t.me/xbit_dex'
+  const telegramLink = 'https://t.me/KairoX'
   const posterRef = useRef<HTMLDivElement>(null)
   const [saving, setSaving] = useState<boolean>(false)
 
@@ -27,7 +27,7 @@ export const CustomerServiceDrawer = (props: CustomerServiceDrawerProps) => {
       scale: 2,
     })
     const link = document.createElement('a')
-    link.download = 'Xbit Customer Service QR Code'
+    link.download = 'KairoX Customer Service QR Code'
     link.href = canvas.toDataURL()
     setSaving(false)
     link.click()
@@ -47,7 +47,7 @@ export const CustomerServiceDrawer = (props: CustomerServiceDrawerProps) => {
             </div>
             <CustomerServiceQRCode ref={ref} url={telegramLink} />
             <div className="text-[#5A8B50] text-center font-semibold text-[calc(16rem/16)] leading-4 mt-4 flex items-center justify-center gap-1">
-              <span>@xbitdex</span>
+              <span>@KairoX</span>
               <CopyButton text={telegramLink} icon="/images/icons/ic-copy-tele.svg" />
             </div>
           </div>

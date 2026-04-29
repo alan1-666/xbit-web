@@ -7,7 +7,7 @@
     "clearCacheDesc": "Önbelleği temizlemek istediğinizden emin misiniz?",
     "privacyPolicy": "Gizlilik Politikası",
     "privacyPolicyLabel": "Gizlilik Politikası",
-    "rateXbit": "XBIT'i değerlendirin",
+    "rateXbit": "KairoX'i değerlendirin",
     "sloganXbit": "Zincir üstü işlem gelecektir, ticaret özgürlüktür.",
     "termsOfUse": "Kullanım şartları",
     "termsOfUseLabel": "Kullanım Şartları",
@@ -123,7 +123,7 @@
     "officialExpand": "Genişletmek için tıklayın",
     "officialTitle": "Resmi Veri Analizi",
     "onchainTextContent": "Bu Twitter hesabı, tanınmış girişimci Elon Musk tarafından yönetiliyor gibi görünüyor. Ancak, tweet'lerde özellikle meme coin'lerle ilgili herhangi bir içerik bulunmuyor ve blockchain veya kripto paralarla doğrudan bağlantılı hiçbir şeyden bahsedilmiyor. Tweet'ler ağırlıklı olarak teknoloji, yapay zeka ve kişisel görüşlere odaklanıyor. Token sözleşme adreslerine veya token isimlerine dair hiçbir referans yok. Bu Twitter hesabı Elon Musk tarafından yönetiliyor gibi görünse de, tweet'lerin hiçbiri belirli bir meme coin veya kripto projesiyle ilgili bir bağlantı olduğunu göstermiyor.",
-    "onchainTextNote": "Bu anlatı analizi XBIT botu tarafından otomatik olarak oluşturulmuştur ve yalnızca referans amaçlıdır.",
+    "onchainTextNote": "Bu anlatı analizi KairoX botu tarafından otomatik olarak oluşturulmuştur ve yalnızca referans amaçlıdır.",
     "onchainTextTitle": "Zincir Üzerinde Metin Analizi",
     "onChainTitle": "Zincir İçi Analitik",
     "poolAddress": "En iyi 1 havuz adresi",
@@ -154,7 +154,7 @@
     },
     "footer": {
       "onChainAnalysisEmpty": "Analiz için veri bulunmamaktadır.",
-      "onChainAnalysisFooter": "Bu anlatı analizi XBIT botu tarafından otomatik olarak oluşturulmuştur ve yalnızca referans amaçlıdır."
+      "onChainAnalysisFooter": "Bu anlatı analizi KairoX botu tarafından otomatik olarak oluşturulmuştur ve yalnızca referans amaçlıdır."
     },
     "official": {
       "contractAddress": "Sözleşme Adresi",
@@ -186,12 +186,12 @@
       "officalEmail": "Resmi E-posta",
       "officialEmail": "Resmi E-posta",
       "privacyPolicy": "Gizlilik politikası",
-      "rateXBit": "XBIT'i değerlendirin",
+      "rateXBit": "KairoX'i değerlendirin",
       "slogan": "Zincir üstü işlem gelecektir, ticaret özgürlüktür.",
       "termsOfService": "Kullanım şartları",
       "title": "Hakkımızda"
     },
-    "aboutXBIT": "XBIT Eğitimi Hakkında",
+    "aboutXBIT": "KairoX Eğitimi Hakkında",
     "browsingHistory": "Tarama geçmişi",
     "browsingHistoryPage": {
       "columns": {
@@ -279,11 +279,11 @@
     "resetLayout": "Düzeni sıfırla",
     "saveImage": "Kaydetmek",
     "sharePoster": "Poster oluşturuluyor",
-    "shareXBIT": "XBIT'i paylaşın",
+    "shareXBIT": "KairoX'i paylaşın",
     "shareXBITSlogan": "1 Numaralı Merkeziyetsiz Borsa Platformu",
     "shareXBITSubSlogan": "Milisaniyelik Veriler, Yıldırım Hızında Yürütme",
     "shareXBITSubtitle": "Merkezi Olmayan Borsa (DEX)",
-    "shareXBITText": "XBIT DEX'i indirerek sürekli vadeli işlemler, memler ve ABD hisse senetlerinde sorunsuz alım satım yapabilirsiniz.",
+    "shareXBITText": "KairoX DEX'i indirerek sürekli vadeli işlemler, memler ve ABD hisse senetlerinde sorunsuz alım satım yapabilirsiniz.",
     "spotSettings": "Ticaret ayarları",
     "systemSettingsTitle": "Ayarlar",
     "telegramSupport": "Telegram desteği",
@@ -458,10 +458,10 @@
       "depositNetwork": "{{network}} Ağı",
       "depositTitle": "Mevduat",
       "depositTo": "Para yatırmak",
-      "depositToXbitWallet": "XBIT cüzdanına para yatırın",
+      "depositToXbitWallet": "KairoX cüzdanına para yatırın",
       "depositWallet": "Para Yatırma Cüzdanı",
       "depositWarning": "Bu adres yalnızca {{token_symbol}} token'ının {{network}} ağına yatırılmasını desteklemektedir. Kayıpları önlemek için lütfen diğer ağları kullanmayın.",
-      "depositXbitWallet": "XBIT cüzdanına para yatırın",
+      "depositXbitWallet": "KairoX cüzdanına para yatırın",
       "enterAmount": "Miktarı Girin",
       "estimateArrivalTime": "Yaklaşık {{value}} {{unit}}",
       "ethereumNetwork": "Ethereum Ağı",
@@ -513,7 +513,7 @@
       "warningEthereum": "Sadece Ethereum (ETH) ile yapılan yüklemeleri kabul ediyoruz ve diğer para birimleriyle yapılan yüklemeleri desteklemiyoruz, aksi takdirde sermaye kaybına neden olabilir.",
       "warningSolana": "Yalnızca Solana'nın SOL yüklemelerini kabul ediyoruz ve diğer para birimleriyle yüklemeleri desteklemiyoruz, aksi takdirde sermaye kaybına neden olabilir.",
       "withdrawalTime": "Para çekme işleminin mümkün olduğu süre",
-      "xbitPerpsAddress": "XBIT Suçlular Adresi"
+      "xbitPerpsAddress": "KairoX Suçlular Adresi"
     },
     "deposite": {
       "agree": "Kabul etmek",
@@ -810,7 +810,7 @@
       "holding": "Kalan varlıklar",
       "inviteCode": "Davet kodu",
       "officialWebsite": "Resmi web sitesi",
-      "textShare": "${{token}} aldım, XBIT DEX'e gelip gelişmeleri takip edin, kendi kendinize araştırın!",
+      "textShare": "${{token}} aldım, KairoX DEX'e gelip gelişmeleri takip edin, kendi kendinize araştırın!",
       "title": "1 Numaralı Merkezi Olmayan Mobil Borsa",
       "totalPnl": "Toplam Kar ve Zarar"
     },
@@ -1114,16 +1114,16 @@
       "walletConnectDesc": "{{wallet_name}} bağlamak için tıkla"
     },
     "backupMnemonic": {
-      "backupWalletDesc": "XBIT hesabınızı kaybetmeniz durumunda cüzdanınıza erişmek için bu anımsatıcıyı yedekleyin."
+      "backupWalletDesc": "KairoX hesabınızı kaybetmeniz durumunda cüzdanınıza erişmek için bu anımsatıcıyı yedekleyin."
     },
     "connectionWallet": {
       "authorizingButton": "Bağlanıyor...",
       "connectButton": "Bağlamak",
-      "iosOkxManualReturn": "iOS cihazlarda OKX Web3 Wallet Connect, Xbit uygulamasına otomatik olarak geri dönme özelliğine sahip değildir. Bağlantıyı tamamladıktan veya OKX'e giriş yaptıktan sonra, devam etmek için lütfen Xbit uygulamasını manuel olarak yeniden açın.",
+      "iosOkxManualReturn": "iOS cihazlarda OKX Web3 Wallet Connect, KairoX uygulamasına otomatik olarak geri dönme özelliğine sahip değildir. Bağlantıyı tamamladıktan veya OKX'e giriş yaptıktan sonra, devam etmek için lütfen KairoX uygulamasını manuel olarak yeniden açın.",
       "okxManualReturnTitle": "iOS'ta OKX Wallet'ı bağlarken dikkat edilmesi gerekenler",
       "plsSignInWallet": "Devam etmek için lütfen cüzdanınıza imza atın.",
       "reLinkButton": "Yeniden bağlan",
-      "riskWarningDesc": "Web3 cüzdanı (veya API cüzdanı) yalnızca Xbit sistemine giriş yapmak ve kimlik doğrulama veya işlem imzalama gibi otomatik işlemler gerçekleştirmek için kullanılır. Bu cüzdanın varlıklarınıza erişimi veya kontrolü yoktur; güvenle kullanabilirsiniz.",
+      "riskWarningDesc": "Web3 cüzdanı (veya API cüzdanı) yalnızca KairoX sistemine giriş yapmak ve kimlik doğrulama veya işlem imzalama gibi otomatik işlemler gerçekleştirmek için kullanılır. Bu cüzdanın varlıklarınıza erişimi veya kontrolü yoktur; güvenle kullanabilirsiniz.",
       "riskWarningTitle": "Risk Uyarısı",
       "signButton": "Devam etmek",
       "signingButton": "İmzalama...",
@@ -1135,14 +1135,14 @@
       "stepApproveTitle": "Hesap doğrulama",
       "stepApproveTitleFirstTime": "Hesap kaydı",
       "stepApproveTitleSecondTime": "Hesap doğrulama",
-      "stepConnectDesc": "Cüzdanınızı XBIT'e bağlayın.",
+      "stepConnectDesc": "Cüzdanınızı KairoX'e bağlayın.",
       "stepConnectTitle": "Cüzdanınızı bağlayın"
     },
     "deleteAccount": {
       "deleteAccountNotice": "Hesap Silme Bildirimi",
       "deleteDescription1": "Hesap silindikten sonra geri kurtarılamaz ve ilgili tüm veriler kalıcı olarak silinir.",
       "deleteDescription2": "Tüm hesap işlevleri devre dışı bırakılacaktır.",
-      "deleteDescription3": "Tüm XBIT bildirim hizmetleri durdurulacak.",
+      "deleteDescription3": "Tüm KairoX bildirim hizmetleri durdurulacak.",
       "deleteDescription4": "Lütfen hesaptaki tüm varlıkların çekildiğinden emin olun.",
       "deleteDescription5": "Silme işlemi başarıyla tamamlandığında, otomatik olarak oturumunuz kapatılacaktır.",
       "deleteDescription6": "Yukarıdaki ifadelerin nihai yorumunu saklı tutar.",
@@ -1165,7 +1165,7 @@
       "turnkeyDesc": "Turnkey, tüm varlıkların kendi bünyesinde saklandığı, merkeziyetsiz bir MPC cüzdanıdır.",
       "verificationCodeSentLabel": "Doğrulama kodu gönderildi.",
       "verificationSuccess": "Doğrulama başarıyla tamamlandı.",
-      "xbitConnectWallet": "XBIT, \"{{wallet}}\" cüzdanını açmak istiyor"
+      "xbitConnectWallet": "KairoX, \"{{wallet}}\" cüzdanını açmak istiyor"
     },
     "loginWeb3": {
       "error": {
@@ -1202,7 +1202,7 @@
       "addTokenNoLogged": "Bu belirteci favorilerinize eklemek için lütfen giriş yapın.",
       "connectingToWallet": "Cüzdana bağlanılıyor...",
       "connectQRCodeDesc": "Cüzdanınız algılanmazsa, lütfen cüzdanınızı kullanarak aşağıdaki QR kodunu tarayın (cüzdanınızın WalletConnect v2 protokolünü desteklemesi gerekir).",
-      "connectSolDesc": "Bağlantı kurulduktan sonra, işlem yapmak için lütfen XBIT uygulamasına geri dönün.",
+      "connectSolDesc": "Bağlantı kurulduktan sonra, işlem yapmak için lütfen KairoX uygulamasına geri dönün.",
       "connectSolTitle": "Cüzdanınızı SOL ağına bağlayın.",
       "plsConfirmToConnectWallet": "Lütfen cüzdanınızda bağlantıyı onaylayın."
     },
@@ -1230,9 +1230,9 @@
     },
     "title": {
       "checkEmail1": "lütfen kontrol edin",
-      "checkEmail2": "XBIT.com'dan gelecek e-postayı kontrol edin ve kodunuzu aşağıya girin.",
+      "checkEmail2": "KairoX'dan gelecek e-postayı kontrol edin ve kodunuzu aşağıya girin.",
       "generateMPCWallet": "Merkeziyetsiz bir MPC cüzdanı oluşturun.",
-      "welcome": "XBIT'e hoş geldiniz"
+      "welcome": "KairoX'e hoş geldiniz"
     },
     "verifyWallet": "İmzalar, sahipliği ve cüzdan uyumluluğunu doğrular. Yeni kullanıcılar iki imza isteği alırlar.",
     "verifyWalletOwnership": "Lütfen aşağıdaki cüzdan adresinin size ait olduğunu doğrulayın."
@@ -1331,11 +1331,11 @@
     "down": "Done",
     "downloadAppModal": {
       "download": "Download the APP",
-      "qrSubtitle": "Download the XBIT APP",
+      "qrSubtitle": "Download the KairoX APP",
       "qrTitle": "Scan the QR code",
       "share": "Share with Friends",
       "shareNote": "Invite Friends to Grab Blind Boxs",
-      "subtitle_1": "This Blind Box promotion is only available through the XBIT APP.",
+      "subtitle_1": "This Blind Box promotion is only available through the KairoX APP.",
       "subtitle_2": "Scan the QR code to download or click the button to go directly to the event page."
     },
     "event": {
@@ -1391,8 +1391,8 @@
       "exclusive": "Lantern Fest Bonus",
       "festival": {
         "entry": "Transaction Blind Box",
-        "title": "XBIT Trading Blind Box",
-        "title_app": "XBIT APP Exclusive Blind Box"
+        "title": "KairoX Trading Blind Box",
+        "title_app": "KairoX APP Exclusive Blind Box"
       },
       "starts": {
         "in": "Lantern Bonus starts in {{time}}"
@@ -1568,7 +1568,7 @@
     },
     "WaitOpen": "Wait to open",
     "web": {
-      "notice": "This Lantern event is Web-only on XBIT. Copy link to join.",
+      "notice": "This Lantern event is Web-only on KairoX. Copy link to join.",
       "only": "Web"
     },
     "will": {
@@ -1591,7 +1591,7 @@
     "withdrawable": "Withdrawable",
     "withdrawals": "{{num}}  withdrawals",
     "xbit": {
-      "blind_box": "XBIT Blind Box",
+      "blind_box": "KairoX Blind Box",
       "drawer": {
         "title": "Lucky Blind Box"
       },
@@ -1622,7 +1622,7 @@
       "presetConfirmNote": "Not: Bu ayarlar geneldir. Bu işlem için herhangi bir ayarı manuel olarak değiştirirseniz, bu ayar gelecekteki işlemler için varsayılan olarak kullanılacaktır.",
       "priorityTitle": "Öncelik Ücreti",
       "shareAssets": {
-        "AppName": "XBIT",
+        "AppName": "KairoX",
         "DomainCom": "COM",
         "haveMadeProfit": "Kar elde ettim.",
         "holdingPrivateKeys": "Şifrelenmiş varlıklar için özel anahtarların saklanması, zincir üzerindeki işlemlerin daha güvenli olmasını sağlar.",
@@ -1632,11 +1632,11 @@
       "trade": "Ticaret"
     },
     "pair": {
-      "xbitShareTrade": "XBIT hisse senedi alım satım bilgileri"
+      "xbitShareTrade": "KairoX hisse senedi alım satım bilgileri"
     }
   },
   "bottomNav": {
-    "about": "XBIT Hakkında",
+    "about": "KairoX Hakkında",
     "assets": "Varlıklar",
     "chat": "Sohbet",
     "comingSoon": "Vadeli İşlemler Akıllı Para Takip Sistemi, Çok Yakında!",
@@ -2085,7 +2085,7 @@
     "contractInfo": "Sözleşme Bilgileri",
     "contractOwner": "Sözleşme Sahibi",
     "dangerous": "Tehlikeli",
-    "disclaimer": "Yasal Uyarı: Bu sözleşme izleme sonucu kamuya açık verilere dayanmaktadır. XBIT bu sonucu hiçbir şekilde onaylamaz veya tavsiye etmez.",
+    "disclaimer": "Yasal Uyarı: Bu sözleşme izleme sonucu kamuya açık verilere dayanmaktadır. KairoX bu sonucu hiçbir şekilde onaylamaz veya tavsiye etmez.",
     "good": "İyi",
     "highRisk": "Yüksek Risk",
     "honeypot": "Bal küpü",
@@ -2379,11 +2379,11 @@
     "from": "İtibaren",
     "link": {
       "authorization": "Yetkilendirme",
-      "authorizationNote": "XBIT'in cüzdanınızdan {{token}} miktarını yüklemesine izin verin.",
+      "authorizationNote": "KairoX'in cüzdanınızdan {{token}} miktarını yüklemesine izin verin.",
       "l2Confirmation": "L2 Onayı",
       "l2ConfirmationNote": "Yükleme bilgilerinizi onaylayın ve bu işlemi gerçekleştirmek için imzalayın.",
       "linkNote": "Connect Wallet",
-      "linkYourWallet": "Cüzdanınızı XBIT'e bağlayın.",
+      "linkYourWallet": "Cüzdanınızı KairoX'e bağlayın.",
       "title": "Bağlantı"
     },
     "redeemFailed": "Arızalı",
@@ -2548,14 +2548,14 @@
       "fishTx": "Vergi tutarı 100$ ile 1000$ arasında değişmektedir.",
       "nodata": "Bu tokenin şu anda sahibine dair herhangi bir bilgi bulunmamaktadır. Lütfen daha sonra tekrar kontrol edin veya diğer tokenleri inceleyin!",
       "noted": "Not edildi.",
-      "notedDescription": "{{noted}} Xbit kullanıcısı(ları) bu adresi not etti.",
+      "notedDescription": "{{noted}} KairoX kullanıcısı(ları) bu adresi not etti.",
       "profit7d": "7D PNL",
       "sharkTx": "Vergi tutarı 1.000$ ile 10.000$ arasında değişmektedir.",
       "shrimpTx": "100 doların altındaki vergi",
       "token7d": "7D Jetonları",
       "tokenSource": "Token Kaynağı",
       "tracked": "Takip edildi",
-      "trackedDescription": "{{tracked}} Xbit kullanıcısı bu adresi takip etti.",
+      "trackedDescription": "{{tracked}} KairoX kullanıcısı bu adresi takip etti.",
       "trades7d": "7D İşlemleri",
       "whaleTx": "10.000$'ın üzerinde vergi",
       "winrate7d": "7D Kazanma Oranı"
@@ -2971,7 +2971,7 @@
     "openAppStore": "AppStore'u açın",
     "openGooglePlay": "Google Play'i açın",
     "scanToDownload": "İndirmek için tarayın",
-    "subtitle": "iOS ve Android için XBIT Mobile uygulamasıyla istediğiniz zaman, istediğiniz yerde işlem yapabilirsiniz.",
+    "subtitle": "iOS ve Android için KairoX Mobile uygulamasıyla istediğiniz zaman, istediğiniz yerde işlem yapabilirsiniz.",
     "title": "Her yerden ticaret yapın"
   },
   "drawer": {
@@ -3831,7 +3831,7 @@
       "approveSuccess": "Başarılı Onayla",
       "button": "Ticareti Onayla",
       "connect": "Bağlamak",
-      "desc": "Cüzdanınızı XBIT'e bağlayın.",
+      "desc": "Cüzdanınızı KairoX'e bağlayın.",
       "getSignatureFailed": "İmza alma işlemi başarısız oldu.",
       "operationFailed": "İşlem başarısız oldu",
       "pleaseApprove": "Lütfen önce yetkilendirme işlemini tamamlayın.",
@@ -3921,11 +3921,11 @@
     "volume": "Hacim"
   },
   "futuresDetailsShare": {
-    "30dshare": "XBIT DEX'te {{coin}} sürekli vadeli işlem sözleşmesi alım satımı yaptım ve son 30 günde {{pnlPercentage}} getiri elde ettim.",
+    "30dshare": "KairoX DEX'te {{coin}} sürekli vadeli işlem sözleşmesi alım satımı yaptım ve son 30 günde {{pnlPercentage}} getiri elde ettim.",
     "address": "Cüzdan Adresi",
-    "historyTwitter": "XBIT DEX'te {{coin}} sürekli vadeli işlem sözleşmesi alım satımı yaptım, karım {{unrealizedPnl}} oldu.",
+    "historyTwitter": "KairoX DEX'te {{coin}} sürekli vadeli işlem sözleşmesi alım satımı yaptım, karım {{unrealizedPnl}} oldu.",
     "inviteAddress": "Cüzdan Adı",
-    "orderTwitter": "XBIT DEX'te {{coin}} sürekli vadeli işlem sözleşmesi alım satımı yaptım, getiri oranı {{pnlPercentage}} oldu.",
+    "orderTwitter": "KairoX DEX'te {{coin}} sürekli vadeli işlem sözleşmesi alım satımı yaptım, getiri oranı {{pnlPercentage}} oldu.",
     "pnlAmount": "Kar ve Zarar Tutarı",
     "selectBgImage": "Lütfen bir arka plan resmi seçin.",
     "selectShareInfo": "Lütfen paylaşmak istediğiniz bilgileri seçin.",
@@ -3986,7 +3986,7 @@
         "msg": "Değerlendirme işleminin 1 iş günü içinde tamamlanması bekleniyor ve değerlendirme sonuçları size e-posta yoluyla gönderilecektir.",
         "title": "Gönderim başarılı"
       },
-      "copyright": "Telif hakkı © 2024 XBIT.COM'a aittir. Tüm hakları saklıdır.",
+      "copyright": "Telif hakkı © 2024 KairoX'a aittir. Tüm hakları saklıdır.",
       "dear": "Sayın kullanıcı:",
       "decode": "16 bitlik anahtar",
       "descriptionQR": "Google Authenticator uygulamasını açın, sağ alt köşedeki + işaretine tıklayın, aşağıdaki QR kodunu tarayın veya aşağıdaki 16 haneli anahtarı Google Authenticator'a kopyalayın.",
@@ -4011,12 +4011,12 @@
         "ensureMsg2": "24 saat içinde",
         "ensureMsg3": "Telegram cüzdanlarından para çekme işlemine izin verilmemektedir.",
         "form": {
-          "exampleWallet": "Örneğin, XBIT'in TG cüzdanına para yüklemek için MetaMask cüzdanını kullanıyorsanız veya XBIT'in TG cüzdanından MetaMask cüzdanına para çekiyorsanız, lütfen MetaMask cüzdan adresinizi belirtin.",
+          "exampleWallet": "Örneğin, KairoX'in TG cüzdanına para yüklemek için MetaMask cüzdanını kullanıyorsanız veya KairoX'in TG cüzdanından MetaMask cüzdanına para çekiyorsanız, lütfen MetaMask cüzdan adresinizi belirtin.",
           "label1": "TG hesap numaranız (müşteri hizmetleriyle iletişime geçebilmemiz için lütfen doğru şekilde doldurun)",
-          "label2": "Telegram Kullanıcı Kimliğiniz (bu bilgiyi XBIT'in resmi Telegram Botuna \"/userid\" yazarak edinebilirsiniz)",
+          "label2": "Telegram Kullanıcı Kimliğiniz (bu bilgiyi KairoX'in resmi Telegram Botuna \"/userid\" yazarak edinebilirsiniz)",
           "label3": "Sıfırlama e-postalarını almak için e-posta adresiniz",
-          "label4": "Lütfen son 3 ay içinde XBIT'in TG cüzdanıyla transfer kaydı bulunan cüzdan adresini belirtin.",
-          "label5": "Lütfen yukarıdaki cüzdanın ve XBIT'in TG cüzdanının son üç ay içindeki para yatırma veya çekme kayıtlarının ekran görüntülerini yükleyin.",
+          "label4": "Lütfen son 3 ay içinde KairoX'in TG cüzdanıyla transfer kaydı bulunan cüzdan adresini belirtin.",
+          "label5": "Lütfen yukarıdaki cüzdanın ve KairoX'in TG cüzdanının son üç ay içindeki para yatırma veya çekme kayıtlarının ekran görüntülerini yükleyin.",
           "offlineTelegram": "Resmi Telegram",
           "placeholder1": "TG hesabınız",
           "placeholder2": "TG Kullanıcı Kimliğiniz",
@@ -4030,7 +4030,7 @@
         "intro": "Paranızın güvenliği için sistem yalnızca beyaz listeye alınmış adreslere yapılan transferleri desteklemektedir. Beyaz listeyi ayarladıktan sonra, etkinleşmesi için 3 saat beklemeniz gerekmektedir. Etkinleştikten sonra, beyaz listeye alınmış adreslere yapılan transferler için ek doğrulama gerekmez, bu da para çekme işlemini daha güvenli ve hızlı hale getirir.",
         "title": "Google Doğrulamasını Sıfırla"
       },
-      "riskwarning": "Risk Uyarısı: Kripto para ticareti yüksek risk taşır. XBIT.COM size zincir üzerinde birinci sınıf işlem hizmetleri sunar, ancak işlem kayıplarınızdan sorumlu olmayacağız. Lütfen işlem risklerine dikkat edin ve temkinli işlem yapın.",
+      "riskwarning": "Risk Uyarısı: Kripto para ticareti yüksek risk taşır. KairoX size zincir üzerinde birinci sınıf işlem hizmetleri sunar, ancak işlem kayıplarınızdan sorumlu olmayacağız. Lütfen işlem risklerine dikkat edin ve temkinli işlem yapın.",
       "safety": {
         "intro": "Paranızın güvenliği için sistem yalnızca beyaz listeye alınmış adreslere yapılan transferleri desteklemektedir. Beyaz listeyi ayarladıktan sonra, etkinleşmesi için 3 saat beklemeniz gerekmektedir. Etkinleştikten sonra, beyaz listeye alınmış adreslere yapılan transferler için ek doğrulama gerekmez, bu da para çekme işlemini daha güvenli ve hızlı hale getirir.",
         "intro ": "Paranızın güvenliği için sistem yalnızca beyaz listeye alınmış adreslere yapılan transferleri desteklemektedir. Beyaz listeyi ayarladıktan sonra, etkinleşmesi için 3 saat beklemeniz gerekmektedir. Etkinleştikten sonra, beyaz listeye alınmış adreslere yapılan transferler için ek doğrulama gerekmez, bu da para çekme işlemini daha güvenli ve hızlı hale getirir.",
@@ -4049,7 +4049,7 @@
         "step3": "Para çekme"
       },
       "team": "takım",
-      "thankyou": "XBIT'i tercih ettiğiniz için teşekkür ederiz. Yardıma mı ihtiyacınız var? Lütfen iletişime geçin.",
+      "thankyou": "KairoX'i tercih ettiğiniz için teşekkür ederiz. Yardıma mı ihtiyacınız var? Lütfen iletişime geçin.",
       "title": "Google Authenticator'ı bağlayın",
       "warning": {
         "not_available": "Google Authenticator kullanılamıyor.",
@@ -4147,7 +4147,7 @@
     "triggerMarketCap": "Tetikleme Sınırı/Fiyatı",
     "txHash": "Tx Hash",
     "type": "Tip",
-    "xbitFee": "XBIT Ücreti ({{value}}%)"
+    "xbitFee": "KairoX Ücreti ({{value}}%)"
   },
   "holding": {
     "cumulativePnL": "Kümülatif Kar ve Zarar",
@@ -4165,7 +4165,7 @@
       "sorting": "Düzenlemek"
     },
     "tooltip": {
-      "transferToken": "Bu token harici bir cüzdandan transfer edildi. Kar/zarar ve ortalama maliyet yalnızca Xbit üzerinden satın alınan tokenlar için hesaplanır."
+      "transferToken": "Bu token harici bir cüzdandan transfer edildi. Kar/zarar ve ortalama maliyet yalnızca KairoX üzerinden satın alınan tokenlar için hesaplanır."
     }
   },
   "holdings": {
@@ -4262,9 +4262,9 @@
     "inviteLink": "Davet Bağlantısı",
     "inviteRules": "Davet Kuralları",
     "inviteRulesDescription1": "Arkadaşlarınızı meme coin'leri ve sürekli vadeli işlemlerle takas etmeye davet edin ve komisyon indirimlerinden yararlanın. Ne kadar çok arkadaş davet ederseniz, o kadar çok komisyon ödülü kazanırsınız;",
-    "inviteRulesDescription2": "XBIT'in komisyon sistemi daha sonra devreye alınacak. O zaman, şimdiye kadar kazandığınız komisyon ödüllerini telafi etmek için başlangıç ​​noktası olarak 25 Temmuz 2025'i kullanacağız. Haydi başlayalım!",
-    "inviteText": "XBIT DEX'e kaydolmak ve %'ye varan avantajlardan yararlanmak için yönlendirme bağlantıma tıklayın.",
-    "inviteToXBIT": "Sizi XBIT'e katılmaya davet ediyoruz.",
+    "inviteRulesDescription2": "KairoX'in komisyon sistemi daha sonra devreye alınacak. O zaman, şimdiye kadar kazandığınız komisyon ödüllerini telafi etmek için başlangıç ​​noktası olarak 25 Temmuz 2025'i kullanacağız. Haydi başlayalım!",
+    "inviteText": "KairoX DEX'e kaydolmak ve %'ye varan avantajlardan yararlanmak için yönlendirme bağlantıma tıklayın.",
+    "inviteToXBIT": "Sizi KairoX'e katılmaya davet ediyoruz.",
     "maxCommission50Percent": "En fazla %50 komisyon",
     "myInviteCode": "Davet Kodum",
     "qrCode": "QR Kodu",
@@ -4631,25 +4631,25 @@
     "and": "Ve",
     "approveToCreateAccount": "Hesabınızı oluşturmak için onaylayın.",
     "authRequire": "Alım satım yapmak için Giriş yap veya Kayıt ol",
-    "betaCodeVerified": "Erişim kodu doğrulandı! XBIT'e hoş geldiniz...",
+    "betaCodeVerified": "Erişim kodu doğrulandı! KairoX'e hoş geldiniz...",
     "bindingNotice": "SOL'e bağlanmak",
     "bindTelegramBot": "Telegram Bot'u Bağla",
     "cancel": "İptal etmek",
     "checkEmail": {
       "prefix": "lütfen kontrol edin",
-      "suffix": "XBIT.com'dan gelecek e-postayı almak için aşağıdaki alana kodunuzu girin."
+      "suffix": "KairoX'dan gelecek e-postayı almak için aşağıdaki alana kodunuzu girin."
     },
     "codeSentTo": "Doğrulama kodu gönderildi.",
     "confirm": "Onaylamak",
     "confirmToAccessAccount": "Hesabınıza erişmek için onaylayın.",
     "connectWallet": "Connect Wallet",
     "connectYourWallet": "Cüzdanınızı bağlayın",
-    "connectYourWalletToXBIT": "Cüzdanınızı XBIT'e bağlayın.",
+    "connectYourWalletToXBIT": "Cüzdanınızı KairoX'e bağlayın.",
     "continueWithGoogle": "Google ile devam edin",
     "didntGetEmail": "E-posta almadınız mı?",
     "downloadWallet": "İndirmek",
     "emailLogin": "E-posta Girişi",
-    "enterBetaCode": "XBIT'e anında erişim sağlamak için erişim kodunuzu aşağıya girin.",
+    "enterBetaCode": "KairoX'e anında erişim sağlamak için erişim kodunuzu aşağıya girin.",
     "enterYourEmail": "Lütfen e-posta adresinizi girin.",
     "generateMPCWallet": "Merkeziyetsiz bir MPC cüzdanı oluşturun.",
     "getBetaCode": "Erişim Kodunu Al",
@@ -4659,7 +4659,7 @@
       "web3Wallet": "Web3 cüzdanı"
     },
     "home": {
-      "loginOptionTitle": "XBIT ile işlem yapmaya başlayın."
+      "loginOptionTitle": "KairoX ile işlem yapmaya başlayın."
     },
     "installed": "Kuruldu",
     "invalidCode": "Geçersiz kod. Lütfen tekrar deneyin.",
@@ -4688,7 +4688,7 @@
     "resend": "Yeniden gönder",
     "resendSuccess": "Size bir e-posta gönderdik. Devam etmek için lütfen gelen kutunuzu kontrol edin.",
     "riskWarning": "Risk Uyarısı",
-    "riskWarningContent": "Web3 cüzdanı (veya API cüzdanı) yalnızca Xbit sistemine giriş yapmak ve kimlik doğrulama veya işlem imzalama gibi otomatik işlemler gerçekleştirmek için kullanılır. Bu cüzdanın varlıklarınıza erişimi veya kontrolü yoktur; güvenle kullanabilirsiniz.",
+    "riskWarningContent": "Web3 cüzdanı (veya API cüzdanı) yalnızca KairoX sistemine giriş yapmak ve kimlik doğrulama veya işlem imzalama gibi otomatik işlemler gerçekleştirmek için kullanılır. Bu cüzdanın varlıklarınıza erişimi veya kontrolü yoktur; güvenle kullanabilirsiniz.",
     "signatureExplanation": "İmzalar, sahipliği ve cüzdan uyumluluğunu doğrular. Yeni kullanıcılar iki imza isteği alırlar.",
     "signingFree": "İmza atmak ücretsizdir ve herhangi bir işlem göndermeyecektir.",
     "signMessage": "İşaret Mesajı",
@@ -4717,12 +4717,12 @@
     "terms": "Kullanım Şartları",
     "termsAgreement": "Bağlanarak şartlarımızı kabul etmiş oluyorsunuz.",
     "text": {
-      "loginNotLoggedIn": "XBIT'e giriş yapmadınız."
+      "loginNotLoggedIn": "KairoX'e giriş yapmadınız."
     },
     "toGenerate": "Merkeziyetsiz bir MPC cüzdanı oluşturmak için",
     "tokenExpired": "Oturumunuzun süresi doldu. Devam etmek için lütfen sayfayı yeniden yükleyin...",
     "tradingPromptDetail": "İmza gerekmiyor.",
-    "tradingPromptTitle": "XBIT ile işlem yapmaya başlayın.",
+    "tradingPromptTitle": "KairoX ile işlem yapmaya başlayın.",
     "validEmail": "Geçersiz e-posta formatı, lütfen yeniden girin.",
     "verify": "Doğrulamak",
     "verifyCode": "Doğrulama kodunu onaylayın",
@@ -4730,7 +4730,7 @@
     "wallet": {
       "notInstallWallet": "{{wallet}} uygulamasını yüklemediniz."
     },
-    "welcomeText": "XBIT'e hoş geldiniz",
+    "welcomeText": "KairoX'e hoş geldiniz",
     "with": "Ve"
   },
   "loyalty": {
@@ -4746,7 +4746,7 @@
       "yourPoints": "Puanlarınız"
     },
     "card": {
-      "titleSeason": "XBIT {{seasonName}}"
+      "titleSeason": "KairoX {{seasonName}}"
     },
     "currentShare": "Mevcut Hisse",
     "desCreateCode": "Arkadaşlarınızı platforma kolayca davet etmek için özel davet kodunuzu belirleyin.",
@@ -4761,7 +4761,7 @@
       "tradingPoint": "İşlem puanları nasıl hesaplanır?",
       "tradingPointAnswer": "İşlem puanları temel formüle dayanmaktadır: İşlem Puanları = İşlem Hacmi (USD) × Sektör Katsayısı × Kalite Katsayısı. Sektör katsayısı işlem ücretlerine göre ayarlanır (örneğin, Meme = 1,0, Vadeli İşlemler = 0,1, ABD Hisse Senetleri = 0,5) ve kalite katsayısı her işlemin kar/zarar marjına bağlıdır (örneğin, %0,5–%2 = 1,0, >%10 tekrar 1,0'a döner).",
       "whatIsPoint": "Puanlar nedir?",
-      "whatIsPointAnswer": "XBIT platformunda puanlar, kullanıcılara meme, vadeli işlemler ve ABD hisse senedi piyasalarında işlem yapmaları, pozisyon tutmaları, fonlarını korumaları, başkalarını yönlendirmeleri ve topluluk etkinliklerine katılmaları karşılığında ödül veren bir teşvik mekanizmasıdır. Puanlar, sezonluk liderlik tablolarına katılmak için kullanılabilir (ilk 100 kişi ödül havuzunu paylaşır), bu da uzun vadeli ve gerçek katılımı teşvik eder. Sistem, basit, şeffaf, dolandırıcılığa karşı korumalı ve sezonluk kurallar ve çarpan bonusları aracılığıyla dengeli olacak şekilde tasarlanmıştır."
+      "whatIsPointAnswer": "KairoX platformunda puanlar, kullanıcılara meme, vadeli işlemler ve ABD hisse senedi piyasalarında işlem yapmaları, pozisyon tutmaları, fonlarını korumaları, başkalarını yönlendirmeleri ve topluluk etkinliklerine katılmaları karşılığında ödül veren bir teşvik mekanizmasıdır. Puanlar, sezonluk liderlik tablolarına katılmak için kullanılabilir (ilk 100 kişi ödül havuzunu paylaşır), bu da uzun vadeli ve gerçek katılımı teşvik eder. Sistem, basit, şeffaf, dolandırıcılığa karşı korumalı ve sezonluk kurallar ve çarpan bonusları aracılığıyla dengeli olacak şekilde tasarlanmıştır."
     },
     "fundPoints": "Fon Puanları",
     "goInvite": "Davet Et",
@@ -4797,7 +4797,7 @@
       "warningDes": "Uzunluk 4-15 karakter arasında olmalıdır.\\nSadece harfler (Aa-Zz), rakamlar (0-9) veya alt çizgiler kullanılabilir.",
       "warningTitle": "Geçersiz davet kodu! Lütfen şunlardan emin olun:"
     },
-    "shareText": "XBIT DEX'e kaydolmak ve %50'ye varan para iadesi almak için yönlendirme bağlantıma tıklayın. {{inviteLink}}",
+    "shareText": "KairoX DEX'e kaydolmak ve %50'ye varan para iadesi almak için yönlendirme bağlantıma tıklayın. {{inviteLink}}",
     "tooltip": {
       "fundPoints": "Fon Puanları, hesap bakiyenizin istikrarlılığından elde edilir. İstikrarlı ve yüksek bakiyeler zamanla daha fazla puan biriktirir.",
       "holdingPoints": "Kazanılan puanlar, saatlik varlık değerinize göre hesaplanır. Bakiyeniz ne kadar uzun süre ve ne kadar büyükse, o kadar çok puan kazanırsınız.",
@@ -4895,7 +4895,7 @@
     },
     "options": {
       "aboutUs": "Toplum",
-      "aboutXbitTutorial": "XBIT Eğitimi Hakkında",
+      "aboutXbitTutorial": "KairoX Eğitimi Hakkında",
       "airdropPoints": "Airdrop Puanları",
       "backupMnemonic": "Hafıza Tekniği",
       "browsingHistory": "Tarama Geçmişi",
@@ -4904,7 +4904,7 @@
       "inviteRebate": "Yönlendirmeler",
       "loyalty": "Airdrop Puanları",
       "myRebate": "İndirimim",
-      "shareXbit": "XBIT'i paylaşın",
+      "shareXbit": "KairoX'i paylaşın",
       "tradeSettings": "Ticaret Ayarları",
       "tradingReward": "Ödüller",
       "tutorial": "Eğitim videosu",
@@ -5254,7 +5254,7 @@
       "pump": "Pompa",
       "slippageLoss": "Kayma kaybı",
       "txHash": "Tx Hash",
-      "xbitFee": "XBIT Ücreti (%{{percent}})"
+      "xbitFee": "KairoX Ücreti (%{{percent}})"
     },
     "list": {
       "noData": "Henüz bekleyen emriniz yok. En iyi fiyatı otomatik olarak yakalamak için Limit ve Takip Eden TP/SL emirlerini kullanın."
@@ -5628,13 +5628,13 @@
       "points": "Puanlar",
       "referrals": "Yönlendirmeler",
       "rewards": "Ödüller",
-      "shareXbit": "XBIT'i paylaşın",
+      "shareXbit": "KairoX'i paylaşın",
       "tradeSettings": "Ticaret Ayarları",
       "userFeedback": "Kullanıcı Geri Bildirimi",
       "walletManagement": "Cüzdan Yönetimi"
     },
     "pleaseLogin": "Lütfen giriş yapın",
-    "welcomeToXBIT": "XBIT'e hoş geldiniz"
+    "welcomeToXBIT": "KairoX'e hoş geldiniz"
   },
   "pop": {
     "token": {
@@ -5732,7 +5732,7 @@
       "positions": "Pozisyonlar"
     }
   },
-  "powerByXbit": "Xbit tarafından desteklenmektedir!",
+  "powerByXbit": "KairoX tarafından desteklenmektedir!",
   "ppUpdateChecker": {
     "forceUpdate": {
       "title": "Güncelleme Gerekli"
@@ -5802,7 +5802,7 @@
     "claimable": {
       "claimedFailed": "Talep başarısız oldu",
       "claimedSuccessfully": "Başarıyla talep edildi",
-      "congratulationTitle": "XBIT'in geleceğini tahmin etme konusunda harika bir iş çıkardınız!",
+      "congratulationTitle": "KairoX'in geleceğini tahmin etme konusunda harika bir iş çıkardınız!",
       "won": "Kazanmak",
       "youWon": "Kazandınız"
     },
@@ -5835,7 +5835,7 @@
     },
     "daily": "Günlük",
     "deposit": {
-      "xbitPredictionAddress": "XBIT Tahmin Adresi"
+      "xbitPredictionAddress": "KairoX Tahmin Adresi"
     },
     "discover": {
       "earningsCalendar": "Kazanç Takvimi",
@@ -6177,7 +6177,7 @@
       "cashOutSuccess": "Para çekme işlemi başarıyla tamamlandı.",
       "claiming": "İddia ediyor ki...",
       "claimProceeds": "İddia",
-      "congratsMessage": "XBIT'in geleceğini tahmin etme konusunda harika bir iş çıkardınız!",
+      "congratsMessage": "KairoX'in geleceğini tahmin etme konusunda harika bir iş çıkardınız!",
       "marketIconAlt": "Pazar simgesi",
       "marketNotFound": "Pazar bulunamadı.",
       "marketsWon": "Piyasalar kazandı",
@@ -6478,11 +6478,11 @@
       "down": "Tamamlamak",
       "downloadAppModal": {
         "download": "Uygulamayı indirin",
-        "qrSubtitle": "XBIT uygulamasını indirin",
+        "qrSubtitle": "KairoX uygulamasını indirin",
         "qrTitle": "QR kodunu tarayın",
         "share": "Arkadaşlarınızla paylaşın",
         "shareNote": "Arkadaşlarınızı Sürpriz Kutuları Çekmeye Davet Edin",
-        "subtitle_1": "Bu Sürpriz Kutu kampanyası yalnızca XBIT uygulaması üzerinden geçerlidir.",
+        "subtitle_1": "Bu Sürpriz Kutu kampanyası yalnızca KairoX uygulaması üzerinden geçerlidir.",
         "subtitle_2": "QR kodunu tarayarak indirebilir veya düğmeye tıklayarak doğrudan etkinlik sayfasına gidebilirsiniz."
       },
       "event": {
@@ -6538,8 +6538,8 @@
         "exclusive": "Fener Festivali Bonusu",
         "festival": {
           "entry": "İşlem Gizli Kutusu",
-          "title": "XBIT Ticaret Kör Kutusu",
-          "title_app": "XBIT APP Özel Sürpriz Kutu"
+          "title": "KairoX Ticaret Kör Kutusu",
+          "title_app": "KairoX APP Özel Sürpriz Kutu"
         },
         "starts": {
           "in": "Kırmızı zarf değişimi {{time}} saatinde başlayacak."
@@ -6716,7 +6716,7 @@
       },
       "WaitOpen": "Açılmasını bekleyin",
       "web": {
-        "notice": "Etkinlik yalnızca XBIT Web üzerinden gerçekleştirilecektir. Katılmak için bağlantıyı kopyalayın.",
+        "notice": "Etkinlik yalnızca KairoX Web üzerinden gerçekleştirilecektir. Katılmak için bağlantıyı kopyalayın.",
         "only": "Web"
       },
       "will": {
@@ -6740,11 +6740,11 @@
       "withdrawals": "{{num}} çekim",
       "xbit": {
         "drawer": {
-          "title": "XBIT Sürpriz Kutu"
+          "title": "KairoX Sürpriz Kutu"
         },
-        "lantern": "XBIT Fener Festivali",
+        "lantern": "KairoX Fener Festivali",
         "red": {
-          "packet": "XBIT Kırmızı Paket"
+          "packet": "KairoX Kırmızı Paket"
         }
       },
       "you": {
@@ -6994,14 +6994,14 @@
   },
   "share": {
     "accountMeme": {
-      "valueMessage": "XBIT DEX üzerinden ${{symbol}} ile {{profit}} kâr elde ettim!"
+      "valueMessage": "KairoX DEX üzerinden ${{symbol}} ile {{profit}} kâr elde ettim!"
     },
     "accountRWA": {
-      "valueMessage": "XBIT DEX'te ABD hissesi ${{symbol}} ile işlem yaptım ve {{profit}} kâr elde ettim!"
+      "valueMessage": "KairoX DEX'te ABD hissesi ${{symbol}} ile işlem yaptım ve {{profit}} kâr elde ettim!"
     },
     "assetsBody": {
       "dexMobileNo1": "1 Numaralı Merkeziyetsiz Mobil Borsa, Milisaniyelik Fiyat Teklifleri, Ultra Hızlı İşlem",
-      "dexMobileXbit": "XBIT Merkeziyetsiz Mobil Borsa Milisaniyelik fiyat teklifleri, ultra hızlı işlem"
+      "dexMobileXbit": "KairoX Merkeziyetsiz Mobil Borsa Milisaniyelik fiyat teklifleri, ultra hızlı işlem"
     },
     "deposit": {
       "valueMessage": "{{symbol}} Para Yatırma Adresi:"
@@ -7017,7 +7017,7 @@
       "selectContent": "Lütfen paylaşmak istediğiniz bilgileri seçin."
     },
     "invitationCode": {
-      "valueMessage": "XBIT DEX'e kaydolmak ve en yüksek {{profit}} iadesini almak için yönlendirme bağlantıma tıklayın."
+      "valueMessage": "KairoX DEX'e kaydolmak ve en yüksek {{profit}} iadesini almak için yönlendirme bağlantıma tıklayın."
     },
     "menu": {
       "shareXBitInvitation": "1 Numaralı Merkeziyetsiz Borsa Platformu\nMilisaniyelik Veri, Yıldırım Hızında İşlem Gerçekleştirme"
@@ -7027,22 +7027,22 @@
       "xNotInstalledRedirecting": "X uygulaması yüklü değil. Mağazaya yönlendiriliyor."
     },
     "tokenDetail": {
-      "valueMessage": "${{symbol}}'da ilginç bir şey var; trendi takip etmek için XBIT DEX'e katılın. Kendi başınıza araştırın!"
+      "valueMessage": "${{symbol}}'da ilginç bir şey var; trendi takip etmek için KairoX DEX'e katılın. Kendi başınıza araştırın!"
     },
     "xbit": {
-      "valueMessage": "XBIT DEX'i indirerek sürekli vadeli işlemler, memler ve ABD hisse senetlerinde sorunsuz alım satım yapabilirsiniz."
+      "valueMessage": "KairoX DEX'i indirerek sürekli vadeli işlemler, memler ve ABD hisse senetlerinde sorunsuz alım satım yapabilirsiniz."
     }
   },
   "shareBottomSheet": {
     "depositAddressTemplate": "{{token}} yatırma adresi: {{address}}",
     "dexSlogan": "DEX milisaniye düzeyinde fiyatlar, yıldırım hızında işlem yapma imkanı.",
-    "memeContent": "${{coin}} ilginç, XBIT DEX'e gelin ve trende katılın, kendi araştırmanızı yapın!",
-    "shareHoldingTemplate": "XBIT DEX'te ${{symbol}}'a yatırım yaptım ve {{returns}}% kar elde ettim.",
-    "stockShareTemplate": "XBIT DEX'te ABD hissesi ${{symbol}} alım satımı yaptım, getiri oranım {{returns}}% oldu.",
+    "memeContent": "${{coin}} ilginç, KairoX DEX'e gelin ve trende katılın, kendi araştırmanızı yapın!",
+    "shareHoldingTemplate": "KairoX DEX'te ${{symbol}}'a yatırım yaptım ve {{returns}}% kar elde ettim.",
+    "stockShareTemplate": "KairoX DEX'te ABD hissesi ${{symbol}} alım satımı yaptım, getiri oranım {{returns}}% oldu.",
     "title": "Sayfayı Paylaş"
   },
   "sharePage": {
-    "checkOutThisAssetInformation": "{{symbol}} numaralı hesabı yükledim, trendi takip etmek için XBIT DEX'e gelin, kendi gelişmelerinizi kendiniz takip edin!",
+    "checkOutThisAssetInformation": "{{symbol}} numaralı hesabı yükledim, trendi takip etmek için KairoX DEX'e gelin, kendi gelişmelerinizi kendiniz takip edin!",
     "dexLabel": "Merkezi Olmayan Borsa (DEX)",
     "remainingPosition": "Kalan varlıklar",
     "title": "Sayfayı Paylaş"
@@ -7054,10 +7054,10 @@
     "updateLoading": "Güncelleme yükleniyor"
   },
   "signIn": {
-    "continueWithXBIT": "Kullanmaya devam ederek XBIT'in şartlarını kabul etmiş olursunuz.",
+    "continueWithXBIT": "Kullanmaya devam ederek KairoX'in şartlarını kabul etmiş olursunuz.",
     "didNotGetEmail": "E-posta almadınız mı?",
     "doNotBetaCode": "Erişim kodunuz yok mu?",
-    "enterBetaCode": "XBIT'e anında erişim sağlamak için erişim kodunuzu aşağıya girin.",
+    "enterBetaCode": "KairoX'e anında erişim sağlamak için erişim kodunuzu aşağıya girin.",
     "getBetaCode": "Erişim Kodunu Al",
     "haveABetaCode": "Erişim kodunuz var mı?",
     "inviteCodeHint": "Davet kodu (İsteğe bağlı)",
@@ -7074,14 +7074,14 @@
     "title": {
       "checkEmail": "Doğrulama kodu gönderildi.",
       "checkEmail1": "lütfen kontrol edin",
-      "checkEmail2": "XBIT.com'dan gelecek e-postayı kontrol edin ve kodunuzu aşağıya girin.",
+      "checkEmail2": "KairoX'dan gelecek e-postayı kontrol edin ve kodunuzu aşağıya girin.",
       "confirmVerifyCode": "Doğrulama kodunu onaylayın",
-      "connectWithXBIT": "XBIT ile bağlantı kurun",
+      "connectWithXBIT": "KairoX ile bağlantı kurun",
       "generateMPCWallet": "Merkeziyetsiz bir MPC cüzdanı oluşturun.",
-      "welcome": "XBIT'e hoş geldiniz"
+      "welcome": "KairoX'e hoş geldiniz"
     },
     "verifyAccessCode": {
-      "success": "Erişim kodu doğrulandı! XBIT'e hoş geldiniz."
+      "success": "Erişim kodu doğrulandı! KairoX'e hoş geldiniz."
     },
     "verifyOTP": "Doğrulamak",
     "verifyWallet": {
@@ -7540,7 +7540,7 @@
       "contractCreator": "Sözleşme Oluşturucu",
       "contractInfo": "Sözleşme Bilgileri",
       "contractOwner": "Sözleşme Sahibi",
-      "disclaimer": "Yasal Uyarı: Bu sözleşme izleme sonucu kamuya açık verilere dayanmaktadır. XBIT bu sonucu hiçbir şekilde onaylamaz veya tavsiye etmez.",
+      "disclaimer": "Yasal Uyarı: Bu sözleşme izleme sonucu kamuya açık verilere dayanmaktadır. KairoX bu sonucu hiçbir şekilde onaylamaz veya tavsiye etmez.",
       "highRisk": "Yüksek Risk",
       "honeypot": "Bal küpü",
       "honeypotDesc": "Bu sözleşme, token satışını engelleyen bir tuzak olabilir.",
@@ -7611,7 +7611,7 @@
       "buyAddress": "Adres Satın Al",
       "buyAmount": "Satın Alma Miktarı",
       "buyCount": "satın alma işlemleri",
-      "externalTransferPnLTooltip": "Bu token harici bir cüzdandan transfer edildi. Kar/zarar ve ortalama maliyet yalnızca Xbit üzerinden satın alınan tokenlar için hesaplanır.",
+      "externalTransferPnLTooltip": "Bu token harici bir cüzdandan transfer edildi. Kar/zarar ve ortalama maliyet yalnızca KairoX üzerinden satın alınan tokenlar için hesaplanır.",
       "insidePercent": "İçeriden bilgi %",
       "numberOfHolders": "Sahip sayısı",
       "snippersHolding": "Keskin nişancılar tutuyor",
@@ -8138,7 +8138,7 @@
     "positionCurrency": "Tutma tokeni",
     "qrCodeInstruction": "Cüzdanınız listede yoksa, bu QR kodunu cüzdanınızla tarayın (WalletConnect v2 gereklidir).",
     "reconnect": "Yeniden bağlan",
-    "returnToApp": "XBIT'e geri dön",
+    "returnToApp": "KairoX'e geri dön",
     "saveToAlbum": "Kaydetmek",
     "selectNetwork": "Ağı Seçin",
     "selectWallet": "Cüzdan seçin",
@@ -8188,7 +8188,7 @@
       "walletName": "Cüzdan Adı"
     },
     "mnemonicChecklist": {
-      "accessLost": "XBIT hesabınızı kaybetmeniz durumunda cüzdanınıza erişmek için bu anımsatıcıyı yedekleyin.",
+      "accessLost": "KairoX hesabınızı kaybetmeniz durumunda cüzdanınıza erişmek için bu anımsatıcıyı yedekleyin.",
       "backupInstructions": "Lütfen aşağıdaki kelimeleri sırayla kopyalayın ve güvenli bir yerde saklayın. Hafıza tekniğinizi asla kimseye açıklamayın, aksi takdirde tüm varlıklarınızı kaybedebilirsiniz.",
       "backupTitle": "Yedekleme Anımsatıcı İfadesi",
       "complete": "Tamamlamak",
@@ -8221,7 +8221,7 @@
         "tip1": "Cüzdanınıza ve paranıza tam erişim için yalnızca anımsatıcı ifadeye ihtiyacınız var.",
         "tip2": "Özel anahtarınızı paylaşmak, varlık hırsızlığına yol açabilir.",
         "tip3": "Hafıza tekniklerini içeren ifadeleri asla çevrimiçi olarak kimseyle paylaşmayın, saklamayın veya iletmeyin.",
-        "tip4": "XBIT ekibi sizden asla anımsatıcı bir ifade vermenizi istemeyecektir."
+        "tip4": "KairoX ekibi sizden asla anımsatıcı bir ifade vermenizi istemeyecektir."
       },
       "specialReminder": "Özel Hatırlatma",
       "specialReminderText": "Bu anımsatıcı ifadeyi elde eden herkes varlıklarınızı kontrol edebilir!",

@@ -4,7 +4,7 @@
     "clearCacheDesc": "本当にキャッシュをクリアしますか？",
     "privacyPolicy": "プライバシーポリシー",
     "privacyPolicyLabel": "プライバシーポリシー",
-    "rateXbit": "XBITをレートする",
+    "rateXbit": "KairoXをレートする",
     "sloganXbit": "オンチェーンは未来であり、取引は自由である",
     "termsOfUse": "利用規約",
     "termsOfUseLabel": "利用規約",
@@ -120,7 +120,7 @@
     "officialExpand": "クリックして展開",
     "officialTitle": "公式データ分析",
     "onchainTextContent": "このTwitterアカウントは、著名な起業家イーロン・マスク氏が管理しているようです。しかし、ツイートにはミームコインに特に関連する内容はなく、ブロックチェーンや暗号通貨に直接関連する内容も一切記載されていません。ツイートは主にテクノロジー、人工知能、そして個人的な意見に焦点を当てています。トークンコントラクトアドレスやトークン名への言及もありません。このTwitterアカウントはイーロン・マスク氏が管理しているようですが、どのツイートも特定のミームコインや暗号通貨プロジェクトへの関与を示唆するものではありません。",
-    "onchainTextNote": "このナラティブ分析はXBITボットによって自動的に生成されたものであり、参考情報としてのみご利用ください。",
+    "onchainTextNote": "このナラティブ分析はKairoXボットによって自動的に生成されたものであり、参考情報としてのみご利用ください。",
     "onchainTextTitle": "オンチェーンテキスト分析",
     "onChainTitle": "オンチェーン分析",
     "poolAddress": "トップ1プール住所",
@@ -151,7 +151,7 @@
     },
     "footer": {
       "onChainAnalysisEmpty": "分析に利用できるデータがありません",
-      "onChainAnalysisFooter": "このナラティブ分析はXBITボットによって自動的に生成されたものであり、参考情報としてのみご利用ください。"
+      "onChainAnalysisFooter": "このナラティブ分析はKairoXボットによって自動的に生成されたものであり、参考情報としてのみご利用ください。"
     },
     "official": {
       "contractAddress": "連絡先住所",
@@ -183,12 +183,12 @@
       "officalEmail": "公式メール",
       "officialEmail": "公式メール",
       "privacyPolicy": "プライバシーポリシー",
-      "rateXBit": "XBITをレートする",
+      "rateXBit": "KairoXをレートする",
       "slogan": "オンチェーンは未来であり、取引は自由である",
       "termsOfService": "利用規約",
       "title": "私たちについて"
     },
-    "aboutXBIT": "XBITチュートリアルについて",
+    "aboutXBIT": "KairoXチュートリアルについて",
     "browsingHistory": "閲覧履歴",
     "browsingHistoryPage": {
       "columns": {
@@ -276,11 +276,11 @@
     "resetLayout": "レイアウトをリセット",
     "saveImage": "保存",
     "sharePoster": "ポスターを生成中",
-    "shareXBIT": "XBITを共有する",
+    "shareXBIT": "KairoXを共有する",
     "shareXBITSlogan": "ナンバーワンの分散型取引プラットフォーム",
     "shareXBITSubSlogan": "ミリ秒単位のデータ、超高速の実行",
     "shareXBITSubtitle": "分散型取引所（DEX）",
-    "shareXBITText": "XBIT DEXをダウンロードすれば、無期限契約、ミーム、米国株のシームレスな取引が可能になります。",
+    "shareXBITText": "KairoX DEXをダウンロードすれば、無期限契約、ミーム、米国株のシームレスな取引が可能になります。",
     "spotSettings": "取引設定",
     "systemSettingsTitle": "設定",
     "telegramSupport": "Telegramのサポート",
@@ -455,10 +455,10 @@
       "depositNetwork": "{{network}}ネットワーク",
       "depositTitle": "デポジット",
       "depositTo": "預金先",
-      "depositToXbitWallet": "XBITウォレットに入金する",
+      "depositToXbitWallet": "KairoXウォレットに入金する",
       "depositWallet": "ウォレットへの入金",
       "depositWarning": "このアドレスは{{token_symbol}}を{{network}}ネットワークに預け入れることのみをサポートしています。損失を避けるため、他のネットワークは使用しないでください。",
-      "depositXbitWallet": "XBITウォレットに入金する",
+      "depositXbitWallet": "KairoXウォレットに入金する",
       "enterAmount": "金額を入力してください",
       "estimateArrivalTime": "約{{value}}{{unit}}",
       "ethereumNetwork": "イーサリアムネットワーク",
@@ -510,7 +510,7 @@
       "warningEthereum": "イーサリアム（ETH）によるチャージのみを受け付け、他の通貨によるチャージはサポートしません。そうしないと、資本損失が発生する可能性があります。",
       "warningSolana": "SolanaのSOLでのチャージのみを受け付け、他の通貨でのチャージはサポートしていません。そうしないと、資本損失が発生する可能性があります。",
       "withdrawalTime": "出金可能時間",
-      "xbitPerpsAddress": "XBIT 犯人の住所"
+      "xbitPerpsAddress": "KairoX 犯人の住所"
     },
     "deposite": {
       "agree": "同意する"
@@ -830,7 +830,7 @@
       "holding": "残りの保有資産",
       "inviteCode": "招待コード",
       "officialWebsite": "公式サイト",
-      "textShare": "${{token}} を購入しました。XBIT DEX で最新情報を確認してください。ご自身で調査してください。",
+      "textShare": "${{token}} を購入しました。KairoX DEX で最新情報を確認してください。ご自身で調査してください。",
       "title": "分散型モバイル取引所No.1",
       "totalPnl": "総損益"
     },
@@ -1133,16 +1133,16 @@
       "walletConnectDesc": "クリックして {{wallet_name}} に接続"
     },
     "backupMnemonic": {
-      "backupWalletDesc": "XBITアカウントを紛失した場合にウォレットにアクセスできるよう、このニーモニックをバックアップしておいてください。"
+      "backupWalletDesc": "KairoXアカウントを紛失した場合にウォレットにアクセスできるよう、このニーモニックをバックアップしておいてください。"
     },
     "connectionWallet": {
       "authorizingButton": "接続中...",
       "connectButton": "接続する",
-      "iosOkxManualReturn": "iOS版OKX Web3 Wallet Connectは、Xbitアプリに自動的に戻ることができません。接続完了後、またはOKXへのサインイン後、Xbitアプリを手動で再度開いて続行してください。",
+      "iosOkxManualReturn": "iOS版OKX Web3 Wallet Connectは、KairoXアプリに自動的に戻ることができません。接続完了後、またはOKXへのサインイン後、KairoXアプリを手動で再度開いて続行してください。",
       "okxManualReturnTitle": "iOSでOKXウォレットを接続する際の注意点",
       "plsSignInWallet": "続行するには、ウォレットにログインしてください。",
       "reLinkButton": "再接続",
-      "riskWarningDesc": "Web3ウォレット（またはAPIウォレット）は、Xbitシステムへのログインや、認証、トランザクション署名などの自動操作の実行にのみ使用されます。このウォレットは、お客様の資産にアクセスしたり、資産を管理したりすることはありませんので、安心してご利用いただけます。",
+      "riskWarningDesc": "Web3ウォレット（またはAPIウォレット）は、KairoXシステムへのログインや、認証、トランザクション署名などの自動操作の実行にのみ使用されます。このウォレットは、お客様の資産にアクセスしたり、資産を管理したりすることはありませんので、安心してご利用いただけます。",
       "riskWarningTitle": "リスク警告",
       "signButton": "続く",
       "signingButton": "署名中...",
@@ -1154,14 +1154,14 @@
       "stepApproveTitle": "アカウント認証",
       "stepApproveTitleFirstTime": "アカウント登録",
       "stepApproveTitleSecondTime": "アカウント認証",
-      "stepConnectDesc": "ウォレットをXBITに接続してください。",
+      "stepConnectDesc": "ウォレットをKairoXに接続してください。",
       "stepConnectTitle": "ウォレットを接続してください"
     },
     "deleteAccount": {
       "deleteAccountNotice": "アカウント削除通知",
       "deleteDescription1": "アカウントが削除されると、復元することはできず、関連するすべてのデータは完全に消去されます。",
       "deleteDescription2": "アカウントのすべての機能が無効になります。",
-      "deleteDescription3": "すべてのXBIT通知サービスが停止します",
+      "deleteDescription3": "すべてのKairoX通知サービスが停止します",
       "deleteDescription4": "口座内のすべての資産が引き出されていることを確認してください。",
       "deleteDescription5": "削除が正常に完了すると、自動的にログアウトされます。",
       "deleteDescription6": "上記声明の最終的な解釈権は留保される。",
@@ -1184,7 +1184,7 @@
       "turnkeyDesc": "Turnkeyは、すべての資産を自己管理する分散型MPCウォレットです。",
       "verificationCodeSentLabel": "認証コードが送信されました",
       "verificationSuccess": "検証に成功しました",
-      "xbitConnectWallet": "「XBIT」が「{{wallet}}」を開こうとしています"
+      "xbitConnectWallet": "「KairoX」が「{{wallet}}」を開こうとしています"
     },
     "loginWeb3": {
       "error": {
@@ -1221,7 +1221,7 @@
       "addTokenNoLogged": "このトークンをお気に入りに追加するには、ログインしてください。",
       "connectingToWallet": "ウォレットに接続中...",
       "connectQRCodeDesc": "ウォレットが検出されない場合は、ウォレット（WalletConnect v2プロトコルに対応している必要があります）を使用して以下のQRコードをスキャンしてください。",
-      "connectSolDesc": "接続後、XBITアプリに戻って取引を行ってください。",
+      "connectSolDesc": "接続後、KairoXアプリに戻って取引を行ってください。",
       "connectSolTitle": "ウォレットをSOLネットワークに接続してください。",
       "plsConfirmToConnectWallet": "ウォレットで接続を確認してください"
     },
@@ -1249,9 +1249,9 @@
     },
     "title": {
       "checkEmail1": "チェックしてください",
-      "checkEmail2": "XBIT.comからのメールを受け取り、以下の欄にコードを入力してください。",
+      "checkEmail2": "KairoXからのメールを受け取り、以下の欄にコードを入力してください。",
       "generateMPCWallet": "分散型MPCウォレットを生成します。",
-      "welcome": "XBITへようこそ"
+      "welcome": "KairoXへようこそ"
     },
     "verifyWallet": "署名は所有権とウォレットの互換性を検証するものです。新規ユーザーには2回の署名要求が送信されます。",
     "verifyWalletOwnership": "以下のウォレットアドレスの所有権を確認してください。"
@@ -1350,11 +1350,11 @@
     "down": "Done",
     "downloadAppModal": {
       "download": "Download the APP",
-      "qrSubtitle": "Download the XBIT APP",
+      "qrSubtitle": "Download the KairoX APP",
       "qrTitle": "Scan the QR code",
       "share": "Share with Friends",
       "shareNote": "Invite Friends to Grab Blind Boxs",
-      "subtitle_1": "This Blind Box promotion is only available through the XBIT APP.",
+      "subtitle_1": "This Blind Box promotion is only available through the KairoX APP.",
       "subtitle_2": "Scan the QR code to download or click the button to go directly to the event page."
     },
     "event": {
@@ -1410,8 +1410,8 @@
       "exclusive": "Lantern Fest Bonus",
       "festival": {
         "entry": "Transaction Blind Box",
-        "title": "XBIT Trading Blind Box",
-        "title_app": "XBIT APP Exclusive Blind Box"
+        "title": "KairoX Trading Blind Box",
+        "title_app": "KairoX APP Exclusive Blind Box"
       },
       "starts": {
         "in": "Lantern Bonus starts in {{time}}"
@@ -1587,7 +1587,7 @@
     },
     "WaitOpen": "Wait to open",
     "web": {
-      "notice": "This Lantern event is Web-only on XBIT. Copy link to join.",
+      "notice": "This Lantern event is Web-only on KairoX. Copy link to join.",
       "only": "Web"
     },
     "will": {
@@ -1610,7 +1610,7 @@
     "withdrawable": "Withdrawable",
     "withdrawals": "{{num}}  withdrawals",
     "xbit": {
-      "blind_box": "XBIT Blind Box",
+      "blind_box": "KairoX Blind Box",
       "drawer": {
         "title": "Lucky Blind Box"
       },
@@ -1641,7 +1641,7 @@
       "presetConfirmNote": "注：これらの設定はグローバル設定です。今回の取引でいずれかの設定を手動で調整した場合、その設定は今後の取引のデフォルト設定として使用されます。",
       "priorityTitle": "優先料金",
       "shareAssets": {
-        "AppName": "XBIT",
+        "AppName": "KairoX",
         "DomainCom": "と",
         "haveMadeProfit": "私は利益を上げた。",
         "holdingPrivateKeys": "暗号化された資産の秘密鍵を保持することで、オンチェーン取引の安全性が確保されます。",
@@ -1651,11 +1651,11 @@
       "trade": "貿易"
     },
     "pair": {
-      "xbitShareTrade": "XBIT株の取引情報"
+      "xbitShareTrade": "KairoX株の取引情報"
     }
   },
   "bottomNav": {
-    "about": "XBITについて",
+    "about": "KairoXについて",
     "assets": "資産",
     "chat": "チャット",
     "comingSoon": "先物スマートマネートラッカー、近日公開！",
@@ -2104,7 +2104,7 @@
     "contractInfo": "契約情報",
     "contractOwner": "契約所有者",
     "dangerous": "危険な",
-    "disclaimer": "免責事項：この契約監視結果は公開データに基づいています。XBITは、いかなる形であれ、この結果を支持または推奨するものではありません。",
+    "disclaimer": "免責事項：この契約監視結果は公開データに基づいています。KairoXは、いかなる形であれ、この結果を支持または推奨するものではありません。",
     "good": "良い",
     "highRisk": "高リスク",
     "honeypot": "ハニーポット",
@@ -2398,11 +2398,11 @@
     "from": "から",
     "link": {
       "authorization": "承認",
-      "authorizationNote": "XBITがあなたのウォレットから{{token}}をチャージできるようにしてください。",
+      "authorizationNote": "KairoXがあなたのウォレットから{{token}}をチャージできるようにしてください。",
       "l2Confirmation": "L2確認",
       "l2ConfirmationNote": "チャージ内容をご確認の上、署名して取引を進めてください。",
       "linkNote": "ウォレットを接続する",
-      "linkYourWallet": "ウォレットをXBITにリンクする",
+      "linkYourWallet": "ウォレットをKairoXにリンクする",
       "title": "リンク"
     },
     "redeemFailed": "失敗した",
@@ -2567,14 +2567,14 @@
       "fishTx": "100ドルから1000ドルまでの取引",
       "nodata": "このトークンには現在、保有者データがありません。後ほど再度ご確認ください。または、他のトークンもご検討ください。",
       "noted": "承知しました",
-      "notedDescription": "{{noted}} Xbitユーザーがこのアドレスをメモしました",
+      "notedDescription": "{{noted}} KairoXユーザーがこのアドレスをメモしました",
       "profit7d": "7D PNL",
       "sharkTx": "1,000ドルから10,000ドルまでの取引",
       "shrimpTx": "100ドル未満の取引",
       "token7d": "7Dトークン",
       "tokenSource": "トークンソース",
       "tracked": "追跡",
-      "trackedDescription": "{{tracked}} Xbitユーザーがこのアドレスを追跡しました",
+      "trackedDescription": "{{tracked}} KairoXユーザーがこのアドレスを追跡しました",
       "trades7d": "7日間の取引",
       "whaleTx": "1万ドルを超える取引",
       "winrate7d": "7D勝率"
@@ -2990,7 +2990,7 @@
     "openAppStore": "App Storeを開く",
     "openGooglePlay": "Google Playを開く",
     "scanToDownload": "スキャンしてダウンロード",
-    "subtitle": "iOS & Android対応のXBITモバイルアプリで、いつでもどこでも取引が可能です。",
+    "subtitle": "iOS & Android対応のKairoXモバイルアプリで、いつでもどこでも取引が可能です。",
     "title": "どこからでも取引可能"
   },
   "drawer": {
@@ -3848,7 +3848,7 @@
       "approveSuccess": "承認成功",
       "button": "貿易を承認する",
       "connect": "接続する",
-      "desc": "ウォレットをXBITに接続してください",
+      "desc": "ウォレットをKairoXに接続してください",
       "getSignatureFailed": "署名の取得に失敗しました",
       "operationFailed": "操作が失敗しました",
       "pleaseApprove": "まず承認手続きを完了してください。",
@@ -3938,11 +3938,11 @@
     "volume": "音量"
   },
   "futuresDetailsShare": {
-    "30dshare": "私はXBIT DEXで{{coin}}の無期限契約を取引し、過去30日間で{{pnlPercentage}}の利益率を達成しました。",
+    "30dshare": "私はKairoX DEXで{{coin}}の無期限契約を取引し、過去30日間で{{pnlPercentage}}の利益率を達成しました。",
     "address": "ウォレットアドレス",
-    "historyTwitter": "XBIT DEXで{{coin}}の永久先物を取引しました。利益は{{unrealizedPnl}}です。",
+    "historyTwitter": "KairoX DEXで{{coin}}の永久先物を取引しました。利益は{{unrealizedPnl}}です。",
     "inviteAddress": "ウォレット名",
-    "orderTwitter": "私はXBIT DEXで{{coin}}の永久先物を取引しました。収益率は{{pnlPercentage}}です。",
+    "orderTwitter": "私はKairoX DEXで{{coin}}の永久先物を取引しました。収益率は{{pnlPercentage}}です。",
     "pnlAmount": "PNL金額",
     "selectBgImage": "背景画像を選択してください",
     "selectShareInfo": "共有したい情報を選択してください",
@@ -4003,7 +4003,7 @@
         "msg": "審査は1営業日以内に完了する予定で、審査結果はメールでお送りいたします。",
         "title": "送信成功"
       },
-      "copyright": "著作権 © 2024 XBIT.COM。無断複写・転載を禁じます。",
+      "copyright": "著作権 © 2024 KairoX。無断複写・転載を禁じます。",
       "dear": "ユーザー様へ：",
       "decode": "16ビットキー",
       "descriptionQR": "Google Authenticator アプリを開き、右下隅の + 記号をタップし、下の QR コードをスキャンするか、下の 16 桁のキーをコピーして Google Authenticator に貼り付けてください。",
@@ -4028,12 +4028,12 @@
         "ensureMsg2": "24時間以内に",
         "ensureMsg3": "Telegramウォレットからの出金は許可されていません。",
         "form": {
-          "exampleWallet": "例えば、MetaMaskウォレットを使用してXBITのTGウォレットにチャージする場合、またはXBITのTGウォレットからMetaMaskウォレットに資金を引き出す場合は、MetaMaskウォレットのアドレスを提供してください。",
+          "exampleWallet": "例えば、MetaMaskウォレットを使用してKairoXのTGウォレットにチャージする場合、またはKairoXのTGウォレットからMetaMaskウォレットに資金を引き出す場合は、MetaMaskウォレットのアドレスを提供してください。",
           "label1": "TGアカウント番号（カスタマーサービスへの連絡を円滑にするため、必ず正しく入力してください）",
-          "label2": "TelegramユーザーID（取得するには、XBIT公式Telegramボットで「/userid」と入力してください）",
+          "label2": "TelegramユーザーID（取得するには、KairoX公式Telegramボットで「/userid」と入力してください）",
           "label3": "（リセットメールを受信するための）メールアドレス",
-          "label4": "過去3ヶ月間にXBITのTGウォレットで送金履歴のあるウォレットアドレスをご提供ください。",
-          "label5": "上記ウォレットおよびXBITのTGウォレットにおける過去3ヶ月間の入出金記録のスクリーンショットをアップロードしてください。",
+          "label4": "過去3ヶ月間にKairoXのTGウォレットで送金履歴のあるウォレットアドレスをご提供ください。",
+          "label5": "上記ウォレットおよびKairoXのTGウォレットにおける過去3ヶ月間の入出金記録のスクリーンショットをアップロードしてください。",
           "offlineTelegram": "公電",
           "placeholder1": "あなたのTGアカウント",
           "placeholder2": "あなたのTGユーザーID",
@@ -4047,7 +4047,7 @@
         "intro": "お客様の資金の安全のため、システムはホワイトリストに登録されたアドレスへの送金のみをサポートしています。ホワイトリストを設定後、有効になるまで3時間お待ちいただく必要があります。有効になった後は、ホワイトリストに登録されたアドレスへの送金には追加の認証は不要となり、出金手続きがより安全かつ迅速になります。",
         "title": "Google認証をリセットする"
       },
-      "riskwarning": "リスク警告：仮想通貨取引には高いリスクが伴います。XBIT.COMはブロックチェーン上で最高水準の取引サービスを提供しますが、お客様の取引損失については一切責任を負いません。取引リスクを十分に理解し、慎重に取引を行ってください。",
+      "riskwarning": "リスク警告：仮想通貨取引には高いリスクが伴います。KairoXはブロックチェーン上で最高水準の取引サービスを提供しますが、お客様の取引損失については一切責任を負いません。取引リスクを十分に理解し、慎重に取引を行ってください。",
       "safety": {
         "intro": "お客様の資金の安全のため、システムはホワイトリストに登録されたアドレスへの送金のみをサポートしています。ホワイトリストを設定後、有効になるまで3時間お待ちいただく必要があります。有効になった後は、ホワイトリストに登録されたアドレスへの送金には追加の認証は不要となり、出金手続きがより安全かつ迅速になります。",
         "intro ": "お客様の資金の安全のため、システムはホワイトリストに登録されたアドレスへの送金のみをサポートしています。ホワイトリストを設定後、有効になるまで3時間お待ちいただく必要があります。有効になった後は、ホワイトリストに登録されたアドレスへの送金には追加の認証は不要となり、出金手続きがより安全かつ迅速になります。",
@@ -4066,7 +4066,7 @@
         "step3": "撤退"
       },
       "team": "チーム",
-      "thankyou": "XBITをお選びいただきありがとうございます。お困りの際は、お問い合わせください。",
+      "thankyou": "KairoXをお選びいただきありがとうございます。お困りの際は、お問い合わせください。",
       "title": "Google認証システムを連携する",
       "warning": {
         "not_available": "Google Authenticator は利用できません。",
@@ -4164,7 +4164,7 @@
     "triggerMarketCap": "トリガーキャップ/価格",
     "txHash": "TXハッシュ",
     "type": "タイプ",
-    "xbitFee": "XBIT手数料（{{value}}％）"
+    "xbitFee": "KairoX手数料（{{value}}％）"
   },
   "holding": {
     "cumulativePnL": "累積損益",
@@ -4182,7 +4182,7 @@
       "sorting": "選別"
     },
     "tooltip": {
-      "transferToken": "このトークンは外部ウォレットから送金されたものです。損益計算と平均コストは、Xbitで購入したトークンのみを対象としています。"
+      "transferToken": "このトークンは外部ウォレットから送金されたものです。損益計算と平均コストは、KairoXで購入したトークンのみを対象としています。"
     }
   },
   "holdings": {
@@ -4279,9 +4279,9 @@
     "inviteLink": "招待リンク",
     "inviteRules": "招待ルール",
     "inviteRulesDescription1": "友達を招待して、ミームコインや永久契約を交換し、手数料の払い戻しを受けましょう。招待する友達が多いほど、より多くの手数料報酬を獲得できます。",
-    "inviteRulesDescription2": "XBITのコミッションシステムは後日開始予定です。その際、2025年7月25日を起点として、これまでのコミッション報酬をお支払いいたします。さあ、始めましょう！",
-    "inviteText": "私の紹介リンクをクリックしてXBIT DEXに登録すると、最大で",
-    "inviteToXBIT": "XBITへの参加をお待ちしております",
+    "inviteRulesDescription2": "KairoXのコミッションシステムは後日開始予定です。その際、2025年7月25日を起点として、これまでのコミッション報酬をお支払いいたします。さあ、始めましょう！",
+    "inviteText": "私の紹介リンクをクリックしてKairoX DEXに登録すると、最大で",
+    "inviteToXBIT": "KairoXへの参加をお待ちしております",
     "maxCommission50Percent": "最大50％の手数料",
     "myInviteCode": "私の招待コード",
     "qrCode": "QRコード",
@@ -4648,25 +4648,25 @@
     "and": "そして",
     "approveToCreateAccount": "アカウント作成を承認してください",
     "authRequire": "取引するにはログインまたは新規登録してください",
-    "betaCodeVerified": "アクセスコードを確認しました！XBITへようこそ…",
+    "betaCodeVerified": "アクセスコードを確認しました！KairoXへようこそ…",
     "bindingNotice": "SOLに接続中",
     "bindTelegramBot": "Telegramボットをバインドする",
     "cancel": "キャンセル",
     "checkEmail": {
       "prefix": "チェックしてください",
-      "suffix": "XBIT.comからのメールを受け取り、以下のコードを入力してください。"
+      "suffix": "KairoXからのメールを受け取り、以下のコードを入力してください。"
     },
     "codeSentTo": "認証コードが送信されました",
     "confirm": "確認する",
     "confirmToAccessAccount": "アカウントへのアクセスを確認してください",
     "connectWallet": "ウォレットを接続する",
     "connectYourWallet": "ウォレットを接続してください",
-    "connectYourWalletToXBIT": "ウォレットをXBITに接続してください",
+    "connectYourWalletToXBIT": "ウォレットをKairoXに接続してください",
     "continueWithGoogle": "Googleで続行",
     "didntGetEmail": "メールが届いていませんか？",
     "downloadWallet": "ダウンロード",
     "emailLogin": "メールログイン",
-    "enterBetaCode": "XBITにすぐにアクセスするには、以下のアクセスコードを入力してください。",
+    "enterBetaCode": "KairoXにすぐにアクセスするには、以下のアクセスコードを入力してください。",
     "enterYourEmail": "メールアドレスを入力してください",
     "generateMPCWallet": "分散型MPCウォレットを生成する",
     "getBetaCode": "アクセスコードを取得する",
@@ -4676,7 +4676,7 @@
       "web3Wallet": "Web3ウォレット"
     },
     "home": {
-      "loginOptionTitle": "XBITで取引を始めましょう"
+      "loginOptionTitle": "KairoXで取引を始めましょう"
     },
     "installed": "インストール済み",
     "invalidCode": "無効なコードです。もう一度お試しください。",
@@ -4705,7 +4705,7 @@
     "resend": "再送信",
     "resendSuccess": "メールをお送りしました。受信トレイをご確認ください。",
     "riskWarning": "リスク警告",
-    "riskWarningContent": "Web3ウォレット（またはAPIウォレット）は、Xbitシステムへのログインや、認証、トランザクション署名などの自動操作の実行にのみ使用されます。このウォレットは、お客様の資産にアクセスしたり、資産を管理したりすることはありませんので、安心してご利用いただけます。",
+    "riskWarningContent": "Web3ウォレット（またはAPIウォレット）は、KairoXシステムへのログインや、認証、トランザクション署名などの自動操作の実行にのみ使用されます。このウォレットは、お客様の資産にアクセスしたり、資産を管理したりすることはありませんので、安心してご利用いただけます。",
     "signatureExplanation": "署名は所有権とウォレットの互換性を検証するものです。新規ユーザーには2回の署名要求が送信されます。",
     "signingFree": "署名は無料で、取引データは送信されません。",
     "signMessage": "サインメッセージ",
@@ -4734,12 +4734,12 @@
     "terms": "利用規約",
     "termsAgreement": "接続することで、当社の",
     "text": {
-      "loginNotLoggedIn": "XBITにログインしていません"
+      "loginNotLoggedIn": "KairoXにログインしていません"
     },
     "toGenerate": "分散型MPCウォレットを生成する",
     "tokenExpired": "セッションの有効期限が切れました。ページを再読み込みして続行してください。",
     "tradingPromptDetail": "署名は不要です",
-    "tradingPromptTitle": "XBITで取引を始めましょう",
+    "tradingPromptTitle": "KairoXで取引を始めましょう",
     "validEmail": "無効なメールアドレス形式です。再度入力してください。",
     "verify": "確認する",
     "verifyCode": "確認コードを確認してください",
@@ -4747,7 +4747,7 @@
     "wallet": {
       "notInstallWallet": "{{wallet}}がインストールされていません"
     },
-    "welcomeText": "XBITへようこそ",
+    "welcomeText": "KairoXへようこそ",
     "with": "そして"
   },
   "loyalty": {
@@ -4763,7 +4763,7 @@
       "yourPoints": "あなたのポイント"
     },
     "card": {
-      "titleSeason": "XBIT {{seasonName}}"
+      "titleSeason": "KairoX {{seasonName}}"
     },
     "currentShare": "現在のシェア",
     "desCreateCode": "専用の招待コードを設定すれば、友達を簡単にプラットフォームに招待できます。",
@@ -4778,7 +4778,7 @@
       "tradingPoint": "取引ポイントはどのように計算されますか？",
       "tradingPointAnswer": "取引ポイントは、取引ポイント＝取引量（米ドル）×セクター係数×品質係数という基本式に基づいて算出されます。セクター係数は取引手数料に応じて調整され（例：ミーム＝1.0、先物＝0.1、米国株＝0.5）、品質係数は各取引の損益率に応じて決定されます（例：0.5％～2％＝1.0、10％超は1.0に戻ります）。",
       "whatIsPoint": "ポイントとは何ですか？",
-      "whatIsPointAnswer": "ポイントはXBITプラットフォームにおけるインセンティブメカニズムであり、ミーム、先物、米国株式市場での取引、ポジションの保有、資金の維持、他者の紹介、コミュニティ活動への参加に対してユーザーに報酬を与えます。ポイントは季節ごとのリーダーボード（上位100名が賞金プールを分配）に参加するために使用でき、長期的な真摯な参加を促します。このシステムは、シンプルで透明性が高く、不正防止対策が施され、季節ごとのルールと倍率ボーナスによってバランスが保たれるように設計されています。"
+      "whatIsPointAnswer": "ポイントはKairoXプラットフォームにおけるインセンティブメカニズムであり、ミーム、先物、米国株式市場での取引、ポジションの保有、資金の維持、他者の紹介、コミュニティ活動への参加に対してユーザーに報酬を与えます。ポイントは季節ごとのリーダーボード（上位100名が賞金プールを分配）に参加するために使用でき、長期的な真摯な参加を促します。このシステムは、シンプルで透明性が高く、不正防止対策が施され、季節ごとのルールと倍率ボーナスによってバランスが保たれるように設計されています。"
     },
     "fundPoints": "ファンドポイント",
     "goInvite": "招待する",
@@ -4814,7 +4814,7 @@
       "warningDes": "文字数は4～15文字です。使用できる文字は、英字（A～Z）、数字（0～9）、またはアンダースコアのみです。",
       "warningTitle": "招待コードが無効です！以下の点をご確認ください。"
     },
-    "shareText": "私の紹介リンクをクリックしてXBIT DEXに登録すると、最大50%のキャッシュバックがもらえます。{{inviteLink}}",
+    "shareText": "私の紹介リンクをクリックしてKairoX DEXに登録すると、最大50%のキャッシュバックがもらえます。{{inviteLink}}",
     "tooltip": {
       "fundPoints": "ファンドポイントは、口座残高の安定性に基づいて付与されます。安定した残高が多いほど、時間の経過とともに多くのポイントが蓄積されます。",
       "holdingPoints": "保有ポイントは、お客様の資産の1時間当たりの価値に基づいて計算されます。保有期間が長く、残高が多いほど、獲得できるポイントが多くなります。",
@@ -4912,7 +4912,7 @@
     },
     "options": {
       "aboutUs": "コミュニティ",
-      "aboutXbitTutorial": "XBITチュートリアルについて",
+      "aboutXbitTutorial": "KairoXチュートリアルについて",
       "airdropPoints": "エアドロップポイント",
       "backupMnemonic": "記憶術フレーズ",
       "browsingHistory": "閲覧履歴",
@@ -4921,7 +4921,7 @@
       "inviteRebate": "紹介",
       "loyalty": "エアドロップポイント",
       "myRebate": "私のリベート",
-      "shareXbit": "XBITを共有する",
+      "shareXbit": "KairoXを共有する",
       "tradeSettings": "取引設定",
       "tradingReward": "報酬",
       "tutorial": "チュートリアル",
@@ -5271,7 +5271,7 @@
       "pump": "ポンプ",
       "slippageLoss": "滑り損失",
       "txHash": "TXハッシュ",
-      "xbitFee": "XBIT手数料 ({{percent}}%)"
+      "xbitFee": "KairoX手数料 ({{percent}}%)"
     },
     "list": {
       "noData": "未決済注文はありません。指値注文、トレーリングTP/SL注文を利用して、最適な価格を自動的に獲得しましょう。"
@@ -5645,13 +5645,13 @@
       "points": "ポイント",
       "referrals": "紹介",
       "rewards": "報酬",
-      "shareXbit": "XBITを共有する",
+      "shareXbit": "KairoXを共有する",
       "tradeSettings": "取引設定",
       "userFeedback": "ユーザーからのフィードバック",
       "walletManagement": "ウォレット管理"
     },
     "pleaseLogin": "ログインしてください",
-    "welcomeToXBIT": "XBITへようこそ"
+    "welcomeToXBIT": "KairoXへようこそ"
   },
   "pop": {
     "token": {
@@ -5749,7 +5749,7 @@
       "positions": "ポジション"
     }
   },
-  "powerByXbit": "Xbitでパワーアップ！",
+  "powerByXbit": "KairoXでパワーアップ！",
   "ppUpdateChecker": {
     "forceUpdate": {
       "title": "アップデートが必要です"
@@ -5814,7 +5814,7 @@
     "claimable": {
       "claimedFailed": "請求は却下されました",
       "claimedSuccessfully": "請求に成功しました",
-      "congratulationTitle": "XBITの未来予測、素晴らしいですね！",
+      "congratulationTitle": "KairoXの未来予測、素晴らしいですね！",
       "won": "勝利した",
       "youWon": "あなたが勝ちました"
     },
@@ -5847,7 +5847,7 @@
     },
     "daily": "毎日",
     "deposit": {
-      "xbitPredictionAddress": "XBIT予測アドレス"
+      "xbitPredictionAddress": "KairoX予測アドレス"
     },
     "discover": {
       "earningsCalendar": "決算発表カレンダー",
@@ -6181,7 +6181,7 @@
       "cashOutSuccess": "現金化に成功しました",
       "claiming": "主張する...",
       "claimProceeds": "請求",
-      "congratsMessage": "XBITの未来予測、素晴らしいですね！",
+      "congratsMessage": "KairoXの未来予測、素晴らしいですね！",
       "marketIconAlt": "マーケットアイコン",
       "marketNotFound": "マーケットが見つかりません",
       "marketsWon": "市場が勝利した",
@@ -6481,11 +6481,11 @@
       "down": "終わり",
       "downloadAppModal": {
         "download": "アプリをダウンロード",
-        "qrSubtitle": "XBITアプリをダウンロード",
+        "qrSubtitle": "KairoXアプリをダウンロード",
         "qrTitle": "QRコードをスキャンしてください",
         "share": "友達と共有する",
         "shareNote": "友達を誘ってブラインドボックスを手に入れよう",
-        "subtitle_1": "このブラインドボックスキャンペーンは、XBITアプリからのみご利用いただけます。",
+        "subtitle_1": "このブラインドボックスキャンペーンは、KairoXアプリからのみご利用いただけます。",
         "subtitle_2": "QRコードをスキャンしてダウンロードするか、ボタンをクリックしてイベントページに直接アクセスしてください。"
       },
       "event": {
@@ -6541,8 +6541,8 @@
         "exclusive": "ランタンフェスト特典",
         "festival": {
           "entry": "トランザクションブラインドボックス",
-          "title": "XBITトレーディングブラインドボックス",
-          "title_app": "XBITアプリ限定ブラインドボックス"
+          "title": "KairoXトレーディングブラインドボックス",
+          "title_app": "KairoXアプリ限定ブラインドボックス"
         },
         "starts": {
           "in": "お年玉の交換は {{time}} に開始します。"
@@ -6719,7 +6719,7 @@
       },
       "WaitOpen": "開店までお待ちください",
       "web": {
-        "notice": "XBIT Web限定イベントです。参加するにはリンクをコピーしてください。",
+        "notice": "KairoX Web限定イベントです。参加するにはリンクをコピーしてください。",
         "only": "ウェブ"
       },
       "will": {
@@ -6743,11 +6743,11 @@
       "withdrawals": "{{num}} 回の引き出し",
       "xbit": {
         "drawer": {
-          "title": "XBITブラインドボックス"
+          "title": "KairoXブラインドボックス"
         },
-        "lantern": "XBITランタンフェスト",
+        "lantern": "KairoXランタンフェスト",
         "red": {
-          "packet": "XBITレッドパケット"
+          "packet": "KairoXレッドパケット"
         }
       },
       "you": {
@@ -6996,14 +6996,14 @@
   },
   "share": {
     "accountMeme": {
-      "valueMessage": "XBIT DEXで ${{symbol}} を購入し、{{profit}} の利益を出しました！"
+      "valueMessage": "KairoX DEXで ${{symbol}} を購入し、{{profit}} の利益を出しました！"
     },
     "accountRWA": {
-      "valueMessage": "XBIT DEXで米国株 ${{symbol}} を取引し、{{profit}} の利益を得ました！"
+      "valueMessage": "KairoX DEXで米国株 ${{symbol}} を取引し、{{profit}} の利益を得ました！"
     },
     "assetsBody": {
       "dexMobileNo1": "ナンバーワンの分散型モバイル取引所　ミリ秒単位のレート表示、超高速取引",
-      "dexMobileXbit": "XBIT分散型モバイル取引所：ミリ秒単位のレート表示、超高速取引"
+      "dexMobileXbit": "KairoX分散型モバイル取引所：ミリ秒単位のレート表示、超高速取引"
     },
     "deposit": {
       "valueMessage": "{{symbol}} 入金先住所:"
@@ -7019,7 +7019,7 @@
       "selectContent": "共有したい情報を選択してください"
     },
     "invitationCode": {
-      "valueMessage": "私の紹介リンクをクリックしてXBIT DEXに登録すると、最高の{{profit}}リベートを獲得できます。"
+      "valueMessage": "私の紹介リンクをクリックしてKairoX DEXに登録すると、最高の{{profit}}リベートを獲得できます。"
     },
     "menu": {
       "shareXBitInvitation": "ナンバーワンの分散型取引プラットフォーム\nミリ秒単位のデータ処理、超高速の取引実行"
@@ -7029,22 +7029,22 @@
       "xNotInstalledRedirecting": "Xアプリがインストールされていません。ストアにリダイレクトします。"
     },
     "tokenDetail": {
-      "valueMessage": "${{symbol}} には興味深いものがあります。トレンドを把握するには、XBIT DEX に参加しましょう。ご自身で調査してください！"
+      "valueMessage": "${{symbol}} には興味深いものがあります。トレンドを把握するには、KairoX DEX に参加しましょう。ご自身で調査してください！"
     },
     "xbit": {
-      "valueMessage": "XBIT DEXをダウンロードすれば、無期限契約、ミーム、米国株のシームレスな取引が可能になります。"
+      "valueMessage": "KairoX DEXをダウンロードすれば、無期限契約、ミーム、米国株のシームレスな取引が可能になります。"
     }
   },
   "shareBottomSheet": {
     "depositAddressTemplate": "{{token}}の入金先アドレス：{{address}}",
     "dexSlogan": "DEXのミリ秒単位のレート、超高速取引",
-    "memeContent": "${{coin}} は興味深いですね。XBIT DEX に来てトレンドに参加しましょう。ご自身で調査してください！",
-    "shareHoldingTemplate": "XBIT DEXで${{symbol}}に投資して、{{returns}}%の利益を得ました。",
-    "stockShareTemplate": "私はXBIT DEXで米国株${{symbol}}を取引し、{{returns}}%のリターンを得ました。",
+    "memeContent": "${{coin}} は興味深いですね。KairoX DEX に来てトレンドに参加しましょう。ご自身で調査してください！",
+    "shareHoldingTemplate": "KairoX DEXで${{symbol}}に投資して、{{returns}}%の利益を得ました。",
+    "stockShareTemplate": "私はKairoX DEXで米国株${{symbol}}を取引し、{{returns}}%のリターンを得ました。",
     "title": "ページを共有する"
   },
   "sharePage": {
-    "checkOutThisAssetInformation": "{{symbol}} を請求しました。トレンドについていくには XBIT DEX に来てください。DYOR!",
+    "checkOutThisAssetInformation": "{{symbol}} を請求しました。トレンドについていくには KairoX DEX に来てください。DYOR!",
     "dexLabel": "分散型取引所（DEX）",
     "remainingPosition": "残りの保有資産",
     "title": "ページを共有する"
@@ -7056,10 +7056,10 @@
     "updateLoading": "アップデート"
   },
   "signIn": {
-    "continueWithXBIT": "引き続き使用することにより、XBITの規約に同意したことになります。",
+    "continueWithXBIT": "引き続き使用することにより、KairoXの規約に同意したことになります。",
     "didNotGetEmail": "メールが届いていませんか？",
     "doNotBetaCode": "アクセスコードをお持ちではありませんか？",
-    "enterBetaCode": "XBITにすぐにアクセスするには、以下のアクセスコードを入力してください。",
+    "enterBetaCode": "KairoXにすぐにアクセスするには、以下のアクセスコードを入力してください。",
     "getBetaCode": "アクセスコードを取得する",
     "haveABetaCode": "アクセスコードをお持ちですか？",
     "inviteCodeHint": "招待コード（オプション）",
@@ -7076,14 +7076,14 @@
     "title": {
       "checkEmail": "認証コードが送信されました",
       "checkEmail1": "チェックしてください",
-      "checkEmail2": "XBIT.comからのメールを受け取り、以下の欄にコードを入力してください。",
+      "checkEmail2": "KairoXからのメールを受け取り、以下の欄にコードを入力してください。",
       "confirmVerifyCode": "確認コードを確認してください",
-      "connectWithXBIT": "XBITとつながる",
+      "connectWithXBIT": "KairoXとつながる",
       "generateMPCWallet": "分散型MPCウォレットを生成します。",
-      "welcome": "XBITへようこそ"
+      "welcome": "KairoXへようこそ"
     },
     "verifyAccessCode": {
-      "success": "アクセスコードを確認しました！XBITへようこそ"
+      "success": "アクセスコードを確認しました！KairoXへようこそ"
     },
     "verifyOTP": "確認する",
     "verifyWallet": {
@@ -7539,7 +7539,7 @@
       "contractCreator": "契約作成者",
       "contractInfo": "契約情報",
       "contractOwner": "契約所有者",
-      "disclaimer": "免責事項：この契約監視結果は公開データに基づいています。XBITは、いかなる形であれ、この結果を支持または推奨するものではありません。",
+      "disclaimer": "免責事項：この契約監視結果は公開データに基づいています。KairoXは、いかなる形であれ、この結果を支持または推奨するものではありません。",
       "highRisk": "高リスク",
       "honeypot": "ハニーポット",
       "honeypotDesc": "この契約は、トークンの販売を阻止するためのハニーポットである可能性がある。",
@@ -7610,7 +7610,7 @@
       "buyAddress": "住所を購入する",
       "buyAmount": "購入金額",
       "buyCount": "購入取引",
-      "externalTransferPnLTooltip": "このトークンは外部ウォレットから送金されたものです。損益計算と平均コストは、Xbitで購入したトークンのみを対象としています。",
+      "externalTransferPnLTooltip": "このトークンは外部ウォレットから送金されたものです。損益計算と平均コストは、KairoXで購入したトークンのみを対象としています。",
       "insidePercent": "インサイダー％",
       "numberOfHolders": "保有者数",
       "snippersHolding": "狙撃兵が保持",
@@ -8137,7 +8137,7 @@
     "positionCurrency": "トークンを保持する",
     "qrCodeInstruction": "お使いのウォレットがリストにない場合は、ウォレットでこのQRコードをスキャンしてください（WalletConnect v2が必要です）。",
     "reconnect": "再接続",
-    "returnToApp": "XBITに戻る",
+    "returnToApp": "KairoXに戻る",
     "saveToAlbum": "保存",
     "selectNetwork": "ネットワークを選択",
     "selectWallet": "ウォレットを選択",
@@ -8187,7 +8187,7 @@
       "walletName": "ウォレット名"
     },
     "mnemonicChecklist": {
-      "accessLost": "XBITアカウントを紛失した場合にウォレットにアクセスできるよう、このニーモニックをバックアップしておいてください。",
+      "accessLost": "KairoXアカウントを紛失した場合にウォレットにアクセスできるよう、このニーモニックをバックアップしておいてください。",
       "backupInstructions": "以下の単語を順番通りに書き写し、大切に保管してください。記憶術のフレーズは絶対に誰にも教えないでください。さもないと、すべての財産を失う可能性があります。",
       "backupTitle": "バックアップ用記憶フレーズ",
       "complete": "完了",
@@ -8220,7 +8220,7 @@
         "tip1": "ウォレットと資金に完全にアクセスするには、覚えやすいフレーズを覚えておくだけで十分です。",
         "tip2": "秘密鍵を共有すると、資産の盗難につながる可能性があります。",
         "tip3": "記憶術のフレーズをオンラインで誰とも共有したり、保存したり、送信したりしないでください。",
-        "tip4": "XBITチームがあなたに記憶術のフレーズを提供するよう求めることは決してありません。"
+        "tip4": "KairoXチームがあなたに記憶術のフレーズを提供するよう求めることは決してありません。"
       },
       "specialReminder": "特別なお知らせ",
       "specialReminderText": "その覚えやすいフレーズを入手した人は誰でもあなたの資産をコントロールできます！",

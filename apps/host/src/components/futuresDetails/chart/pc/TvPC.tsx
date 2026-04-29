@@ -281,7 +281,7 @@ const TvChart = memo(
         session: '24x7',
         has_intraday: true,
         // has_daily: true,
-        exchange: 'XBIT',
+        exchange: 'KAIROX',
         listed_exchange: '',
         description: `${pairNameRef.current}/${quoteCoin}`,
         pricescale: Math.pow(10, precisionSafe),

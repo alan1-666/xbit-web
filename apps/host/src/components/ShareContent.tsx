@@ -112,9 +112,9 @@ const ShareContent = memo(
             >
               <div className="flex-1 flex items-center justify-center p-0 w-full overflow-hidden">{children}</div>
               <div className="w-full flex items-center justify-center gap-3.5 bg-[url('/images/map.png')] bg-cover bg-[#8159DE24] border-t-[0.5px] border-[#843BEA] p-3">
-                <img className="w-[39px] h-[36px]" src="/images/xbit-logo.svg" alt="logo xbit" />
+                <img className="w-[39px] h-[36px]" src="/images/kairox-logo.svg" alt="logo xbit" />
                 <div>
-                  <img src="/images/logo-xbit-text.svg" alt="logo xbit text" />
+                  <img src="/images/kairox-logo-text.svg" alt="logo xbit text" />
                   <span className="app-font-regular text-[calc(1rem*(12/16))] text-[#FFFFFFB2] leading-3 tracking-[1.63px] whitespace-nowrap">
                     {t('detail.myPositions.decentralizedExchange')}
                   </span>

@@ -51,6 +51,7 @@ const SITE_ORIGIN = envOrFile('VITE_APP_DOMAIN', 'https://unstable.xbit.live') a
 const VITE_GRAPHQL_MEME2_URL = (envOrFile('VITE_GRAPHQL_MEME2_URL', 'https://api.xbit.com/api/meme2/meme-gql') ||
   'https://api.xbit.com/api/meme2/meme-gql') as string
 const VITE_STAGE = ((envOrFile('VITE_STAGE', 'unstable') || 'unstable') as string).toLowerCase()
+const BRAND_NAME = 'KairoX'
 
 // Optional: allowlist for non-prod robots
 const NON_PROD_ALLOWLIST: string[] = []
@@ -487,11 +488,11 @@ function buildRobots(stage: string) {
 type Og = { title: string; desc: string; url: string; image: string; site?: string; type?: string }
 
 const ogForStatic = (path: string): Og => ({
-  title: `Xbit — On-chain Trading Intelligence`,
-  desc: `Real-time token intel, smart money tracking, holders and alerts. Trade faster with Xbit.`,
+  title: `${BRAND_NAME} — On-chain Trading Intelligence`,
+  desc: `Real-time token intel, smart money tracking, holders and alerts. Trade faster with ${BRAND_NAME}.`,
   url: new URL(path, SITE_ORIGIN).toString(),
   image: `${SITE_ORIGIN.replace(/\/$/, '')}/favicon.ico`,
-  site: 'Xbit',
+  site: BRAND_NAME,
   type: 'website',
 })
 
@@ -500,38 +501,38 @@ const ogForToken = (
   token: string,
   extra?: { symbol?: string; price?: number; marketcap?: number; volume24h?: number },
 ): Og => ({
-  title: `${extra?.symbol || token} | Xbit`,
+  title: `${extra?.symbol || token} | ${BRAND_NAME}`,
   desc: buildTokenDesc(token, extra),
   url: `${SITE_ORIGIN.replace(/\/$/, '')}/meme/${chainSlug}/token/${token}`,
   image: `${SITE_ORIGIN.replace(/\/$/, '')}/favicon.ico`,
-  site: 'Xbit',
+  site: BRAND_NAME,
   type: 'website',
 })
 
 const ogForWallet = (wallet: string, extra?: { pnl7d?: number }): Og => ({
-  title: `Wallet ${short(wallet)} — Smart Money Profile | Xbit`,
+  title: `Wallet ${short(wallet)} — Smart Money Profile | ${BRAND_NAME}`,
   desc: buildWalletDesc(wallet, extra),
   url: `${SITE_ORIGIN.replace(/\/$/, '')}/meme/wallet/${encodeURIComponent(wallet)}`,
   image: `${SITE_ORIGIN.replace(/\/$/, '')}/favicon.ico`,
-  site: 'Xbit',
+  site: BRAND_NAME,
   type: 'profile',
 })
 
 const ogForTokenByCategory = (token: string, extra?: Partial<TokenByCategory>): Og => ({
-  title: `${extra?.name || token} | Xbit`,
+  title: `${extra?.name || token} | ${BRAND_NAME}`,
   desc: buildTokenByCategoryDesc(token, extra),
   url: `${SITE_ORIGIN.replace(/\/$/, '')}/meme/${CHAINS[0].slug}/token/${token}`,
   image: `${SITE_ORIGIN.replace(/\/$/, '')}/favicon.ico`,
-  site: 'Xbit',
+  site: BRAND_NAME,
   type: 'website',
 })
 
 const ogForFutures = (coin: string): Og => ({
-  title: `${coin} Futures — Prices & Funding | Xbit`,
+  title: `${coin} Futures — Prices & Funding | ${BRAND_NAME}`,
   desc: `Track ${coin} futures markets, funding and open interest.`,
   url: `${SITE_ORIGIN.replace(/\/$/, '')}/futures/${encodeURIComponent(coin)}`,
   image: `${SITE_ORIGIN.replace(/\/$/, '')}/favicon.ico`,
-  site: 'Xbit',
+  site: BRAND_NAME,
   type: 'website',
 })
 
@@ -566,13 +567,13 @@ function buildTokenDesc(
   if (mcap) stats.push(`mcap ${mcap}`)
   if (vol) stats.push(`24h vol ${vol}`)
   const statsStr = stats.length ? ` — ${stats.join(', ')}` : ``
-  return `${name} live on Xbit${statsStr}. Track whales, holders & flows. Trade smarter.`
+  return `${name} live on ${BRAND_NAME}${statsStr}. Track whales, holders & flows. Trade smarter.`
 }
 
 function buildWalletDesc(wallet: string, extra?: { pnl7d?: number }) {
   const pnl = num(extra?.pnl7d)
   const pnlStr = typeof pnl === 'number' ? ` — 7d PnL ${pnl >= 0 ? '+' : ''}${pnl.toFixed(0)}%` : ''
-  return `Smart money wallet ${wallet}: positions, entries/exits, on-chain moves${pnlStr}. Follow and react fast on Xbit.`
+  return `Smart money wallet ${wallet}: positions, entries/exits, on-chain moves${pnlStr}. Follow and react fast on ${BRAND_NAME}.`
 }
 
 function buildTokenByCategoryDesc(token: string, extra?: Partial<TokenByCategory>) {
@@ -585,7 +586,7 @@ function buildTokenByCategoryDesc(token: string, extra?: Partial<TokenByCategory
   if (mcap) parts.push(`mcap ${mcap}`)
   if (vol) parts.push(`24h vol ${vol}`)
   const statsStr = parts.length ? ` — ${parts.join(', ')}` : ``
-  return `${nameSym} on Xbit${statsStr}. Liquidity, holders & real-time flows.`
+  return `${nameSym} on ${BRAND_NAME}${statsStr}. Liquidity, holders & real-time flows.`
 }
 
 /* =========================
@@ -602,7 +603,7 @@ function injectOgIntoHtml(html: string, og: Og) {
     <meta name="description" content="${escapeAttr(og.desc)}" />
     <link rel="canonical" href="${escapeAttr(og.url)}" />
     <meta property="og:type" content="${escapeAttr(og.type || 'website')}" />
-    <meta property="og:site_name" content="${escapeAttr(og.site || 'Xbit')}" />
+    <meta property="og:site_name" content="${escapeAttr(og.site || BRAND_NAME)}" />
     <meta property="og:title" content="${escapeAttr(og.title)}" />
     <meta property="og:description" content="${escapeAttr(og.desc)}" />
     <meta property="og:url" content="${escapeAttr(og.url)}" />
@@ -640,7 +641,7 @@ function buildJsonLd(og: Og, kind: 'static' | 'token' | 'wallet' | 'tokenByCateg
     description: og.desc,
     url: og.url,
     image: og.image,
-    publisher: { '@type': 'Organization', name: 'Xbit', url: SITE_ORIGIN.replace(/\/$/, '') },
+    publisher: { '@type': 'Organization', name: BRAND_NAME, url: SITE_ORIGIN.replace(/\/$/, '') },
   }
 
   if (kind === 'token') {

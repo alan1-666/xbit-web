@@ -28,7 +28,7 @@ export const mockAnnouncements: AnnouncementSlide[] = [
     // Public image from Unsplash - crypto/trading theme
     mediaUrl: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&q=80',
     mediaType: 'image',
-    title: 'Welcome to XBIT',
+    title: 'Welcome to KairoX',
     description: 'Your gateway to cryptocurrency trading. Start trading with low fees, high security, and 24/7 support.',
   },
 ]

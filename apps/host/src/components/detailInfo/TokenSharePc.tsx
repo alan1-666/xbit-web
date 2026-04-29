@@ -145,7 +145,7 @@ const TokenSharePc = (props: TokenShareProps) => {
 
             {/*Content layer*/}
             <div className={'absolute top-0 left-0 w-full p-3'}>
-              <img src="/images/share/logo-xbit-share.webp" alt="logo share" className={'mx-auto w-[144px] h-[48px]'}/>
+              <img src="/images/share/kairox-logo-text-dark.svg" alt="logo share" className={'mx-auto w-[144px] h-[48px]'}/>
               <div className='mt-[38px] flex items-center justify-between gap-6'>
                 {/*info*/}
                 <div>
@@ -166,26 +166,26 @@ const TokenSharePc = (props: TokenShareProps) => {
                   </div>
                   <div className={'mt-[94px]'}>
                     <span className={'text-[16px] leading-[1] font-[300] text-[#FBFBFB]'}>
-                      Referral Code: XBITOFFICIAL
+                      Referral Code: KAIROXOFFICIAL
                     </span>
                   </div>
                   <div className={'mt-4 flex items-center gap-5'}>
                     <div className={'flex items-center gap-1.5'}>
                       <img src='/images/share/icon-web.svg' alt='icon' />
                       <span className='text-[14px] leading-[1] font-light text-[#6C6A74]'>
-                        XBIT.com
+                        KairoX
                       </span>
                     </div>
                     <div className={'flex items-center gap-1.5'}>
                       <img src='/images/share/icon_twitter.svg' alt='icon' />
                       <span className='text-[14px] leading-[1] font-light text-[#6C6A74]'>
-                        XBIT.com
+                        KairoX
                       </span>
                     </div>
                     <div className={'flex items-center gap-1.5'}>
                       <img src='/images/share/icon-tele.svg' alt='icon' />
                       <span className='text-[14px] leading-[1] font-light text-[#6C6A74]'>
-                        XBIT.com
+                        KairoX
                       </span>
                     </div>
                   </div>

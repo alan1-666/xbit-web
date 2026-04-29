@@ -26,7 +26,7 @@ export const ReferralQRCode = (props: ReferralQRCodeProps) => {
       height: 250,
       type: 'svg',
       data: url,
-      image: '/images/xbit-logo.svg',
+      image: '/images/kairox-logo.svg',
       margin: 10,
       dotsOptions: {
         color: '#4267b2',
@@ -49,7 +49,7 @@ export const ReferralQRCode = (props: ReferralQRCodeProps) => {
     download: () => {
       qrCode
         .download({
-          name: 'Xbit',
+          name: 'KairoX',
           extension: 'png',
         })
         .then()

@@ -196,33 +196,33 @@ const ShareTokenDetail = ({
               }}
             >
               <IconGlobalStroke className="size-[14px]" />
-              <span>XBIT.com</span>
+              <span>KairoX</span>
             </Link>
             <Link
-              to="https://twitter.com/XBITDEX"
+              to="https://twitter.com/KairoX"
               target="_blank"
               className={'flex items-center gap-1.5 cursor-pointer text-[12px] app-font-regular'}
               onClick={(e) => {
-                window.open('https://twitter.com/XBITDEX', '_blank')
+                window.open('https://twitter.com/KairoX', '_blank')
                 e.stopPropagation()
                 e.preventDefault()
               }}
             >
               <IconTwitter className="size-[14px]" />
-              <span>@XBITDEX</span>
+              <span>@KairoX</span>
             </Link>
             <Link
-              to="https://t.me/xbit_dex"
+              to="https://t.me/KairoX"
               target="_blank"
               className={'flex items-center gap-1.5 cursor-pointer text-[12px] app-font-regular'}
               onClick={(e) => {
-                window.open('https://t.me/xbit_dex', '_blank')
+                window.open('https://t.me/KairoX', '_blank')
                 e.stopPropagation()
                 e.preventDefault()
               }}
             >
               <IconTelegram2 className="size-[14px]" />
-              <span>@XBIT_DEX</span>
+              <span>@KairoX</span>
             </Link>
           </div>
           <div className="">
@@ -238,9 +238,9 @@ const ShareTokenDetail = ({
           </div>
         </div>
         <div className="bg-[url('/images/share/footer-share.webp')] bg-cover bg-center bg-no-repeat h-[81px] w-full relative">
-          <img src="/images/xbit-logo.svg" alt="xbit logo" className="w-[48px] h-[42px] absolute left-5 top-5" />
+          <img src="/images/kairox-logo.svg" alt="xbit logo" className="w-[48px] h-[42px] absolute left-5 top-5" />
           <img
-            src="/images/share/xbit-logo-text-dark.svg"
+            src="/images/share/kairox-logo-text-dark.svg"
             alt="xbit logo"
             className="w-[80px] h-[28px] absolute left-21 top-5"
           />

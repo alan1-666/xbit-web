@@ -403,7 +403,7 @@ export const HeaderDetailInfo = (props: HeaderDetailInfoProps) => {
 
   const shareTitle = useMemo(() => {
     const price = ohlcPrice ? ohlcPrice?.toString() : tokenData?.price ? tokenData?.price.toString() : undefined
-    return `${tokenData?.symbol} ${formatPercentage(tokenData?.price24hChange)} in 24h, price ${formatPriceAsTitle(price)} \nPower by Xbit! \n#${tokenData?.symbol} #XBIT`
+    return `${tokenData?.symbol} ${formatPercentage(tokenData?.price24hChange)} in 24h, price ${formatPriceAsTitle(price)} \nPower by KairoX! \n#${tokenData?.symbol} #KairoX`
   }, [tokenData, ohlcPrice])
 
   useEffect(() => {

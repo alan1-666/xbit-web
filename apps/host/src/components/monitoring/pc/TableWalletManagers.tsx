@@ -83,7 +83,7 @@ const OverrideNoDataComponent = () => {
     return (
       <BlankState
         text={t('login.notLogined', {
-          name: 'XBIT',
+          name: 'KairoX',
         })}
         className="pt-20"
         cta={<ConnectWalletCTA />}

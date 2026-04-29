@@ -62,18 +62,18 @@ const FuturesShareMobile = ({ info, open, onClose, fileName = '', shareType = 'o
     () => [
       {
         icon: '/images/share/icon-web.svg',
-        title: 'XBIT.com',
+        title: 'KairoX',
         url: `https://app.xbit.com/futures/${info?.coin}${inviteCode ? `/@${inviteCode}` : ''}`,
       },
       {
         icon: '/images/share/icon_twitter.svg',
-        title: '@XBITDEX',
-        url: 'https://twitter.com/XBITDEX',
+        title: '@KairoX',
+        url: 'https://twitter.com/KairoX',
       },
       {
         icon: '/images/share/icon-tele.svg',
-        title: '@XBIT_DEX',
-        url: 'https://t.me/XBIT_DEX',
+        title: '@KairoX',
+        url: 'https://t.me/KairoX',
       },
     ],
     [info?.coin, inviteCode],
@@ -305,9 +305,9 @@ const FuturesShareMobile = ({ info, open, onClose, fileName = '', shareType = 'o
         </div>
 
         <div className="bg-[url('/images/share/footer-share.webp')] bg-cover bg-center bg-no-repeat h-[81px] w-full relative">
-          <img src="/images/xbit-logo.svg" alt="xbit logo" className="w-[48px] h-[42px] absolute left-5 top-5" />
+          <img src="/images/kairox-logo.svg" alt="xbit logo" className="w-[48px] h-[42px] absolute left-5 top-5" />
           <img
-            src="/images/share/xbit-logo-text-dark.svg"
+            src="/images/share/kairox-logo-text-dark.svg"
             alt="xbit logo"
             className="w-[80px] h-[28px] absolute left-21 top-5"
           />

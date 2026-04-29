@@ -1,0 +1,15 @@
+<svg width="176" height="48" viewBox="0 0 176 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="39" fill="#111318" font-family="Geist, Inter, Arial, sans-serif" font-size="45" font-weight="760" letter-spacing="0">Kairo</text>
+  <path d="M128 6.4L161 41.6" stroke="url(#kairox-dark-a)" stroke-width="5.4" stroke-linecap="round"/>
+  <path d="M163 6.4L130 41.6" stroke="url(#kairox-dark-b)" stroke-width="5.4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="kairox-dark-a" x1="128" y1="6.4" x2="161" y2="41.6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9D629"/>
+      <stop offset="1" stop-color="#1B9E79"/>
+    </linearGradient>
+    <linearGradient id="kairox-dark-b" x1="163" y1="6.4" x2="130" y2="41.6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#665CFF"/>
+      <stop offset="1" stop-color="#168DB2"/>
+    </linearGradient>
+  </defs>
+</svg>

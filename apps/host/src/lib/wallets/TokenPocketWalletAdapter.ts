@@ -135,7 +135,7 @@ export class TokenPocketWalletAdapter extends BaseMessageSignerWalletAdapter {
         //   },
         // ],
         dappIcon: 'https:/eosknights.io/img/icon.png',
-        dappName: 'Xbit',
+        dappName: 'KairoX',
         protocol: 'TokenPocket',
         version: '2.0',
       }

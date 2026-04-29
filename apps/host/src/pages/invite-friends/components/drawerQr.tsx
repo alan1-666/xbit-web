@@ -22,7 +22,7 @@ const DrawerQr = ({ open, valueQR, setOpen }: Props) => {
           size={248}
           marginSize={2}
           imageSettings={{
-            src: '/images/xbit-logo-rounded.svg',
+            src: '/images/kairox-logo-rounded.svg',
             height: 35,
             width: 35,
             excavate: true,

@@ -34,7 +34,7 @@
 //             <div className="flex items-center gap-2">
 //               {activeAccount !== TYPE_ACCOUNT.TELEGRAM ? (
 //                 <img
-//                   src={activeWallet?.avatar ? activeWallet?.avatar : '/images/xbit-logo-rounded.svg'}
+//                   src={activeWallet?.avatar ? activeWallet?.avatar : '/images/kairox-logo-rounded.svg'}
 //                   className="w-6 h-6 rounded-full"
 //                   alt=""
 //                 ></img>

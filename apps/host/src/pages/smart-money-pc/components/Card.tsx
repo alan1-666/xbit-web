@@ -547,7 +547,7 @@ export const TraderCard = memo(function TraderCard({
                         src={`${Configs.getHyperliquidConfig().imgUrl}/${item.coin}.svg`}
                         className="size-3 rounded-full"
                         onError={(e) => {
-                          e.currentTarget.src = '/images/xbit-logo-rounded.webp'
+                          e.currentTarget.src = '/images/kairox-logo-rounded.svg'
                         }}
                       />
                     </div>

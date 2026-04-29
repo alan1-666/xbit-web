@@ -13,7 +13,7 @@ const qrCodeInstance = new QRCodeStyling({
   width: 200,
   height: 200,
   type: 'svg',
-  image: '/images/xbit-logo-rounded.svg',
+  image: '/images/kairox-logo-rounded.svg',
   margin: 0,
   dotsOptions: {
     type: 'extra-rounded',

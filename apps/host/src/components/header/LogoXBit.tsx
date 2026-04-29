@@ -11,9 +11,9 @@ const LogoXBit = ({className, alt ='logo xbit', hasText = false}: LogoXBitProps)
 
   return (
     <div className="flex items-center">
-      <img src="/images/xbit-logo.svg" className={combinedClassName} alt={alt} />
+      <img src="/images/kairox-logo.svg" className={combinedClassName} alt={alt} />
       {hasText && (
-        <img src="/images/logo-xbit-txt.webp" className='ml-1' alt={alt} />
+        <img src="/images/kairox-logo-text.svg" className='ml-1' alt={alt} />
       )}
     </div>
   )

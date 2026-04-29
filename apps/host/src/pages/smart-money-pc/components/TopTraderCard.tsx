@@ -74,7 +74,7 @@ const TopTraderCard = ({ trader, onClick }: TopTraderCardProp) => {
                 src={`${Configs.getHyperliquidConfig().imgUrl}/${position.coin}.svg`}
                 className="size-4 rounded-full"
                 onError={(e) => {
-                  e.currentTarget.src = '/images/xbit-logo-rounded.webp'
+                  e.currentTarget.src = '/images/kairox-logo-rounded.svg'
                 }}
               />}
             </div>

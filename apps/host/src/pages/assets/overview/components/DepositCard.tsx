@@ -308,7 +308,7 @@ export const PerpsDeposit = () => {
             </Button>
           </div>
           <div className="bg-[#2B2B33] rounded-[8px] py-2.5 px-3">
-            <div className="text-[#605E68] text-[14px]">XBIT {t('exchange.perpsAddress')}</div>
+            <div className="text-[#605E68] text-[14px]">KairoX {t('exchange.perpsAddress')}</div>
             <div className="mt-1 flex items-center gap-2 justify-between text-[#FBFBFB] text-[12px]">
               <div>{EVMAddress}</div>
               <CopyButton text={EVMAddress} className="cursor-pointer size-4" />

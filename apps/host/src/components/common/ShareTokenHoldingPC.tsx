@@ -121,7 +121,7 @@ const ShareTokenHoldingContent = ({
 
             <div className="absolute inset-0 z-10 pt-[30px] flex flex-col h-full">
               <div className="flex items-center justify-center gap-2 ">
-                <img src="/images/xbit-logo.svg" alt="logo" className="cursor-pointer h-[24px]" />
+                <img src="/images/kairox-logo.svg" alt="logo" className="cursor-pointer h-[24px]" />
                 <img src="/images/share/pc/xbit.svg" alt="logo" className="cursor-pointer" />
               </div>
               <div className="mt-1 gap-2.5 px-6 flex-1">
@@ -199,23 +199,23 @@ const ShareTokenHoldingContent = ({
                     className={'flex items-center gap-1.5 cursor-pointer mb-0'}
                   >
                     <IconGlobalStroke className="size-[14px]" />
-                    <span>XBIT.com</span>
+                    <span>KairoX</span>
                   </Link>
                   <Link
-                    to="https://twitter.com/XBITDEX"
+                    to="https://twitter.com/KairoX"
                     target="_blank"
                     className={'flex items-center gap-1.5 cursor-pointer mb-0'}
                   >
                     <IconTwitter className="size-[14px]" />
-                    <span>@XBITDEX</span>
+                    <span>@KairoX</span>
                   </Link>
                   <Link
-                    to="https://t.me/xbit_dex"
+                    to="https://t.me/KairoX"
                     target="_blank"
                     className={'flex items-center gap-1.5 cursor-pointer mb-0'}
                   >
                     <IconTelegram2 className="size-[14px]" />
-                    <span>@XBIT_DEX</span>
+                    <span>@KairoX</span>
                   </Link>
                 </div>
               </div>

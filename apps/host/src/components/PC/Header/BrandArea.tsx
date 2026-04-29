@@ -13,16 +13,16 @@ export const BrandArea = () => {
   return (
     <>
       <div className="hidden flex-shrink-0 cursor-pointer items-center gap-2 xl:flex" onClick={onBrandClick}>
-        <img src="/images/xbit-logo.svg?v=2" alt="logo" className="block cursor-pointer h-9 w-10" />
+        <img src="/images/kairox-logo.svg" alt="logo" className="block cursor-pointer h-9 w-10" />
         <img
-          src="/images/logo-xbit-text.svg"
+          src="/images/kairox-logo-text.svg"
           alt="logo"
           className="mt-1 cursor-pointer h-5.5"
         />
       </div>
 
       <div className="block flex-shrink-0 cursor-pointer items-center gap-2 xl:hidden" onClick={onBrandClick}>
-        <img src="/images/xbit-logo.svg?v=2" alt="logo" className="block h-6 w-7 cursor-pointer xl:hidden" />
+        <img src="/images/kairox-logo.svg" alt="logo" className="block h-6 w-7 cursor-pointer xl:hidden" />
       </div>
     </>
   )

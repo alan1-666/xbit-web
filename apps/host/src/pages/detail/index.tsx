@@ -245,7 +245,7 @@ const MemeDetailPage = () => {
         <div className="flex items-center gap-2 flex-col justify-center text-[14px] text-[#999999] mt-10">
           <p>
             {t('login.notLogined', {
-              name: 'XBIT',
+              name: 'KairoX',
             })}
           </p>
           <ButtonLogin onClick={handleClickBtnLogin} className="hover-scale">

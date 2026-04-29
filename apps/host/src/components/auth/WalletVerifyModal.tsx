@@ -830,7 +830,7 @@ const WalletVerify = ({ address, walletName, publicKey, loginType }: Props) => {
   return (
     <div className="flex flex-col items-center px-3.75">
       <div className="w-full flex items-center justify-center gap-5 pt-10">
-        <img src="/images/xbit-logo-bg.svg" className="w-14 h-14" alt="logo xbit" />
+        <img src="/images/kairox-logo-rounded.svg" className="w-14 h-14" alt="logo xbit" />
         <IconDoubleArrow />
         <img src={getLogoWallet} className="w-14 h-14" alt="logo wallet" />
       </div>

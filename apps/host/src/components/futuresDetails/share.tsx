@@ -221,10 +221,10 @@ const share = ({ info, openShare, onclose, fileName, shareType }: sharePrpos) =>
         </div>
         <div className="bg-[url('/images/share/footer-share.png')] bg-cover bg-center bg-no-repeat h-[50px] w-full relative">
         <div className='flex ml-3 pt-2.5'>
-            <img src="/images/xbit-logo.svg" alt="xbit logo" className="w-[30px] h-[30px]" />
+            <img src="/images/kairox-logo.svg" alt="xbit logo" className="w-[30px] h-[30px]" />
             <div className='ml-2'>
               <img
-                src="/images/share/xbit-logo-text-dark.svg"
+                src="/images/share/kairox-logo-text-dark.svg"
                 alt="xbit logo"
                 className="w-[50px] h-[14px]"
               />

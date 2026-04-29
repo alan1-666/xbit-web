@@ -14,7 +14,7 @@ interface SeoProps {
   children?: React.ReactNode;
 }
 
-export const DefaultTitle = 'XBIT.com | Decentralized Exchange (DEX) to Buy Bitcoin, Crypto & Meme Coins'
+export const DefaultTitle = 'KairoX | On-chain Trading Intelligence'
 
 const Seo: FC<SeoProps> = ({
   title,
@@ -30,10 +30,10 @@ const Seo: FC<SeoProps> = ({
 }) => {
   title = title ?? DefaultTitle
   image = image ?? `${window?.location.origin || ""}/images/og-image-large2.png`
-  description = description ?? 'Trade Bitcoin, cryptocurrencies, and trending meme coins on XBIT.com. A decentralized exchange (DEX) with full asset control, low fees, and high security.'
+  description = description ?? 'Trade Bitcoin, cryptocurrencies, trending meme coins, and perpetual futures on KairoX with full asset control and real-time on-chain intelligence.'
   cardType = cardType ?? 'summary_large_image'
   url = url ?? window?.location.href
-  keywords = keywords ?? 'XBIT, decentralized exchange, DEX, buy Bitcoin, trade crypto, meme coins, crypto exchange, buy crypto, Bitcoin DEX, safe crypto trading, DeFi exchange'
+  keywords = keywords ?? 'KairoX, decentralized exchange, DEX, buy Bitcoin, trade crypto, meme coins, perpetual futures, crypto exchange, DeFi exchange'
   type = type ?? 'website'
 
   return (

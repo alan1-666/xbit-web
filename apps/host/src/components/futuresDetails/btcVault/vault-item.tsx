@@ -137,7 +137,7 @@ const VaultItem = ({ isSpecial }: { isSpecial?: boolean }) => {
         )}
       >
         <div className="flex items-center cursor-pointer" onClick={() => navigate(`/vault-detail/address`)}>
-          <span className="text-[calc(1rem*(16/16))] font-[500] text-white">XBIT量化2号</span>
+          <span className="text-[calc(1rem*(16/16))] font-[500] text-white">KairoX量化2号</span>
           {isSpecial && (
             <span className="background-vault-item rounded-[3px] h-[18px] ml-2">
               <span className="text-vault-item text-[calc(1rem*(11/16))] align-top px-0.5">官方</span>

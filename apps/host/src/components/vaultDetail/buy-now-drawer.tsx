@@ -86,7 +86,7 @@ const BuyNowDrawerInVaultDetail = () => {
         <DrawerContent className="w-full bg-[url('/images/bg-drawer-gradient.png')] bg-no-repeat bg-cover max-w-[768px] mx-auto rounded-t-[35px]">
           <DrawerHeader className="py-1 px-3.5  flex w-full items-center justify-between">
             <DrawerTitle className="flex items-center">
-              <div className="text-[calc(1rem*(18/16))] leading-[calc(1rem*(18/16))]">XBIT量化2号金库</div>
+              <div className="text-[calc(1rem*(18/16))] leading-[calc(1rem*(18/16))]">KairoX量化2号金库</div>
             </DrawerTitle>
             <img
               src="/images/icons/icon-x.svg"

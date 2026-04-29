@@ -69,7 +69,7 @@ export const AboutUsPage = () => {
               <LogoXBit className="size-12" />
             </div>
           </div>
-          <div className="text-white font-medium text-[calc(22rem/16)]">XBIT</div>
+          <div className="text-white font-medium text-[calc(22rem/16)]">KairoX</div>
           <div className="text-[#FFFFFFB2] text-[calc(13rem/16)]">{t('appSettings.aboutUs.slogan')}</div>
           <div className="text-[#FFFFFFB2] text-[calc(16rem/16)] cursor-pointer" onClick={showLatestVersionToast}>
             {getAppVersion()}

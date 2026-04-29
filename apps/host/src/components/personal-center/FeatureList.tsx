@@ -211,7 +211,7 @@ const FeatureList = () => {
       title: t('personalCenter.featureList.userFeedback'),
       icon: <IconEditStroke className="size-4 text-white" />,
       onClick: () => {
-        window.open('https://t.me/xbit_dex', '_blank', 'noopener noreferrer')
+        window.open('https://t.me/KairoX', '_blank', 'noopener noreferrer')
       },
     },
   ]
@@ -219,12 +219,12 @@ const FeatureList = () => {
     {
       icon: <IconTwitter className="text-white size-5" />,
       label: 'Twitter（X）',
-      href: 'https://x.com/XBITDEX',
+      href: 'https://x.com/KairoX',
     },
     {
       icon: <IconTelegram className="text-white size-5" />,
       label: 'Telegram',
-      href: 'https://t.me/xbit_dex',
+      href: 'https://t.me/KairoX',
     },
     {
       icon: <IconDiscord className="text-white size-5" />,

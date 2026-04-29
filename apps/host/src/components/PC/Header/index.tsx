@@ -417,12 +417,12 @@ const HeaderPC = () => {
     <div className="flex items-center px-[16px] h-[60px] justify-between min-w-0 bg-[#141418]">
       <div className="flex items-center gap-[30px] min-w-0 flex-1 overflow-hidden">
         <div className="flex-shrink-0 hidden items-center gap-2 cursor-pointer xl:flex" onClick={onBrandClick}>
-          <img src="/images/xbit-logo.svg?v=2" alt="logo" className="cursor-pointer block w-10 h-9" />
-          <img src="/images/logo-xbit-text.svg" alt="logo" className="cursor-pointer h-5.5 mt-1" />
+          <img src="/images/kairox-logo.svg" alt="logo" className="cursor-pointer block w-10 h-9" />
+          <img src="/images/kairox-logo-text.svg" alt="logo" className="cursor-pointer h-5.5 mt-1" />
         </div>
 
         <div className="flex-shrink-0 items-center gap-2 cursor-pointer block xl:hidden" onClick={onBrandClick}>
-          <img src="/images/xbit-logo.svg" alt="logo" className="cursor-pointer block xl:hidden w-7 h-6" />
+          <img src="/images/kairox-logo.svg" alt="logo" className="cursor-pointer block xl:hidden w-7 h-6" />
         </div>
 
         <div className="min-w-0 flex-1 relative group">

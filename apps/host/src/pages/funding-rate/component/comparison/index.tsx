@@ -96,7 +96,7 @@ const ComparisonFundingRate = ({ refreshTick, onRefetchDone }: { refreshTick: nu
     },
     {
       accessorKey: 'fundingRate' + selectedTime,
-      header: () => <div className="text-center">Xbit</div>,
+      header: () => <div className="text-center">KairoX</div>,
       enableSorting: true,
       sortingFn: (rowA, rowB, columnId) => {
         const a = parseFloat(rowA.getValue(columnId) || '0')
@@ -132,7 +132,7 @@ const ComparisonFundingRate = ({ refreshTick, onRefetchDone }: { refreshTick: nu
     },
     {
       id: 'binanceXbitFundingRate' + selectedTime,
-      header: () => <div className="text-center">Binance-Xbit</div>,
+      header: () => <div className="text-center">Binance-KairoX</div>,
       enableSorting: true,
       sortDescFirst: false,
       sortingFn: (rowA, rowB, columnId) => {
@@ -178,7 +178,7 @@ const ComparisonFundingRate = ({ refreshTick, onRefetchDone }: { refreshTick: nu
     },
     {
       id: 'bybitXbitFundingRate' + selectedTime,
-      header: () => <div className="text-center">Bybit-Xbit</div>,
+      header: () => <div className="text-center">Bybit-KairoX</div>,
       enableSorting: true,
       sortDescFirst: false,
       sortingFn: (rowA, rowB, columnId) => {

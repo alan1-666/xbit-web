@@ -36,8 +36,8 @@ export const DownloadAppDialog = () => {
       </DialogTrigger>
       <DialogContent>
         <div className="flex items-center flex-shrink-0 gap-2 cursor-pointer">
-          <img src="/images/xbit-logo.svg" alt="logo" className="cursor-pointer block" />
-          <img src="/images/logo-xbit-text.svg" alt="logo" className="cursor-pointer h-7" />
+          <img src="/images/kairox-logo.svg" alt="logo" className="cursor-pointer block" />
+          <img src="/images/kairox-logo-text.svg" alt="logo" className="cursor-pointer h-7" />
         </div>
         <div>
           <div className="text-white font-[630] text-[18px] text-shadow-black text-shadow-md">
@@ -66,7 +66,7 @@ export const DownloadAppDialog = () => {
                 size={200}
                 marginSize={2}
                 imageSettings={{
-                  src: '/images/xbit-logo-rounded.svg',
+                  src: '/images/kairox-logo-rounded.svg',
                   height: 35,
                   width: 35,
                   excavate: true,

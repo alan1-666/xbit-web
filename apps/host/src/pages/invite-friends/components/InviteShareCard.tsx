@@ -103,7 +103,7 @@ const InviteShareCard = forwardRef<InviteShareCardRef, InviteShareCardProps>(({ 
           // width: element.scrollWidth,
           // height: element.scrollHeight,
       });
-      downloadCanvas(canvas, `XBIT_invite_${inviteCode}.jpg`);
+      downloadCanvas(canvas, `KairoX_invite_${inviteCode}.jpg`);
       // toast.success('图片已保存到本地');
     } catch (err) {
       throw new Error('html2canvas failed');
@@ -141,10 +141,10 @@ const InviteShareCard = forwardRef<InviteShareCardRef, InviteShareCardProps>(({ 
                     className={`w-full  overflow-hidden h-[320px]`}
                     style={{ backgroundImage: `${theme.background}`,backgroundSize:'100% 100%',backgroundRepeat:'no-repeat',padding:'18px 16px 0 16px' }}
                   >
-                    {/* XBIT Logo */}
+                    {/* KairoX Logo */}
                     <div className="w-full flex items-end gap-2">
-                     <img src="/images/xbit-logo.svg" alt="XBIT" className="size-7" />
-                     <img src="/images/logo-xbit-text.svg" alt="XBIT" className="h-6" />
+                     <img src="/images/kairox-logo.svg" alt="KairoX" className="size-7" />
+                     <img src="/images/kairox-logo-text.svg" alt="KairoX" className="h-6" />
                     </div>
 
                     {/* 主要内容 */}
@@ -174,7 +174,7 @@ const InviteShareCard = forwardRef<InviteShareCardRef, InviteShareCardProps>(({ 
                             size={62}
                             marginSize={2}
                             imageSettings={{
-                              src: '/images/xbit-logo-rounded.svg',
+                              src: '/images/kairox-logo-rounded.svg',
                               height: 14,
                               width: 14,
                               excavate: true,

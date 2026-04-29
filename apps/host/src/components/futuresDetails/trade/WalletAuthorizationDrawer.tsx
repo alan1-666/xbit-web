@@ -63,7 +63,7 @@ const WalletAuthorizationDrawer: FC<WalletAuthorizationDrawerProps> = ({
             </div>
             <div>
               <h5 className="text-white text-base">授权</h5>
-              <p>允许 XBIT 从您的钱包中充值 ETH。</p>
+              <p>允许 KairoX 从您的钱包中充值 ETH。</p>
             </div>
           </div>
           <div className="flex items-center gap-2 mt-10">

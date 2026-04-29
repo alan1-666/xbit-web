@@ -227,7 +227,7 @@ const Chart = memo(
           fractional: false,
           session: '24x7',
           has_intraday: true,
-          exchange: 'XBIT.COM',
+          exchange: 'KAIROX',
           listed_exchange: '',
           description: ``,
           hide_side_toolbar: false,

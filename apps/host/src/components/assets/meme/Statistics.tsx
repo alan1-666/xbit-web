@@ -525,9 +525,9 @@ const DailyPnl = ({
           ref={calendarRef}
         >
           <div className="w-full flex items-center justify-center gap-2">
-            <img className="h-[44px]" src="/images/xbit-logo.svg" alt="logo xbit" />
+            <img className="h-[44px]" src="/images/kairox-logo.svg" alt="logo xbit" />
             <div className="flex flex-col items-start gap-1">
-              <img className="h-[25px]" src="/images/logo-xbit-text.svg" alt="logo xbit text" />
+              <img className="h-[25px]" src="/images/kairox-logo-text.svg" alt="logo xbit text" />
               <span className="text-[12px] text-[#FFFFFFB2] leading-none">
                 {t('detail.myPositions.decentralizedExchange')}
               </span>

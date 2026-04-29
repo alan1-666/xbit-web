@@ -38,7 +38,7 @@ const HeaderVaultDetail = () => {
       <div className="mt-4">
         <div className="flex items-center justify-between">
           <div className="">
-            <div className="text-[calc(1rem*(24/16))] font-[500]">XBIT量化2号</div>
+            <div className="text-[calc(1rem*(24/16))] font-[500]">KairoX量化2号</div>
 
             <div className="mt-3">
               <div className="text-[calc(1rem*(14/16))] text-[#FFFFFFCC]">您的余额</div>
