@@ -346,6 +346,7 @@ idempotency_keys
 - 已新增 provider 抽象：默认 `LocalProvider`；新增 `HTTPProvider`，可配置读取 Hyperliquid `/info` 账号、成交历史、open orders、资金费率和订单状态，并仅转发已签名 `/exchange` payload
 - 已新增 Hyperliquid 私有 WS bridge：订阅 `orderUpdates`、`userEvents`、`userFills`、`userFundings`、`userNonFundingLedgerUpdates`、`openOrders`、`clearinghouseState`，通过 stream-bridge publisher 推送私有 MQTT topic
 - 已新增 live read model：WS reconnect 会用 provider 补 open orders、account/positions、recent fills，读接口在 provider 异常时可回退到持久化快照
+- 已新增 agent signer MVP：agent wallet 创建/激活、nonce tracking、`order/cancel/updateLeverage` 受控签名和审计；当前 signer mode 为 dev，生产前接 SDK/KMS-backed 真实签名
 - 已新增订单审计：签名、下单、撤单、杠杆更新会写入 audit event
 - 当前存储策略：默认 seed + 内存 read model，配置 `POSTGRES_DSN` 后切换 Postgres
 
@@ -512,7 +513,7 @@ idempotency_keys
 
 第三批做：
 
-1. hypertrader-svc MVP 已落地，后续补齐 WS 生产监控、agent signer、风控和审计。
+1. hypertrader-svc MVP 已落地，后续补齐 WS 生产监控、真实 agent signer 密钥托管、风控和审计。
 2. prediction-svc。
 3. xp-user-svc。
 4. agent/loyalty/redpacket。
