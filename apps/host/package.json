@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev:hypertrader:local": "VITE_GRAPHQL_HTTP_DEX_URL=/api/graphql-dex VITE_GRAPHQL_DEX_HYPERTRADER_HTTP_URL=/api/dex-hypertrader/graphql VITE_DEX_HYPERTRADER_GRAPHQL_URL=/api/dex-hypertrader/graphql VITE_GRAPHQL_USER_HTTP_URL=/api/user/user-gql VITE_LOCAL_HYPERTRADER_PROXY_TARGET=${VITE_LOCAL_HYPERTRADER_PROXY_TARGET:-http://127.0.0.1:18086} vite --host 127.0.0.1 --port 5173",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "format": "prettier --write .",

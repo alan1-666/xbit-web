@@ -246,7 +246,33 @@
 - `POST /v1/futures/orders/{orderId}/cancel`
 - `POST /v1/futures/orders/{orderId}/sync`
 - `POST /v1/futures/leverage`
+- `GET|POST /v1/futures/agent-wallets`
+- `POST /v1/futures/agent-wallets/activate`
+- `POST /v1/futures/agent-sign`
 - `GET /v1/futures/audit-events`
+
+本地前后端联调入口：
+
+```bash
+# terminal 1: Go 后端，建议使用独立端口避免占用默认 8086
+cd /Users/zhangza/code/project/xbit-backend
+HYPERLIQUID_AGENT_SIGNER_ENABLED=true \
+HYPERLIQUID_AGENT_SIGNER_MODE=dev \
+HYPERLIQUID_AGENT_MAX_LEVERAGE=20 \
+SERVICE_ADDR=127.0.0.1:18086 \
+go run ./cmd/hypertrader
+
+# terminal 2: host 前端，把期货/合约 GraphQL 和 agent REST 显式切到 Vite proxy
+cd /Users/zhangza/code/project/app-web-v2
+VITE_LOCAL_HYPERTRADER_PROXY_TARGET=http://127.0.0.1:18086 \
+pnpm --dir apps/host dev:hypertrader:local
+```
+
+联调覆盖范围：
+
+- `symbolDexClient`、`dexHyperTraderClient`、`hypertraderClient`、`userGqlClient` 会通过 `apps/host/vite.config.ts` 转发到本地 Go hypertrader 服务。
+- agent wallet REST 调试可直接通过前端同源 `/v1/futures/agent-wallets`、`/v1/futures/agent-sign` 访问本地 Go 服务。
+- K 线快照 `VITE_CANDLE_SNAPSHOT_INFO_URL` 和 candle WebSocket 暂时保持现有 Hyperliquid/unstable 链路，后续由独立 candle-svc 或 hypertrader `/info` facade 接入本地联调。
 
 当前边界：
 

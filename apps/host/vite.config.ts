@@ -17,6 +17,7 @@ export default defineConfig(({ command, mode }) => {
   const isProd = mode === 'prod'
 
   const env = loadEnv(mode, path.resolve(__dirname), '')
+  const localHypertraderTarget = env.VITE_LOCAL_HYPERTRADER_PROXY_TARGET || 'http://127.0.0.1:8086'
   let coinCdnOrigin = 'https://unstable-cdn.xbit.live'
   try {
     coinCdnOrigin = new URL(env.VITE_FUTURES_COINS_ICON || 'https://unstable-cdn.xbit.live/coins').origin
@@ -118,6 +119,22 @@ export default defineConfig(({ command, mode }) => {
           target: 'https://user-pnl-api.polymarket.com',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api\/pnl/, ''),
+        },
+        '/api/graphql-dex': {
+          target: localHypertraderTarget,
+          changeOrigin: true,
+        },
+        '/api/dex-hypertrader/graphql': {
+          target: localHypertraderTarget,
+          changeOrigin: true,
+        },
+        '/api/user/user-gql': {
+          target: localHypertraderTarget,
+          changeOrigin: true,
+        },
+        '/v1/futures': {
+          target: localHypertraderTarget,
+          changeOrigin: true,
         },
         // 与 getFuturesCoinIconSrc 同源 /coins 一致，本地开发转发到 CDN，避免导出跨域
         '/coins': {
