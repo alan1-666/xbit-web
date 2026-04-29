@@ -344,12 +344,13 @@ idempotency_keys
 - 已实现轻量 GraphQL facade：`/graphql`、`/api/graphql-dex`、`/api/dex-hypertrader/graphql`、`/api/user/user-gql`
 - 当前覆盖：期货 symbol、收藏/偏好、用户持仓/交易历史/open orders、Smart Money 列表、地址分组/关注地址 CRUD、资金费率、本地 provider 订单提交/取消/状态同步、杠杆更新、Hyperliquid wallet 检查和签名类操作
 - 已新增 provider 抽象：默认 `LocalProvider`；新增 `HTTPProvider`，可配置读取 Hyperliquid `/info` 账号、成交历史、open orders、资金费率和订单状态，并仅转发已签名 `/exchange` payload
+- 已新增 Hyperliquid 私有 WS bridge：订阅 `orderUpdates`、`userEvents`、`userFills`、`userFundings`、`userNonFundingLedgerUpdates`、`openOrders`、`clearinghouseState`，通过 stream-bridge publisher 推送私有 MQTT topic
 - 已新增订单审计：签名、下单、撤单、杠杆更新会写入 audit event
 - 当前存储策略：默认 seed + 内存 read model，配置 `POSTGRES_DSN` 后切换 Postgres
 
 能力：
 
-- Hyperliquid HTTP/WS proxy。
+- Hyperliquid HTTP/WS proxy 和私有 MQTT 推送。
 - sign create/cancel/update leverage/approve agent/withdraw。
 - PnL、持仓、资金费率历史。
 - Smart Money 地址分组、标签、ROI、策略分析。
@@ -510,7 +511,7 @@ idempotency_keys
 
 第三批做：
 
-1. hypertrader-svc MVP 已落地，后续接真实 Hyperliquid provider、风控和审计。
+1. hypertrader-svc MVP 已落地，后续补齐 WS 断线补偿、状态持久化、agent signer、风控和审计。
 2. prediction-svc。
 3. xp-user-svc。
 4. agent/loyalty/redpacket。
