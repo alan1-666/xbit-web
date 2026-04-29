@@ -243,6 +243,7 @@
 - `GET /v1/futures/funding-rates`
 - `GET|POST /v1/futures/orders`
 - `POST /v1/futures/orders/{orderId}/cancel`
+- `POST /v1/futures/orders/{orderId}/sync`
 - `POST /v1/futures/leverage`
 - `GET /v1/futures/audit-events`
 
@@ -250,8 +251,8 @@
 
 - 已支持前端联调用的期货/合约 read model、Smart Money 和地址管理。
 - 已提供 Hyperliquid 签名类 facade，便于前端打通流程。
-- 已落地本地 provider adapter、HTTP provider adapter、订单提交/取消、杠杆更新、资金费率和高风险操作审计。
-- HTTP provider 已支持 Hyperliquid `/info` 读接口，`/exchange` 写接口只转发前端/agent 已签名的 payload。
+- 已落地本地 provider adapter、HTTP provider adapter、订单提交/取消、订单状态同步、杠杆更新、资金费率和高风险操作审计。
+- HTTP provider 已支持 Hyperliquid `/info` 账号、资金费率、订单状态读接口，`/exchange` 写接口只转发前端/agent 已签名的 payload。
 - 真实 Hyperliquid 私有 WS、agent signer 托管签名和细粒度风控规则仍需继续补齐。
 
 ### 3.6 Prediction 域
