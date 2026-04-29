@@ -340,10 +340,10 @@ idempotency_keys
 - 业务模块：`internal/hypertrader`
 - 迁移文件：`migrations/hypertrader/000001_hypertrader_base.sql`
 - 运行方式：`SERVICE_ADDR=:8086 go run ./cmd/hypertrader`
-- 已实现 REST MVP：`/v1/futures/symbols`、`/v1/futures/account`、`/v1/futures/trades`、`/v1/futures/smart-money`、`/v1/futures/funding-rates`、`/v1/futures/orders`、`/v1/futures/orders/{orderId}/sync`、`/v1/futures/leverage`、`/v1/futures/audit-events`
+- 已实现 REST MVP：`/v1/futures/symbols`、`/v1/futures/account`、`/v1/futures/trades`、`/v1/futures/open-orders`、`/v1/futures/smart-money`、`/v1/futures/funding-rates`、`/v1/futures/orders`、`/v1/futures/orders/{orderId}/sync`、`/v1/futures/leverage`、`/v1/futures/audit-events`
 - 已实现轻量 GraphQL facade：`/graphql`、`/api/graphql-dex`、`/api/dex-hypertrader/graphql`、`/api/user/user-gql`
-- 当前覆盖：期货 symbol、收藏/偏好、用户持仓/交易历史、Smart Money 列表、地址分组/关注地址 CRUD、资金费率、本地 provider 订单提交/取消/状态同步、杠杆更新、Hyperliquid wallet 检查和签名类操作
-- 已新增 provider 抽象：默认 `LocalProvider`；新增 `HTTPProvider`，可配置读取 Hyperliquid `/info` 账号、资金费率和订单状态，并仅转发已签名 `/exchange` payload
+- 当前覆盖：期货 symbol、收藏/偏好、用户持仓/交易历史/open orders、Smart Money 列表、地址分组/关注地址 CRUD、资金费率、本地 provider 订单提交/取消/状态同步、杠杆更新、Hyperliquid wallet 检查和签名类操作
+- 已新增 provider 抽象：默认 `LocalProvider`；新增 `HTTPProvider`，可配置读取 Hyperliquid `/info` 账号、成交历史、open orders、资金费率和订单状态，并仅转发已签名 `/exchange` payload
 - 已新增订单审计：签名、下单、撤单、杠杆更新会写入 audit event
 - 当前存储策略：默认 seed + 内存 read model，配置 `POSTGRES_DSN` 后切换 Postgres
 
